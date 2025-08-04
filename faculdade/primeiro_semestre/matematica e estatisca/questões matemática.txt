@@ -1,0 +1,665 @@
+questões matemática 
+
+Considere que f é uma função definida em ℝ, tal que f(x) = 2x² − 4x + 10. Seja x a abscissa cuja ordenada y é a menor possível. Determine x + y. 
+
+	a.	
+8.
+
+	b.	
+8,5.
+
+	c.	
+9.
+
+	d.	
+9,5.
+
+	e.	
+10.
+
+
+
+Nas funções de primeiro grau, o valor da variável “x” é retirado do conjunto chamado domínio, enquanto os resultados obtidos após a definição da variável “x” em “y” são chamados de imagens. Considere uma função f: ℝ→ℝ, com lei de formação f(x) = 4x – 9. O elemento de domínio x = –6 tem imagem igual a: 
+
+	a.	
+15.
+
+	b.	
+9.
+
+	c.	
+0.
+
+	d.	
+–17.
+
+	e.	
+–33.
+
+A representação gráfica de uma função constante, com o maior domínio possível, é uma: 
+
+	a.	
+Reta não paralela ao eixo das abscissas, não paralela ao eixo das ordenadas e contendo o ponto (0, 0). 
+
+	b.	
+Reta não paralela ao eixo das abscissas, não paralela ao eixo das ordenadas e não contendo o ponto (0, 0). 
+
+	c.	
+Parábola, contendo o ponto (0, 0). 
+
+	d.	
+Reta paralela ao eixo das ordenadas. 
+
+	e.	
+Reta paralela ao eixo das abscissas.
+
+
+Sobre a função quadrática f: ℝ→ℝ com lei de formação f(x) = −x² + 6x − 5, avalie as afirmativas. 
+
+I. As coordenadas de seu vértice são representadas pelo par ordenado (4, 3). 
+
+II. O conjunto imagem de f é {y ∈ ℝ | y ≤ 4}. 
+
+III. O gráfico de f é uma parábola que apresenta concavidade voltada para baixo. 
+
+É correto o que se afirma em: 
+
+ 
+
+	a.	
+I, apenas. 
+
+	b.	
+II, apenas. 
+
+	c.	
+I e III, apenas. 
+
+	d.	
+II e III, apenas. 
+
+	e.	
+I, II e III.
+
+Para a implantação de uma torre de antena de celular, é necessário o estudo da localização devido à abrangência da radiação. O projeto da localização e do aspecto estrutural foi desenvolvido adotando o sistema de coordenadas cartesianas. As orientações seguidas foram que a primeira base fica a 1 metro à direita da origem do sistema. A segunda base fica a 4 metros à direta da primeira base. A armação metálica que une as bases é parabólica. A altura máxima descrita pelo arco é de 4 metros. Se os eixos representam distâncias em metros, as raízes da função que descreve esta parábola são: 
+
+	a.	
+0 e 4.
+
+	b.	
+1 e 4.
+
+	c.	
+1 e 6.
+
+	d.	
+1 e 5.
+
+	e.	
+4 e 5.
+
+Especialistas em segurança no trânsito apontam que a distância mínima D, em metros, necessária para que dois motoristas de habilidade média, conduzindo veículos que percorram, em sentidos opostos, uma mesma faixa de tráfego, possam evitar o choque frontal, recorrendo aos freios, pode ser obtida, de modo simplificado, pelo seguinte cálculo: 
+
+D = 2.(0,5V + 0,01V2) 
+
+Na expressão indicada, V corresponde à velocidade máxima permitida, em km/h, que cada um dos veículos pode manter, no referido trecho, com V positivo. A distância mínima de 300 m, necessária para evitar o choque frontal, está associada a uma velocidade V igual a: 
+
+	a.	
+60 km/h. 
+
+	b.	
+70 km/h. 
+
+	c.	
+80 km/h. 
+
+	d.	
+90 km/h. 
+
+	e.	
+100 km/h.
+
+Um posto de combustível está com promoção em prol de uma entidade. Em dias normais, o litro da gasolina está R$ 4,00, mas, na promoção, abastecendo o carro e doando o valor de R$ 20,00 para uma entidade beneficente, o litro da gasolina sai por R$ 3,75. A promoção feita pelo posto pode ser descrita por uma função. Como é chamada essa função e como podemos escrevê-la?  
+
+	a.	
+Função de primeiro grau, f(x) = 4x − 3,75x + 20 
+
+	b.	
+Função quadrática, f(x) = 4x² − 3,75x + 20 
+
+	c.	
+Função constante, f(x) = 3,75x² + 20  
+
+	d.	
+Função de primeiro grau, f(x) = 3,75x + 20 
+
+	e.	
+Função de segundo grau, f(x) = 4x + 3,75 + 20
+
+Em uma gincana escolar, a equipe de Joana marcou o triplo de pontos que a equipe de Miguel, e ainda ganhou um bônus de 132 pontos, alcançando um total de 396 pontos. Quantos pontos a equipe de Miguel marcou?  
+
+	a.	
+85.
+
+	b.	
+88.
+
+	c.	
+92.
+
+	d.	
+80.
+
+	e.	
+95.
+
+
+
+Pergunta 1
+
+(Fundatec/2025 - adaptada). Determine a qual expoente a base 5 foi elevada para que a potência resultasse em 3125. 
+
+	a.	
+2.
+
+	b.	
+3.
+
+	c.	
+4.
+
+	d.	
+5.
+
+	e.	
+6.
+
+0,25 pontos   
+
+Pergunta 2
+
+(Cotec/2024). As bactérias são organismos procariontes pertencentes ao Reino Monera. Sua reprodução ocorre de maneira assexuada, em um processo em que a bactéria se divide e dá origem a duas idênticas a intervalos regulares. Assim, considere uma população inicial de 512 bactérias, que se duplica a cada 25 minutos. Após 5 horas, a potência de 2 que representa a população de bactérias é igual a: 
+
+	a.	
+2 to the power of 12
+
+	b.	
+2 to the power of 18
+
+	c.	
+2 to the power of 21
+
+	d.	
+2 to the power of 22
+
+	e.	
+2 to the power of 24
+
+0,25 pontos   
+
+Pergunta 3
+
+(CS-UFG/2019 - adaptada). A população de determinado país vem decrescendo em relação ao tempo t, dado em anos, segundo a função P left parenthesis t right parenthesis space equals space A.2 to the power of B r end exponent, em que A é o valor da população em t = 0 e B é uma constante. Sabe-se que, depois de 32 anos, a população foi reduzida à metade da população inicial. Qual é o valor da constante B? 
+
+	a.	
+–1/2. 
+
+	b.	
+–1/4. 
+
+	c.	
+–1/8. 
+
+	d.	
+–1/16. 
+
+	e.	
+–1/32. 
+
+0,25 pontos   
+
+Pergunta 4
+
+(Instituto Exata/2024 - adaptada). Uma empresa lançou uma campanha publicitária em uma cidade e quer monitorar o número de pessoas que ficaram sabendo sobre a campanha ao longo do tempo. A função que descreve o número N de pessoas que tomaram conhecimento da campanha t horas após seu lançamento é dada por N space equals space 30.4 to the power of t. 
+
+Sabendo que a empresa deseja atingir 2160 pessoas, após quantas horas, aproximadamente, essa meta será alcançada? Utilize log 2 = 0,30 e log 3 = 0,48, se necessário.   
+
+ 
+
+	a.	
+3 horas e 5 minutos. 
+
+	b.	
+3 horas e 6 minutos. 
+
+	c.	
+3 horas e 9 minutos. 
+
+	d.	
+3 horas e 15 minutos. 
+
+	e.	
+3 horas e 18 minutos. 
+
+0,25 pontos   
+
+Pergunta 5
+
+(Fepese/2018 - adaptada). Considere a função f left parenthesis t right parenthesis equals 100 left parenthesis 0 comma 5 right parenthesis to the power of t, para t ≥ 0.  Assinale a alternativa correta. 
+
+	a.	
+f descreve um crescimento exponencial cujo valor inicial é 100. 
+
+	b.	
+f descreve um decaimento exponencial cujo valor inicial é 100. 
+
+	c.	
+f descreve um crescimento exponencial cujo valor inicial é 0,5. 
+
+	d.	
+f descreve um decaimento exponencial cujo valor inicial é 0,5. 
+
+	e.	
+f descreve a trajetória parabólica de uma partícula. 
+
+0,25 pontos   
+
+Pergunta 6
+
+(Iades/2019 - adaptada). Suponha que, na Comissão de Farmácia Hospitalar do Conselho Federal de Farmácia, existam 5 computadores e 3 impressoras. Um sistema foi desenvolvido para controlar o número de páginas impressas diariamente. Esse sistema registra o número de páginas impressas em uma matriz A = (aij)5×3, na qual cada elemento aij registra o número de páginas enviadas pelo computador i para a impressora j. Ao final de determinado dia, verificou-se o registro da matriz, conforme apresentado.   
+
+
+
+
+Como exemplo, nesse dia, o computador 1 imprimiu 10 páginas na impressora 2. O total de páginas impressas pelos computadores 2, 3 e 5 na impressora 3 foi igual a:  
+ 
+
+	a.	
+62.
+
+	b.	
+67.
+
+	c.	
+72.
+
+	d.	
+80.
+
+	e.	
+84.
+
+0,25 pontos   
+
+Pergunta 7
+
+Duas empresas concorrentes, A e B, começarão a produzir três tipos de produtos: X, Y e Z.  A matriz Q representa as quantidades de cada item que serão produzidas diariamente por cada empresa. 
+
+
+
+
+Ambas as empresas contam com a disponibilidade de dois fornecedores, F1 e F2, que cobram valores diferentes pela matéria-prima de cada produto. A matriz C representa o custo unitário para a produção de cada item, de acordo com o fornecedor utilizado. Os valores estão em reais.  
+
+
+
+
+Supondo que cada empresa deve fechar parceria com apenas um fornecedor para suas fábricas, que deverá ser aquele que resulta em um menor custo de produção, avalie as afirmativas a seguir. 
+
+I. Para calcularmos o custo de produção de cada empresa com cada um dos fornecedores, devemos realizar a multiplicação Q·C. 
+
+II. Para a empresa A, qualquer um dos fornecedores resultará em um custo diário de produção de R$ 2900,00. 
+
+III. A empresa B deve fechar parceria com o fornecedor F2. 
+
+É correto o que se afirma em: 
+
+	a.	
+I, apenas. 
+
+	b.	
+II, apenas. 
+
+	c.	
+I e III, apenas. 
+
+	d.	
+II e III, apenas. 
+
+	e.	
+I, II e III. 
+
+0,25 pontos   
+
+Pergunta 8
+
+Crescer Consultorias/2019 - adaptada). Se o par ordenado x e y é solução do sistema a seguir, pode-se afirmar que a soma do quadrado dos valores de x e y é: 
+
+open curly brackets table attributes columnalign left end attributes row cell negative x plus 2 y equals 5 end cell row cell x minus y equals 2 end cell end table close
+
+	a.	
+16.
+
+	b.	
+256.
+
+	c.	
+130.
+
+	d.	
+4.
+
+	e.	
+160.
+
+0,25 pontos   
+
+Pergunta 9
+
+(Idecan/2018 - adaptada). Na figura a seguir, a reta r representa o conjunto de todos os pares ordenados (x, y), que são solução da equação do primeiro grau y – ax = b. Os pontos A e C de r são dados respectivamente pelos pares ordenados (0, 2) e (3, 23). Nesse cenário, determine o valor do coeficiente angular (a) e do coeficiente linear (b) da lei de formação da função. 
+
+
+
+ 
+
+	a.	
+3 e 9. 
+
+	b.	
+4 e 2. 
+
+	c.	
+5 e 3. 
+
+	d. 
+3 e 2. 
+
+	e.	
+7 e 2. 
+
+0,25 pontos   
+
+Pergunta 10
+
+Encontre a lei de formação da função quadrática, de formato y = ax² + bx + c, cuja parábola passa pelos pontos (1, 3), (⎯0,5; 3) e (⎯1, 7) do plano cartesiano.
+
+	a.	
+y = ⎯2x² + 4x + 3. 
+
+	b.	
+y = 2x² ⎯ 4x + 3. 
+
+	c.	
+y = ⎯2x² + 4x + 9. 
+
+	d.	
+y = 4x² ⎯ 4x + 1. 
+
+	e.	
+y = 4x² ⎯ 2x + 1. 
+
+(Fundep/2024 - adaptada). A distinção entre amostra e população é essencial em Estatística para determinar o tipo de análise a ser feita. 
+
+Assinale a alternativa que apresenta corretamente uma relação entre amostra e população.  
+
+	a.	
+Uma amostra inclui todos os indivíduos de interesse, enquanto uma população inclui apenas uma parte deles. 
+
+	b.	
+Uma amostra é um subconjunto de uma população. 
+
+	c.	
+Uma população é coletada de forma aleatória, enquanto uma amostra é coletada seguindo uma regra. 
+
+	d.	
+Uma amostra representa a mediana de uma população. 
+
+	e.	
+Uma amostra representa a média aritmética de uma população. 
+
+0,25 pontos   
+
+Pergunta 2
+
+(FGV/2025 - adaptada). Um analista do Tribunal de Contas realizou um estudo para tentar prever o gasto com passagens áreas com os servidores do tribunal. 
+
+Nesse estudo, ele levou em consideração as variáveis a seguir. 
+
+1. A distância entre o local de origem e o local de destino. 
+
+2. Se o servidor é de nível médio ou superior. 
+
+3. Se o servidor tem direito à bagagem ou não. 
+
+Essas variáveis são dos seguintes tipos, respectivamente: 
+
+	a.	
+Quantitativa contínua, qualitativa ordinal e qualitativa nominal. 
+
+	b.	
+Quantitativa discreta, qualitativa nominal e qualitativa ordinal. 
+
+	c.	
+Quantitativa contínua, qualitativa ordinal e quantitativa discreta. 
+
+	d.	
+Quantitativa discreta, qualitativa nominal e qualitativa nominal. 
+
+	e.	
+Quantitativa contínua, qualitativa nominal, qualitativa nominal. 
+
+0,25 pontos   
+
+Pergunta 3
+
+(Cesgranrio/2024). A distribuição dos salários dos 1000 funcionários da empresa Umbrella, em número de salários mínimos, está apresentada na tabela abaixo. 
+
+
+
+
+Supondo o salário mínimo igual a R$ 1.400,00, a média dos salários é igual a:  
+
+
+	a.	
+R$ 6.720,00. 
+
+	b.	
+R$ 6.300,00.  
+
+	c.	
+R$ 6.440,00. 
+
+	d.	
+R$ 5.880,00. 
+
+	e.	
+R$ 7.000,00. 
+
+0,25 pontos   
+
+Pergunta 4
+
+(Fundação Cetrede/2024 - adaptada). Uma distribuição de frequência é uma série estatística na qual os dados estão organizados em grupos de classes ou categorias estabelecidas convenientemente. Nesse contexto, assinale a alternativa incorreta.
+
+	a.	
+A soma das frequências absolutas é sempre igual a 1. 
+
+	b.	
+A frequência acumulada percentual da última classe é igual a 100. 
+
+	c.	
+A frequência relativa é dada pela razão entre a frequência absoluta de cada classe e a frequência total ou soma das frequências absolutas. 
+
+	d.	
+A utilização da frequência relativa facilita as comparações entre mais de um conjunto de dados com diferentes números de elementos. 
+
+	e.	
+A frequência acumulada é a soma da frequência absoluta da classe em questão com as frequências absolutas das classes anteriores, sendo a frequência acumulada da última classe igual ao número total de observações.
+
+0,25 pontos   
+
+Pergunta 5
+
+(Vunesp/2023 - adaptada). O gráfico a seguir mostra os valores da frequência acumulada absoluta de certa variável x. 
+
+
+
+
+Do gráfico, podemos inferir que a frequência simples relativa de x = 5 é:  
+ 
+
+	a.	
+7,3%. 
+
+	b.	
+12%. 
+
+	c.	
+15,8%. 
+
+	d.	
+10%. 
+
+	e.	
+15%. 
+
+0,25 pontos   
+
+Pergunta 6
+
+(IDHTEC/2023 – adaptada). A figura a seguir é uma forma de representação gráfica adequada para a apresentação da distribuição de uma variável quantitativa contínua em estudos sobre acidentes com motocicletas em rodovias federais de Pernambuco.
+
+
+
+
+Essa análise exploratória de dados foi realizada pelo superintendente Cláudio Ives, do órgão responsável pela fiscalização de trânsito nessas rodovias. Podemos dizer que o superintendente utilizou uma representação gráfica denominada:  
+ 
+
+	a.	
+Diagrama de dispersão. 
+
+	b.	
+Gráfico de setores. 
+
+	c.	
+Gráfico de série temporal. 
+
+	d.	
+Polígono de frequências. 
+
+	e.	
+Histograma. 
+
+0,25 pontos   
+
+Pergunta 7
+
+(Cespe-Cebraspe/2018). Considere que o peso de 5 pessoas, juntas em um elevador, seja de 340 kg. Se, em determinado andar, mais um indivíduo entrar no elevador, sem que dele ninguém desça, e a média aritmética dos pesos dessas 6 pessoas passar a ser de 70 kg, esse sexto indivíduo pesa: 
+
+	a.	
+68,3 kg. 
+
+	b.	
+69 kg. 
+
+	c.	
+70 kg. 
+
+	d.	
+80 kg. 
+
+	e.	
+82 kg. 
+
+0,25 pontos   
+
+Pergunta 8
+
+(Cesgranrio/2024). Um grupo é formado por jovens cujas idades variam entre 16 e 19 anos. O gráfico a seguir representa a distribuição do número (N) de jovens de acordo com suas idades.   
+
+
+
+
+O gráfico de setores que reapresenta, em forma percentual, as frequências das idades desse grupo de jovens é:   
+
+
+	a.	
+
+ 
+ 
+
+	b.	
+
+ 
+
+	c.	
+
+ 
+
+	d.	
+
+ 
+
+	e.	
+
+ 
+
+0,25 pontos   
+
+Pergunta 9
+
+(FCC/2019 - adaptada). Uma população é formada por 4 elementos, e o conjunto de dados para determinada variável de interesse é {4, 5, 5, 8}. O coeficiente de variação desses dados, definido como o resultado da divisão do respectivo desvio-padrão pela média aritmética da população, é igual a: 
+
+ 
+
+	a.	
+3/11. 
+
+	b.	
+9/22. 
+
+	c.	
+3/22. 
+
+	d.	
+9/11. 
+
+	e.	
+1/5. 
+
+0,25 pontos   
+
+Pergunta 10
+
+(Fepese/2022 - adaptada). A partir de duas pesquisas que expressam as notas dos 10 alunos de uma turma em provas de português e de matemática, tem-se as notas a seguir. 
+
+▪ Português: 10, 10, 10, 9, 9, 9, 8, 8, 8, 8; Média = 8,9; Desvio-Padrão = 0,83 
+
+▪ Matemática: 10, 9, 9, 8, 8, 8, 8, 8, 7, 7; Média = 8,2; Desvio-Padrão = 0,87 
+
+A respeito desses dados, avalie as afirmativas. 
+
+I. A moda na prova de matemática é menor do que na prova de português. 
+
+II. O valor da mediana das notas de português é maior do que o valor da mediana das notas de matemática. 
+
+III. O valor do coeficiente de variação de cada conjunto de dados indica que as notas de português foram mais homogêneas do que as de matemática. 
+
+É correto o que se afirma em: 
+
+ 
+
+	a.	
+I, apenas. 
+
+	b.	
+II, apenas. 
+
+	c.	
+II e III, apenas. 
+
+	d.	
+I e III, apenas. 
+
+	e.	
+I, II e III. 
+

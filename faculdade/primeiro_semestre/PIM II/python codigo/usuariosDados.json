@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "vitoria",
+        "email": "vitoria@gmail.com",
+        "senha": "1Ab",
+        "rg": "22.222.222-2",
+        "cpf": "222.222.222-22",
+        "nacionalidade": "EUA",
+        "estado civil": "solteiro",
+        "Data de nascimento": 2003
+    },
+    {
+        "nome": "alfredo",
+        "email": "alfredo@gmail.com",
+        "senha": "34ASde",
+        "rg": "34.546.345-2",
+        "cpf": "345.876.123-67",
+        "nacionalidade": "Brasil",
+        "estado civil": "viuvo",
+        "Data de nascimento": 1986
+    },
+    {
+        "nome": "vanessa",
+        "email": "vanessa@gmail.com",
+        "senha": "12Ab",
+        "rg": "1.234.567-ES",
+        "cpf": "345.678.876-34",
+        "nacionalidade": "Brasil",
+        "estado civil": "solteiro",
+        "Data de nascimento": 2001
+    },
+    {
+        "nome": "humberto",
+        "email": "hu@12",
+        "senha": "12As",
+        "rg": "22.222.222-2",
+        "cpf": "222.222.222-22",
+        "nacionalidade": "EUA",
+        "estado civil": "casado",
+        "Data de nascimento": 1999
+    }
+]
