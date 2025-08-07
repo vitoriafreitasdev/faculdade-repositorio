@@ -1,0 +1,25 @@
+capitulo 5 - tabela hash
+
+função hash => função na qual vc insere uma string e ela retorna um numero -- mapeia strings e números -- deve ser consistente e nao deve retornar smp o msm valor independe da palavra escolhida, deve mapear diferentes palavras para diferentes números
+
+tipo se coloca a palavra a maça e retornara 3, significa que maça ta na posição 3 do array, é array[3]
+
+-- coloque uma função hash em conjunto com um array e você terá uma tabela hash
+
+-- tabela hash são ótimas quando => vc deseja mapear algum item com relação ao outro e você precisa pesquisar algo
+
+-- tabela hash são ótimas para => - modelar relações entre dois items - filtar duplicatas - caching/memorização de dados, em vez de solicitar estes dados do servidor
+
+-- colisão: duas chaves indicadas para o mesmo espaço
+
+-- para evitar colisão é necessário => baixo fator de carga e uma boa função hash
+
+fator de carga => número de itens na tabela hash / numero total de espaços
+--- um fator de carga maior que um 1 indica que vc tem mais itens do q espaço
+
+-- se vc tem uma tabela hash muito cheia é necessário redimensionar ela, primeiro  deve criar um array maior, ele deve ter o dobro do original e dps reinserir tds os itens nessa nova tabela usando a função hash, indicação: redimensionar quando o fator carga estiver maior q 0.7
+
+-- se vc precisa considerar a ordem para seu algoritmo, a tabela hash não é para vc
+
+--- boa função hash => distribui os valores no array simetricamente, sem colisão 
+olhar função SHA

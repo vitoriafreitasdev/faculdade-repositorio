@@ -1,0 +1,108 @@
+capitulo 4 - quicksort
+-- ALgoritmo DC, quebra um problema em múltiplos subproblemas recursivamente ate eles se tornar simples de se resolver, no fim as soluções são combinadas para resolver o problema original 
+
+
+DC(dividir para conquistar) => são recursivos. Deve seguir dois passos: 1. descubra o caso base, deve ser o mais simples possível. 2. Divida seu problema ate que ele seja o caso-base - a cada recursao vc deve reduzir o seu problema
+
+-Quicksort => algoritmo de ordenação. Uso dele para ordenação de array => arrays vazios ou com 1 elemento são o caso base, exemplo:
+def quicksort(array):
+   if len(array) < 2:
+     return array
+
+Array com 2 elementos => confira se o 1 elemento é menor que o 2, caso não seja, eles trocam de lugar.
+
+Array com 3 => primeiro escolha um elemento para ser o pivô, dps encontre os elementos que são menores que ele e os elementos que são maiores que ele. Isso é chamado de particionamento, assim temos => um subarray contendo os elementos menores que o pivô, o pivô e um subarray com os elementos que são maior que o pivô
+- caso eles estejam ordenados você terá: array esquerdo + pivô + array direito
+como ordenar subarrays => caso-base do quicksort, consegue ordenar arrays de 2 elementos e de 1 elemento, então se utilizar o quicksort em ambos subarray e combinar resultados, terá um ordenado. 
+
+Array com 4 elementos => escolha um pivô, divida entre dois subarray um com menores e outro com maiores, se tiver um com 3 elementos so aplicar o quicksorte nele tbm. Como fez com o de 3 elementos, se tiver um com 2 ou 1 elemento msm coisa.
+
+Array com 5 elementos => msm coisa que os anteriores escolha um pivô, divida entre dois subarray um com menores e outro com maiores, esses subarray vao ter entre 0 a 4 elementos, apenas aplique o quicksort neles 
+
+
+--merge sort => tempo de execução:  O(n log n)
+--na pior situação o quicksort tem O(n ao quadrado)
+
+-constante => quantidade determinada de tempo que seu algoritmo leva para ser executado.(geralmente você ignora a constante), porem as vezes faz a diferença. Como por exemplo você compara merge sort com o quicksort, quicksort tem uma constante menor, assim quando ambos tem o msm tempo de execução o quicksort é mais rapido
+--- caso médio e pior caso ----
+- caso escolha o 1 elemento como pivô, e vc executa um quicksort em um array já ordenado, ele não vai verificar se já ta ordenado, logo ele tentara ordenar msm assim, com um subarray sempre vazio faz com a que a pilha de chamada seja muito longa. Se escolher o elemento central como pivô ela sera menor, pois estará divindo em 2 metades.
+
+-escolha de um bom pivô => Pior caso(O(n))No caso médio e no melhor caso, o Quick Sort é O(n∗logn)
+.
+
+- se você  estiver implementando o quicksort, escolha um elemento aleatório como pivô. Tempo de execução médio O(n log n) ou pode escolher o ultimo elemento como pivô.
+
+-- quicksort usa dois indexes i e que vao interagir através do array, i vai da esquerda para direita, j direita para esquerda
+-- i procura um elemento que é maior que pivô, j um que é menor que o pivô
+-- quando o j fica a esquerda do i, estamos quase terminando a ordenação, agora é so trocar o pivô com o i, depois so chamamos o quicksort recursivamente em cada um dos subarray
+
+7, 8, 1, 2, 90, 4, 65, 32
+7 1 2 4
+4 1 2 7 8 90 65 32
+
+- particionamento de Lomuto é identificar os elementos menores ou iguais ao pivot e colocá-los imediatamente à frente dele.
+
+public static int partition(int[] values, int left, int right) {
+        
+        int pivot = values[left];
+        int i = left;
+
+        for (int j = left + 1; j <= right; j++) {
+            if (values[j] <= pivot) {
+                i+=1;
+                swap(values, i, j);
+            }
+        }
+
+        // troca pivot (values[left]) com i.
+        swap(values, left, i);
+        
+        return i; 
+    }
+
+public static void quickSort(int[] values, int left, int right) {
+	if (left < right) {
+		int index_pivot = partition(values, left, right);
+		quickSort(values, left, index_pivot - 1);
+		quickSort(values, index_pivot + 1, right);	
+	}
+}
+
+--- escolha de pivô aleatório 
+
+public static int partition(int[] values, int left, int right) {
+        int range = right - left + 1;
+        int rand_pivot_index = (int)(Math.random() * range) + left;
+
+        // troca o valor aleatório escolhido com a primeira posição
+        swap(values, left, rand_pivot_index);
+
+        int pivot = values[left];
+        int i = left;
+
+        for (int j = left + 1; j <= right; j++) {
+            if (values[j] <= pivot) {
+                i+=1;
+                swap(values, i, j);
+            }
+        }
+
+        // troca pivot (values[left]) com i.
+        swap(values, left, i);
+        
+        return i; 
+    }
+
+--- Escolher o pivot como sendo a mediana entre o primeiro, o elemento central e o último elemento do array. 
+public int pickPivotIndex(int[] values, int left, int right) {
+    int mid = (left + right) / 2;
+    
+    int[] sorted = {values[left], values[mid], values[right]};
+    Arrays.sort(sorted);
+    
+    if (sorted[1] == values[left]) return left;
+    else if (sorted[1] == values[mid]) return mid;
+    else return right;
+}
+
+https://joaoarthurbm.github.io/eda/posts/quick-sort/

@@ -1,0 +1,9 @@
+capitulo - 6 Pesquisa em largura
+
+-- Pesquisa em largura => permite encontrar o menor caminho entre dois objetos 
+-- pode se usar para => algoritmo de IA q calcula o menor numero de movimentos para uma vitória em uma partida de damas, criar um  ortográfico, encontrar o medico conveniado ao seu plano de saúde que esta mais próximo de você  
+-- Pesquisa em largura => resolve problemas de caminho mínimo 
+
+-- Grafos => um conjunto de conexões - é constituído por vértices e arestas 
+
+-- quando uma vértice esta conectada a outra vértices => se chama: vizinhos.

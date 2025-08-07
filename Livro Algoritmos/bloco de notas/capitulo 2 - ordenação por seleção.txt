@@ -1,0 +1,4 @@
+capitulo 2 - ordenação por seleção
+
+- array => tds os elementos armazenados um do lado do outro
+- lista encadeadas => inserções rápidas e eliminações 

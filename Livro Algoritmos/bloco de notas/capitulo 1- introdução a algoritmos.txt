@@ -1,0 +1,21 @@
+capitulo 1- introdução a algoritmos
+
+pesquisa binária: você chuta um número intermediário e elimina metade dos números restantes a cada vez.
+- em uma lista de n números a pesquisa binária precisa =>
+log2(2 embaixo do "log")n para retornar o valor correto.
+exemplo: log de 8 = 3, então em uma lista de 8 elementos você vai precisar passar por no máximo 4 tentativas.
+- pesquisa binaria so funciona em lista ordenada.
+- Big O informa o quão rápido é um algoritmo, permite que você compare o numero de operações(informando o quão rapidamente o algoritmo cresce) => O(n). fornece o num de operações que o algoritmo realiza
+- Pesquisa simples tempo de execução => O(n)
+O(log n) => tempo logaritmo (Ex: pesquisa binaria) 
+O(n) => tempo linear (Ex: pesquisa simples)
+O(n * log n) => algoritmo rápido de ordenação (Ex: Ordenação quicksort)
+O(n ao quadrado) => algoritmo lento de ordenação (Ex: Ordenação por seleção)
+O(n!) => algoritmo lento
+- você não pode converter um tempo de execução na notação Big O para um num de operações.
+- rapidez de um algoritmo não é medida em segundos, mas pelo crescimento do num de operações.
+
+
+ 
+
+ 
