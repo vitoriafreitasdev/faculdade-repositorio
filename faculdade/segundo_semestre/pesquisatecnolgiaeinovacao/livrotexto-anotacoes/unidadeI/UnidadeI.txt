@@ -1,0 +1,204 @@
+UnidadeI 
+
+INTRODUÇÃO AO CONHECIMENTO CIENTÍFICO
+conhecimento => percepção ou a compreensão de algo, obtida por meio da experiência, da reflexão, da prática ou do estudo.
+- Barbosa, Quintaneiro e Rivero (2012) => ser humano não são os únicos capazes de transferir conhecimentos ao semelhantes, outros animais também 
+- porem podemos registrar conhecimento na forma escrita, gravada ou filmada (ou
+seja, por meio de símbolos) cria a possibilidade de acumulação, de acesso e de utilização, por parte de
+outros seres humanos, ao que um dia foi descoberto ou inventado
+
+-- Bacchi (2024) => “ciência” origem no termo em latim scientia => significa conhecimento
+
+-- ciência se refere a um grande empreendimento coletivo da humanidade, que organiza nossos conhecimentos e previsões sobre o universo que nos cerca =>  conhecimentos científicos  são obtidos,
+confrontados e atualizados por meio de um método próprio e transparente, que nos ajuda a reduzir as
+incertezas que temos sobre a realidade. Além disso, esses conhecimentos são analisados e interpretados
+de modo contextual, levando em conta o ecossistema científico existente.
+
+-- Tipos de conhecimento => popular, filosófico, teológico e científico
+---Popular => Segundo Marconi e Lakatos (2021) é aquele atrelado ao que chamamos
+de “senso comum” o é adquirido de forma espontânea, no trato direto com as
+coisas e com as outras pessoas. e possuímos sem que,
+necessariamente, o tenhamos procurado ou estudado, sem que tenhamos aplicado um método e sem que tenhamos refletido profundamente sobre algo. baseado na experiência cotidiana e nas percepções do mundo. #características do conhecimento popular: -Superficialidade: o conhecimento popular pode ser considerado superficial, pois se conforma com a aparência, com aquilo que é possível comprovar simplesmente ao vivenciar as coisas. ( “porque eu vi”, “porque eu senti”, “porque me disseram”, “porque é o que todo mundo diz”.). 
+-Sensitividade: é referente a experiências vividas, estados de ânimo e emoções
+-Subjetividade: é a própria pessoa, portadora do conhecimento, que organiza seus saberes, sem seguir um método específico para isso.
+
+--- Conhecimento filosófico => caracterizado pelo uso da
+razão para questionar os problemas humanos e poder discernir entre o que é certo e o que é errado. Ele
+é baseado na reflexão racional, na argumentação lógica e, muitas vezes, em questionamentos que não têm respostas definitivas. ("O que é a verdade?", "Há um sentido para a vida?", "Como sabemos o que é certo e o que é errado?")
+é um tipo de saber que busca compreender as questões
+fundamentais sobre a existência, a realidade, a verdade, a moral, e outros temas relativos à experiência humana, por meio de debates e de análises conceituais.
+
+--- Conhecimento teológico (conhecimento religioso.) => é um tipo de saber relacionado à compreensão e à experiência de
+aspectos transcendentais, espirituais e sagrados da realidade, muitas vezes ligado a crenças e a tradições
+religiosas específicas. Esse saber busca interpretar e entender a relação entre o ser humano e o divino ou
+o sobrenatural e está presente em muitas culturas ao redor do mundo. O conhecimento teológico não é universal. transmitido por
+autoridades religiosas, textos sagrados ou experiências espirituais.
+
+--- Conhecimento científico => é um tipo de saber que se fundamenta
+em métodos sistemáticos e rigorosos para investigar e descrever fenômenos naturais e sociais. Esses métodos são chamados de métodos científicos, e serão nosso objeto de estudo na próxima seção deste livro‑texto.  métodos científicos na geração do saber procura garantir que o conhecimento científico seja o mais imparcial. # várias etapas e envolveu um rigoroso trabalho de pesquisa? Pois bem, sem pesquisa, não há progresso no conhecimento científico. A geração do conhecimento científico é sistemática, minuciosa e busca responder a uma pergunta ou resolver um problema.
+desenvolvimento do conhecimento científico começa com uma pergunta ou com um problema => Essa situação inicial orienta o processo de pesquisa, ajudando a definir hipóteses, planejar experimentos e interpretar os resultados.
+
+# características do conhecimento científico:
+• Factualidade: o conhecimento científico lida com ocorrências ou com fatos 
+• Contingência: as proposições ou hipóteses têm sua veracidade ou falsidade conhecida por meio da experimentação, e não apenas pela razão
+• Sistematicidade: trata‑se de um saber ordenado logicamente, que forma um sistema de ideias obtidas por um método.
+• Falibilidade: em virtude de suas hipóteses não serem incontestáveis ou imutáveis, é considerado falivel 
+
+
+-Raciocínio dedutivo e raciocínio indutivo
+
+-- raciocínio dedutivo => premissas gerais para chegar a conclusões específicas. Se as premissas forem verdadeiras, e o raciocínio for válido, a conclusão será necessariamente verdadeira. associado à lógica formal e à matemática.
+( premissa é uma afirmação ou proposição que serve como base
+para um argumento ou raciocínio lógico)
+
+-- raciocínio indutivo => parte de premissas específicas para chegar a conclusões gerais. a conclusão deriva das premissas por probabilidade
+A força de um argumento indutivo depende do grau de apoio que as premissas oferecem para a conclusão. Quanto mais premissas suportarem a conclusão, mais forte é considerado o argumento.
+
+
+-- Hipótese, lei e teoria
+
+- hipótese => proposição formulada como possível solução para um
+problema ou como possível explicação para um fenômeno. tentativa de responder
+a uma pergunta ou de explicar um padrão observado, mas que ainda precisa ser testada e validada
+
+- lei científica => descrição precisa de um padrão ou comportamento observado na natureza, ela descreve o que acontece, mas não explica por que o fenômeno
+acontece.  são baseadas em evidências empíricas e são amplamente aceitas como verdades fundamentais em sua área de estudo
+
+- teoria científica pode ser definida como uma explicação abrangente e bem fundamentada para um conjunto de fenômenos observados. s. Ela vai além da simples descrição de padrões (como as leis) e busca explicar por qual motivo e como esses fenômenos ocorrem. apoiadas por evidências e são capazes de fazer previsões testáveis. Enquanto uma hipótese é o ponto de partida para a investigação científica, uma teoria é o resultado de um longo processo de teste, validação e
+integração de ideias.
+
+Hipótese: é uma suposição testável que tenta explicar ou descrever
+um fenômeno.
+Lei: é uma descrição de um padrão ou de um comportamento observado
+na natureza.
+Teoria: é uma explicação abrangente e bem fundamentada para um
+conjunto de fenômenos.
+
+# raciocínio indutivo, que parte de premissas específicas para chegar a conclusões gerais,
+é essencial para a formulação de hipóteses e de leis científicas. O raciocínio dedutivo, que parte de
+premissas gerais para chegar a conclusões específicas, é essencial para testar hipóteses, aplicar leis e
+validar teorias.
+
+# Método científico
+-- observação, de experimentação, de coleta de dados, de cálculos estatísticos
+aplicadas seguindo um rigoroso plano de utilização, que podemos entender como um “roteiro”, ao qual damos o nome de método científico.
+ partir da prática desse método que o conhecimento científico
+é acumulado e aprimorado, ou seja, é ele que diferencia o conhecimento científico dos demais.
+- primeira atividade do cientista é a observação de fatos
+Depois da observação, o cientista costuma reunir o máximo de informação possível já publicada (em
+artigos científicos ou em monografias, por exemplo) a respeito do assunto que pretende explorar. Essa
+etapa é conhecida como pesquisa bibliográfica.
+dps formula uma hipótese que propõe uma possível explicação para o fato observado.
+dps cientista precisa partir para a verificação experimental de sua suposição
+
+#Tipos de pesquisa
+
+--pesquisa quantitativa, utilizamos primariamente dados numéricos e métodos estatísticos para sua análise ( porcentagens, médias, frequências, correlações,
+entre outras métricas. O grande objetivo de pesquisas quantitativas é mensurar fenômenos, testar hipóteses e generalizar resultados para uma população maior.)
+
+-- pesquisa qualitativa  dados não
+numéricos, como textos, entrevistas e observações. A pesquisa qualitativa busca compreender fenômenos
+complexos, explorando motivações, percepções, comportamentos e experiências subjetivas
+
+
+#Quanto à natureza da pesquisa
+-- pesquisa básica visa ampliar o conhecimento científico de sua área, sem se preocupar com
+uma aplicação prática imediata. Ela busca, de forma geral, aperfeiçoar as leis ou teorias científicas
+daquele campo de estudo.
+
+-- pesquisa aplicada, por sua vez, tem como objetivo resolver problemas específicos ou desenvolver tecnologias a partir do conhecimento científico. A pesquisa aplicada, geralmente, utiliza o conhecimento gerado a partir de pesquisas básicas como ferramenta para desenvolver suas aplicações.
+
+#Quanto aos procedimentos técnicos => são os métodos específicos utilizados para realizar a pesquisa
+
+• Pesquisa bibliográfica: nesse tipo, realizamos uma revisão de materiais já publicados, como livros,
+artigos científicos, dissertações, teses e documentos em geral.
+
+• Pesquisa experimental: nesse caso, lidamos com a manipulação de variáveis em um ambiente
+controlado, como um laboratório, para observar seus efeitos
+
+• Pesquisa de levantamento: aqui, ocorre a coleta de dados por meio de questionários ou entrevistas
+a uma amostra ou a uma população de indivíduos
+
+• Pesquisa documental: nesse tipo, são utilizados documentos oficiais, documentos pessoais ou
+registros históricos como fontes de dados para seus achados.
+
+• Estudo de caso: aqui, procuramos estudar profundamente determinada situação de interesse.
+Seu objetivo é descobrir um detalhamento a respeito de um assunto específico
+
+• Pesquisa‑ação: nesse caso, os pesquisadores e os participantes da situação ou do problema se envolvem de modo cooperativo ou participativo.
+
+
+##MODALIDADES DE TRABALHOS ACADÊMICOS
+-- trabalho acadêmico é uma produção de cunho científico que é desenvolvida no âmbito de uma
+instituição de ensino superior ou de pesquisa.
+
+#Monografias => trabalho acadêmico textual que tem como objetivo trazer a documentação do
+estudo de um tema específico. Ela é criada como um produto de investigações científicas desenvolvidas
+em cursos de graduação ou de pós‑graduação. são trabalhos acadêmicos longos
+ monografia corresponde à principal documentação geralmente exigida para a
+conclusão de um curso.
+- TCC não é em si uma monografia. Dessa maneira, um TCC pode ser
+composto de diversas etapas: a produção e a entrega da monografia, a apresentação para a banca 
+
+#Trabalhos de graduação => aquele desenvolvido por alunos de cursos superiores ao longo de sua
+formação. Nessa categoria, encontramos os projetos integrados multidisciplinares, que são comumente
+exigidos em cursos superiores tecnológicos, os quais unem pesquisa ao conhecimento obtido nas
+disciplinas do curso. A monografia, nesse caso, é comumente exigida e deve ser redigida seguindo o guia de normalização
+vigente da universidade.
+
+#Trabalhos de conclusão de curso (graduação) => desenvolvidos ao fim da jornada do graduando na obtenção do seu diploma. é constituído principalmente por uma monografia, que será mais
+longa e mais elaborada do que a produzida em um trabalho de graduação.
+TCCs são comumente exigidos por cursos de licenciatura ou de bacharelado
+
+#Trabalhos para especialização
+O curso de pós‑graduação lato sensu tem como objetivo aperfeiçoar conhecimentos e habilidades
+profissionais, ou seja, é uma etapa de especialização
+lato sensu significa “em sentido amplo”. => têm foco na aplicação prática do conhecimento profissional
+no mercado de trabalho.
+
+#Dissertações de mestrado
+
+programa de pós‑graduação stricto sensu refere‑se aos cursos de pós‑graduação com foco
+acadêmico e científico, como os programas de mestrado e doutorado. O termo stricto sensu significa
+“em sentido restrito”. tem grande profundidade um objeto de estudo bastante delimitado.
+
+# Teses de doutorado
+tese de doutorado é uma monografia apresentada na conclusão de um curso de pós‑graduação
+stricto sensu destinada à obtenção do título de doutor, conforme trata Nascimento (2012).
+é pedido que seu trabalho contribua de forma inédita para a ciência
+O autor pode apresentar novas descobertas, novos métodos para realizar algo já conhecido,
+novas perspectivas sobre um tema, novas aplicações práticas para determinado conhecimento,
+aprimoramentos de uma teoria vigente, a refutação de uma hipótese defendida por outros autores
+não precisa ser revolucionária, mas deve representar um avanço na área de
+estudo.
+
+# Artigos científicos
+
+artigo científico é um documento que apresenta os resultados de uma pesquisa original, realizada
+de acordo com o método científico, com o objetivo de comunicar descobertas, análises ou revisões de
+conhecimento para a comunidade científica e para o público interessado.
+-Um artigo é uma das principais formas de compartilhamento do conhecimento científico
+
+- Estrutura padrão de um artigo científico
+Título, Autores e afiliação, Resumo, Palavras‑chave, introdução ( relatam pesquisas anteriores relativas ao tema e focam na
+importância do desenvolvimento da pesquisa vigente. Em artigos científicos, a revisão bibliográfica
+está contida na introdução, assim como o objetivo, que aparece, normalmente, no último parágrafo.), material e métodos, resultados e discussão, conclusão (Aqui, os autores incluem
+todas as inferências feitas ao longo do desenvolvimento do trabalho, reunindo todo o aprendizado
+gerado por seu estudo, fazem sugestões de novos estudos que
+podem ser feitos a partir dali, como ampliar o conhecimento científico daquela área.), agradecimentos, referencias bibliográficas. 
+
+## Comunicação científica => ocorre por meio de artigos publicados em periódicos
+tbm  transferido por intermédio de monografias publicadas por instituições de
+ensino e pesquisa. eventos nos quais pesquisadores têm a oportunidade de encontrar pessoalmente cientistas de suas áreas, com o intuito de absorver informações, atualizar‑se e expandir suas redes de contatos.
+
+--evento científico: congresso => que costuma reunir pesquisadores de várias
+áreas relacionadas a um tema geral. Um congresso tem, em média, duração de três a cinco dias e traz
+uma variedade de interações: palestras, sessões de apresentações orais, sessões de apresentações por pôsteres, mesas‑redondas
+
+-- simpósios => são eventos científicos muito comuns. Nesse caso,
+o evento costuma ter um tema mais delimitado
+
+-- a divulgação científica tem a função de popularizar a ciência, democratizar o acesso ao conhecimento científico e estabelecer condições para a alfabetização científica
+
+ --diretrizes essenciais: • Verifique quem publica, Identifique a autoria, Verifique as referências, Analise a forma de comunicação
+ 
