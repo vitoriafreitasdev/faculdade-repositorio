@@ -1,0 +1,52 @@
+AnotacoesAulasI
+
+- ciência pode ser vista como um “par de óculos” que aprimora a nitidez da nossa visão da realidade, melhorando nossa capacidade de registrá-la e até mesmo de modificá-la com mais precisão.
+- ciência criou formas de construção e de acumulação de conhecimento baseada em regras universais
+
+-Conhecimento Tácito (prática e intuição) => tipo de conhecimento que é difícil de ser formalizado, documentado e transmitido, pois está ligado à experiência individual e ao contexto
+conhecimento tácito é aquele que está internalizado nas pessoas, muitas vezes de forma subconsciente, sendo adquirido por meio da experiência pessoal, prática e intuição. Por isso, é difícil de ser formalizado, documentado ou transmitido diretamente
+ Exemplo: habilidades motoras de um cirurgião ou a sensibilidade de um artesão ao lidar com materiais
+- conhecimento explícito é aquele que pode ser facilmente
+codificado, como em livros, manuais e documentos.
+
+- raciocínio dedutivo parte de premissas gerais para chegar a conclusões específicas. é essencial para testar hipóteses, aplicar leis e validar teorias.
+
+- raciocínio indutivo, por sua vez, parte de premissas específicas para chegar a conclusões gerais. é essencial para a formulação de hipóteses e de leis científicas. 
+
+ Hipótese: é uma suposição testável que tenta explicar ou descrever um fenômeno.
+ Lei: é uma descrição de um padrão ou de um comportamento observado na natureza.
+ Teoria: é uma explicação abrangente e bem fundamentada para um conjunto de fenômenos
+
+- raciocínio indutivo começa com observações ou casos específicos e busca generalizar a
+partir desses casos. Por exemplo, observar que vários cisnes são brancos e, com base nisso,
+concluir que "todos os cisnes são brancos".
+
+- raciocínio dedutivo parte de premissas gerais (ou leis) e aplica essas premissas a
+casos específicos para chegar a uma conclusão lógica. Exemplo: "Todos os mamíferos são
+vertebrados. Um cão é um mamífero. Logo, um cão é um vertebrado."
+
+- Método científico
+elas são aplicadas seguindo um rigoroso plano
+de utilização, que podemos entender como um “roteiro”, ao
+qual damos o nome de método científico. 
+
+- método matemático, dominado pelo raciocínio dedutivo, parte das leis para a elaboração
+de hipóteses ainda mais abrangentes que, caso confirmadas, se transformam em teorias. 
+
+-- A pesquisa qualitativa explora fenômenos de forma descritiva e interpretativa, enquanto a
+pesquisa quantitativa coleta e analisa dados numéricos para testar hipóteses.
+- A pesquisa qualitativa busca compreender significados, percepções e comportamentos a
+partir de uma abordagem descritiva, subjetiva e interpretativa, geralmente por meio de
+entrevistas, observações e análises de conteúdo.
+A pesquisa quantitativa, por outro lado, foca em dados mensuráveis e análise estatística,
+sendo usada para testar hipóteses e quantificar relações entre variáveis com instrumentos
+padronizados (como questionários com escalas).
+
+
+a característica fundamental dos Trabalhos de
+Conclusão de Curso (TCC) no Ensino Superior => a característica fundamental dos Trabalhos de
+Conclusão de Curso (TCC) no Ensino Superior
+O TCC é um trabalho acadêmico exigido ao final de muitos cursos de graduação e pósgraduação e tem como função integrar, aplicar e demonstrar o conhecimento adquirido ao
+longo da formação. Ele deve ser elaborado com base em métodos científicos, respeitando
+normas acadêmicas (ABNT), contendo introdução, fundamentação teórica, metodologia,
+resultados e conclusões.

@@ -90,6 +90,9 @@ artigos científicos ou em monografias, por exemplo) a respeito do assunto que p
 etapa é conhecida como pesquisa bibliográfica.
 dps formula uma hipótese que propõe uma possível explicação para o fato observado.
 dps cientista precisa partir para a verificação experimental de sua suposição
+ela depende, de forma geral, da replicação de seus resultados e do consenso da
+comunidade científica. As leis, portanto, são obtidas basicamente como conclusões de um processo
+indutivo: vários fatos particulares se resumem em um único princípio.
 
 #Tipos de pesquisa
 

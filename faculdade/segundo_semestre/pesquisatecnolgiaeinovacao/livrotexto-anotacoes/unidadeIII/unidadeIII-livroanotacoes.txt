@@ -1,0 +1,22 @@
+UnidadeIILivroTexto-anotacoes 
+- CITAÇÕES E REFERÊNCIAS EM UMA MONOGRAFIA
+-trabalho acadêmico longo, sempre precisamos fazer citações
+- citação é a utilização de trechos, de dados ou de ideias de outros autores em nosso trabalho
+- citação é qualquer conteúdo que buscamos em outras obras
+e utilizamos em nosso texto.
+- As citações mostram que nossa
+pesquisa está baseada em fontes confiáveis e em estudos anteriores. Elas também mostram que
+conhecemos a literatura da área, e isso ajuda a fortalecer a nossa argumentação.
+-referência é uma disposição padronizada das informações que identificam a obra da qual extraímos as informações que compuseram uma citação do nosso texto => é constituída de elementos indispensáveis à identificação do documento, como autoria, título, ano de publicação, entre outras informações.
+- citações que fazemos em nosso texto às referências é denominado
+chamada
+ é uma indicação que fazemos no texto, próxima à citação, que indica de qual
+referência aquele conteúdo mencionado foi extraído.
+- citação direta é feita quando, em nosso texto,
+utilizamos as exatas palavras utilizadas em uma parte de outra publicação.
+-tipos de citação direta: a curta e a longa.
+Citação direta curta => cuja extensão ocupa até três linhas. Nesse caso,
+devemos posicionar a transcrição textual entre aspas duplas
+exemplo: Perkovic (2016, p. 3), “Um algoritmo é uma sequência de instruções, não muito
+diferente de uma receita culinária”.
+pagina 72

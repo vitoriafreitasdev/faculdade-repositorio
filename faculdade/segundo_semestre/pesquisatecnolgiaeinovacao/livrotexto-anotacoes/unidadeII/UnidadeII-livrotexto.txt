@@ -1,0 +1,137 @@
+UnidadeII-livrotexto
+- Um guia de normalização é um documento produzido pela biblioteca
+da instituição pela qual a monografia está sendo produzida.
+- Estrutura geral de elementos obrigatórios e opcionais
+
+-Parte externa 
+Capa (obrigatório)
+Lombada (opcional)
+
+-Parte interna
+Elementos pré‑textuais
+Elementos textuais
+Elementos pós‑textuais
+
+A parte externa do trabalho acadêmico tem um elemento obrigatório
+Esse elemento é a capa. A capa deve trazer informações essenciais à identificação
+do trabalho, as quais estão elencadas:
+• nome da instituição de ensino superior (IES) pela qual o trabalho é publicado;
+• nome do autor;
+• título do trabalho;
+• subtítulo (se houver);
+• cidade pela qual o trabalho é publicado;
+• ano de publicação.
+lombada => corresponde a um elemento opcional, ou seja, que não aparecerá em qualquer
+monografia publicada. 
+
+Parte interna: elementos pré‑textuais
+
+
+elementos pré‑textuais, que correspondem às informações iniciais e
+antecedem o conteúdo principal (textual) do trabalho. Eles organizam e contextualizam o trabalho. 
+
+ ordem
+na qual os elementos aparecem na monografia.
+
+-Parte interna
+=>
+Elementos pré‑textuais
+Elementos textuais
+Elementos pós‑textuais
+=>
+Folha de rosto (obrigatório)
+Errata (opcional)
+Folha de aprovação (obrigatório)
+Dedicatória (opcional)
+Agradecimentos (opcional)
+Epígrafe (opcional)
+Resumo (obrigatório)
+Resumo em lígua estrangeira (obrigatório)
+Lista(s) de ilustrações (opcional)
+Lista de tabelas (opcional)
+Lista(s) de abreviaturas e siglas (opcional)
+Lista de símbolos (opcional)
+Sumário (obrigatório)
+
+
+-A folha de rosto é um elemento pré‑textual obrigatório que, em seu anverso, traz quase as mesmas
+informações da capa, com algumas adições.
+
+No verso da folha de rosto, é normalmente requerida a colocação de uma ficha catalográfica.
+Ela indica os dados internacionais de catalogação na publicação. Geralmente, a ficha catalográfica é
+produzida pelo serviço de biblioteca da instituição pela qual o trabalho é publicado.
+
+A errata é um elemento pré‑textual opcional e fica restrita aos casos em que, após a impressão do
+trabalho, foram identificados erros no texto
+deve ser constituído pelas folhas e linhas em que ocorrem erros, seguidas das
+devidas correções.
+
+-A folha de aprovação é um elemento pré‑textual obrigatório. Ela traz informações similares às
+encontradas na folha de rosto, além de adições importantes: data de aprovação, nome, titulação e
+espaço para assinatura dos componentes da banca examinadora e instituições às quais eles pertencem. 
+-A dedicatória é um elemento pré‑textual opcional que, quando presente, deve ser inserido após
+a folha de aprovação
+
+-agradecimentos também são considerados uma informação pré‑textual opcional. É o momento
+para agradecermos às pessoas, aos projetos e às instituições que colaboraram com o trabalho acadêmico. 
+-A epígrafe é um elemento pré‑textual opcional. A epígrafe é um texto curto, que geralmente traz
+uma citação de outro autor
+-O resumo em língua vernácula, comumente referido apenas como resumo, é um elemento
+pré‑textual obrigatório.
+-O resumo em língua estrangeira é um elemento pré‑textual obrigatório. Esse elemento apresenta
+o mesmo texto do resumo em português, porém, em idioma estrangeiro.
+
+
+- lista de ilustrações é uma lista de desenhos, esquemas, fluxogramas, fotografias, gráficos, mapas,
+organogramas ou quaisquer outros tipos de ilustração que aparecem ao longo do conteúdo do trabalho.
+Ela deve ser elaborada de acordo com a ordem apresentada no texto, com a numeração, a legenda e o
+número de página na qual cada ilustração aparece.
+-A lista de tabelas é um elemento pré‑textual opcional e serve para elencar as tabelas que aparecem
+ao longo do trabalho.
+
+-lista de abreviaturas e siglas é um elemento pré‑textual opcional em uma monografia
+
+-A lista de símbolos é um elemento pré‑textual opcional em uma monografia
+
+-sumário é um elemento pré‑textual obrigatório em uma monografia. Ele consiste na enumeração
+das seções do trabalho e deve seguir a ordem e a grafia do texto, acompanhando os respectivos
+números das páginas.
+-A introdução é um elemento textual obrigatório em trabalhos acadêmicos. De acordo com
+Brasileiro (2021), é a parte inicial do texto, na qual o leitor buscará as informações básicas da pesquisa,
+a fim de direcionar sua leitura.
+Geralmente, essas informações são: a contextualização, o problema, a hipótese com a qual se opera
+(quando couber), a justificativa, os objetivos geral e específicos e uma rápida menção aos métodos.
+É  possível também encontrar a apresentação das próximas seções primárias (“capítulos”) da parte
+textual, em trabalhos mais longos.
+
+-O desenvolvimento é um item textual obrigatório em trabalhos acadêmicos. É a parte que se
+encontra entre a introdução e a conclusão e abrange diversas seções primárias do texto.
+
+A conclusão é um elemento textual obrigatório em trabalhos acadêmicos e representa a última seção
+primária numerada da parte textual. Ela pode ganhar títulos distintos, como Conclusão, Conclusões ou
+Considerações finais.
+
+• os métodos;
+• os resultados e discussões;
+• a demonstração do cumprimento do objetivo geral;
+• o destaque da importância da pesquisa;
+• sugestões de trabalhos futuros, que podem ser feitos para complementar o trabalho atual.
+
+- índice é um elemento pós‑textual opcional. Ele se refere a uma lista, geralmente dedicada aos
+termos importantes que apareceram ao longo da parte textual
+
+O anexo é um elemento pós‑textual opcional. Segundo Brasileiro (2021), o anexo refere‑se a um
+material produzido por terceiros que pode, de algum modo, enriquecer ou complementar a leitura. 
+Documentos adequados para serem inseridos como anexo incluem:
+• documentos legais e normativos (como leis ou portarias);
+• relatórios técnicos institucionais;
+• mapas, fluxogramas ou esquemas criados por terceiros;
+• imagens, gráficos ou ilustrações técnicas criados por terceiros;
+• fichas técnicas de equipamentos;
+• folhas de dados de dispositivos eletrônicos.
+
+glossário  uma lista de palavras desconhecidas ou termos especializados, acompanhados
+de seus respectivos significados e deve ser elaborado em ordem alfabética, de modo a facilitar a
+identificação do termo buscado.
+apêndice  material produzido pelo próprio autor do trabalho acadêmico e que pode, de algum modo,
+enriquecer ou complementar a leitura.
