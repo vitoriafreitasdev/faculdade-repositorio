@@ -1,0 +1,96 @@
+anotacoesAula1 
+
+Sistema de informação => processa dados em informação
+- Platão (428-348 ac)
+- Dados e informações 
+informações => informare(em latim)
+- Dados(fatos brutos e isolados) => informações(Associação desses fatos brutos) => conhecimento(pega a informação e armazena em um local)
+
+#Computadores e Sistema de Informação(SI)
+- resolve problemas e gera valor => Sistema de Informação
+- Computadores => É a ferrramenta
+SI exemplo => WhatsApp
+
+- Tecnologia meio em que os dados são transformados para uso 
+
+-Tecnologias de armazenamento: SSD, HDDs, fitas magnéticas, SGBDs - relacionais e não relacionais 
+
+- tecnologia de comunicação:
+meios físicos => fibra ótica
+software e protocolos => TCP/IP, DNS, HTTP/HTTPS
+
+##Engenharia de software 
+
+-primórdios 1940 => programação em linguagem de maquina 
+-Sistema operacional(SO) => 1950
+-1 linguagem alto nível => Fortran e cobol 
+-1960 crise de software 
+-otan -> 1968 -> engenharia de software 
+
+- Software => sequencia de instruções que o computador executa
+- Software de sistema => SO
+- Software de aplicativo => APPs
+-ERP - integra e gerencia 
+- CRM - coleta, organiza dados dos cliente
+- equilíbrio entre => qualidade de software e produtividade
+#nascimento de um modelo clássico 
+triangulo da qualidade: um lado(esquerdo) é revisão do produto, outro(direito) é transição do produto, por fim(parte de baixo) operação do produto  
+
+-Processos/métodos 
+- processo 1: verificação e validação(V&V)
+- processo 2: Revisões de código
+- processo 3: Controle de versão => Git 
+- processo 4: Documentação
+- processo 5: Gestão de risco
+
+#Hardware vs Software 
+hardware - parte física  do computador (memória RAM, disco rígido (HDD ou SSD), placa de vídeo)
+software - É o conjunto de instruções e programas que dizem ao hardware o que fazer
+
+-Tecnologias que estão moldando o futuro => blockchain, big data e inteligência de negócio, IoT, Sustentabilidade, RV e RA, DevOps 
+- fabrica de software => ferramentas otimizadas 
+Dinamica do grupo 1: Fabrica de software 
+
+2 aula 
+
+Tipos requisitos 
+- funcionais =>  ação do sistema(o que deve fazer)
+- não funcionais  => Performance 
+- usuário 
+- Requisitos do Sistema.
+
+-Como descobrir esses requisitos:
+entrevista com o usuário 
+reunião com devs - casos de usos 
+mainstorming 
+mapas mentais 
+entrevistas =>com quem usara o sistema(gerente, clientes, contadores, etc) 
+mapa mentais =>visual, hierárquico, flexível, colaborativo
+- diagramas de uso - ator
+-atores(pessoas, maquinas, outros sistemas) => fora do sistema, mas faz o sistema fazer algo
+-sistemas(locais  onde acao acontece comunicação bidirecional e unidirecional 
+
+- ERP - requisitos são utilizado para desenhar , conecta áreas da empresa
+-diagramas => draw.io
+
+Dinamica do grupo 2: ERP em acao desvendando e modelando requisitos em equipe 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

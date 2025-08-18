@@ -1,0 +1,123 @@
+anotacoesAulasI
+guia de normalização => documento produzido pela biblioteca da instituição pela qual a
+monografia está sendo produzida. traz as normas de padronização que devem ser
+respeitadas para trabalhos produzidos naquela instituição e
+normalmente é baseado nas padronizações descritas pelas
+normas da Associação Brasileira de Normas Técnicas (ABNT).
+-monografias são compostos por uma parte externa e por uma parte
+interna.
+parte externa corresponde ao que é visto
+pelo leitor antes mesmo de abrir o trabalho. 
+parte interna, naturalmente, corresponde aos elementos que podem ser visualizados e
+lidos ao folhearmos a monografia.
+Parte externa: capa e lombada
+ A lombada corresponde à parte lateral externa do trabalho, que se encontra em uma
+superfície perpendicular à capa. Ela reúne as margens internas das folhas do trabalho.
+ A lombada é um elemento que aparece em trabalhos que são entregues de forma física e
+com encadernação em capa dura. Para monografias entregues com encadernação em
+espiral ou por meios exclusivamente digitais, esse elemento não deve existir.
+Parte interna - Elementos pré-textuais :
+ Folha de rosto (obrigatório)
+ Errata (opcional)
+ Folha de aprovação (obrigatório)
+ Dedicatória (opcional)
+ Agradecimentos (opcional)
+ Epígrafe (opcional)
+ Resumo (obrigatório)
+ Resumo em língua estrangeira (obrigatório)
+ Lista(s) de ilustrações (opcional)
+ Lista de tabelas (opcional)
+ Lista(s) de abreviaturas e siglas (opcional)
+ Lista de símbolos (opcional)
+ Sumário (obrigatório)
+A folha de rosto é um elemento pré-textual obrigatório.
+ Uma das informações adicionais corresponde a um texto indicando a natureza do trabalho.
+ Tese, dissertação, trabalho de conclusão de curso.
+ Nome da instituição à qual o trabalho é submetido.
+ Área de concentração, quando aplicável.
+ Nome do(a) orientador(a) do trabalho e do(a) coorientador(a).
+define o que é uma monografia no contexto acadêmico => Um trabalho acadêmico que aborda profundamente um tema específico, com base em
+pesquisa e metodologia.
+A monografia é um trabalho acadêmico que analisa detalhadamente um único tema, com
+profundidade e rigor científico. Ela é baseada em uma pesquisa estruturada, podendo ser
+bibliográfica, experimental ou de campo, e segue uma metodologia definida. Diferente de
+artigos de opinião ou coletâneas, a monografia exige autoria, argumentação lógica e
+fundamentação teórica
+A lista de símbolos trata-se de uma lista elaborada de acordo com a ordem em que
+diferentes símbolos aparecem no texto, explicitando seus significados para o leitor.
+a principal importância do uso de listas (como listas numeradas ou com marcadores) em
+um trabalho de monografia? a principal importância do uso de listas (como listas numeradas ou com marcadores) em
+um trabalho de monografia?
+a principal importância do uso de listas (como listas numeradas ou com marcadores) em
+um trabalho de monografia?
+
+###
+
+Conforme vemos no diagrama a seguir, os elementos textuais são:
+ introdução
+ desenvolvimento
+ conclusão
+
+
+A introdução é a parte inicial do texto, na qual o(a) leitor(a) buscará as informações básicas
+da pesquisa, para direcionar sua leitura.
+
+Contextualização
+ Indica ao leitor sobre o que é o trabalho.
+ O início de uma introdução, com o trecho inicial de contextualização.
+ Problema
+ Traz ao leitor qual é a situação que se pretende resolver com a realização do trabalho.
+ O problema, comumente, é exposto em formato de pergunta, e indica a delimitação do tema
+com o qual se trabalha.
+
+ Hipótese
+ Deve estar presente quando couber.
+ Traz o que o(a) autor(a) imagina ser a resposta para o problema. 
+
+ Justificativa
+ Indica ao leitor o motivo pelo qual é importante resolver o problema.
+ Garante credibilidade à pesquisa.
+
+ Objetivos
+ Eles indicam onde queremos chegar com o desenvolvimento do trabalho.
+ objetivo geral (grande intenção do trabalho).
+ objetivos específicos (especificação das etapas da pesquisa
+necessárias para atingir o objetivo geral).
+ É comum que objetivos específicos venham em tópicos.
+
+
+Os objetivos de uma monografia são fundamentais para orientar todo o desenvolvimento do
+trabalho acadêmico.
+Eles ajudam a delimitar o que será investigado, determinando o foco da pesquisa, os limites do
+tema abordado e os caminhos metodológicos a seguir.
+Sem objetivos claros, o trabalho pode se tornar vago, disperso ou sem aprofundamento.
+Portanto, os objetivos são essenciais para garantir coerência, clareza e relevância ao estudo.
+
+Desenvolvimento
+objetivo de detalhar a pesquisa ou o estudo realizado
+ apresentar o referencial teórico que sustentará o debate posterior;
+ detalhar os métodos da pesquisa, conferindo a ela
+cientificidade;
+ apresentar os dados coletados, quando for o caso, realizando
+as devidas análises e discussões.
+
+Conclusão
+A intenção central da conclusão é concentrar os principais resultados e
+interpretações realizadas.
+ Devemos, portanto, destacar o que foi aprendido com a pesquisa, de forma sucinta
+e objetiva.
+Conforme vemos no diagrama a seguir, os elementos pós-textuais são:
+ Referências (obrigatório)
+ Glossário (opcional)
+ Apêndice(s) (opcional)
+ Anexos(s) (opcional)
+ Índice(s) (opcional)
+
+Desenvolvimento de uma monografia? d) A exposição detalhada do referencial teórico, metodologia, análise dos dados e resultados.
+O item Desenvolvimento de uma monografia é a parte central do trabalho acadêmico. Ele
+contempla a exposição do conteúdo principal, incluindo o referencial teórico (base
+conceitual e autores que fundamentam o estudo), a metodologia (como a pesquisa foi
+realizada), a análise dos dados coletados e a discussão dos resultados obtidos. É nesta
+parte que o autor demonstra o aprofundamento do tema, articula os argumentos e apresenta
+os achados da pesquisa.
+

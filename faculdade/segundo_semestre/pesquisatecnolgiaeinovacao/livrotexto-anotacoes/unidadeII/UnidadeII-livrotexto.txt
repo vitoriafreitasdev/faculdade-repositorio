@@ -96,6 +96,9 @@ ao longo do trabalho.
 -sumário é um elemento pré‑textual obrigatório em uma monografia. Ele consiste na enumeração
 das seções do trabalho e deve seguir a ordem e a grafia do texto, acompanhando os respectivos
 números das páginas.
+
+elementos textuais 
+
 -A introdução é um elemento textual obrigatório em trabalhos acadêmicos. De acordo com
 Brasileiro (2021), é a parte inicial do texto, na qual o leitor buscará as informações básicas da pesquisa,
 a fim de direcionar sua leitura.
@@ -116,6 +119,21 @@ Considerações finais.
 • a demonstração do cumprimento do objetivo geral;
 • o destaque da importância da pesquisa;
 • sugestões de trabalhos futuros, que podem ser feitos para complementar o trabalho atual.
+
+pós-textuais =>  Referências (obrigatório)
+ Glossário (opcional)
+ Apêndice(s) (opcional)
+ Anexos(s) (opcional)
+ Índice(s) (opcional)
+ 
+-Referências, trazemos informações a respeito das obras que consultamos para compor as
+citações que fizemos no decorrer do texto, dá crédito aos autores cujas obras
+ajudaram a compor o nosso trabalho.
+ Ao deparar com um trabalho acadêmico sem lista de
+referências, muitas bancas avaliadoras reprovam o trabalho
+automaticamente, pois sua inexistência é um erro grave que
+compromete, inclusive, a originalidade do texto.
+
 
 - índice é um elemento pós‑textual opcional. Ele se refere a uma lista, geralmente dedicada aos
 termos importantes que apareceram ao longo da parte textual
