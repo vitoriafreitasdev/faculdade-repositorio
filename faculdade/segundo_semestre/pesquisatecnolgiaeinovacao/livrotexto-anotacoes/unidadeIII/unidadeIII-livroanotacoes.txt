@@ -19,4 +19,303 @@ Citação direta curta => cuja extensão ocupa até três linhas. Nesse caso,
 devemos posicionar a transcrição textual entre aspas duplas
 exemplo: Perkovic (2016, p. 3), “Um algoritmo é uma sequência de instruções, não muito
 diferente de uma receita culinária”.
-pagina 72
+Outro jeito: “Um algoritmo é uma sequência de instruções, não muito diferente de uma receita culinária”
+(Perkovic, 2016, p. 3). 
+
+- Citação direta longa => aquela cuja extensão ocupa mais de três linhas
+recuo de 4 cm da margem esquerda, adotar espaçamento simples entre as linhas e diminuir o tamanho da fonte original, geralmente tamanho 10 é a citação
+ 
+exemplo: 
+Segundo Perkovic (2016, p. 4),
+				                                                                         			Ainda que o desenvolvimento de aplicações certamente seja 			computação são utilizadas para estudar questões sobre a 			natureza da informação, computação e inteligência. Elas 			também são usadas em outras disciplinas para...
+
+ou 
+	Ainda que o desenvolvimento de aplicações certamente seja um fator
+	fundamental do campo da ciência da computação, seu escopo é mais amplo.
+	As técnicas computacionais desenvolvidas pelos cientistas da computação 	são utilizadas para estudar questões sobre a natureza da informação, 	computação e inteligência. Elas também são usadas em outras disciplinas 	para entender os fenômenos naturais e artificiais ao nosso redor, como as 	transições de fase na
+	física ou as redes sociais na sociologia. De fato, alguns cientistas da 	computação agora estão trabalhando em alguns dos problemas mais 	desafiadores na ciência, matemática, economia e 
+	outros campos (Perkovic, 2016, p. 4).
+
+
+
+
+ -Citação indireta
+
+citação indireta é um tipo de citação em que o autor do texto usa dados ou ideias extraídas
+de outras publicações, mas não faz uma transcrição textual exata do conteúdo
+Exemplo: 
+	De acordo com Perkovic (2016), a ciência da computação não se limita ao desenvolvimento de
+aplicações, mas expande‑se para outras áreas do conhecimento. Seus métodos são utilizados para
+investigar desde fenômenos naturais (como transições de fase na física) até questões sociais (como redes
+virtuais), ajudando a resolver problemas complexos da matemática, da economia e de outras ciências.
+
+-São interessantes para: interessantes para integrar a ideia do trabalho original ao
+nosso contexto ou para adaptar a linguagem original ao nosso público. Podemos, por exemplo, simplificar
+uma linguagem muito técnica para tornar o conteúdo mais acessível, ou reescrever um conteúdo com
+linguagem arcaica em um estilo mais moderno.
+-tilizadas para trazermos dados estatísticos ao nosso
+trabalho, como taxas percentuais levantadas por institutos de pesquisa.
+
+-Citação de citação
+ fazemos uma citação, seja direta ou indireta, que foi retirada
+de um trabalho que não é a origem da ideia citada.
+
+a sua chamada deve incluir o sobrenome dos dois autores, usando a expressão apud, que
+significa “citado por”, para indicar a fonte intermediária. Em seu texto, encontraremos algo parecido
+com o indicado a seguir:
+Segundo Souza (1983, p. 297, apud Silva, 2025, p. 32), “A tecnologia deve ser guiada por princípios
+éticos que priorizem a dignidade humana acima da eficiência técnica”.
+ou 
+“A tecnologia deve ser guiada por princípios éticos que priorizem a dignidade humana acima da
+eficiência técnica” (Souza, 1983, p. 297, apud Silva, 2025, p. 32).
+- inserção da chamada nas referências, você deve incluir apenas a obra consultada, e ão a obra original. Assim: 
+SILVA, M. Ética na Era da Tecnologia. São Paulo: Techbooks, 2025
+
+-Sistemas de chamada
+ ABNT NBR 10520 (2023), as citações devem ser indicadas no texto por um sistema
+de chamada: ou autor‑data ou numérico. Devemos escolher um (e apenas um) desses dois sistemas
+-sistema autor‑data foi o sistema que utilizamos em todos os exemplos de chamada que fizemos
+até agora.
+
+Pessoa física
+ na chamada, o sobrenome do autor e o
+ano de publicação da obra – e, em caso de citações diretas, o número da página do conteúdo citado. 
+• Exemplo de chamada autor‑data em citação indireta
+A ironia seria assim uma forma implícita de heterogeneidade mostrada, conforme a classificação
+proposta por Authier‑Revuz (1982).
+• Exemplo de chamada autor‑data em citação direta
+“Apesar das aparências, a desconstrução do logocentrismo não é uma psicanálise da filosofia [...]”
+(Derrida, 1967, p. 293).
+
+“[...]” indica que parte do texto original foi omitida na transcrição textual. =>
+encurta a citação, removendo partes não essenciais para o argumento exposto.
+
+Pessoa jurídica
+
+ devemos incluir na chamada o nome completo ou
+a sigla da instituição. ABNT recomenda que sejam utilizadas letras maiúsculas. 
+
+
+• Exemplo de chamada autor‑data com nome completo da instituição jurídica
+“A promoção e proteção da saúde são essenciais para o bem‑estar do homem e para o desenvolvimento
+econômico e social sustentável” (Organização Mundial da Saúde, 2010, p. xi).
+• Exemplo de chamada autor‑data com sigla da instituição jurídica
+“Durante o século XV, os portugueses decidiram que a melhor maneira para prosperar economicamente
+era acabar com o monopólio das cidades italianas, passando a negociar diretamente com o Oriente”
+(IBGE, 2011, p. 3).
+
+
+Instituição governamental
+
+ usar na chamada autor‑data o nome do órgão ou da jurisdição
+ao qual ele pertence
+
+• No texto
+O mecanismo proposto para viabilizar esta concepção é o chamado Contrato de Gestão, que
+conduziria à captação de recursos privados como forma de reduzir os investimentos públicos no ensino
+superior (Brasil, 1995).
+• Na lista de referências
+BRASIL. Ministério da Administração Federal e da Reforma do Estado. Plano diretor da reforma do
+aparelho do Estado. Brasília: Ministério da Administração Federal e da Reforma do Estado, 1995.
+Sem autoria
+Quando houver citações de trabalhos cuja autoria ou responsabilidade não seja explicitada, então
+devemos fazer a chamada autor‑data pelo título da obra. Acompanhe os exemplos a seguir, extraídos
+da ABNT NBR 10520 (2023, p. 5‑6):
+
+• Exemplo de título composto de única palavra
+— No texto:
+“O inglês é uma língua germânica” (Inglês, 2012, p. 7).
+
+— Na lista de referências:
+INGLÊS: guia de conversação. São Paulo: Lonely Planet; Globo Livros, 2012.
+
+• Exemplo de título composto de múltiplas palavras
+— No texto:
+“As IES implementarão mecanismos democráticos, legítimos e transparentes de avaliação sistemática
+das suas atividades, levando em conta seus objetivos institucionais e seus compromissos para com a
+sociedade” (Anteprojeto [...], 1987, p. 55).
+
+— Na lista de referências:
+ANTEPROJETO de lei. Estudos e Debates, Brasília, DF, n. 13, p. 51‑60, jan. 1987
+
+Obras com múltiplos autores => produzidas por dois ou mais autores
+Com menos de 4 autores:
+— No texto:
+De acordo com Souza e Oliveira (2023, p. 45), “a sustentabilidade urbana depende de políticas
+integradas entre o poder público e a sociedade civil”.
+Na lista de referências:
+SOUZA, A.; OLIVEIRA, B. Cidades sustentáveis. 2. ed. São Paulo: Ambiental, 2023.
+com mais de 4:
+— No texto:
+Lima et al. (2024) argumentam que a sustentabilidade hídrica não pode ser dissociada de práticas
+agrícolas responsáveis.
+— Na lista de referências:
+LIMA, A.; SOUZA, B.; OLIVEIRA, C.; SANTOS, D.; PEREIRA, E. Gestão sustentável de recursos hídricos.
+3. ed. Rio de Janeiro: Água, 2024.
+
+
+
+Sistema numérico
+
+chamada ocorre de forma mais discreta, apontando apenas o número da citação (no caso de
+citações indiretas) ou o número da citação e a página (quando citações diretas).
+
+
+• Exemplo de chamada numérica em citação indireta
+— No texto:
+A sustentabilidade hídrica não pode ser dissociada de práticas agrícolas responsáveis4
+.
+Na lista de referências:
+4 LIMA, A.; SOUZA, B.; OLIVEIRA, C.; SANTOS, D.; PEREIRA, E. Gestão sustentável de recursos hídricos.
+3. ed. Rio de Janeiro: Água, 2024.
+
+• Exemplo de chamada numérica em citação direta
+— No texto:
+“No Brasil, o Amapá foi um estado pioneiro no reconhecimento dos direitos territoriais indígenas” (5, p. 30).
+80
+Unidade III
+Na lista de referências:
+⁵ GALLOIS, D. T.; GRUPIONI, D. F. Povos indígenas no Amapá e norte do Pará: quem são, onde estão,
+quantos são, como vivem e o que pensam? São Paulo: lepé, 2005.
+
+Padronização para referências
+
+elementos essenciais => livro e/ou folheto são: autor, título, subtítulo (se houver), edição (se
+houver), local, editora e ano de publicação.
+título: em negrito ou itálico 
+exemplo:
+LUCK, Heloisa. Liderança em gestão escolar. 4. ed. Petrópolis: Vozes, 2010.
+
+GOMES, A. C.; VECHI, C. A. Estática romântica: textos doutrinários comentados. São Paulo: Atlas, 1992.
+
+
+trabalhos acadêmicos, elementos considerados essenciais são: autor, título, subtítulo (se
+houver), ano de depósito, tipo do trabalho (tese, dissertação, trabalho de conclusão de curso e outros),
+grau (especialização, doutorado, entre outros) e curso entre parênteses, vinculação acadêmica, local e
+data de apresentação ou defesa.
+
+AGUIAR, André Andrade de. Avaliação da microbiota bucal em pacientes sob uso crônico de penicilina
+e benzatina. 2009. Tese (Doutorado em Cardiologia) – Faculdade de Medicina, Universidade de São
+Paulo, São Paulo, 2009.
+
+ALVES, Daian Péricles. Implementação de conceitos de manufatura colaborativa: um projeto virtual.
+2008. Trabalho de Conclusão de Curso (Bacharelado em Engenharia Industrial Mecânica) – Universidade
+Tecnológica Federal do Paraná, Curitiba, 2008.
+
+-Para documentos online, além dos elementos essenciais para documentos monográficos, devemos
+registrar o endereço eletrônico, precedido da expressão “Disponível em:” e a data de acesso sob o uso
+da expressão “Acesso em:”:
+
+BAVARESCO, Agemir; BARBOSA, Evandro; ETCHEVERRY, Katia Martin (org.). Projetos de filosofia. Porto
+Alegre: EDIPUCRS, 2011. E‑book. Disponível em: https://tinyurl.com/2wcd3783. Acesso em: 21 ago. 2011.
+
+SAYERS, R. Principles of awareness‑raising: for information literacy, a case study. Bangkok: Unesco
+Bangkok, 2006. Disponível em: https://tinyurl.com/yc6ednbn. Acesso em: 23 abr. 2010.
+
+
+-publicação periódica, artigo, comunicação, editorial,
+entrevista, recensão, reportagem, resenha e outros. Os artigos científicos, por exemplo, se enquadram aqui
+essenciais, nesse caso, são: autor, título do artigo ou da matéria, subtítulo (se houver),
+título do periódico, subtítulo (se houver), local de publicação, numeração do ano e/ou volume, número
+e/ou edição, tomo (se houver), páginas inicial e final, e data ou período de publicação.
+Exemplo:
+O destaque em negrito ou itálico deve ser feito ao título do periódico. Veja os exemplos:
+DOREA, R. D.; COSTA, J. N.; BATITA, J. M.; FERREIRA, M. M.; MENEZES, R. V.; SOUZA, T. S. Reticuloperitonite
+traumática associada à esplenite e hepatite em bovino: relato de caso. Veterinária e zootecnia, São
+Paulo, v. 18, n. 4, p. 199‑202, 2011. Supl. 3.
+
+
+
+
+
+Artigo, seção e/ou matéria de publicação periódica em meio eletrônico
+
+obedecer aos padrões indicados para artigo e/ou matéria de publicação
+periódica, acrescidos do DOI (se houver) e de informações relativas à descrição
+física do meio eletrônico (CD‑ROM, DVD e outros).
+
+
+VIEIRA, Cássio Leite; LOPES, Marcelo. A queda do cometa. Neo Interativa, Rio de Janeiro, n. 2,
+inverno 1994. 1 CD‑ROM.
+
+
+SILVA, M. M. L. Crimes da era digital. Net, Rio de Janeiro, nov. 1998. Seção Ponto de Vista. Disponível
+em: https://tinyurl.com/yckbrh2j. Acesso em: 28 nov. 1998.
+WINDOWS 98: o melhor caminho para atualização. PC World, São Paulo, n. 75, set. 1998. Disponível em:
+http://www.idg.com.br/abre.htm. Acesso em: 10 set. 1998.
+DANTAS, José Alves et al. Regulação da auditoria em sistemas bancários: análise do cenário internacional
+e fatores determinantes. Revista Contabilidade & Finanças, São Paulo, v. 25, n. 64, p. 7‑18, jan./abr. 2014.
+DOI: http://dx.doi.org/10.1590/S1519‑70772014000100002. Disponível em: https://tinyurl.com/24wv5h3d.
+Acesso em: 20 maio 2014.
+
+Documento de acesso exclusivo em meio eletrônico
+
+Os elementos essenciais são: autor, título da informação ou serviço ou produto, versão ou edição
+(se houver), local, data e descrição física do meio eletrônico.
+
+ documento online, além dos elementos essenciais, devemos registrar o endereço
+eletrônico, precedido da expressão “Disponível em:”, e a data de acesso, precedida da expressão “Acesso
+em:”. Veja os exemplos:
+APPLE. OS X El Capitan. Versão 10.11.6. [Cupertino]: Apple, c2017. 1 CD‑Rom.
+FUNDAÇÃO BIBLIOTECA NACIONAL (Brasil). BNDIGITAL I: Coleção Casa dos Contos. Rio de Janeiro,
+23 fev. 2015. Facebook: bibliotecanacional.br. Disponível em: https://tinyurl.com/yc44tvn2. Acesso
+em: 26 fev. 2015.
+
+
+Catálogos de consulta de obras de interesse acadêmico
+ https://minhabiblioteca.com.br/.
+Biblioteca Virtual da Pearson Higher Education
+
+Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) é um repositório destinado à busca de
+monografias relativas a trabalhos de pós‑graduação stricto sensu
+BDTD é composta
+de trabalhos de mais de uma centena de instituições do Brasil, como a Universidade de São Paulo (USP),
+a Universidade Estadual de Campinas (Unicamp), diversas universidades federais e alguns grupos de
+universidades particulares.
+desenvolvida e é coordenada pelo Instituto Brasileiro de Informação em Ciência e
+Tecnologia (Ibict)
+
+ Portal de periódicos da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes) é
+um grande acervo científico virtual do país. Ele reúne e disponibiliza conteúdos de interesse científico
+a instituições de ensino e de pesquisa do Brasil
+
+
+Detecção de plágio
+De acordo com Krokoscz (2015, p. 14), “o plágio é entendido como uma modalidade de fraude,
+caracterizado pela apropriação de obra alheia, na qual estão envolvidos basicamente dois sujeitos: o
+autor original e o plagiário reprodutor”
+consiste na indevida apropriação, parcial ou integral, do conteúdo de terceiros.
+
+• Plágio direto: consiste na reprodução literal de uma obra original, sem identificação da fonte.
+Desse modo, o autor que publica a obra plagiada “finge” que aquela sequência de palavras é sua,
+e não da fonte original.
+• Plágio indireto: consiste na reprodução de ideia de uma obra original sem identificação da fonte,
+mas com palavras diferentes. Nesse caso, o autor que publica a obra plagiada “finge” que a ideia
+é sua, e não do autor original.
+88
+Unidade III
+• Plágio mosaico: é definido como a reprodução de trechos de obras diferentes misturados com
+outras palavras, para que o texto final tenha sentido.
+• Plágio consentido: consiste na apresentação de trabalhos como próprios, mas que foram cedidos
+por terceiros (como amigos ou colegas), ou mesmo que tenham sido comprados.
+• Autoplágio: é definido pela reprodução de trabalhos próprios já publicados em outras
+circunstâncias, mas que são publicados novamente como trabalhos originais. Nesse caso, não há
+terceiros envolvidos, mas a originalidade do trabalho, ainda assim, é comprometida
+
+Ferramentas de detecção de plágio
+
+O CopySpider é um software que pode ser utilizado para verificar a existência de cópia indevida em
+um trabalho acadêmico ou em qualquer outro texto. Para uso pessoal, a licença freeware garante uso
+gratuito da ferramenta. comparar o arquivo de entrada (aquele que queremos
+verificar) com outros documentos disponíveis na internet.
+
+Plagium é um verificador de similaridade que pode ser utilizado online. Em sua versão gratuita,
+possibilita a inserção de um texto de entrada (texto a ser verificado) na caixa disponível na página
+inicial.
+
+SafeAssign é um verificador de originalidade administrado pela Anthology Inc e integrado à
+plataforma Blackboard. O SafeAssign utiliza um algoritmo capaz de detectar correspondências diretas e
+indiretas entre um documento de entrada e um material a ele comparado.
+comparado não apenas a documentos disponíveis na internet, mas também
+a um banco de dados institucional que, geralmente, é alimentado com outros trabalhos acadêmicos da
+mesma instituição.
