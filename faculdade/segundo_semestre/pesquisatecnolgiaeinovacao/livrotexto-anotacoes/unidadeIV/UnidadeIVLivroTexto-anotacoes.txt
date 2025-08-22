@@ -1,0 +1,177 @@
+UnidadeIVLivroTexto-anotacoes
+
+PESQUISA, INOVAÇÃO E PRÁTICA DE MERCADO
+-pesquisa → inovação → prática de mercado.
+
+-Pesquisa => falando especificamente da pesquisa científica: atividade sistemática voltada ao aumento do conhecimento científico em determinada área. 
+pesquisa básica => ampliar o conhecimento científico de sua área, sem se
+preocupar com uma aplicação prática imediata.
+pesquisa pode ou não levar a uma inovação
+
+-Inovação =>Segundo Vasconcellos (2021, p. 28), pode ser definida como “uma ideia
+que sofreu alguma ação, com resultados positivos para todas as partes interessadas”
+tipos básicos de inovação:
+• Inovação baseada na ciência: nesse tipo de inovação, os conhecimentos são adquiridos ou por atividades próprias de pesquisa ou pela absorção do conhecimento científico gerado externamente.
+• Inovação baseada na prática: aqui, a criação de conhecimento acontece nos locais de trabalho, a partir das experiências pessoais, das observações e das interações que ocorrem nas atividades diárias de todos os indivíduos.
+
+- Cordaro (2024), a demanda é considerada a principal motivação para uma inovação,
+por trazer uma necessidade que precisa de solução.
+
+- inovações são, geralmente impulsionadas por demandas.
+
+-pesquisa é mandatória para a inovação.
+
+--Prática de mercado => ampla utilização das inovações no mercado, abrangência
+da incorporação das inovações geradas nas práticas das empresas, das fábricas, das indústrias ou das organizações.
+
+-Exemplos gerais de inovações
+
+Vacinas de mRNA
+
+plataforma promissora para o desenvolvimento de vacinas contra diversos agentes infeccioso
+contribuíram muito com o combate à pandemia de Covid‑19
+2020: 1 aprovação de uma vacina de mRNA, da Moderna e Pfizer/BioNTech.mRNA.
+vantagens: simplicidade de fabricação, o baixo custo de produção e a
+rápida capacidade de produção mRNA foi descoberto na década
+de 1960 e já na década de 1970 começou a ser pesquisado para a utilização em vacinas.
+
+ ácido desoxirribonucleico (DNA) é uma molécula presente no núcleo de todas as células de
+qualquer ser vivo (com exceção de alguns vírus). A função dele é armazenar as informações genéticas
+do ser e transmiti‑las ao ácido ribonucleico (RNA).
+O RNA, por sua vez, é responsável pela síntese das proteínas que formam todas as células do ser vivo,
+a partir das informações armazenadas no DNA. Há três tipos de RNA que participam desse processo de
+síntese, sendo que um deles é o RNA mensageiro (mRNA).
+
+Antes da produção de vacinas de mRNA, todas as vacinas eram produzidas a partir de uma parte de
+um agente infeccioso específico (como um vírus) morto ou atenuado. 
+
+Vacinas de mRNA são feitas a partir de um mRNA sintético, que corresponde a uma proteína do
+agente infeccioso
+
+Crispr/Cas9 => tecnologia teve um impacto revolucionário nas
+ciências da vida, o que contribui para a geração de novas terapias contra o câncer e pode ajudar a curar doenças hereditárias
+edição genética é um tipo de engenharia genética que possibilita que genes sejam inseridos,
+substituídos ou removidos do código genético. O Crispr/Cas9 é uma dessas técnicas.
+A ideia de que era
+possível “cortar” material genético nasceu na década de 1960
+s 1990 e 2000, duas outras técnicas se favoreceram desse
+princípio
+
+Soja tropicalizada
+
+O aumento da produção de soja também incentivou o desenvolvimento de maquinário agrícola, a
+melhora do sistema de transporte e de armazenagem e contribuiu com a urbanização do país.
+foram possíveis graças à pesquisa produzida por uma rede de
+cientistas empenhados em desenvolver uma soja adaptada ao clima do Brasil.
+
+INOVAÇÕES COMPUTACIONAIS ORIUNDAS DE PESQUISAS CIENTÍFICAS
+
+Carvalho e Lorena (2017), boa parte dos recursos de computação que utilizamos
+hoje surgiram de ideias e de inovações geradas em universidades e em centros de pesquisa.
+
+outras áreas do conhecimento fazem uso intenso da computação para simulação de problemas, de situações e de possíveis soluções, e realização de experimentos.
+
+Exemplos de inovações na área de hardware
+
+Carvalho e Lorena (2017) definem o termo hardware como a parte material, física e tocável de um sistema computacional. (o monitor de vídeo, o teclado, os dispositivos de memória, os fios, o processador e as placas.) 
+
+Transistor => circuitos de processamento de dados dos computadores usam dispositivos que atuam como interruptores, ou seja, dispositivos que funcionam em dois estados – ou ligado ou desligado.
+1947, os físicos John Bardeen e Walter Brattain, pesquisadores da Bell Labs, construíram o
+primeiro transistor operacional.
+transistor é um dispositivo eletrônico de três
+terminais capaz de realizar as mesmas funções que a válvula, atuando como interruptor eletrônico ou
+como amplificador de sinais.
+ transistor propiciou que esses componentes fossem usados em grandes
+quantidades e com vasta confiabilidade
+
+Circuitos integrados
+
+1960 => circuito
+integrado. Ele consiste em um bloco (hoje em dia, uma lâmina) de material semicondutor, no qual são
+construídos diversos dispositivos já conectados entre si, dispensando as soldas e os fios. 
+
+ 1957, Dummer
+construiu um flip‑flop sobre um bloco sólido de semicondutor. Um flip‑flop é um dispositivo formado
+por alguns transistores e outros componentes, que funciona como memória de 1 bit.
+
+circuitos integrados são largamente utilizados na indústria de computadores, e são popularmente
+conhecidos como chips. Eles permitiram a miniaturização dos componentes, favorecendo que cada
+vez mais dispositivos
+
+Exemplos de inovações na área de software
+
+O software, portanto, é a parte lógica, não palpável,
+de um sistema de computação
+
+programa faz é receber, manipular e gerar dados, usa uma linguagem de programação( sequência de instruções que propiciam a realização de uma tarefa específica. desencadeiam uma série de operações na máquina, ou seja, no
+hardware, que fazem com que a tarefa desejada seja concretizada.) para q o pc possa entender.  
+
+Linguagem C
+
+linguagem C é uma das mais bem‑sucedidas linguagens de alto nível
+alto nível aquela que
+possui um nível de abstração relativamente elevado, que está mais próximo
+da linguagem humana do que do código de máquina
+criada em 1972
+
+utilizada aplicações q exigem alto
+desempenho, alto controle de hardware ou eficiência de recursos
+
+ linguagem BCPL foi criada pelo cientista Martin Richards, na
+Universidade de Cambridge, em 1966, para  desenvolvimento de compiladores.
+
+a linguagem B foi implementada por Ken Thompson e Dennis Ritchie, na Bell Labs,
+em 1969. Ela foi criada como uma simplificação da BCPL,
+
+a linguagem C foi desenvolvida como a sucessora da B. Ela também foi criada para ser compacta e
+eficiente, mas oferecia vários tipos de dados e de estruturas de controle, recursos não oferecidos pela B.
+
+relacionada ao sistema operacional Unix, que foi
+originalmente desenvolvido em Assembly (que é uma linguagem de baixo nível) por Ritchie e Thompson. 
+
+1972, foi concluído um compilador para a linguagem C, e, nesse mesmo ano, o sistema operacional
+Unix foi reescrito em C
+
+World Wide Web
+
+1989, o físico britânico Tim Berners‑Lee trabalhava como engenheiro
+de software no grande laboratório de física de partículas Cern 
+desenvolveu e apresentou a seu chefe o documento Information
+Management: a proposal, que revolucionaria a comunicação humana. O documento propunha a
+criação da World Wide Web (WWW)
+Hypertext Markup Language (HTML): trata‑se de uma linguagem utilizada para descrever e
+formatar documentos que seriam exibidos nos aplicativos de visualização da Web, os browsers.
+• Uniform Resource Identifier (URI): consiste em um sistema de endereçamento de páginas
+que possibilita dar um nome único a qualquer página da Web, como, por exemplo, www.unip.br.
+Atualmente, esse sistema é referenciado como Uniform Resource Locator (URL).
+• Hypertext Transfer Protocol (HTTP): trata‑se de um protocolo de comunicação entre os browsers
+(clientes) e os computadores que disponibilizam acesso às páginas (servidores).
+
+Redes neurais
+
+aprendizado de máquina refere‑se a um ramo da inteligência artificial
+voltada a possibilitar que computadores “imitem” a maneira como os seres humanos aprendem.
+consiste em um modelo computacional de aprendizado de máquina
+que toma decisões de modo semelhante ao cérebro humano, processos que simulam a
+maneira como neurônios biológicos funcionam.
+
+é constituída de camadas de neurônios artificiais, que são chamados de nós.
+Uma rede neural tradicional é formada por uma camada de entrada, por pelo menos uma camada
+intermediária e por uma camada de saída. Cada nó se conecta a outro e apresenta as características de
+peso e de limiar. Quando a saída de um nó individual fica acima do valor de limiar, há a ativação do nó,
+que faz com que os dados sejam enviados à próxima camada da rede (IBM, [s.d.]).
+
+ChatGPT ou o DeepSeek, também usam redes neurais em seus algoritmos para a geração de texto.
+
+algoritmo de busca do Google incorpora redes neurais em seus subsistemas
+
+ redes neurais ocorreram entre 1943 e 1958
+
+o Python é uma das linguagens de programação mais relevantes para o desenvolvimento
+e a pesquisa em redes neurais, graças ao seu ecossistema de bibliotecas especializadas, à comunidade
+ativa e à integração com ferramentas de alto desempenho.
+
+
+
+
+
