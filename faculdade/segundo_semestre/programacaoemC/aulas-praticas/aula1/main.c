@@ -1,15 +1,16 @@
+// Aula 1
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 
 int main()
 {
-    float valor1, valor2, valor3, total;
+    printf("Olï¿½, mundo!\n")
 
+    float valor1, valor2, valor3, total;
     valor1 = 12.6;
     valor2 = 3.4;
     valor3 = 6.2;
-
     total = valor1 + valor2 + valor3;
     printf("Total: %.2f \n", total);
 
@@ -44,7 +45,7 @@ int main()
     printf("Digite sua idade: ");
     scanf("%d", &age);
 
-    printf("oLá, %s! Você tem %d anoa.\n", name, age);
+    printf("oLï¿½, %s! Vocï¿½ tem %d anoa.\n", name, age);
 
     return 0;
 }

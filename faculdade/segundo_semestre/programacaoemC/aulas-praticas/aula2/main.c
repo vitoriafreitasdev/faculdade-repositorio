@@ -1,3 +1,4 @@
+// aula 2
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -9,10 +10,10 @@ int main()
     int a = 10, b = 3;
 
     printf("Soma: %d\n", a + b);
-    printf("Subtração: %d\n", a - b);
-    printf("Multiplicação: %d\n", a * b);
-    printf("Divisão: %d\n", a / b);
-    printf("Resto da divisão: %d\n", a % b);
+    printf("Subtraï¿½ï¿½o: %d\n", a - b);
+    printf("Multiplicaï¿½ï¿½o: %d\n", a * b);
+    printf("Divisï¿½o: %d\n", a / b);
+    printf("Resto da divisï¿½o: %d\n", a % b);
 
     //
 
@@ -37,7 +38,7 @@ int main()
 
     printf("a > 0 E b > 0: %d\n",(A > 0) && (B > 0));
     printf("a > 0 OU b < 0: %d\n", (A > 0) || (B < 0));
-    printf("NÂO (a > b): %d\n", !(A > B));
+    printf("Nï¿½O (a > b): %d\n", !(A > B));
 
     //
 
@@ -56,9 +57,9 @@ int main()
 
     media = (n1 + n2 ) / 2;
 
-    printf("\Olá, %s!\n", name);
-    printf("Média: %.2f\n", media);
-    printf("Média >= 7? %d\n", media >= 7);
+    printf("\Olï¿½, %s!\n", name);
+    printf("Mï¿½dia: %.2f\n", media);
+    printf("Mï¿½dia >= 7? %d\n", media >= 7);
     printf("Idade < 18? %d\n", age < 18);
 
     return 0;
