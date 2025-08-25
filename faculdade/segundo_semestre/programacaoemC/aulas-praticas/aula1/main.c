@@ -5,7 +5,7 @@
 
 int main()
 {
-    printf("Ol�, mundo!\n")
+    printf("Ola, mundo!\n");
 
     float valor1, valor2, valor3, total;
     valor1 = 12.6;
@@ -45,7 +45,7 @@ int main()
     printf("Digite sua idade: ");
     scanf("%d", &age);
 
-    printf("oL�, %s! Voc� tem %d anoa.\n", name, age);
+    printf("oLa, %s! Voce tem %d anos.\n", name, age);
 
     return 0;
 }

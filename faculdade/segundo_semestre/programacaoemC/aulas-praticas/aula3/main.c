@@ -12,7 +12,7 @@ int main()
         scanf("%d", &idade);
 
         if(idade >= 18){
-            printf("Voc� � maior de idade.\n");
+            printf("Voce e maior de idade.\n");
         }
 
         //
@@ -52,7 +52,7 @@ int main()
         if (nota >= 7){
             printf("Aprovado.\n");
         } else if (nota >= 5){
-            printf("Em recupera��o.\n");
+            printf("Em recuperacao.\n");
         } else {
             printf("Reprovado.\n");
         }
@@ -89,7 +89,7 @@ int main()
         } else if (average >= 7){
             printf("Aprovado, mas ainda pode melhorar.");
         } else {
-            printf("Reprovado. Continue se esfor�ando!");
+            printf("Reprovado. Continue se esforcando!");
         }
 
 
