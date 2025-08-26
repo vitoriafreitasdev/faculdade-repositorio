@@ -1,0 +1,138 @@
+unidadeI-anotacoes
+
+1 INTRODUÇÃO A ALGORITMOS, LINGUAGEM PYTHON E ESTRUTURAS DE DADOS
+
+Python => clareza e simplicidade
+
+-algoritmo => sequência finita de passos bem definidos, projetados
+para resolver um problema ou executar uma tarefa específica. 
+desde de operações
+matemáticas simples, como somar dois números, até processos mais complexos, como ordenar grandes
+volumes de dados ou realizar buscas em estruturas de informação
+
+-estruturas de dados => maneiras de organizar, armazenar e manipular os dados necessários para que algoritmos sejam executados
+de maneira eficiente.
+
+-relevância dos algoritmos => capacidade de automatizar processos, reduzindo
+o esforço humano necessário para realizar tarefas repetitivas ou complicadas
+
+-desempenham papel em todos os campos da tecnologia moderna, desde o aprendizado de máquina e a
+inteligência artificial até a gestão de bancos de dados e os sistemas operacionais
+
+-escolha de algoritmos => significar a diferença entre uma aplicação funcional e eficiente e outra que consome
+recursos desnecessários ou apresenta baixo desempenho.
+
+-Estruturas de dados: fornecer os meios para que informações
+sejam organizadas e acessadas de maneira eficiente. Com a correta operações( busca, inserção, remoção ou ordenação de dados) podem ser realizadas com maior rapidez, com economia de tempo e recursos computacionais.
+
+- Big‑O  => instrumentos mais utilizados para descrever
+a complexidade de algoritmos, pois oferece uma forma padronizada de expressar o comportamento
+de uma solução conforme o tamanho do conjunto de dados aumenta.
+essencial: aplicações que lidam com grandes volumes de dados, nos quais pequenas diferenças
+na eficiência podem ter impactos significativos.
+
+- Big O => a ferramenta essencial para descrever o comportamento
+de algoritmos em termos de complexidade de tempo e espaço. Usa símbolos matemáticos
+para expressar como o desempenho de um algoritmo escala em relação ao tamanho do conjunto de
+entrada. O(1) indica que o tempo de execução é constante, independentemente do tamanho
+da entrada
+O(n), por outro lado, indica que o tempo de execução aumenta linearmente com
+o tamanho da entrada, como em busca linear
+
+#Conceitos fundamentais: o que são algoritmos e estruturas de dados e
+como utilizar a linguagem Python
+
+-algoritmo =>  comparado a uma receita de cozinha,  descreve, passo a passo, o que deve ser feito para preparar um prato, um algoritmo apresenta
+uma sequência clara e ordenada de instruções para resolver um problema ou realizar uma tarefa.  pode ser encontrado em diversas situações diárias.
+exemplo, quando alguém explica como chegar a um local desconhecido, descrevendo o caminho em
+etapas, está, na prática, criando um algoritmo. 
+
+- na computação =>  é um conjunto de instruções que um computador pode
+seguir para realizar uma operação específica
+
+ maneira mais técnica, um algoritmo pode ser definido como uma sequência finita, ordenada e
+bem definida de instruções que, ao serem executadas, resolvem um problema específico ou realizam
+uma tarefa. 
+fundamenta‑se em princípios de lógica matemática e de estruturação computaciona
+
+-algoritmo deve atender a certas propriedades
+
+• Finitude: um algoritmo deve sempre terminar após um número finito de passos. Ele não pode
+continuar indefinidamente, a menos que seja projetado especificamente para isso
+• Precisão: cada passo de um algoritmo precisa ser bem definido, ou seja, sem ambiguidades.
+O computador (ou o executor humano) deve ser capaz de compreender e executar cada etapa
+exatamente como descrita.
+• Entrada: um algoritmo recebe zero ou mais entradas, que são os dados iniciais necessários para
+começar o processamento.
+• Saída: um algoritmo produz uma ou mais saídas, que são os resultados esperados após a execução
+das instruções.
+• Eficácia: cada instrução do algoritmo deve ser suficientemente básica para que possa ser
+executada em tempo finito, utilizando recursos computacionais disponíveis.
+
+ Ele é geralmente descrito em forma de
+pseudocódigo ou de fluxograma antes de ser traduzido para código executável, o que facilita sua
+compreensão e sua análise.
+
+Para ilustrar, considere o problema clássico de determinar se um número inteiro é par ou ímpar.
+Um algoritmo técnico para resolver esse problema pode ser descrito assim como segue.
+• Receber um número inteiro como entrada.
+• Dividir o número por 2 e calcular o resto (operação de módulo).
+• Se o resto for igual a 0, o número será par.
+• Caso contrário, o número será ímpar.
+• Retornar o resultado (par ou ímpar).
+O pseudocódigo desse algoritmo seria como vemos a seguir.
+Entrada: número inteiro `n`
+Se (n % 2 == 0):
+Retornar “Par”
+Senão:
+Retornar “Ímpar”
+
+análise mais técnica também inclui a eficiência do algoritmo, que é avaliada em termos de sua
+complexidade de tempo e espaço.
+
+exemplo anterior, a complexidade de tempo é O(1), porque
+a operação de módulo é executada em tempo constante, independentemente do tamanho da entrada. 
+ é verdade que, em uma execução prática, verificar se
+o número 2 é par será ligeiramente mais rápido do que verificar se o número 10 bilhões é par. Entretanto,
+essa diferença, no contexto da complexidade computacional, não é relevante ou significativa o suficiente
+para alterar a classificação.
+
+complexidade O(1) não significa que o algoritmo levará exatamente o mesmo número de
+nanossegundos ou ciclos do processador independentemente do tamanho exato da entrada. Em vez
+disso, é que o número de passos fundamentais do algoritmo não aumenta conforme
+a entrada cresce. É o número de operações básicas, como somar, dividir ou testar uma condição simples,
+que permanece constante. 
+
+
+-Python é uma linguagem de programação de alto nível
+Criada por Guido van Rossum na década de 1990, Python é usada em diversas áreas, como
+desenvolvimento web, ciência de dados, inteligência artificial e automação de tarefas.
+ ela é interpretada, o que significa que seu código não precisa ser
+compilado antes de ser executado
+
+-Essa flexibilidade caracteriza a tipagem
+dinâmica: não é necessário declarar antecipadamente o tipo de dado, pois Python identifica
+automaticamente se a variável conterá números, textos, listas ou outros objetos.
+
+o conceito de função, que é um bloco de código nomeado,
+responsável por encapsular operações reutilizáveis e separar responsabilidades
+
+síntese, variáveis fornecem meios de nomear e manipular dados ao longo da execução,
+enquanto funções promovem a organização do código em módulos concisos e reutilizáveis.
+
+laço while repete um bloco
+enquanto uma condição permanecer verdadeira. No trecho a seguir, o código solicita ao usuário que
+digite a palavra sair para interromper o processo:
+
+comando = “”
+while comando != “sair”:
+	comando = input(“Digite ‘sair’ para encerrar: “)
+print(“Programa encerrado”)
+
+A observância rigorosa da indentação é imprescindível: qualquer desalinhamento gera erro de
+sintaxe, impedindo a execução do programa. Em caso de recuos inconsistentes, Python sinaliza
+IndentationError, indicando que foi encontrada uma posição inesperada. 
+
+
+
+

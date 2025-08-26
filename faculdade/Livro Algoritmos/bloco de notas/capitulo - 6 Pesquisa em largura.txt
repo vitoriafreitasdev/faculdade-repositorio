@@ -7,3 +7,23 @@ capitulo - 6 Pesquisa em largura
 -- Grafos => um conjunto de conexões - é constituído por vértices e arestas 
 
 -- quando uma vértice esta conectada a outra vértices => se chama: vizinhos.
+
+-- grafos são maneira de modelar como eventos diferentes estão conectados em si
+
+
+#pesquisa em largura
+- faz uma pesquisa irradie a partir do ponto inicial, verifica primeiro as conexões de primeiro grau antes das de segundo grau
+- necessario pesquisar na ordem que os itens foran adicionadas, para isso serve as filas
+
+#filas
+-Duas operacoes possiveis: enqueue(adiciona um item na fila), dequeue(retira um item da fila)
+
+fila => first in, first out(fifo)
+pilha => last in, first out(lifo)
+
+-Digrafo(grafo direcionado) => relacao acontece apenas em um sentido
+-grafo não direcionado => não contém setas
+
+ordenação topológica => maneira de criar uma lista ordenada a partir de um grafo
+
+#arvore => tipo de grafo que nenhuma aresta aponta de volta.
