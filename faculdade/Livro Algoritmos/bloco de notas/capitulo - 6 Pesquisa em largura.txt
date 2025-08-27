@@ -1,6 +1,7 @@
 capitulo - 6 Pesquisa em largura
 
 -- Pesquisa em largura => permite encontrar o menor caminho entre dois objetos 
+-- Pesquisa em largura => retorna caminho com menor numero de segmentos
 -- pode se usar para => algoritmo de IA q calcula o menor numero de movimentos para uma vitória em uma partida de damas, criar um  ortográfico, encontrar o medico conveniado ao seu plano de saúde que esta mais próximo de você  
 -- Pesquisa em largura => resolve problemas de caminho mínimo 
 
@@ -27,3 +28,6 @@ pilha => last in, first out(lifo)
 ordenação topológica => maneira de criar uma lista ordenada a partir de um grafo
 
 #arvore => tipo de grafo que nenhuma aresta aponta de volta.
+
+-- voce precisa verificar pessoas na ordem em que foram adicionadas. fila de pesquisa deve ser uma fila, se nao vc nao vai encontrar o caminho minimo
+

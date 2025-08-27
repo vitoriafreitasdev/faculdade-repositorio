@@ -1,0 +1,21 @@
+algoritmo de dijkstra determina menor caminho para grafos ponderados, encontra o caminho mais rapido
+
+- quatro etapas algoritmo de dijkstra:
+1: encontrar vertice mais barato(consegui chegar o mais rapido possivel)
+2:atualize os custos dos vizinhos
+3:repita ate que tenha feito isso para cada vertice do grafo
+4:calculo o caminho final
+
+-aresta com numero associado nela => chama pesos esses numeros
+-um grafo com pesos se chama grafo ponderado(grafo valorado), um grafo sem peso se chama grafo não ponderado(grafo nao valorado) 
+
+- grafo ponderado => algoritmo de dijkstra - grafo nao ponderado => pesquisa em largura
+
+#ciclos 
+indicam que é possivel viajar em uma vertice e retonar para ela
+
+grafo nao direcionado é um ciclo
+
+algoritmo de dijkstra => so funciona em grafos sem ciclos ou com ciclos de peso positivo
+algoritmo de dijkstra => nao funciona com arestas de peso negativo
+para pesos negativos se utiliza => algoritmo de Bellman-ford
