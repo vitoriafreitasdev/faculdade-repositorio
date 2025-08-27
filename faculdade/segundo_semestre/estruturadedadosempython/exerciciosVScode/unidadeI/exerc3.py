@@ -1,3 +1,4 @@
+
 def exibir_menu():
     print("\nMenu:")
     print("1. Adicionar tarefa")
@@ -12,6 +13,7 @@ def adicionar_tarefa(lista_tarefas):
     else:
         lista_tarefas.append({"descricao": tarefa, "concluida": False})
         print(f"Tarefa '{tarefa}' adicionada com sucesso!")
+        print(f"Lista atual: {lista_tarefas}")
 def marcar_concluida(lista_tarefas):
     tarefa = input("Digite a descrição da tarefa a ser marcada como concluída: ").strip()
     for item in lista_tarefas:

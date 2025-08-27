@@ -134,5 +134,174 @@ sintaxe, impedindo a execução do programa. Em caso de recuos inconsistentes, P
 IndentationError, indicando que foi encontrada uma posição inesperada. 
 
 
+--  generator expression é um recurso da Python que permite
+criar coleções de maneira concisa e eficiente. Seu uso evita a necessidade
+de laços explícitos (for) e torna o código mais legível. Em vez de criar e
+armazenar a lista inteira na memória, ele gera os elementos sob demanda,
+economizando espaço. Por exemplo, ao invés de escrever um laço for
+tradicional para criar uma lista de quadrados dos números de 1 a 10,
+podemos usar o generator expression:
+
+ expressão geradora é que os valores não são armazenados
+em uma lista, mas sim calculados conforme necessário. Essa característica
+torna o método muito mais eficiente em termos de uso de memória, 
+
+
+ conceitos de list comprehension e generator expression são recursos
+do Python que evitam a necessidade de laços explícitos (for) e tornam o
+código mais legível. No entanto, há diferenças fundamentais entre eles,
+principalmente no modo como armazenam e processam os dados. A list
+comprehension é uma maneira compacta de criar listas a partir de uma
+sequência de elementos, aplicando transformações e filtragens diretamente
+na declaração da lista. Sua principal característica é que ela retorna
+36
+Unidade I
+uma nova lista contendo todos os elementos gerados pela expressão
+interna. Como o resultado é armazenado diretamente na memória
+
+JSON (JavaScript Object Notation) é um formato de armazenamento e troca de dados que organiza
+informações de maneira estruturada e de fácil leitura, tanto para humanos quanto para computadores. 
+
+utiliza uma estrutura baseada em pares chave‑valor, semelhante a dicionários em Python ou objetos
+em JavaScript,
+
+API (Interface de Programação de Aplicações) é um conjunto de
+regras e definições que permite que diferentes sistemas e programas se
+comuniquem entre si
+
+#1.2 Análise de complexidade: introdução à notação Big‑O e à análise
+de eficiência
+
+auxilia na tomada de decisões sobre qual estratégia de implementação é mais adequada
+para problemas que demandam alto desempenho ou lidam com grandes quantidades de dados
+
+
+o comportamento assintótico refere‑se à forma como uma função se comporta quando seu
+parâmetro tende ao infinito.
+
+
+algoritmos => deseja‑se saber como o tempo de execução
+(ou uso de memória) varia em função do tamanho da entrada, denotado com frequência por 𝑛.
+
+interessa mais a taxa de crescimento desses recursos à medida que 𝑛 aumenta
+
+o Big‑O é a forma mais amplamente utilizada para descrever limites superiores de crescimento
+
+exemplo: algoritmo 𝐴 tem complexidade 𝑂(𝑓(𝑛)) significa que, para entradas
+suficientemente grandes, o tempo de execução de 𝐴 não cresce mais rápido do que uma função
+constante vezes 𝑓(𝑛)
+
+ Se a sala tem 10 alunos, você faz 10 verificações; se tem 100, faz 100
+verificações e assim por diante. Esse é um exemplo de comportamento linear: conforme o número de
+alunos 𝑛 cresce, o trabalho sobe de forma proporcional e por isso dizemos que a tarefa está em 𝑂(𝑛).
+Usando a definição de Big‑O:
+• 𝐴(𝑛) é o tempo para conferir todas as assinaturas.
+• 𝑓(𝑛) pode ser simplesmente n
+
+execução constante, o que significa que não sofrem variação
+perceptível à medida que o tamanho da entrada cresce. São classificados como 0(1). Um exemplo típico
+desse comportamento é o acesso a um elemento específico de um array (ou lista) por índice: teoricamente,
+considera‑se que buscar o valor em uma posição já conhecida tem custo fixo, independentemente de
+quantos elementos existem ao todo.
+
+m algoritmos cujo tempo de execução é logarítmico, especialmente quando
+o tamanho do problema é reduzido pela metade (ou por um fator constante) a cada passo. A busca
+binária em uma lista ordenada é um exemplo clássico: a cada comparação, descarta‑se metade dos
+elementos, o que faz a quantidade de passos crescer de forma proporcional a log  
+
+
+ 𝑂(𝑛 log 𝑛), costuma-se dizer que ele é
+linear‑logarítmico (Merge Sort
+e Quick Sort (na média).)
+
+
+𝑂(𝑛2). Isso é frequente em
+algoritmos que utilizam laços aninhados, como Bubble Sort e Insertion Sort, em que para cada elemento
+da lista é preciso percorrer novamente toda a lista (ou uma fração significativa dela).
+
+
+𝑂(𝑛3
+), que surge em algoritmos
+com tripla aninhada de laços, por exemplo, em métodos básicos de multiplicação de matrizes. Já 𝑂(2𝑛)
+é frequente em algoritmos de força bruta, que testam todas as combinações possíveis para resolver um
+problema de decisão
+
+ 𝑂(𝑛!)  => caixeiro viajante
+
+
+No uso prático, nem sempre o algoritmo assintoticamente mais rápido é o mais indicado. Para
+entradas pequenas, métodos 𝑂(𝑛2
+) podem superar outros 𝑂(𝑛 log 𝑛) devido a fatores como constantes
+menores de tempo ou melhor uso de cache. É por isso que engenheiros e cientistas da computação
+realizam não apenas análise teórica, mas testes empíricos (microbenchmarks) para embasar suas
+decisões. 
+
+
+Big‑O é uma forma de medir e comparar a eficiência de algoritmos ao analisar
+como o tempo de execução (ou uso de memória) cresce conforme aumenta o tamanho da entrada
+
+2 ESTRUTURAS DE DADOS LINEARES
+
+organizam os elementos em
+uma sequência ordenada, na qual cada item possui um predecessor e um sucessor (exceto o primeiro e
+o último). 
+elementos são acessados de maneira sequencial, respeitando
+a ordem na qual foram inseridos. Diferentemente das estruturas não lineares, como árvores e grafos,
+que permitem múltiplas conexões entre os elementos, as estruturas lineares mantêm uma relação direta
+entre os itens, o que facilita a manipulação e o processamento dos dados.
+
+
+permite a realização de operações como pesquisa, inserção e remoção
+com base na posição dos elementos. Em listas e arrays, por exemplo, o acesso a um item pode ser feito
+por meio de um índice numérico, garantindo eficiência quando a posição do elemento é conhecida.
+No entanto, a inserção e a remoção em determinadas posições podem exigir deslocamentos de outros
+elementos, o que impacta o desempenho dependendo da implementação utilizada.
+
+
+pilhas e filas são classificadas como estruturas lineares porque
+seguem uma ordem específica de inserção e remoção.
+
+LIFO (Last In, First Out) para pilhas e FIFO (First In, First Out) para listas
+
+Quando há necessidade de relacionamentos hierárquicos entre elementos
+ou múltiplas conexões, como acontece em árvores e grafos, as estruturas não lineares tornam‑se mais
+apropriadas. Contudo, para armazenar e processar dados de forma sequencial, as estruturas lineares
+continuam sendo uma das abordagens mais eficientes e amplamente utilizadas na computação.
+
+Listas são adequadas para armazenamento genérico de elementos
+heterogêneos, enquanto arrays são preferíveis para manipulação eficiente de dados homogêneos.
+Pilhas são úteis em problemas que exigem rastreamento de estados anteriores, como a execução de
+chamadas recursivas e o gerenciamento de histórico de navegação. Filas, por sua vez, são empregadas
+em sistemas que necessitam de processamento sequencial de requisições, como filas de impressão
+e algoritmos de escalonamento
+
+2.1 Listas e arrays: manipulação, pesquisa, inserção e remoção
+
+Função Descrição
+datetime.now() Retorna a data e a hora atuais do sistema
+timedelta(seconds=n) Cria um intervalo de ‘n’ segundos, utilizado para manipulação de datas e horários
+sum(iterável) Calcula a soma dos elementos de um iterável (como listas e dicionários)
+for elemento in iterável Itera sobre os elementos de um iterável, executando um bloco de código para cada item
+dicionario[chave] Acessa o valor correspondente a uma chave dentro de um dicionário
+dicionario[‘chave’] = valor Atribui um valor a uma chave específica dentro de um dicionário
+
+range(início, fim)
+Gera uma sequência de números inteiros, incluindo o valor inicial e excluindo o valor final.
+No código, é usado implicitamente no for i in range(1, qtd_registros + 1)
+para gerar os identificadores dos registros
+random.choice(sequência) Retorna um elemento aleatório de uma sequência, como uma lista. No código, é usado
+para escolher aleatoriamente um id_dispositivo
+registros[-1] Acessa o último elemento da lista registros
+timedelta(minutes=n) Cria um intervalo ‘n’ minutos, utilizado para cálculos com datas e horas. Já havia sido usada
+com segundos, mas aqui há o uso específico de minutos
+
+
+pag 72
+
+
+
+
+
+
 
 
