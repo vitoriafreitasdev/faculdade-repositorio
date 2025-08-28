@@ -43,4 +43,3 @@ try:
 except ValueError as e:
     print(f"Erro {e}")
 
-# parei na pagina 30
