@@ -1,3 +1,4 @@
+
 import time
 import random
 from collections import deque  # estrutura FIFO eficiente em memória
