@@ -1,0 +1,12 @@
+ideias de algoritmo pro python
+
+
+arvore binaria => vai analisar os remédios:
+ser for seguro de administrar, sem efeito colateral, eficaz. => probabilidade alta de passar pra fase dois 
+se for seguro de administrar, com efeito colateral, porem suportável, eficaz => probabilidade media de passar para fase 2
+seguro, efeito colateral alto,  eficaz => baixa.
+não é seguro, efeito colateral alto insuportável, não eficaz => não passa. 
+
+grafos => contendo: remédios, que passaram para fase 2, remédios médios, baixos e que não passaram 
+
+menu interativo para pegar os dados.

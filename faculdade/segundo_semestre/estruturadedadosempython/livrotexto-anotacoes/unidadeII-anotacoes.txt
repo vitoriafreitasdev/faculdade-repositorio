@@ -1,0 +1,343 @@
+unidadeII-anotacoes
+
+estruturas de dados não lineares diferenciam‑se das lineares pela ausência de organização sequencial,
+permitindo modelar relacionamentos mais complexos entre elementos
+as árvores
+representam hierarquias de forma intuitiva. Cada árvore é composta por nós interligados por arestas, tendo
+um nó raiz que origina ramificações
+árvore binária em Python, costuma‑se definir uma
+classe que armazena o valor do nó e referências para o filho esquerdo e para o filho direito.
+
+travessias de árvores binárias configuram‑se como procedimentos fundamentais para acesso e
+manipulação de dados: na travessia em pré‑ordem visita‑se primeiro o nó atual, após o qual ocorre a
+exploração recursiva do filho esquerdo e, em seguida, do filho direito;
+
+ travessia em ordem realiza‑se
+a recursão pelo filho esquerdo antes de visitar o nó e somente depois prossegue‑se para o filho direito; na
+travessia em pós‑ordem aguarda‑se a conclusão das visitas às subárvores para apenas então processar o
+nó. Cada abordagem atende a exigências distintas, viabilizando operações como geração de expressões
+prefixas ou infixas, impressão ordenada de valores e remoção controlada de nós.
+
+s grafos configuram outro tipo de estrutura não linear que modela conjuntos de vértices interligados
+por arestas, sendo empregados em cenários que vão desde redes de transporte até interações em
+redes sociais
+
+representação pode apoiar‑se em uma matriz de adjacência – uma matriz
+bidimensional em que cada célula indica a existência e, opcionalmente, o peso de uma aresta entre dois
+vértices – ou em listas de adjacência, que associam cada vértice a um conjunto de vizinhos. As listas de
+adjacência revelam‑se eficientes em grafos esparsos, reduzindo a ocupação de memória, ao passo que a
+matriz simplifica consultas diretas sobre conexões entre vértices.
+
+apoia-se em travessias por profundidade (DFS) e por largura (BFS). A primeira
+aprofunda‑se ao máximo em cada direção antes de retroceder, sendo frequentemente implementada
+via recursão ou pilha; a BFS utiliza fila para garantir que todos os vértices a uma certa distância sejam
+visitados antes de seguir para a próxima camada do grafo
+
+bons para =>  detecção de ciclos, busca de caminhos mínimos e análise de componentes conectados.
+
+
+
+
+
+3.1 Árvores: conceitos, árvores binárias e travessias (pré-ordem, em ordem
+e pós-ordem)
+
+e origina-se da semelhança entre a estrutura hierárquica do modelo computacional e
+a forma de uma árvore botânica. O nó raiz corresponde à raiz do vegetal, sustentando toda a estrutura; os nós
+intermediários atuam como galhos que se ramificam; e os nós sem filhos assemelham-se às folhas que encerram
+os ramos
+
+árvore de cabeça para baixo enfatiza a ideia de descentralização progressiva: o
+processamento inicia-se pelo elemento raiz e avança sistematicamente pelos níveis subsequentes. Essa
+configuração facilita a visualização de operações como inserção, busca e remoção de nós, pois cada
+ramo pode ser percorrido de modo sequencial,
+
+
+• Percurso em pré‑ordem: visitamos primeiro a raiz S, depois E, em seguida C, depois seu filho A;
+voltamos, visitamos D, depois O e R. Isso produz a sequência de letras S → E → C → A → D → O
+→ R, formando a palavra SECADOR (a pré‑ordem lê a raiz antes dos filhos).
+• Percurso em pós‑ordem: visitamos primeiro todos os descendentes, começando do fundo da
+árvore, temos A (folha à esquerda), depois voltamos e lemos C, então passamos para o ramo de E,
+lendo O seguido de R, depois subimos para ler D e, por fim, a raiz S. A ordem resultante A → C →
+E → O → D → R → S soletra ACEORDS (a pós‑ordem lê a raiz por último).
+
+ usadas em situações que envolvem classificações hierárquicas complexas ou sistemas de
+organização com múltiplos elementos relacionados a um mesmo ponto central. Um exemplo cotidiano
+é a estrutura de diretórios de um sistema operacional. Em um computador, uma pasta pode conter
+diversas subpastas e arquivos, o que exige uma árvore genérica, já que não há limite fixo de quantos
+filhos (itens) um nó (pasta) pode ter.
+
+árvore binária é uma estrutura de dados hierárquica composta por nós, na qual cada nó possui,
+no máximo, dois filhos, denominados filho esquerdo e filho direito. Essa organização permite representar
+relações entre elementos de maneira eficiente, especialmente em algoritmos que envolvem buscas,
+ordenações e hierarquias. A estrutura é formada por um nó principal, chamado raiz, do qual derivam
+outros nós, organizando‑se em subárvores.
+
+ subárvore também é uma árvore binária
+
+: cada nó pode ser considerado
+o início de uma nova árvore, composta por seus dois filhos. Se um nó não possui filhos, ele é chamado de
+nó folha. A profundidade de um nó é definida pela quantidade de arestas entre ele e a raiz. Já a altura
+da árvore corresponde à maior profundidade entre todos os seus nós.
+
+árvore binária
+de busca, por exemplo, mantém os dados organizados de modo que o valor de cada nó seja maior do
+que todos os valores de sua subárvore esquerda e menor do que todos os valores de sua subárvore
+direita
+
+
+árvores balanceadas, como a AVL, ou a árvore rubro‑negra, projetadas para manter
+a altura da árvore controlada mesmo após múltiplas inserções e exclusões, garantindo desempenho
+eficiente e previsível.
+
+sempre visitar primeiro o conteúdo do
+lado esquerdo, depois o conteúdo do próprio nó e, por fim, o conteúdo do lado direito
+
+ele visita os nós em ordem crescente de valores. Isso acontece porque, por definição, os valores
+armazenados na subárvore esquerda de um nó são menores que o valor do nó, e os valores da subárvore
+direita são maiores
+
+aprendizado de máquina
+procura extrair padrões de dados históricos para predizer comportamentos futuros
+=> as árvores
+de decisão surgem como uma técnica intuitiva e eficaz, que facilita a criação de modelos de classificação,
+recomendação e diagnóstico automatizado. Ao representar de maneira gráfica e lógica as regras que
+conduzem cada decisão, elas tornam o processo de entendimento e auditoria do modelo mais transparente.
+
+class NomeDaClasse: Define uma classe em Python, que serve como modelo para criar objetos com atributos e
+comportamentos específicos. No código, é usada para definir nós da árvore de decisão
+def __init__(self,...): Método especial que inicializa uma nova instância da classe. Aqui, define os atributos de cada
+nó da árvore (teste, valor, filho_esquerdo, filho_direito)
+self.atributo Referência a um atributo pertencente à instância atual da classe. Utilizado para armazenar os
+dados de cada nó
+or Operador lógico que retorna o primeiro operando verdadeiro. No código, no.teste or
+no.valor seleciona o conteúdo relevante do nó (teste se for interno, valor se for folha)
+while condição: Estrutura de repetição que executa um bloco de código enquanto a condição for verdadeira.
+No código, é usada para percorrer a árvore até alcançar uma folha durante a classificação
+dict[chave] Acessa o valor correspondente a uma chave em um dicionário. No código, é utilizado para
+acessar atributos do paciente durante a decisão
+enumerate(iterável,
+start=1)
+Gera pares (índice, elemento) ao percorrer um iterável, começando pelo índice
+especificado. No código, é utilizado para numerar os pacientes ao imprimir os resultados
+
+
+import hashlib Importa o módulo hashlib, que fornece funções para calcular hashes criptográficos como SHA-256
+hashlib.sha256(objeto).
+hexdigest()
+Calcula o hash SHA-256 do objeto fornecido (normalmente em bytes) e retorna o valor como uma
+string hexadecimal
+str.encode(‘utf-8’) Converte uma string para bytes, necessários como entrada para funções de hashing
+list.copy() Retorna uma cópia superficial da lista original, permitindo modificações sem afetar a lista original
+indice //= 2 Atualiza a variável índice com o resultado da divisão inteira por 2. Essa operação é usada para
+navegar da base até a raiz da árvore binária
+
+
+
+str.strip(caractere) Remove caracteres do início e do fim da string. No código, remove barras / que
+envolvem o caminho antes da separação
+str.split(separador) Divide uma string em partes, com base em um separador. Aqui, é usada para separar
+os diretórios e os arquivos com base nas barras /
+next(iterador, valor_padrao)
+Retorna o próximo elemento de um iterador. Se o iterador estiver esgotado, retorna o
+valor padrão fornecido. No código, é usado para localizar rapidamente um filho com
+nome correspondente
+str.find(substring)
+Retorna o índice da primeira ocorrência da substring. Retorna -1 se a substring não
+for encontrada. No código, identifica se o nome possui ponto (.), sinalizando que se
+trata de um arquivo
+lista + [elemento] Cria uma lista concatenando um elemento a uma lista existente. Usado para construir
+caminho_atual de forma acumulativa
+“/”.join(lista_de_strings) Junta os elementos de uma lista de strings em uma única string, separando-os por
+barras. Utilizado para formatar o caminho completo de um arquivo
+lista[:m] / lista[m:]
+Fatiamento de listas. Retorna uma sublista contendo os elementos antes ou depois do
+índice m. No código, é utilizado na travessia em ordem para visitar metade dos filhos
+antes e metade depois de visitar o nó
+
+3.2 Grafos: representação (matriz de adjacência e listas de adjacência) e
+travessias (DFS e BFS)
+
+Como acabamos de ver, uma árvore é uma estrutura organizada que começa com um ponto inicial,
+chamado raiz, no qual cada elemento (nó) se conecta a exatamente um nó pai acima, formando uma
+hierarquia sem caminhos que voltem ao mesmo ponto (sem loops). Como em uma árvore genealógica,
+cada pessoa está ligada a um ancestral direto, sem conexões cruzadas complicadas.
+
+grafo é uma estrutura mais ampla e flexível, na qual os elementos (chamados
+vértices) podem se conectar de qualquer jeito, permitindo caminhos que formem loops, conexões com
+pesos (como distâncias) ou direções (como ruas de mão única
+
+a árvore é um tipo específico
+de grafo: uma estrutura hierárquica e rígida sem loops, enquanto o grafo é mais livre,
+
+árvore é um grafo, mas nem todo grafo é uma árvore
+
+ grafo pode ser entendido como uma forma de representar conexões
+entre coisas. Imagine um mapa de amizades: cada pessoa é um ponto (vértice) e as linhas que ligam
+as pessoas que são amigas são as conexões (arestas). Um grafo é exatamente isto: um conjunto de
+pontos conectados por linhas, que mostram como esses pontos se relacionam
+
+algoritmos de travessia, como a DFS e a BFS, permitem explorar vértices e arestas de
+um grafo de forma sistemática, sendo amplamente utilizados em aplicações práticas
+
+
+matriz de adjacência é uma representação que utiliza uma matriz quadrada para indicar as
+conexões entre vértices. Para um grafo com n vértices, cria‑se uma matriz n x n, na qual o elemento na
+posição [i][j] indica a existência de uma aresta entre os vértices i e j. Em grafos não ponderados, esse
+elemento pode ser 1 (se há aresta) ou 0 (se não há)
+l. Em Python, uma matriz de adjacência pode ser implementada como uma lista de
+listas, inicializada com zeros e preenchida conforme as arestas do grafo.
+
+
+
+grafos ponderados, o valor pode representar o peso da aresta. Essa estrutura é vantajosa por
+sua simplicidade e acesso rápido às conexões, mas consome espaço de memória proporcional a n²,
+o que a torna ineficiente para grafos esparsos, nos quais o número de arestas é muito menor que o
+máximo possível
+
+a lista de adjacência oferece uma representação mais eficiente para grafos esparsos - cada vértice está associado a uma lista que contém os vértices adjacentes a ele
+Python, isso pode ser implementado usando um dicionário, no qual as chaves são os vértices e os valores
+são listas dos vértices vizinhos
+
+grafos ponderados, as listas podem armazenar tuplas contendo o
+vértice vizinho e o peso da aresta. A lista de adjacência ocupa menos espaço em grafos com poucas
+arestas, pois armazena apenas as conexões existentes e permite iterações rápidas sobre os vizinhos de
+um vértice. a ocupa menos espaço em grafos com poucas
+arestas, pois armazena apenas as conexões existentes e permite iterações rápidas sobre os vizinhos de
+um vértice. verificar a existência de uma aresta específica pode ser mais lento, exigindo uma
+busca na lista correspondente.
+
+travessias de grafos, como DFS e BFS, são usadas para visitar todos os vértices acessíveis a partir
+de um ponto inicial, sendo úteis em problemas como busca de caminhos, detecção de ciclos e análise de
+conectividade.
+
+DFS explora o grafo seguindo um caminho o mais longe possível antes de retroceder.
+Em Python, ela pode ser implementada de forma recursiva ou iterativa, usando uma pilha
+
+recursiva, a função chama a si mesma para cada vizinho não visitado, marcando os vértices visitados em
+um conjunto para evitar ciclos. A DFS é particularmente útil para encontrar componentes conectados ou
+caminhos em labirintos, mas sua natureza profunda pode levar a um uso significativo de memória em
+grafos muito profundos.
+
+BFS, por sua vez, explora o grafo nível por nível, visitando todos os vizinhos de um vértice antes de
+prosseguir para os vizinhos dos vizinhos. Em Python, a BFS é implementada usando uma fila, que armazena
+os vértices a serem explorados. Um conjunto de vértices visitados é mantido para evitar revisitas. A BFS
+é ideal para encontrar o menor caminho em grafos não ponderados, pois garante que os vértices são
+visitados na ordem de sua distância ao vértice inicial. Sua implementação é iterativa, o que a torna menos
+suscetível a problemas de estouro de pilha em comparação com a DFS recursiva
+
+objetivo é encontrar o caminho mais curto entre dois pontos em um grafo não ponderado,
+a busca em largura revela‑se a escolha ideal. Isso ocorre porque a BFS explora os nós de forma nivelada,
+visitando todos os vizinhos de um nível antes de avançar para o próximo, grafos infinitos ou muito profundos, já que sua abordagem nivelada impede que o algoritmo se perca
+em ramificações extensas
+custo de memória da BFS pode ser elevado, pois ele armazena
+todos os nós de um nível na fila, o que talvez seja problemático em grafos com muitos vértices por nível.
+
+a busca em profundidade é mais apropriada quando o problema exige explorar todos
+os caminhos possíveis ou quando a solução está potencialmente localizada em um ramo profundo do
+grafo. A DFS segue um caminho até sua conclusão antes de retroceder, o que a torna ideal para tarefas
+que envolvem backtracking, como resolver quebra‑cabeças ou encontrar todos os caminhos entre dois nós
+eficiência é notória em grafos profundos e estreitos, nos quais o uso de memória é reduzido, já que
+apenas o caminho atual é armazenado na pilha de recursão.
+DFS é particularmente eficaz
+para detectar ciclos ou identificar componentes conectadas em um grafo, sendo uma ferramenta valiosa
+em análises estruturais, consume menos memoria 
+
+
+BFS prioriza a proximidade e a exaustividade em cada nível, a DFS favorece a exploração
+profunda e a flexibilidade para problemas que exigem uma análise exaustiva de caminhos.
+grafos ponderados, no entanto, 
+nenhum dos dois é ideal para encontrar caminhos mais
+curtos, sendo necessário recorrer a algoritmos como Dijkstra ou Bellman‑Ford
+
+minimizar distâncias ou explorar grafos amplos de forma sistemática => BFS 
+problemas que demandam exploração profunda, detecção de ciclos ou lidam com restrições de
+memória => DFS
+ 
+
+BFS
+fornece o caminho mais curto em número de saltos, enquanto DFS serve para varreduras completas que
+avaliam conectividade e detectam componentes isolados. 
+
+
+Exemplo 4 – Veículos autônomos e robótica
+algoritmo empregará DFS para listar todos os caminhos entre
+origem e destino e BFS para descobrir rapidamente o trajeto mais curto em número de saltos
+
+from collections import deque Importa a classe deque, uma fila de duas pontas otimizada para inserções e
+remoções em ambas as extremidades com complexidade constante
+deque([elementos]) Cria uma fila baseada em deque contendo os elementos iniciais. No código, é
+usada para implementar a fila da BFS
+fila.popleft() Remove e retorna o primeiro elemento da deque. Essa operação é mais
+eficiente que list.pop(0) em listas comuns
+dict.setdefault(chave, valor_
+padrao)
+Se a chave existir no dicionário, retorna seu valor. Caso contrário, insere a
+chave com o valor padrão fornecido e retorna esse valor. Usado para inicializar
+listas de vizinhos ao construir o grafo
+set([elementos])
+Cria um conjunto com os elementos fornecidos. Conjuntos não possuem
+elementos repetidos e permitem verificações de pertencimento rápidas. No
+código, são usados para rastrear vértices visitados
+caminho.copy() Cria uma cópia rasa da lista caminho. Necessário ao armazenar um caminho
+completo antes que ele seja modificado na recursão da DFS
+lista.append(valor) Adiciona um elemento ao final da lista. No contexto do código, serve para
+expandir caminhos em BFS e DFS
+lista.pop() Remove e retorna o último elemento da lista. Usado para retroceder no
+caminho durante a DFS
+
+Exemplo 5 – Redes sociais e cibersegurança
+
+O sistema precisa, portanto, receber a lista de conexões, construir o grafo, calcular graus, identificar
+nós anômalos, gerar todos os componentes por DFS e empregar BFS para medir distâncias até servidores
+críticos, relatando se o critério de isolamento foi ativado.
+
+popleft(): Remove do início (mais antigo) → BFS
+
+pop(): Remove do final (mais recente) → DFS
+
+O DFS não para quando visita todos os vértices, mas sim quando completa a exploração de todos os possíveis caminhos a partir da origem, tenham eles chegado ao destino ou não!
+
+O append no BFS e o remove no DFS refletem suas naturezas fundamentais:
+
+BFS: Expansão permanente (cada caminho é independente)
+
+DFS: Exploração com backtracking (reutilização de recursos)
+Essa diferença é que permite ao BFS encontrar o caminho mínimo e ao DFS encontrar todos os caminhos!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
