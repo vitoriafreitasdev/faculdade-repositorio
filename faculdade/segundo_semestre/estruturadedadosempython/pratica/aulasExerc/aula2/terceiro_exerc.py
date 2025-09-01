@@ -1,5 +1,17 @@
 from collections import deque 
 
+pilha = []
+pilha.append("prato 1")
+pilha.append("prato 2")
+print(pilha.pop())
+
+fila = deque()
+fila.append("cliente 1")
+fila.append("cliente 2")
+print(fila.popleft())
+
+###
+
 fila = deque()
 pilha = []
 print(fila)
