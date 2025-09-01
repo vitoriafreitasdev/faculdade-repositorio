@@ -305,39 +305,176 @@ BFS: Expansão permanente (cada caminho é independente)
 DFS: Exploração com backtracking (reutilização de recursos)
 Essa diferença é que permite ao BFS encontrar o caminho mínimo e ao DFS encontrar todos os caminhos!
 
+BFS => busca em largura
+DFS => busca em profundidade
+
+Exemplo 5 – Redes sociais e cibersegurança
+
+from __future__
+import annotations
+Permite que anotações de tipo se referenciem a classes ainda não definidas no momento da
+interpretação do código, útil em definições recursivas ou com @dataclass
+@dataclass Decorador que transforma uma classe comum em uma classe de dados, gerando automaticamente
+métodos como __init__, __repr__ e __eq__ com base nos atributos definidos
+defaultdict(set) Cria um dicionário no qual, se uma chave ainda não existir, seu valor padrão será um conjunto vazio
+(set()). Facilita a construção de grafos
+Counter(dict) Cria um contador (subclasse de dict) com base nos pares chave-valor fornecidos, permitindo
+contagem e comparação frequente de elementos
+set comprehension:
+{x for x in algo}
+Gera um conjunto a partir de uma expressão iterável. No código, é usado para construir o conjunto
+de nós suspeitos por grau anômalo
+median(iterável) Retorna a mediana de uma coleção numérica. No código, é utilizada para calcular o limiar de grau
+considerado anômalo
+walrus operator (:=) Operador de atribuição dentro de expressões. Aqui, é utilizado em (n := niveis[atual] + 1)
+para calcular e usar a nova distância em uma única linha
+generator (yield) Produz valores sob demanda em vez de retornar todos de uma vez. No código, dfs_componentes()
+usa yield para retornar uma componente por vez
+set <= set Verifica se um conjunto é subconjunto de outro (isto é, se todos os elementos da esquerda estão
+presentes na direita). No código, garante que os servidores críticos estão contidos na componente
+
+ALGORITMOS DE ORDENAÇÃO
+
+metodologia essencial para organizar dados de maneira que operações subsequentes ocorram com
+maior eficiência. Desde as implementações mais elementares, empregadas em contextos pedagógicos,
+até técnicas sofisticadas concebidas para lidar com grandes volumes de informação, a ordenação
+permeia sistemas de bancos de dados, pipelines de processamento de arquivos e motores de busca. 
 
 
 
+Bubble Sort ilustra a ordenação por troca repetitiva de pares adjacentes.
+Durante cada varredura, elementos consecutivos são comparados; se estiverem fora de ordem, são trocados,
+de modo que o maior (ou menor, conforme o critério) borbulha gradualmente para a extremidade do
+vetor. Embora a implementação seja simples e utilize apenas espaço auxiliar constante, o algoritmo realiza,
+em média, n²/2 comparações e, aproximadamente, o mesmo número de trocas, o que conduz a uma
+complexidade temporal O(n²). 
 
 
+Selection Sort, em contraste, identifica a menor chave remanescente e a posiciona no início da
+porção não ordenada. Realizando n-1 seleções sucessivas, cada uma custando uma busca linear, totaliza
+n(n-1)/2 comparações, igualmente situado em O(n²). Apenas uma troca por passagem é necessária,
+característica que reduz deslocamentos de dados em memórias nas quais a operação de escrita é
+onerosa. Entretanto, conservar a estabilidade demandaria adaptações adicionais, pois a simples troca de
+posições pode alterar a ordem preexistente entre registros iguais.
 
 
+Insertion Sort segue lógica análoga ao ato de inserir cartas em mãos de jogo. A lista é percorrida
+da esquerda para a direita; cada elemento corrente desloca‑se para trás enquanto encontra valores
+maiores, colocando‑se enfim na posição correta. Para listas quase ordenadas, os deslocamentos tendem
+a ser limitados, permitindo caso médio linear em cenários favoráveis. No entanto, no pior cenário,
+envolvendo sequência decrescente, ocorre novamente O(n²) operações. A natureza incremental, aliada
+ao acesso predominantemente sequencial, confere grande eficiência para tamanhos reduzidos ou para
+lotes parcialmente organizados, além de preservar a estabilidade
+
+Merge Sort. O
+vetor é particionado sucessivamente até que cada sublista contenha um único elemento; em seguida,
+sublistas vizinhas unem‑se por meio de fusão estável que consome tempo linear em relação ao
+número total de elementos envolvidos. Como a altura da árvore de recursão equivale a log2
+ n, decorre
+complexidade O(n log n).   custo
+suplementar surge no uso de memória auxiliar proporcional a n, necessária para armazenar resultados
+intermédios durante as fusões
 
 
+Quick Sort compartilha o princípio de divisão, embora empregue partição em torno de
+um pivô. Elementos menores do que o pivô deslocam‑se para seu lado esquerdo, enquanto os
+maiores deslocam‑se para a direita, formando duas sublistas que receberão tratamento recursivo.
+A eficiência resulta da média de O(n log n) comparações, pois a partição divide a entrada em frações
+equilibradas na maioria dos casos. A escolha do pivô, entretanto, influencia sobremaneira o tempo
+total, visto que distribuição extremamente assimétrica conduz a profundidade máxima da recursão
+e, consequentemente, a O(n²) operações. A execução in‑place economiza espaço, recurso que torna
+o algoritmo atraente para ambientes restritos, embora seu mecanismo de troca impeça estabilidade
+sem artifícios adicionais
+
+ Ordenação simples: Bubble Sort, Selection Sort e Insertion Sort
+
+ Bubble Sort percorre a lista repetidamente, comparando elementos adjacentes
+e trocando‑os se estiverem na ordem errada. Ele inclui uma otimização que interrompe a execução se
+nenhuma troca ocorrer em uma iteração, indicando que a lista já está ordenada. O Insertion Sort constrói
+a lista ordenada incrementalmente, inserindo cada elemento na posição correta ao compará‑lo com
+os elementos anteriores. Já o Selection Sort seleciona o menor elemento restante em cada iteração e o
+posiciona no início da sublista não ordenada.
 
 
+Exemplo 2 – Educação e prototipagem
 
 
+@decorator Decorador é uma função que recebe outra função como argumento e retorna uma nova
+função. No código, é usado para medir comparações e trocas
+Callable[[T], U] Tipo genérico da biblioteca typing, que representa uma função que recebe um argumento
+do tipo T e retorna um valor do tipo U
+Generator[YieldType,
+SendType, ReturnType]
+Anotação de tipo usada para indicar que uma função retorna um gerador. No código, os
+algoritmos de ordenação usam Generator[List[int], None, None]
+yield valor, c, t Pausa a execução da função e retorna múltiplos valores (no caso, estado da lista, número de
+comparações e trocas) para serem consumidos passo a passo
+indent(texto, prefixo) Função da biblioteca textwrap que adiciona um prefixo (como espaços) ao início de cada
+linha de um texto. No código, é usada para formatar a exibição dos estados intermediários
+lista.copy() Cria uma cópia rasa da lista original. Importante no decorador para evitar alterar a lista
+original ao passo que se avaliam os algoritmos
+tupla[List[int], int, int] Uso de uma tupla com anotação de tipos, retornando múltiplos valores com tipos diferentes
+de maneira explícita: a lista ordenada parcial, o número de comparações e o de trocas
 
 
+ Ordenação avançada: Merge Sort, Quick Sort e análise comparativa
 
+Merge Sort é um algoritmo baseado na estratégia de divisão e conquista. Ele opera dividindo
+recursivamente o conjunto de dados em subconjuntos menores até que cada um contenha um único
+elemento. Em seguida, esses subconjuntos são combinados (ou mesclados) de forma ordenada, reconstruindo
+o conjunto final. Essa abordagem garante uma complexidade de tempo de O(n log n) em todos os casos,
+seja no melhor, médio ou pior cenário. A estabilidade do Merge Sort, que preserva a ordem relativa de
+elementos iguais, é uma vantagem significativa em aplicações que exigem essa propriedade. Além disso, sua
+previsibilidade o torna adequado para sistemas nos quais a consistência de desempenho é crucial. Contudo, o
+Merge Sort tem desvantagens notáveis. Ele requer espaço adicional de memória proporcional ao tamanho do
+conjunto de dados, o que pode ser um entrave em sistemas com recursos limitados. Ademais, a necessidade
+de cópias frequentes durante a mesclagem pode impactar o desempenho em termos de constantes de tempo,
+mesmo que a complexidade assintótica seja ótima.
 
+Quick Sort também adota a estratégia de divisão e conquista, mas com uma
+abordagem distinta. Ele seleciona um elemento, chamado pivô, e particiona o conjunto de dados de
+modo que elementos menores que o pivô fiquem à sua esquerda e maiores à sua direita. Esse processo
+é aplicado recursivamente às partições resultantes até que o conjunto esteja ordenado. A eficiência do
+Quick Sort reside em sua complexidade média de O(n log n), que o torna extremamente rápido na prática,
+especialmente devido ao baixo overhead de operações. Diferentemente do Merge Sort, o Quick Sort é um
+algoritmo in‑place, exigindo apenas uma quantidade constante de memória adicional, o que o torna mais
+eficiente em termos de espaço. No entanto, sua performance depende fortemente da escolha do pivô.
+Em cenários desfavoráveis, como quando o pivô é o menor ou o maior elemento em um conjunto quase
+ordenado, a complexidade pode degradar para O(n²).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import heapq Importa o módulo que fornece algoritmos de fila de prioridade e mesclagem
+ordenada eficiente. No código, é usado para heapq.merge
+import os, tempfile os fornece funções para manipulação de arquivos e diretórios. tempfile
+permite criar arquivos temporários de forma segura
+import tracemalloc Módulo que mede o uso de memória durante a execução do programa, útil para
+diagnósticos de desempenho
+from array import array Importa a estrutura array, usada para armazenar grandes volumes de números de
+forma compacta e eficiente em memória
+array(“L”) Cria um array de inteiros não negativos de 32 bits (formato ‘L’). Usado para
+armazenar timestamps
+random.getrandbits(n) Gera um inteiro com exatamente n bits aleatórios. Aqui, gera timestamps
+simulados de 32 bits
+array.tobytes() / frombytes() Converte um array para bytes (para salvar em arquivo) ou reconstrói um array a
+partir de bytes lidos
+tempfile.NamedTemporaryFile
+(delete=False)
+Cria um arquivo temporário com nome acessível e impede sua exclusão
+automática ao fechar. Útil para simular armazenamento externo
+heapq.merge(iteradores)
+Mescla vários iteradores ordenados em um único fluxo ordenado. Usado no merge
+sort externo para processar os chunks já ordenados. Observação: chunks são os
+segmentos ordenados do conjunto de dados que o algoritmo processa e mescla
+os.remove(caminho) Remove um arquivo do sistema de arquivos. Utilizado para limpar os arquivos
+temporários criados nos chunks
+time.perf_counter() Retorna o tempo de alta resolução em segundos. Ideal para medições de
+desempenho mais precisas
+tracemalloc.get_traced_
+memory()
+[1]
+Obtém a memória máxima alocada desde o início do rastreamento. O valor é
+convertido para mebibytes (MiB). Observação: mebibytes refere-se a uma unidade
+de medida de memória igual a 2²⁰ bytes (1.048.576 bytes). Diferentemente de
+megabytes (MB), que são baseados no sistema decimal (10⁶ bytes), mebibytes
+usam o sistema binário, sendo mais precisos em contextos computacionais
+max(a, b) Retorna o maior valor entre a e b. Aqui, compara os picos de memória de duas
+fases do merge sort
