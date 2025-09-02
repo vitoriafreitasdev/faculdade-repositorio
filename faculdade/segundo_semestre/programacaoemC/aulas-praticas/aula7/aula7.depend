@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1756821352 source:c:\users\vitor\onedrive\documentos\faculdade-repositorio\faculdade-repositorio\faculdade\segundo_semestre\programacaoemc\aulas-praticas\aula7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
