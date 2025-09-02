@@ -1,7 +1,8 @@
-import random
+
 import time 
 from collections import deque
 import time 
+from typing import List
 
 def bubble_sort(lista):
     n = len(lista)
@@ -44,35 +45,49 @@ direita_ordenada = sorted(direita)
 esquerda_ordenada = sorted(esquerda)  
 
 
-    
-def quicksortRandom(arr, left, right):
-    if left < right:
-        # Escolhe um pivô aleatório e move para a posição 'right'
-        random_pivot_index = random.randint(left, right)
-        arr[random_pivot_index], arr[right] = arr[right], arr[random_pivot_index]
-        
-        partition_pos = partitionRandom(arr, left, right)
-        quicksortRandom(arr, left, partition_pos - 1)  # Elementos menores que o pivô
-        quicksortRandom(arr, partition_pos + 1, right)  # Elementos maiores que o pivô
 
-def partitionRandom(arr, left, right):
-    i = left
-    j = right - 1
-    pivot = arr[right]  # Pivô está na posição 'right' (já trocado se for aleatório)
+def quick_sort(arr: List[int], inicio=0, fim=None):
+    if fim is None:
+        fim = len(arr) - 1
+    while inicio < fim:
+        if fim - inicio < 32:  
+            insertion(arr, inicio, fim)
+            return
+        pivo = mediana_tres(arr, inicio, fim)
+        i, j = inicio, fim
+        while i <= j:
+            while arr[i] < pivo:
+                i += 1
+            while arr[j] > pivo:
+                j -= 1
+            if i <= j:
+                arr[i], arr[j] = arr[j], arr[i]
+                i, j = i + 1, j - 1
 
-    while i < j:
-        while i < right and arr[i] < pivot:
-            i += 1
-        while j > left and arr[j] >= pivot:
-            j -= 1
-        if i < j:
-            arr[i], arr[j] = arr[j], arr[i]
-    
-    if arr[i] > pivot:
-        arr[i], arr[right] = arr[right], arr[i]
-    
-    return i  # Retorna a posição final do pivô
+        if j - inicio < fim - i:
+            quick_sort(arr, inicio, j)
+            inicio = i
+        else:
+            quick_sort(arr, i, fim)
+            fim = j
 
+def mediana_tres(a: List[int], i: int, j: int) -> int:
+    k = (i + j) // 2
+    if a[i] > a[k]:
+        a[i], a[k] = a[k], a[i]
+    if a[k] > a[j]:
+        a[k], a[j] = a[j], a[k]
+    if a[i] > a[k]:
+        a[i], a[k] = a[k], a[i]
+    return a[k]
+
+def insertion(a: List[int], i: int, j: int):
+    for x in range(i + 1, j + 1):
+        chave, y = a[x], x - 1
+        while y >= i and a[y] > chave:
+            a[y + 1] = a[y]
+            y -= 1
+        a[y + 1] = chave
 
 
 
@@ -89,7 +104,7 @@ t1 = time.time()
 merge_time = t1 - t0 
 
 t0 = time.time() 
-quick_res = quicksortRandom(lst, 0, len(lst) - 1)
+quick_res = quick_sort(lst)
 print(quick_res)
 t1 = time.time()
 quick_time = t1 - t0 

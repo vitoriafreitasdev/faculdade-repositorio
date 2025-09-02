@@ -39,6 +39,16 @@ da entrada
 O(n), por outro lado, indica que o tempo de execução aumenta linearmente com
 o tamanho da entrada, como em busca linear
 
+ Também chamada de notação assintótica ou notação de ordem de grandeza, é utilizada para
+descrever o comportamento de algoritmos conforme o tamanho da entrada cresce.
+ Essa notação permite representar a taxa de crescimento do tempo de execução ou do uso
+de memória, independentemente de detalhes específicos de implementação ou de hardware.
+
+comportamento assintótico refere-se à forma como uma função cresce quando seu
+parâmetro, como o tamanho da entrada de um algoritmo, tende ao infinito.
+ No contexto dos algoritmos, essa análise avalia como o tempo de execução ou o uso de
+memória se modifica à medida que n, o tamanho da entrada, se eleva consideravelmente.
+
 #Conceitos fundamentais: o que são algoritmos e estruturas de dados e
 como utilizar a linguagem Python
 
@@ -296,12 +306,89 @@ timedelta(minutes=n) Cria um intervalo ‘n’ minutos, utilizado para cálculos
 com segundos, mas aqui há o uso específico de minutos
 
 
-pag 72
+
+np.dtype([...]) - Define a estrutura de um tipo composto para arrays NumPy, permitindo armazenar
+diferentes campos (como um registro com timestamp, IP, usuário e status) em um único array
+estruturado
+
+
+np.empty(tamanho, dtype=...) - Cria um array não inicializado (com valores arbitrários) com o número de elementos e tipo
+especificado, usado para otimizar desempenho quando os valores serão preenchidos logo em seguida
+
+np.array([...]) Cria um array NumPy a partir de uma lista ou tupla de dados. No código, é usado tanto para
+listas de valores quanto para construção de um novo registro
+
+np.random.choice(array) Escolhe aleatoriamente um elemento de um array. Pode incluir o parâmetro p=... para
+atribuir probabilidades aos elementos
+
+np.datetime64(data, unidade) Converte um valor de tempo (como um datetime) para o tipo datetime64 do NumPy,
+usado para compatibilidade com arrays estruturados e operações vetoriais
+np.timedelta64(valor, unidade) Representa uma diferença de tempo no formato do NumPy, usado para realizar somas com
+datas em arrays
+
+array[‘campo’] Acessa os valores de um campo específico em um array estruturado. Por exemplo,
+registros[‘ip’] retorna todos os IPs registrados
+
+np.unique(array, return_
+counts=True)
+Retorna os elementos únicos do array e, se return_counts=True, também a contagem
+de cada elemento. No código, é usado para contar falhas por IP
+
+np.append(array, novo_
+elemento)
+
+Retorna um novo array com o elemento adicionado ao final. No código, é
+usado para inserir um novo log no array de registros
+
+.astype(tipo)
+Converte o tipo de dados de um array ou campo. No código, é utilizado para converter
+datetime64 do NumPy para objetos datetime do Python padrão, a fim de imprimir de
+forma legível
+
+
+Latência refere‑se ao intervalo entre o momento em que um dado
+entra na estrutura e o instante em que se obtém resposta ou se processa
+a próxima etapa. Em robótica, latência reduzida garante reações rápidas;
+em atendimento, evita demora perceptível ao cliente; na blockchain,
+minimiza  o tempo necessário para que uma transação seja incluída em
+bloco. O controle de latência envolve escolha da estrutura, afinação de
+algoritmos e otimização de hardware subjacente.
+
+
+O termo LIDAR deriva de “Light Detection and Ranging”, ou “Detecção
+e Medição por Luz”, e refere‑se a uma tecnologia que utiliza pulsos de laser
+para medir distâncias com alta precisão.
+O funcionamento do LIDAR baseia‑se na emissão de feixes de laser em alta
+frequência em várias direções. Eles atingem objetos ao redor e retornam ao
+sensor. Medindo o tempo que o pulso leva para ir até o objeto e voltar, o sistema
+calcula a distância até esse objeto com grande exatidão. A partir da coleta
+de milhares ou milhões de pontos por segundo, o LIDAR gera uma nuvem de
+pontos tridimensional que representa a forma, a posição e, em alguns casos, até
+a densidade dos objetos no entorno do veículo
+
+
+time.sleep(segundos) Interrompe a execução do programa por um número de segundos especificado. No código, simula
+o tempo necessário para processar uma tarefa
+list.pop(índice) Remove e retorna o elemento da lista na posição indicada. Quando usado com o índice 0, remove o
+primeiro elemento, simulando uma fila (estrutura FIFO)
+
+time.strftime(‘%H:%M:%S’) Retorna a hora atual formatada como uma string no formato horas:minutos:segundos.
+No código, é utilizada para registrar o horário de chegada das requisições
+i % len(lista) Calcula o resto da divisão de i pelo comprimento da lista. Essa operação é usada para percorrer
+elementos de forma cíclica, garantindo que os índices se mantenham dentro dos limites da lista
 
 
 
+blockchain é um sistema distribuído e descentralizado que registra transações
+em blocos interligados, garantindo transparência, imutabilidade e segurança. Essa infraestrutura tem
+ganhado destaque em diversos setores, desde finanças até cadeias de suprimentos, pois permite a
+verificação confiável de operações sem a necessidade de intermediários centralizados.
 
 
 
-
-
+list como pilha (append + pop
+sem índice)
+A lista é utilizada como estrutura de pilha (LIFO), com append()para empilhar e
+pop() (sem argumento) para desempilhar o último elemento inserido
+for elemento in lista Itera sobre todos os elementos de uma lista, executando um bloco de código para
+cada item. No código, é usado para percorrer as transações e exibi-las na tela

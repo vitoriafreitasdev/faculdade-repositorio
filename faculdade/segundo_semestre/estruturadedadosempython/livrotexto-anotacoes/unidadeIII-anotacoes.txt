@@ -1,0 +1,124 @@
+unidadeIII-anotacoes
+
+forma mais elementar dessas técnicas é a pesquisa linear, cuja lógica reside em examinar
+sequencialmente cada elemento até localizar o item desejado ou concluir que ele não existe no conjunto. 
+
+pesquisa linear revela‑se pouco eficiente para conjuntos extensos ou situações nas quais
+consultas frequentes ocorrem, já que, no pior caso, demanda tempo proporcional ao número total de
+elementos (complexidade O(n)). Entretanto, sua facilidade de aplicação faz dessa abordagem uma solução
+válida para pequenos volumes de dados ou contextos em que nenhuma ordenação prévia tenha ocorrido,
+como listas aleatórias de valores, coleções dinâmicas ou ambientes com pouca complexidade estrutural.
+
+ pesquisa binária oferece uma alternativa significativamente mais eficiente, desde que
+aplicada a dados previamente ordenados. Nesse método, o conjunto é repetidamente dividido pela metade,
+comparando‑se o elemento buscado ao elemento central da divisão atual. Se o valor central coincidir com
+o elemento buscado, a busca encerra‑se com sucesso. Caso contrário, a metade correspondente ao valor
+buscado é selecionada e o processo repete‑se até o elemento ser encontrado ou a sublista tornar‑se
+vazia, indicando ausência
+
+vantagem crucial da pesquisa binária reside
+em sua complexidade temporal logarítmica, O(log n), que garante um desempenho muito superior ao da
+pesquisa linear em conjuntos extensos. Contudo, para que essa eficiência seja plenamente explorada, é
+necessária a manutenção rigorosa dos dados em ordem crescente ou decrescente, o que implica operações
+prévias de ordenação e custos adicionais relacionados a essa organização inicial.
+
+algoritmos de pesquisa em árvores
+ganham destaque significativo, especialmente pela flexibilidade e capacidade de manter um equilíbrio
+eficiente entre tempo de busca e custo de manutenção. As árvores binárias de busca são uma representação
+hierárquica que armazenam elementos de maneira estruturada, permitindo buscas mais rápidas e eficientes
+do que listas ou vetores simples. Como vimos no tópico 3, a propriedade essencial dessas árvores é que cada
+nó possui valor maior do que qualquer elemento em sua subárvore esquerda e menor do que qualquer
+elemento em sua subárvore direita. Assim, realizar uma busca nessas árvores é intuitivamente semelhante à pesquisa binária, seguindo‑se um percurso lógico através de nós e subárvores, resultando também em
+complexidade média logarítmica O(log n). 
+
+
+árvores binárias convencionais podem apresentar um sério inconveniente, que é a
+possibilidade de degeneração. Caso inserções sucessivas ocorram em ordem estritamente crescente
+ou decrescente, a árvore binária pode degenerar em uma estrutura linear, perdendo sua eficiência
+e retornando para complexidade de pesquisa linear O(n). Para solucionar essa limitação surgem as árvores
+balanceadas, destacando‑se as AVL e Red‑Black.
+
+árvores AVL realizam ajustes rígidos através de rotações simples ou duplas após cada inserção ou
+remoção, mantendo a altura das subárvores estritamente controlada. Por meio dessas rotações, as árvores
+AVL preservam uma diferença máxima de altura de uma unidade entre quaisquer duas subárvores de um
+mesmo nó. Essa propriedade garante tempos de busca consistentemente próximos à eficiência teórica
+máxima, O(log n). Apesar da eficiência garantida, as árvores AVL podem exigir maior número de rotações
+em certas operações, resultando em custo adicional significativo para inserções frequentes.
+
+
+ árvores Red‑Black introduzem uma abordagem menos rigorosa, porém mais eficiente em termos
+gerais, atribuindo cores (vermelho e preto) aos nós e estabelecendo regras específicas sobre a distribuição
+dessas cores ao longo da árvore. As inserções e as remoções desencadeiam processos de recoloração e
+eventuais rotações, que são menos frequentes e menos custosas que nas árvores AVL. Assim, as Red‑Black
+preservam o balanceamento suficiente para garantir complexidade O(log n) com menor custo operacional
+nas modificações, o que as torna amplamente preferidas em aplicações reais, como bancos de dados e
+sistemas de arquivos. Em Python, embora existam implementações complexas dessas estruturas, elas
+frequentemente são encontradas em módulos e bibliotecas especializadas, simplificando significativamente
+sua adoção em cenários práticos.
+
+Pesquisas linear e binária: funcionamento e eficiência
+
+pesquisa linear percorre cada posição de uma coleção até encontrar o elemento desejado ou
+esgotar o conjunto. Durante esse processo, a comparação ocorre item a item, o que significa custo
+proporcional à quantidade total de registros. Quando o valor procurado ocupa a última posição, todas as
+verificações possíveis já terão sido realizadas, originando complexidade temporal O(n). Em contrapartida,
+o consumo de memória permanece constante, pois apenas índices e variáveis de controle precisam ser mantidos
+
+pesquisa binária explora previamente a ordenação do conjunto. A cada iteração, o algoritmo seleciona
+o elemento central, confronta‑o com o valor procurado e elimina imediatamente metade dos casos restantes,
+pois qualquer valor inferior reside na região esquerda e qualquer valor superior na região direita. A operação
+se repete de forma recursiva ou iterativa até restar um único candidato. Como o número de elementos
+avaliados diminui exponencialmente, a quantidade total de comparações situa‑se em O(log n). A exigência
+de pré‑ordenar a coleção pode introduzir custo adicional, contudo essa etapa costuma ocorrer apenas uma
+vez antes de inúmeras consultas posteriores, compensando o investimento inicial. A pesquisa binária mantém
+consumo de memória igualmente constante, pois utiliza apenas variáveis de controle para delimitar os limites
+esquerdo e direito da subseção ativa.
+
+comparar eficiência, observa‑se que a pesquisa linear apresenta desempenho previsível
+independentemente da organização dos valores, enquanto a pesquisa binária oferece ganho expressivo
+quando trabalha sobre coleções já ordenadas. Em contextos nos quais atualizações frequentes reorganizam
+os dados, o tempo de ordenação pode atenuar os benefícios do método logarítmico; em cenários dominados
+por múltiplas consultas sobre conjuntos estáticos ou raramente modificados, a pesquisa binária destaca‑se
+como escolha preferencial
+
+ pesquisa
+linear percorre todos os registros até encontrar o alvo, revelando‑se apropriada para listas curtas ou para
+catálogos ainda não classificados. Já a pesquisa binária, executada sobre coleções previamente ordenadas,
+divide repetidamente o espaço de busca pela metade, atingindo o item desejado em O(logn) operações
+
+Pesquisa em árvores: busca binária e introdução a árvores balanceadas
+(AVL e Red‑Black)
+
+A busca em árvores constitui abordagem fundamental para recuperação eficiente de informação, pois
+permite explorar a estrutura hierárquica dos dados reduzindo drasticamente o conjunto de comparações
+necessárias até a localização de um valor. Na árvore binária de busca, cada nó guarda uma chave que mantém
+relação estrita com as subárvores filhas: todo elemento presente à esquerda apresenta valor inferior ao
+contido no nó central, enquanto todo elemento à direita apresenta valor superior. Tal propriedade conduz
+a um processo de pesquisa que se assemelha a uma versão dinâmica da divisão binária aplicada a listas
+ordenadas; inicia‑se na raiz, compara‑se a chave procurada com a chave do nó corrente e, dependendo do
+resultado, segue‑se para a subárvore esquerda ou direita. A altura da árvore determina o número máximo de
+comparações, de forma que, em condições ideais nas quais as subárvores apresentam tamanhos equilibrados,
+alcança‑se complexidade O(log n). Ocorre, entretanto, que inserções sucessivas em ordem crescente ou
+decrescente convertem a árvore em uma sequência degenerada comparável a uma lista encadeada, elevando
+a demora das pesquisas a O(n).
+
+
+árvores AVL constituem a primeira proposta amplamente adotada para alcançar tal equilíbrio.
+Cada nó armazena um fator de balanceamento equivalente à diferença entre as alturas das subárvores filhas.
+Quando essa diferença ultrapassa uma unidade, executa‑se uma rotação simples ou dupla que redistribui
+os nós e restabelece o peso simétrico entre os lados da árvore. A rigidez dessas correções assegura alturas
+mínimas próximas ao limite teórico, de modo que pesquisas, inclusões e exclusões permanecem sempre
+dentro de O(log n). A contrapartida desse rigor reside no custo adicional introduzido pelas rotações,
+particularmente quando o fluxo de atualizações é intenso; ainda assim, o ganho em previsibilidade costuma
+compensar o esforço.
+
+B‑trees: são árvores balanceadas projetadas para sistemas de disco, em que cada nó pode conter
+múltiplas chaves e ponteiros para filhos. Elas minimizam acessos a disco ao manter uma estrutura
+hierárquica com poucos níveis, sendo ideais para bancos relacionais (como MySQL ou PostgreSQL),
+que exigem buscas rápidas e atualizações moderadas. São eficientes para leituras aleatórias e
+suportam operações como inserções, exclusões e consultas de intervalo.
+• LSM‑trees (Log‑Structured Merge‑trees): são otimizadas para cenários de escrita intensiva,
+comuns em bancos NoSQL (como Cassandra ou RocksDB). Os dados são primeiro armazenados em
+memória (estruturas como árvores AVL ou similares) e, ao atingir um limite, são mesclados em camadas
+no disco em formato de arquivos ordenados. Isso reduz escritas em disco, mas pode aumentar a latência
+de leitura, exigindo compactação periódica para organizar os dados.
