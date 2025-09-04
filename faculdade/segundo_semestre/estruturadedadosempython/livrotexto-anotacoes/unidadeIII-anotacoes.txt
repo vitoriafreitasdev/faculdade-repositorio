@@ -122,3 +122,150 @@ comuns em bancos NoSQL (como Cassandra ou RocksDB). Os dados são primeiro armaz
 memória (estruturas como árvores AVL ou similares) e, ao atingir um limite, são mesclados em camadas
 no disco em formato de arquivos ordenados. Isso reduz escritas em disco, mas pode aumentar a latência
 de leitura, exigindo compactação periódica para organizar os dados.
+
+
+arvore avl
+se pesou na esquerda(balance > 1 e valor < no.esquerda.valor) => rotação para direita
+se pesou na direita(balance < -1 e valor > no.direitt.valor) => rotação para esquerda
+se balace > 1 valor > no.esquerda.valor => nó esquerdo rotacao esquerda, dps rotacao direita no nó
+se balance < -1 and valor < no.direita.valor => nó direito rotacao direita, dps rotacao esquerda no nó
+
+Árvore Binária Simples → Uma estante com livros em ordem, mas mal distribuídos
+Árvore AVL → Uma estante com livros em ordem e perfeitamente organizada
+
+6 ESTRUTURAS AVANÇADAS DE DADOS 
+
+
+tabelas hash representam uma poderosa estrutura baseada no conceito matemático de
+espalhamento uniforme de valores através de uma função específica, conhecida como função hash.
+O princípio fundamental dessas tabelas é a transformação de chaves em valores numéricos que, por
+sua vez, correspondem diretamente às posições em um vetor, permitindo recuperação extremamente
+rápida dos elementos. As funções hash são desenhadas especificamente para minimizar a ocorrência
+de colisões, ou seja, situações em que diferentes chaves geram o mesmo valor numérico, levando ao
+compartilhamento de posições e à necessidade de tratamento adicional para resolver o conflito. Apesar
+do esforço em criar funções que reduzam colisões ao mínimo, sua ocorrência é inevitável em cenários
+reais; por esse motivo, técnicas de resolução tornam‑se necessárias.
+
+
+estratégias comuns para tratamento de colisões estão o encadeamento separado e o
+endereçamento aberto. No encadeamento separado, cada posição do vetor armazena uma lista ou estrutura
+secundária, que mantém todos os elementos que compartilham aquela posição. Essa abordagem permite
+simplicidade de implementação e manutenção da eficiência geral das operações, mesmo que as colisões
+sejam frequentes. Por outro lado, o endereçamento aberto utiliza um sistema sequencial de sondagem
+para localizar um espaço vazio no próprio vetor principal, reduzindo consumo de memória adicional e
+mantendo desempenho eficiente enquanto houver baixa densidade de elementos. Ambas as abordagens
+encontram aplicações práticas na linguagem Python, sendo especialmente evidentes na implementação
+interna do tipo de dado dict, que utiliza uma estrutura hash otimizada, permitindo inserções, buscas e
+exclusões em tempo médio constante O(1).
+
+heaps binários, tipos específicos de
+árvores binárias completas que seguem um critério de ordenação entre o nó pai e seus filhos. Nos
+heaps, cada nó possui valor maior ou igual (heap máximo) ou menor ou igual (heap mínimo) do que seus
+filhos imediatos. Essa propriedade estrutural garante acesso eficiente ao elemento de maior ou menor
+prioridade, que se encontra sempre no topo da árvore, sendo especialmente útil em filas de prioridade
+e algoritmos de escalonamento.
+
+
+ Hash Tables: conceito, funções hash e resolução de colisões
+
+a função hash exige que
+chaves iguais retornem valores idênticos e que a propriedade de imutabilidade lógica seja respeitada, pois
+qualquer alteração posterior ao cálculo poderia inviabilizar a localização do elemento.
+Quando duas ou mais chaves geram resultado idêntico, a estrutura recorre a endereçamento aberto
+com algoritmo de sondagem que emprega perturbação aritmética. O processo desloca o ponteiro de busca
+por incrementos dependentes dos bits altos do hash original junto a fator de perturbação reduzido a cada
+iteração, visitando posições subsequentes até encontrar slot livre ou chave correspondente. Esse modelo
+evita listas encadeadas adicionais, preservando a localidade de memória e diminuindo acessos cache
+adversos. Durante inserções, se a taxa de ocupação ultrapassa limite predefinido – setenta e poucos por
+cento do vetor – ocorre redimensionamento automático, no qual nova tabela com capacidade ampliada é
+alocada e todas as chaves sofrem reinserção utilizando os hashes previamente computados. Tal operação
+mantém complexidade amortizada aceitável, já que o custo elevado do rehash distribui‑se ao longo de
+várias inserções.
+
+
+contexto de segurança, a função hash global aplica chave secreta (sal) gerada a cada inicialização
+do interpretador, técnica conhecida como hash randomization. Esse sal impede que o invasor antecipe
+colisões em massa, preservando tempo de resposta de aplicações web expostas a entradas hostis.
+Desenvolvedores que definem suas próprias classes devem garantir compatibilidade entre __hash__
+e __eq__, pois igualdade verdadeira obriga hashes iguais, enquanto desigualdade não impõe qualquer
+relação específica. O descumprimento dessas regras compromete operações internas da tabela,
+resultando em falhas de busca ou duplicação indesejada de chaves.
+
+combinação de vetor de potência de dois, sondagem com perturbação, marcação de exclusão preguiçosa
+e redimensionamento dinâmico confere ao dicionário padrão robustez e desempenho consistente na maioria
+dos cenários
+
+cargas de trabalho apresentam perfil de chaves extensas ou probabilidades elevadas
+de colisão, recomenda‑se avaliar hash personalizado que distribua melhor os valores. Em contrapartida,
+aplicações focadas em manipular grande quantidade de pares pequenos beneficiam‑se da otimização de
+memória introduzida no layout compartilhado, no qual múltiplos objetos de mesmo tipo reutilizam tabela
+de índices. Pela atenção a esses detalhes, a infraestrutura de tabela hash em Python demonstra equilíbrio entre
+simplicidade de uso na superfície e engenhosidade de engenharia no núcleo, atendendo simultaneamente
+requisitos de velocidade, segurança e economia de recursos.
+
+Heaps: heaps binários e introdução ao Heap Sort
+
+heap é uma estrutura de dados que organiza números (ou outros valores) de forma a sempre
+manter o menor (ou o maior) deles facilmente acessível, como se fosse uma lista especial com uma regra
+específica. Imagine uma árvore genealógica, mas em vez de pessoas, temos números, e cada pai (nó pai)
+tem que ser menor (heap mínimo) ou maior (heap máximo) que seus filhos. Essa organização é guardada
+em uma lista (vetor) de forma compacta, sem precisar de ponteiros, o que economiza memória.
+
+em um heap mínimo, o número na raiz (o topo) é sempre o menor de todos.
+Quando você quer adicionar um número novo, ele é colocado no final da lista e sobe, trocando de lugar
+com outros números até encontrar seu lugar certo, respeitando a regra de que o pai é menor que os
+filhos. Isso é rápido, leva um tempo proporcional à altura da árvore, que é pequena (cresce lentamente,
+como um logaritmo). Para remover o menor número, você pega a raiz, coloca o último número da lista
+no lugar dela e faz ele descer até que a regra do heap seja restaurada.
+
+ heap máximo, ocorre a relação inversa.
+
+Remover o elemento prioritário – sempre situado na raiz – envolve trocá‑lo com o último item do
+vetor, reduzir o tamanho efetivo e executar descida que restaura a propriedade comparando o novo valor
+da raiz com os filhos e trocando‑o repetidamente com o menor (ou maior) deles. 
+
+
+Heap Sort surge diretamente da propriedade de dominância ao combinar construção de heap
+máximo com extrações sucessivas. Inicialmente todo o vetor torna‑se heap, garantindo que o maior
+valor resida na posição zero. Em seguida, a raiz troca‑se com o elemento da última posição ainda não
+ordenada, reduzindo o intervalo considerado e restaurando o heap por descida. Após n‑1 repetições,
+o vetor encontra‑se completamente ordenado em ordem crescente. A fase de construção consome
+O(n); cada remoção exige O(log n) e ocorre n‑1 vezes, resultando em complexidade total O(n log n)
+independentemente da disposição inicial dos dados. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
