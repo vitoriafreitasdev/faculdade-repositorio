@@ -210,9 +210,20 @@ quebrado em subproblemas menores que mantêm mesmo formato e a solução global 
 ótima das soluções dessas partes
 
 
+subsequência comum mais longa ilustra de forma clara a utilidade desse paradigma. Diante de
+duas cadeias de caracteres, procura‑se a maior sequência de símbolos que aparece nas duas cadeias
+na mesma ordem relativa, embora não necessariamente contígua. Um procedimento ingenuamente
+recursivo testaria todas as combinações possíveis de remoção de caracteres, gerando quantidade
+exponencial de chamadas.
 
-
-
+programação dinâmica revela que a resposta para prefixos de comprimento i e j depende apenas
+de duas situações: se o caractere corrente nas duas cadeias coincide, então basta acrescentar um à
+solução encontrada para os prefixos imediatamente anteriores; caso contrário, escolhe‑se a maior entre
+as soluções obtidas ao descartar o último caractere de uma cadeia ou da outra. Após reconhecer esse
+relacionamento, preenche‑se uma tabela bidimensional cujas dimensões correspondem aos tamanhos
+das cadeias, avançando linha a linha ou coluna a coluna. Cada célula recebe valor proveniente de
+operações constantes sobre células vizinhas já calculadas, resultando em complexidade de tempo O(n m)
+e consumo de memória proporcional à área da tabela, no qual n e m são os comprimentos das cadeias
 
 
 
