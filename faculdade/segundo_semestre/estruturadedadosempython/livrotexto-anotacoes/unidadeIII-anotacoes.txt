@@ -232,6 +232,7 @@ ordenada, reduzindo o intervalo considerado e restaurando o heap por descida. Ap
 o vetor encontra‑se completamente ordenado em ordem crescente. A fase de construção consome
 O(n); cada remoção exige O(log n) e ocorre n‑1 vezes, resultando em complexidade total O(n log n)
 independentemente da disposição inicial dos dados. 
+[]~çl
 
 
 

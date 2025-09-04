@@ -1,0 +1,23 @@
+anotacoes-aulas
+
+ eficiência de um algoritmo pode ser avaliada considerando-se o tempo necessário
+para sua execução ou o volume de memória consumido conforme o tamanho da
+entrada aumenta.
+
+notação assintótica ou notação de ordem de grandeza, é utilizada para
+descrever o comportamento de algoritmos conforme o tamanho da entrada cresce.
+
+ comportamento assintótico refere-se à forma como uma função cresce quando seu
+parâmetro, como o tamanho da entrada de um algoritmo, tende ao infinito.
+
+
+Big-O é amplamente empregada para descrever o limite superior de crescimento
+de um algoritmo, indicando sua pior taxa de expansão.
+
+O principal objetivo da notação Big-O é descrever como o tempo de execução ou o uso de
+memória de um algoritmo cresce à medida que o tamanho da entrada aumenta.
+
+comportamento linear, o tempo de execução cresce
+proporcionalmente ao tamanho da entrada analisada.
+
+arvore binaria cada no so pode ter 2 filhos
