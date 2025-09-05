@@ -1,0 +1,16 @@
+o_que_estudar
+
+-grafos, como construir, lista/matriz adjacência
+-Bubble Sort, Selection Sort e Insertion Sort.
+-Merge Sort, Quick Sort
+-DFS, BFS
+-arvores binárias, travessia (pre-ordem, em-ordem, pos-ordem)
+-arvore binária balanciada (AVL, red black)
+-Heaps: heaps binários e introdução ao Heap Sort
+
+-Dijkstra e Bellman-Ford.
+-Grafos com árvores: algoritmos de Kruskal e Prim para árvores geradoras mínimas.
+
+-Problemas de divisão e conquista: análise de exemplos como o problema da mochila.
+-Programação dinâmica: introdução e resolução de problemas clássicos (como a
+subsequência comum mais longa).

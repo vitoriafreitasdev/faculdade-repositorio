@@ -1,5 +1,5 @@
-ideias de algoritmo pro python
 
+ideias de algoritmo pro python
 
 arvore binaria => vai analisar os remédios:
 ser for seguro de administrar, sem efeito colateral, eficaz. => probabilidade alta de passar pra fase dois 
@@ -8,5 +8,25 @@ seguro, efeito colateral alto,  eficaz => baixa.
 não é seguro, efeito colateral alto insuportável, não eficaz => não passa. 
 
 grafos => contendo: remédios, que passaram para fase 2, remédios médios, baixos e que não passaram 
-
+DFS => para pegar todos os remédios que foram para o teste
+BFS => para achar apenas o remédios que passaram no teste
 menu interativo para pegar os dados.
+
+rotinas de aprendizado de máquina para estratificação de pacientes 
+(estratificação de pacientes é o processo de dividir uma população de doentes em subgrupos homogéneos com base em características específicas, como a gravidade de uma doença, o risco de desenvolver complicações, a idade ou outros fatores clínicos)
+, detecção de outliers
+(pontos de dados ou observações que se desviam significativamente da maioria dos outros dados, levantando suspeitas de que foram gerados por um mecanismo diferente ou que são anomalias. Podem indicar erros de medição, eventos atípicos ou até mesmo descobertas importantes. pode ser:
+Um paciente que responde de forma extremamente positiva ou negativa a um tratamento, fugindo do padrão observado nos demais participantes. 
+Um sinal vital de um paciente (como frequência cardíaca ou pressão arterial) que se desvia consideravelmente dos parâmetros normais. 
+Erros na coleta de dados, como um registro de dosagem de medicamento drasticamente diferente do esperado. )
+em séries temporais e predição de falhas ambientais na linha de produção, utilizando
+árvores balanceadas, filas de prioridade e grafos direcionados para encadeamento de
+tarefas
+
+função será acompanhada de análise assintótica de complexidade e de
+suíte de testes unitários com cobertura superior a 80 por cento.
+
+
+
+
+
