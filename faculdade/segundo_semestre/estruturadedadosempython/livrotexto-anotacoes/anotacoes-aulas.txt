@@ -21,3 +21,11 @@ comportamento linear, o tempo de execução cresce
 proporcionalmente ao tamanho da entrada analisada.
 
 arvore binaria cada no so pode ter 2 filhos
+
+arvore binaria 
+
+preorder => node - left - right 
+
+inorder => left - node - right 
+
+postorder => left - right - node

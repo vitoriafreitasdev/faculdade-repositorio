@@ -1,0 +1,25 @@
+anotacoes 
+
+1 -> existência de uma aresta ligando dois vértices 
+0 -> não existência de uma aresta ligando dois vértices 
+
+numero de vértices do grafo é sempre representado pelo numero de linha e colunas
+
+4l e 4c => 4 vértices 
+
+matriz adjacência => smp quadrática, ou seja, msm num de coluna e linha
+
+
+lista adjacência -> vetor de lista
+
+se o grafo não for orientado, dada uma aresta {i, j}
+temos que j será inserido na lista de i
+e i será inserido na lista de j.
+
+bfs -> popleft
+dfs -> pop
+
+
+arvore 
+
+conectada e não tem ciclo
