@@ -1,32 +1,38 @@
 
-ideias de algoritmo pro python
 
-arvore binaria => vai analisar os remédios:
-ser for seguro de administrar, sem efeito colateral, eficaz. => probabilidade alta de passar pra fase dois 
-se for seguro de administrar, com efeito colateral, porem suportável, eficaz => probabilidade media de passar para fase 2
-seguro, efeito colateral alto,  eficaz => baixa.
-não é seguro, efeito colateral alto insuportável, não eficaz => não passa. 
-
-grafos => contendo: remédios, que passaram para fase 2, remédios médios, baixos e que não passaram 
-DFS => para pegar todos os remédios que foram para o teste
-BFS => para achar apenas o remédios que passaram no teste
-menu interativo para pegar os dados.
+== O que é para fazer na disciplina de Python ==
 
 rotinas de aprendizado de máquina para estratificação de pacientes 
 (estratificação de pacientes é o processo de dividir uma população de doentes em subgrupos homogéneos com base em características específicas, como a gravidade de uma doença, o risco de desenvolver complicações, a idade ou outros fatores clínicos)
-, detecção de outliers
+detecção de outliers
 (pontos de dados ou observações que se desviam significativamente da maioria dos outros dados, levantando suspeitas de que foram gerados por um mecanismo diferente ou que são anomalias. Podem indicar erros de medição, eventos atípicos ou até mesmo descobertas importantes. pode ser:
 Um paciente que responde de forma extremamente positiva ou negativa a um tratamento, fugindo do padrão observado nos demais participantes. 
-Um sinal vital de um paciente (como frequência cardíaca ou pressão arterial) que se desvia consideravelmente dos parâmetros normais. 
-Erros na coleta de dados, como um registro de dosagem de medicamento drasticamente diferente do esperado. )
+Um sinal vital de um paciente (como frequência cardíaca ou pressão arterial) que se desvia consideravelmente dos parâmetros normais. Erros na coleta de dados, como um registro de dosagem de medicamento drasticamente diferente do esperado. )
 em séries temporais e predição de falhas ambientais na linha de produção, utilizando
 árvores balanceadas, filas de prioridade e grafos direcionados para encadeamento de
 tarefas
-
 função será acompanhada de análise assintótica de complexidade e de
 suíte de testes unitários com cobertura superior a 80 por cento.
 
 
+== Ideia de como vamos construir o algoritmo de Python ==
+
+rotinas de aprendizado de maquina para fazer as analises dos remédios e pacientes 
+Vai utilizar:
+arvore binaria AVL (arvore balanceada) => vai analisar os remédios:
+se possível => lista de prioridades, remédio com prioridades maiores vão ser analisados primeiro 
+ser for seguro de administrar, sem efeito colateral, eficaz. => 
+passa para fase dois
+se for seguro de administrar, com efeito colateral, porem suportável, eficaz => probabilidade media de passar para fase 2
+seguro, efeito colateral alto,  eficaz => precisa de reajustes.
+não é seguro, efeito colateral alto insuportável, não eficaz => não passa. 
+
+Como arvores AVL, são um tipo de arvores binaria, por sua vez, são um tipo de grafo, podemos utilizar o BFS e DFS para: 
+DFS => para pegar todos os remédios que foram para o teste
+BFS => para achar apenas o remédios que passaram no teste
+
+- Menu interativo para pegar os dados.
+- testes unitários com cobertura superior a 80 por cento.
 
 
 
