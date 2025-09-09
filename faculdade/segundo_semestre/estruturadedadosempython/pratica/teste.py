@@ -26,6 +26,6 @@
 
 lista = [2, 4, 6, 8]
 n = len(lista)
-
+lista2 = [25, 44, 63, 82]
 mediana = lista[n//2] if n % 2 else (lista[n//2-1] + lista[n//2])/2
 print(mediana)
