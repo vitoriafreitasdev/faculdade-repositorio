@@ -1,6 +1,7 @@
 o_que_estudar
 
 -grafos, como construir, lista/matriz adjacência
+-grafos direcionados e não direcionados 
 -Bubble Sort, Selection Sort e Insertion Sort.
 -Merge Sort, Quick Sort
 -DFS, BFS

@@ -19,7 +19,19 @@ e i será inserido na lista de j.
 bfs -> popleft
 dfs -> pop
 
-
+diferenças 
 arvore 
 
 conectada e não tem ciclo
+
+Diferenças em aplicar o dfs/bfs em uma arvore/grafo
+
+1. Estrutura
+
+Árvore binária:
+Cada nó tem no máximo 2 filhos (left, right).
+Não há ciclos (não precisa de "visitados").
+
+Grafo:
+Um nó pode ter muitos vizinhos.
+Pode ter ciclos → é obrigatório usar um conjunto (visitados) para não entrar em loop infinito.

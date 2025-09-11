@@ -18,16 +18,21 @@ suíte de testes unitários com cobertura superior a 80 por cento.
 == Ideia de como vamos construir o algoritmo de Python ==
 
 rotinas de aprendizado de maquina para fazer as analises dos remédios e pacientes 
+
 Vai utilizar:
-arvore binaria AVL (arvore balanceada) => vai analisar os remédios:
+
+arvore binaria AVL (arvore balanceada) => estruturar os dados que vão alimentar o Machine Learning(aprendizado de maquina), que vai ser feito com arvore de decisão.
+
 se possível => lista de prioridades, remédio com prioridades maiores vão ser analisados primeiro 
 ser for seguro de administrar, sem efeito colateral, eficaz. => 
 passa para fase dois
-se for seguro de administrar, com efeito colateral, porem suportável, eficaz => probabilidade media de passar para fase 2
-seguro, efeito colateral alto,  eficaz => precisa de reajustes.
+
+se for seguro de administrar, com efeito colateral(leve), porem suportável, eficaz => passa para fase 2
+
+seguro, efeito colateral (alto),  eficaz => precisa de reajustes.
+
 não é seguro, efeito colateral alto insuportável, não eficaz => não passa. 
 
-Como arvores AVL, são um tipo de arvores binaria, por sua vez, são um tipo de grafo, podemos utilizar o BFS e DFS para: 
 DFS => para pegar todos os remédios que foram para o teste
 BFS => para achar apenas o remédios que passaram no teste
 
