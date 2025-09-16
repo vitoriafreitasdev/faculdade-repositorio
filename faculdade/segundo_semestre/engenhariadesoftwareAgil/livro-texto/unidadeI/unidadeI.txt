@@ -1,1 +1,375 @@
 unidadeI
+
+- ENGENHARIA DE SOFTWARE
+
+surgimento dos computadores nos anos 1940 - linguagens de programação de alto nível
+ainda não existiam.
+
+programação acompanhava cada um dos hardwares, que eram
+computadores grandes, complexos e voltados para aplicações específicas. A programação se baseava
+em linguagem de máquina sem muitos métodos para desenvolver software: o programador era o
+próprio “escovador de bit”.
+
+rotinas de programas de computadores se tornavam cada vez mais vinculadas aos elementos
+de hardware da arquitetura de Von Neumamm, ou seja, a dualidade entre um hardware específico e
+respectivo software em código de máquina, surgiu um elemento padronizado: para cada hardware
+específico existia um software específico, ou seja, a evolução de um necessita da evolução do outro.
+
+1950 surgiram o sistema operacional UNIVAC OS e as primeiras linguagens de programação
+de alto nível, Fortran e Cobol
+
+ 1960, a Otan propôs o termo engenharia de software
+como responsável pelo projeto e pela construção do software de computador
+
+1.1 Definição de software
+
+definido como um programa ou conjunto de programas de computador organizados
+intelectualmente para atender a um ou mais objetivos de um negócio.
+
+engenharia de software começou a se formar como uma disciplina nos anos 1960, quando o
+desenvolvimento de software passou a se tornar mais complexo em virtude de sua alta demanda e os
+métodos tradicionais de desenvolvimento se mostraram insuficientes para lidar com projetos de grande
+escala e alto nível de complexidade.
+
+atender a demanda de um determinado produto, a produção tem que acompanhar e, por vezes,
+até reduzir o custo da produção para que o produto continue competitivo no mercado.
+
+qualidade do software especificado como requisito não funcional determina normas, padrões
+e regras que estruturam a arquitetura do sistema (software) no ambiente em que será operado. Já a
+produtividade de software mede a eficiência com que a equipe de desenvolvimento transforma requisitos
+funcionais em funcionalidades entregues.
+
+1.2 Características do software
+
+Qualidade de software refere‑se à avaliação de um atributo próprio de um determinado
+componente de software para cumprir seus requisitos, livre de defeitos, com eficiência e entrega de
+valor ao usuário final.
+
+
+qualidade desejada se refere à definição dos RNF (Requisitos Não Funcionais) do software e que
+são determinados na construção do software.
+
+
+principais RNF:
+
+• Funcionalidade: o software deve atender a todas as especificações referentes às funções
+requeridas em RF (Requisitos Funcionais). Uma funcionalidade é identificada quando possui um
+agrupamento de funções similares desenvolvidas com o emprego da mesma tecnologia.
+• Confiabilidade: o software deve ser estável e, ponderando um marco de referência, apresentar o
+menor índice de falhas.
+• Usabilidade: envolve a facilidade de uso, a compreensão, a atratividade e o aprendizado pelo
+software. A usabilidade é o principal critério a ser avaliado na IHC (Interface Humano‑Computador).
+• Segurança: engloba práticas e medidas com o objetivo de proteger o software contra ameaças,
+ataques e vulnerabilidades.
+• Eficiência: refere‑se ao desempenho das funcionalidades do software; além de fornecer resultados
+corretos, ela pode ser melhorada, por exemplo, ofertando os mesmos resultados “corretos” com
+redução de tempo e/ou custo.
+• Manutenibilidade: representa o quão fácil é implementar mudanças para atualizações, correções
+e prevenção de falhas.
+• Portabilidade: o quanto um determinado software é portável para outros ambientes operacionais
+
+
+práticas eficazes de desenvolvimento de software podem melhorar a relação entre qualidade
+e produtividade
+
+• Automação de testes: reduz o tempo de testes manuais e aumenta a cobertura de testes,
+melhorando a qualidade sem sacrificar a produtividade.
+• Desenvolvimento ágil: promove entregas frequentes e iterativas, permitindo ajustes rápidos e
+contínuos que mantêm a qualidade alta e a produtividade constante.
+• Reúso de código: a reusabilidade é o principal fator de qualidade na engenharia de software.
+Componentes reutilizáveis podem acelerar o desenvolvimento e reduzir a probabilidade de erros,
+melhorando ambos os aspectos.
+
+processos e métodos para a garantia de qualidade
+do software:
+
+• Verificação e validação (V&V): trata‑se de testes de software que incluem testes unitários, de
+integração, de sistema e de aceitação.
+• Revisões de código: envolvem revisões formais ou informais, auditorias, walkthroughs e inspeções
+para identificar problemas precocemente.
+• Controle de versão: engloba ferramentas e técnicas de versionamento que acompanham o
+desenvolvimento do software e entregas aos clientes. Ferramentas como Git (sistema de controle
+de versões distribuído) ajudam a gerenciar mudanças e colaborar de forma eficaz.
+• Documentação: compreende manuais de usuário e registro técnico detalhado, de preferência em
+formato eletrônico.
+• Gestão do risco: trata‑se de definir regras e procedimentos que assegurem a qualidade do software,
+mesmo apresentando problemas. Ao mesmo tempo, deve‑se definir um plano de contingência
+para mitigar riscos e, possivelmente, garantir a produtividade.
+
+Dualidade do software com o hardware
+
+vida útil de um produto é a soma entre os tempos das regiões da mortalidade infantil e da
+estabilidade. Essa faixa é usada pelas seguradoras para a customização do seguro do produto.
+
+
+ Aplicabilidade do software
+
+ampla e diversificada. Atualmente, o software abrange boa parte dos aspectos da vida moderna
+e se utiliza das várias áreas do conhecimento para sua construção.
+
+
+ML (Machine Learning – Aprendizado de Máquina) é uma ramificação da IA, cujo foco é o
+desenvolvimento de algoritmos e técnicas que permitem aos computadores aprender com grandes
+volumes de dados, analisar para identificar padrões, tomar decisões ou fazer previsões com base
+nesses padrões.
+
+
+• ERP: responsável por integrar diversos processos empresariais, é embasado na arquitetura
+servidor/cliente ou em uma infraestrutura em nuvem. Pode ser aplicado em manufatura, varejo,
+saúde, finanças, serviços e educação.
+• CRM: envolve ferramentas usadas para gerenciar as interações de uma empresa com seus clientes.
+O CRM é integrado ao ERP e uma das aplicações de maior abrangência que fazem uso do CRM
+está no call center com soluções VoIP (telefonia por IP), headsets, IVR (Interactive Voice Response
+– Resposta Interativa por Voz) e ACD (Automatic Call Distribution – Distribuição Automática
+de Chamadas).
+• SCM (Supply Chain Management – Gerenciamento da Cadeia de Suprimentos): específico
+para o controle de processos logísticos, tem ferramentas como scanner de código de barras, RFID e
+dispositivos IoT; gera inventários, responde ao processamento do pedido, monitora o roteamento
+do transporte nos armazéns e nos centros de distribuição.
+
+1.4 Fábrica de software
+
+
+a fábrica de software é um modelo de produção
+organizado e eficiente para o desenvolvimento de software. Utilizam‑se processos padronizados,
+metodologias, ferramentas automatizadas e equipes especializadas.
+adotadas várias abordagens para mitigar problemas associados à crise do
+software
+
+Crise do software
+
+problemas considerados naquela época são os mesmos da atualidade: o rápido crescimento
+de demanda por software, com toda a complexidade em seu desenvolvimento, e a inexistência da
+engenharia de software. Não havia técnicas estabelecidas para desenvolver sistemas que funcionassem
+adequadamente ou que pudessem ser validadas.
+
+• as estimativas de prazo e de custo frequentemente são imprecisas;
+• a produtividade das pessoas da área de software não acompanha a demanda por seus serviços;
+• a qualidade de software às vezes não é adequada.
+
+Metodologias ágeis em resposta à crise do software
+
+• Ciclos curtos de desenvolvimento, permitindo a coleta regular de dados do projeto, feedbacks
+contínuos e ajustes rápidos nas práticas de desenvolvimento do software.
+• A comunicação entre cliente e desenvolvedor é contínua e transparente; são praticadas revisões
+regulares, de forma que os requisitos sejam claros e ajustados de acordo com a necessidade.
+• A integração contínua permite testes e diagnósticos antecipados, melhorando a qualidade do
+software; com entregas frequentes de versões incrementais, promovem‑se resultados melhores e
+alinhados às expectativas dos stakeholders.
+• As metodologias ágeis alinhadas a um planejamento iterativo e incremental permitem mudanças
+rápidas e adaptativas das prioridades e dos requisitos.
+• As metodologias ágeis incentivam equipes à autodisciplina e ao empoderadamento, o que
+aumenta a motivação e o compromisso dos stakeholders. As histórias de cada sprint permitem
+que a equipe desenvolvedora identifique melhorias e aprendizagem contínua
+
+ENGENHARIA DE REQUISITOS
+
+processo de engenharia de requisitos é composto por um conjunto estruturado de atividades para
+identificar, documentar e gerenciar os requisitos de um software, de forma a garantir que o produto
+final atenda às necessidades e expectativas dos usuários e dos stakeholders.
+
+stakeholder, ou parte interessada, é um indivíduo, grupo ou organização que possui um interesse, impacto ou é influenciado por um projeto, empresa ou iniciativa, como funcionários, clientes, fornecedores, investidores ou a comunidade
+
+atividades do processo da engenharia de requisitos do software
+
+
+• Estudo da viabilidade do sistema: embora essa etapa não esteja inclusa no projeto do software,
+é obrigatória para iniciar o projeto.
+• Elicitação: engloba a identificação das entidades envolvidas no projeto, a abstração de
+conhecimentos do negócio, as necessidades ou alguma situação‑problema que será convertida
+em software com base nos requisitos do usuário e RNF.
+• Análise: é a interpretação do negócio junto ao cliente com revisões sucessivas por meio de
+modelos do negócio para elaborar o escopo do software e medir a necessidade do negócio em
+relação à capacidade e aos recursos para que os profissionais desenvolvam o software. Nessa fase,
+inicia‑se a elaboração dos requisitos do software.
+• Especificação e modelagem: corresponde a uma descrição detalhada dos requisitos funcionais e do
+sistema, ao lado da modelagem do software, para a interpretação dos desenvolvedores.
+• Validação: verifica‑se se os requisitos documentados estão de acordo com as necessidades do cliente.
+• Gestão de requisitos: monitoramento dos requisitos ao longo do ciclo de vida do desenvolvimento do
+software, de forma a garantir que os requisitos estão sendo executados corretamente.
+
+
+Estudo de viabilidade do sistema
+
+identificação (ou concepção) das necessidades do software, o projeto começa quando uma
+necessidade de negócio é identificada ou um mercado ou serviço novo é descoberto.
+
+
+ todo o software novo, o processo de engenharia de requisitos deve começar com o estudo de
+viabilidade, antes mesmo da obtenção e da análise de requisitos. Os resultados do estudo de viabilidade devem
+apresentar um relatório que recomenda se compensa ou não realizar o processo de engenharia de requisitos
+e o processo de desenvolvimento do sistema.
+O estudo de viabilidade busca alinhar as necessidades do negócio com a capacidade para o
+desenvolvimento
+
+• O sistema proposto contribui para os objetivos gerais da organização?
+• O sistema pode ser integrado com os outros já em operação? Qual é o impacto das mudanças no
+ambiente operacional do usuário?
+• O sistema pode ser implementado com a utilização de tecnologia atual dentro das restrições de
+custo e prazo?
+• O que o cliente quer está dentro do orçamento e do prazo para entrega do sistema?
+
+Processos de requisitos do software
+
+2.3 Processos de requisitos do software
+
+
+• Prototipação e UC (Use Cases – Casos de Uso). O protótipo é recomendado para avaliar a interface do
+IU (usuário), os problemas de comunicação com outros produtos e a possibilidade de atendimento aos
+requisitos de desempenho. Nesse contexto, os UC são úteis para identificar funcionalidades do software.
+
+
+RU (Requisitos do Usuário)
+
+
+declarações em linguagem natural, formulários e diagramas simples sobre as funções que o
+software deve fornecer e as restrições sobre as quais deve operar.
+Os requisitos do usuário são obtidos na elicitação do projeto de software. Esse documento pode
+ser elaborado pelo próprio cliente ou pelo analista do processo de negócio alinhado ao cliente e ao
+representante dos usuários.
+modelos de negócios e UC são produzidos com especificações que permitem determinar
+os demais requisitos. Isso incluem os requisitos de interface com usuários e outros sistemas, normas e
+leis, aos quais o software deve ser submetido e regras de acesso, tais como níveis de permissões para
+diretores, gerentes e funcionários
+
+RNF
+
+Determinam a qualidade e as propriedades que um software deve ter, sendo o diferencial que faz
+com que uma aplicação seja boa e atrativa. Uma forma de memorizar o que são RNF é saber que eles são
+tudo aquilo que o cliente não pede e que, se houver problema, ele vai reclamar.
+
+• Usabilidade: se refere à IU, atributo que estudaremos em pormenores a seguir.
+• Eficiência: é fazer o correto da melhor forma possível, considerando o período de execução da
+tarefa e o valor econômico associado. As principais medidas são o desempenho e o espaço para
+processamento e armazenamento.
+• Confiabilidade: é atender à expectativa de apresentar um determinado resultado de acordo com
+o esperado no requisito.
+• Portabilidade: é a capacidade de escalar o software em outros ambientes operacionais com base
+no desempenho e no espaço de armazenamento.
+34
+Unidade I
+Logicamente, podemos associar outras características no grupo de requisitos do produto, tais como:
+• Funcionalidade: característica específica do software, representa o conjunto de uma ou mais
+funções com aspectos operacionais e técnicas similares.
+• Manutenibilidade: durante o ciclo de vida do software, ocorrem diversas mudanças no software
+a pedido do usuário, seja pela implementação de algum componente no ambiente operacional,
+seja por alguma falha do software. A característica manutenibilidade se preocupa com a facilidade
+a responder às mudanças de forma rápida.
+
+
+
+e requisitos externos, que envolve o atendimento a regulamentações
+governamentais, normas, padrões da indústria de software, expectativas dos stakeholders, competitividade etc.
+É composto pelos seguintes elementos:
+• Interoperabilidade: é a capacidade do software em efetuar operações em ambientes integrados
+a outros sistemas de software ou sistemas distribuídos.
+• Ética: conjunto de princípios morais e diretrizes que orientam o comportamento dos profissionais
+participantes do projeto para criar uma boa comunicação, responsabilidade, confiabillidade
+e transparência.
+• Aspectos legais: englobam leis e regulamentações políticas, internas ou externas, que orientam o
+que é permitido e exigido no desenvolvimento, no uso e na distribuição do software. Os principais
+requisitos dos aspectos legais, incluindo segurança e privacidade, são:
+— Segurança: é associada a implementações de normas de segurança, responsabilidades por
+violações de segurança, conformidade com as leis, divulgação de incidentes, contratos, treinamento
+e auditorias.
+— Privacidade: determina como as empresas devem coletar, armazenar e tratar os dados
+pessoais dos usuários, garantindo sua privacidade e sua segurança. No Brasil, temos a LGPD;
+na Europa, GDPR.
+— Propriedade intelectual: do projeto, da codificação, por exemplo, no que se refere a direitos
+autorais, patentes e marcas registradas.
+35
+
+— Blockchain: tecnologia que permite a criação de um registro digital seguro. Em relação à
+segurança dos dados, suas principais características são integridade, distribuição, descentralização
+e criptografia; quanto à privacidade, anonimato e controle de acesso.
+
+Validação dos requisitos
+
+
+Ela ocorre formalmente. Nesse documento, os produtos de trabalho resultantes da engenharia
+de requisitos são avaliados e aprovados pelo cliente e pelo desenvolvedor.
+
+
+Ergonomia cognitiva
+É uma área da ergonomia que se concentra no estudo e na melhoria da interação entre os seres
+humanos e os sistemas cognitivos, como a mente, a memória, a atenção e a percepção.
+Na engenharia de requisitos, é importante incluir em RNF e RF o projeto da IU, que envolve a
+UX, com base na abordagem aos usuários e na prototipagem.
+
+o RNF, a acessibilidade e a usabilidade. O design de IU deve ser
+intuitivo e fácil de usar, sendo uma das características da ergonomia cognitiva. São considerados
+os formatos das informações a serem apresentadas, a forma pela qual os comandos são solicitados
+e como o usuário interage com o software.
+
+
+Métodos, ferramentas e técnicas (MF&T): elicitação e modelagem ágil (AM)
+
+
+mapa mental é uma ferramenta versátil e poderosa que pode ser aplicada em diversas áreas e
+contextos. É muito útil nos processos iniciais do projeto de software de elicitação e análise. Ele ajuda
+a representar ideias, conceitos ou tarefas; estruturando‑os de uma maneira que facilita a compreensão
+e a recordação, sendo vital para brainstorming e planejamento.
+Segundo Ambysoft (s.d.), a AM é uma metodologia pautada na prática para modelagem e documentação
+efetiva de sistemas baseados em software.
+
+
+Os princípios fundamentais da AM são:
+• Assuma a simplicidade
+— Com um mapa mental, é possível visualizar os requisitos.
+• Abrace a mudança
+— Habilitar o próximo esforço é seu objetivo secundário.
+• Mudança incremental
+— Ao usar uma ferramenta para construir um mapa mental, as mudanças e os incrementos
+podem ser alterados de forma simples
+
+
+• Maximize o ROI (Return on Investment – Retorno sobre Investimento) das partes
+interessadas
+— Quando você visualiza um processo em vez de ler inúmeras páginas, o contexto do processo
+tem maior clareza.
+• Modelo com um propósito
+— Os objetivos ficam evidentes.
+• Vários modelos
+— Pode‑se criar vários modelos com mapas mentais, tais como: requisitos, mapas de navegação,
+protótipos, análise de infraestruturas e outros.
+• Trabalho de qualidade e feedback rápido
+— O software funcional é seu objetivo principal. Assim, o mapa mental cria uma linguagem
+comum na equipe de projeto; o modelo é visível e permite refinar o processo de forma rápida
+antes mesmo de codificar o software.
+• Viagem leve
+— O mapa mental está no formato eletrônico e disponível em várias plataformas, são preservados
+apenas os modelos realmente úteis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
