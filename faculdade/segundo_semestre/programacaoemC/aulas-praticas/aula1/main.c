@@ -5,7 +5,12 @@
 
 int main()
 {
+    // primeira atividade
+
     printf("Ola, mundo!\n");
+
+
+    // segunda atividade
 
     float valor1, valor2, valor3, total;
     valor1 = 12.6;
@@ -14,7 +19,7 @@ int main()
     total = valor1 + valor2 + valor3;
     printf("Total: %.2f \n", total);
 
-    //
+    // terceira atividade
 
     int idade;
     float altura;
@@ -29,23 +34,26 @@ int main()
     printf("Digite a inicial do seu nome: ");
     scanf(" %c", &inicial);
 
-
-
     printf("\nIdade: %d, Altura: %.2f, Inicial: %c\n ", idade, altura, inicial);
 
-
-    //
-
+    // variáveis
     char name[50];
+    char email[50];
     int age;
 
+    // leitura de dados
     printf("Digite seu nome: ");
-    scanf("%s", name);
+    scanf("%s", &name);
 
     printf("Digite sua idade: ");
     scanf("%d", &age);
 
-    printf("oLa, %s! Voce tem %d anos.\n", name, age);
+    printf("Digite seu e-mail: ");
+    scanf("%s", &email);
+
+    // mostrando os dados
+    printf("Ola, %s! Voce tem %d anos, seu e-mail: %s\n", name, age, email);
 
     return 0;
+
 }
