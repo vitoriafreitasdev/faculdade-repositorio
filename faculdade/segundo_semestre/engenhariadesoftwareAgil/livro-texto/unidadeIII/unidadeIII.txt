@@ -1,0 +1,386 @@
+unidadeIII
+
+FUSÃO DO PRODUTO E DO PROCESSO DE SOFTWARE
+
+fusão do software com o processo de desenvolvimento para gerar artefatos ou sistemas de software
+ajuda as empresas desenvolvedoras a consolidar suas operações, reduzindo os custos e aumentando a
+produtividade.
+Essa fusão representa a integração estreita entre a definição do produto final e as atividades
+necessárias para desenvolvê‑lo
+
+ software é o resultado final do desenvolvimento, incluindo elementos como código, interfaces do
+usuário e do hardware, documentação, funcionalidades e desempenho esperado.
+O processo de software abrange as camadas da engenharia de software, como qualidade, processos,
+métodos, ferramentas e técnicas utilizadas para criá‑lo. Inclui desde a engenharia de requisitos,
+arquiteturas, codificação, testes unitários e de integração até a manutenção contínua.
+
+ as quatro atividades básicas do processo – especificação,
+desenvolvimento, validação e evolução – são organizadas por processos que diferem conforme o
+produto a ser gerado e os métodos aplicados pela equipe de desenvolvimento. Por exemplo: ao
+utilizar o modelo de processo Cascata, as atividades são organizadas de forma sequencial; já no
+modelo Incremental, as iterações, revisões sucessivas do processo, permitem mudanças nas fases do
+ciclo de desenvolvimento.
+
+
+ atividades dependem do tipo de software a ser elaborado, dos desenvolvedores e da estrutura
+organizacional. Por exemplo: na metodologia ágil Scrum, as especificações e as tarefas são escritas em
+cartões (Kanban)
+
+Domínio da análise do engenheiro de software
+
+
+domínio de análise, que se refere ao conjunto de áreas de conhecimento e aspectos técnicos,
+organizacionais e de negócio que esse profissional deve considerar para desenvolver soluções
+eficazes alinhadas às necessidades dos usuários, da equipe e da organização.
+Essa análise envolve a compreensão detalhada do problema ou das necessidades a serem
+implementadas, o conhecimento de normas e padrões da qualidade do software, processos
+organizacionais, de desenvolvimento e tecnologias envolvidas, ferramentas, infraestrutura de TI e
+comunicação com clientes e usuários.
+
+
+A engenharia de software é uma tecnologia em camadas
+
+Foco na qualidade
+
+
+qualidade estabelece regras, padrões, normas, procedimentos e atividades que orientam o
+desenvolvimento de software de alta qualidade, levando à cultura de melhoria contínua dos processos
+e a abordagens cada vez mais eficientes da engenharia de software.
+
+
+• ISO/IEC 25010 (SQuaRE – Systems and Software Quality Requirements and Evaluation – Requisitos
+de Qualidade e Avaliação de Sistemas e Software):
+— Define os modelos de qualidade para sistemas e software, incluindo características de qualidade
+e subcaracterísticas como funcionalidade, desempenho, segurança e manutenibilidade.
+— Substitui a antiga norma ISO/IEC 9126 e a ISO/IEC 14598.
+
+
+• ISO 12207 – Processos do ciclo de vida do software:
+— Padroniza os processos envolvidos no ciclo de vida do software, desde a concepção até
+a manutenção.
+• ISO 15504 – SPICE:
+— Define um modelo para avaliação e melhoria de processos de software, permitindo medir a
+maturidade dos processos organizacionais.
+— Serve de base para modelos como o CMMI.
+• ISO 9001 – Sistema de gestão da qualidade:
+— Foco na padronização e melhoria contínua. A ISO 9001 é referência na garantia de gestão da
+qualidade em projeto, instalação, desenvolvimento, produção, arquitetura e serviço.
+Agora observe alguns modelos.
+• CMMI: os níveis de maturidade acentuados a seguir representam diferentes estágios de evolução
+dos processos de uma organização.
+
+
+Tem cinco níveis de maturidade:
+– Inicial (initial): processos não padronizados.
+– Gerenciado (managed): processos controlados.
+– Definido (defined): processos padronizados.
+– Quantitativamente gerenciado (quantitatively managed): controle por métricas.
+– Em otimização (optimizing): melhoria contínua.
+
+• MPS.BR (Melhoria do Processo de Software Brasileiro)
+
+— Elaborado para atender micro, pequenas e médias empresas, fazendo uso das principais
+abordagens internacionais voltadas para a definição, a avaliação e a melhoria dos processos
+de software.
+— Compatível com o CMMI, ele tem sete níveis de maturidade alinhados aos cinco níveis do CMMI.
+— Os sete níveis de maturidade no modelo MPS.BR são:
+– G (parcialmente gerenciado).
+– F (gerenciado).
+– E (parcialmente definido).
+– D (largamente definido).
+– C (definido).
+– B (gerenciado quantitativamente).
+– A (em otimização)
+
+
+
+ITIL (Information Technology Infrastructure Library – Biblioteca de Infraestrutura de
+Tecnologia da Informação): é o conjunto de melhores práticas para gerenciamento de serviços
+de TI, incluindo suporte e manutenção de software.
+• COBIT (Control Objectives for Information and Related Technologies – Objetivos de
+Controle para Informação e Tecnologias Relacionadas): trata‑se de modelo de governança
+de TI que ajuda empresas a alinhar software e tecnologia aos objetivos estratégicos do negócio.
+
+
+
+Processo
+
+
+Define a estrutura fundamental para a concepção e o desenvolvimento de software orientando‑se
+por padrões e normas da qualidade estabelecida. O processo assegura a integração das camadas
+tecnológicas, permitindo um desenvolvimento de software racional e oportuno.
+O processo estabelece uma metodologia a ser seguida para a entrega eficaz de tecnologia,
+constituindo a base para o controle e o gerenciamento do projeto
+
+
+
+
+Um framework do ciclo de desenvolvimento de software é composto basicamente pelos processos:
+• Elicitação (início ou concepção): compreende o gerenciamento das relações com o cliente, a
+comunicação e a interpretação do negócio com o objetivo de levantar os requisitos do software.
+A intenção é identificar as entidades e as operações e compreender os objetivos dos stakeholders
+(conjunto dos interessados).
+• Análise: após a interpretação do negócio, elabora‑se um modelo conceitual do plano de
+projeto de software, que abrange a especificação detalhada do software a ser desenvolvido. Esse
+plano contempla a definição das atividades e tarefas técnicas, a estruturação do cronograma, a
+gestão de riscos, além da alocação de recursos e a estimativa de custos envolvidos no processo.
+Faz‑se nessa etapa a relação entre as necessidades funcionais do cliente e a capacidade da
+equipe ou empresa desenvolvedora para construir o software.
+• Especificação e modelagem: a especificação define com clareza e precisão as características,
+os requisitos e as condições de algo. Normalmente, ela é acompanhada de um modelo gráfico
+com a modelagem, que expressa a especificação. Essa ação envolve detalhar as funcionalidades,
+os comportamentos e as restrições de um sistema ou componente, fornecendo uma descrição
+completa que orienta a sua construção, implementação e verificação.
+• Construção: é o processo de codificação (geração do código), depuração (exame e limpeza dos
+dados, do código e da interface), testes unitários e diagnósticos.
+• Implementação: é a integração do código construído ao software, realizando‑se nessa etapa
+testes de integração e diagnósticos.
+• Implantação: corresponde à fase de entrega do release do software ao cliente, que, por sua vez,
+fornece feedbacks de avaliação para validar e aceitar o software.
+• Validação: é o processo que envolve a garantia da qualidade ao cliente. Esse acordo entre cliente
+e desenvolvedor garante que o software produzido atende às necessidades e expectativas do
+cliente ou do usuário final. É a confirmação de que o produto faz o que deve fazer de maneira
+correta e adequada para seu propósito.
+Esses frameworks são mostrados nos modelos de processos:
+• PSP: criado pelo SEI, é específico para engenheiros de software.
+• TSP: também criado pelo SEI, seu foco é a equipe de trabalho.
+• Cascata: modelo clássico do ciclo de vida de desenvolvimento do software.
+• Prototipagem: modelo iterativo com atividades para montagem de protótipos.
+• Incremental: modelo iterativo desenvolvido com o conceito de versões.
+• RAD: usando frameworks de linguagens de programação, visa à entrega rápida de sistemas de
+software, adotando uma estratégia baseada na construção modular e orientada a componentes
+reutilizáveis.
+• Espiral: modelo evolucionário que combina a natureza iterativa da prototipagem com os aspectos
+sistemáticos do Cascata.
+• RUP: processo proprietário de engenharia de software criado pela Rational Software Corporation
+e atualmente representado pela IBM.
+
+Métodos
+É o conjunto estruturado de procedimentos, regras e técnicas utilizados para guiar o desenvolvimento
+do software para alcançar uma meta, um fim ou um conhecimento. Um método assegura que as
+etapas do ciclo de vida do software sejam seguidas de maneira sistemática e eficiente.
+O método determina os passos a serem seguidos na construção do software ou parte dele. Envolve
+um amplo conjunto de tarefas, desde gestão de equipes, análise de requisitos, projeto e construção de
+programas, até os testes, a entrega, o suporte e a manutenção.
+
+Metodologias ágeis
+Trata‑se de uma coleção de metodologias baseada na prática para modelagem efetiva de sistemas
+de software e podem ser aplicadas por profissionais no dia a dia.
+Em contraponto aos modelos de processos estruturados, as metodologias ágeis são específicas para
+cada atividade do ciclo de desenvolvimento e, basicamente, são aplicadas em projetos orientados a
+objetos, podendo ser integradas em determinadas atividades dos modelos de processos estruturados.
+A metodologia ágil que mais se destaca é o Scrum, por ser flexível e adaptável, com entregas
+incrementais, foco no cliente e melhoria contínua. Ele pode ser integrado a outras metodologias ágeis,
+como XP, Kanban, FDD e demais metodologias ágeis que se fizerem necessárias no desenvolvimento
+do software
+
+MR (Matriz de Responsabilidades)
+É um método de gestão para definir papéis e responsabilidades de cada membro da equipe em
+relação às atividades e tarefas do projeto, com o objetivo de deixar claro quem está envolvido e qual
+função deve desempenhar.
+
+
+PERT
+Preocupa‑se com o fator tempo, com o objetivo de planejar e controlar o projeto. Os prazos são
+tratados de forma probabilística, indicando que, inicialmente, os períodos são estimados com base em
+experiências anteriores.
+CPM
+Preocupa‑se com o fator custo, em que são aplicadas técnicas de planejamento e controle para
+realização das tarefas por meio de cálculos determinísticos, o que significa que, pela CMP ou rede de
+cartões (Kanban), é possível ajustar os períodos das tarefas em um período total mais curto.
+Outros métodos
+Amplamente constantes na engenharia de software, pode‑se citar os métodos de:
+• engenharia de requisitos;
+• modelagem e design;
+• implementação e programação;
+• testes de software;
+• manutenção e evolução de software.
+
+
+ Ferramentas
+Trata‑se de recursos tecnológicos que dão apoio automatizado para os processos e os métodos em
+todas as fases do desenvolvimento de software.
+
+
+
+Gestão de projetos
+Na análise de customização dos serviços, o software GanttProject, fornecido gratuitamente, tem
+várias funcionalidades compatíveis com o Project, da Microsoft, que é pago.
+Com o GanttProject é possível obter cronogramas, gráfico de análise do caminho crítico da rede de
+tarefas e diagrama de recursos (ou pessoas), entre outras aplicações. Esses gráficos e análises são os
+resultados da automação dos métodos PERT/CPM, MR e Kanban.
+
+
+Astah
+Permite criar diagramas UML de UC, atividades, classes, sequência, componentes,
+implantação, entre outros. Tem recursos de exportação/importação de arquivos ou
+programas e integração com ferramentas de desenvolvimento
+Bizagi Utilizada na BPM, com suporte para criação de diagramas BPMN e automatização de
+processos empresariais
+Draw.io
+É uma ferramenta de modelagem e diagramação. Permite criar uma variedade de
+diagramas, desde fluxogramas, diagramas UML, design de telas de software, mapas
+mentais, diagramas em rede etc.
+FreeMind
+É uma ferramenta de modelagem mental que permite aos usuários criar mapas
+mentais para organizar, visualizar informações, criar mapas de navegação em
+software, entre outros. O mapa mental é utilizado em abordagens para levantamento
+de requisitos e recursos, brainstorm, planejamento e organização de ideias
+MySQL Workbench
+É uma ferramenta de design de banco de dados que permite criar e visualizar
+esquemas de banco de dados, realizar engenharia direta e reversa e gerenciar bases
+de dados MySQL
+Microsoft Visio
+É uma ferramenta de modelagem e diagramação. Com gráficos vetoriais, foi lançada
+pela primeira vez em 1992 pela Visio Corporation e a Microsoft adquiriu a empresa
+em 2000. É usada para criar uma variedade de diagramas, incluindo fluxogramas,
+organogramas, planos de piso, diagramas de rede, diagramas UML e mapas mentais
+
+IDE
+É um framework de programação que opera no domínio da aplicação, fornecendo uma solução completa
+para uma “família de problemas” específicos de uma determinada funcionalidade. Essencialmente, é
+composto por um conjunto de classes e interfaces, decomposto em quadros com seus respectivos códigos.
+
+
+
+
+ASP.NET Core (C#) De código aberto, é uma ferramenta para a construção de aplicações
+web modernas baseadas em.NET
+Django (Python) Promove o desenvolvimento rápido e o design limpo e pragmático.
+É ideal para construir aplicações web robustas
+Eclipse
+Desenvolvido pela Eclipse Foundation, é um dos IDEs mais populares e
+versáteis disponíveis atualmente, operando com diversas linguagens de
+programação em ambiente multiplataforma
+Electron (JavaScript, HTML, CSS) Permite a criação de aplicações desktop multiplataforma usando
+tecnologias web
+NetBeans
+Plataforma de desenvolvimento de software modular, foi inicialmente
+desenvolvida pela Sun Microsystems e hoje é mantida pela Apache
+Software Foundation
+Qt (C++) Ferramenta robusta e completa para o desenvolvimento de aplicações
+desktop e móveis com suporte multiplataforma
+React Native (JavaScript)
+Ferramenta para desenvolvimento de aplicativos móveis nativos usando
+React, permite a criação de apps para iOS e Android a partir de um único
+código‑fonte
+Xamarin (C#) Utiliza o.NET para construir aplicativos móveis para Android e iOS com
+uma única base de código compartilhada
+
+
+
+
+JAD (Joint Application Development – Desenvolvimento de
+Aplicação Conjunta)
+De acordo com Fournie (1994), o JAD é uma metodologia criada pela IBM em 1977 e tem por
+finalidade reunir uma equipe de usuários, stakeholders e desenvolvedores para alcançar acordos
+baseados na compreensão das operações do processo.
+O JAD é uma metodologia colaborativa de ciclo rápido utilizada no desenvolvimento de software
+para acelerar o processo de comunicação, por meio de reuniões estruturadas denominadas sessões
+JAD. Essas sessões são lideradas por um facilitador, que orienta a discussão e garante que as partes
+interessadas contribuam com suas perspectivas para determinar requisitos, design de software e
+resolução de problemas.
+
+
+
+Facilitador (ou líder da sessão)
+Conduz a sessão JAD. É responsável pelas interações entre os participantes, contribuindo para que
+os objetivos sejam alcançados.
+
+
+Executivo patrocinador (autor do produto, analista de negócios ou analista de processos)
+É a representação da gerência de mais alto nível, pertencente às fileiras dos usuários, estando muito
+comprometido com as atividades do processo de negócio.
+
+
+Gerência funcional (ou representante do usuário)
+Trata‑se das pessoas peritas na matéria em discussão nas sessões JAD, são aquelas que precisam do
+software. Elas devem ser escolhidas pela sua capacitação profissional em descrever as práticas atuais e
+operações do negócio que serão implementadas no software a ser desenvolvido.
+
+
+Gerente de projeto
+Auxilia na coordenação da sessão JAD com o objetivo de alinhar os interesses estratégicos da
+organização com os recursos necessários para produzir o software.
+Esse profissional atua na gestão da equipe de desenvolvimento e stakeholders com a preocupação
+de controlar a comunicação, os custos e o tempo do projeto. Elabora cronogramas, planilhas de custo e
+distribuição dos recursos de uma forma geral.
+Gerente de projeto da infraestrutura de TI
+Atua diretamente com a equipe de desenvolvimento, avaliando a capacitação do pessoal de
+desenvolvimento para produzir o software e os recursos de infraestrutura.
+
+Analistas de sistemas (e/ou desenvolvedores)
+São aqueles que trabalham no desenvolvimento do software, que levam conhecimentos técnicos e
+específicos de como os assuntos de negócios serão implementados no software.
+Esses profissionais documentam os requisitos e ajudam na interpretação das necessidades dos
+usuários em especificações técnicas, analisam a viabilidade técnica das soluções propostas e identificam
+possíveis riscos.
+
+Secretário (escriba ou documentador)
+Registra apenas as informações relevantes das discussões e das decisões tomadas durante a sessão.
+Para tal, usa ferramentas de software para organizar, documentar e apontar tendências dos assuntos
+pertinentes na discussão. O secretário JAD é muitas vezes citado como um especialista no uso de
+ferramentas CASE e de prototipação.
+
+
+Gerenciamento da equipe de desenvolvimento
+A gestão de equipes de desenvolvimento de software assegura que todas as partes interessadas
+estejam devidamente informadas e engajadas em uma comunicação eficaz e melhor alocação de recursos
+
+
+ principais aplicações da MR na engenharia de software envolvem:
+• Definição clara de papéis e responsabilidades: com ela, todos os membros da equipe de
+stakeholders sabem exatamente suas funções e responsabilidades no projeto, o que melhora a
+comunicação e evita sobreposições e redundâncias de tarefas.
+• Gestão de recursos: a MR ajuda na alocação e no controle eficiente dos recursos, garantindo
+que o indivíduo trabalhe especificamente na sua tarefa e saiba também as responsabilidades dos
+demais companheiros de equipe que trabalham na atividade, facilitando o relacionamento das
+partes e a hierarquia de decisão na realização da atividade.
+• Integração com os métodos PERT/CPM: são métodos de gerenciamento de projetos aplicados ao
+desenvolvimento e à produção em diversos ramos da indústria, neste caso, a indústria de software.
+• Integração com metodologias ágeis: nos ambientes de desenvolvimento ágil como XP, Scrum,
+FDD e outras, as responsabilidades podem mudar de sprint para sprint.
+
+transparência proporcionada pela integração da MR com metodologias ágeis é útil em projetos
+de software, pois, neles, as mudanças são frequentes e a colaboração contínua é essencial, promovendo
+uma melhor gestão dos recursos e dos prazos. Essa integração permite que a equipe tenha uma estrutura
+flexível e adaptável de forma rápida, melhorando a produtividade de software com Scrum, por exemplo.
+
+parei na 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

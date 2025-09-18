@@ -1,0 +1,653 @@
+unidadeII
+
+PROCESSOS DE SOFTWARE
+
+processo de software constitui a base para o controle do gerenciamento
+de  projetos de software e estabelece o contexto no qual são aplicados
+métodos técnicos, são produzidos artefatos (modelos, documentos, dados,
+relatórios, formulários etc.)
+
+processo ágil é uma abordagem flexível e colaborativa para desenvolver software com o foco em
+entregas contínuas, agregando valor ao cliente. É formado pelo conjunto de diversas outras metodologias
+ágeis, fundamentadas na prática para modelagem efetiva e sistemas baseados em software, e elas
+podem ser aplicadas por profissionais no dia a dia.
+
+Agilidade e decomposição do processo
+
+desenvolvimento prescritivo
+e desenvolvimento ágil
+
+desenvolvimento prescritivo (baseado em planos) é caracterizado por seguir uma abordagem
+mais estruturada e sequencial, com etapas bem definidas e especificadas antes do início do projeto.
+Geralmente, pauta‑se no modelo de processo Cascata, um clássico no desenvolvimento de software.
+
+desenvolvimento prescritivo enfatiza a previsibilidade e o planejamento detalhado, enquanto
+o desenvolvimento ágil valoriza a flexibilidade, a colaboração e o feedback constante. Ele pode ser
+mais adequado para projetos estáveis e bem definidos, enquanto o modelo ágil se destaca em cenários
+dinâmicos e sujeitos a mudanças constantes.
+
+
+O desenvolvimento ágil é uma abordagem iterativa e incremental, com baixo índice de especificação,
+que prioriza a adaptação a mudanças e a entrega de valor contínuo ao cliente.
+
+
+
+m processo prescritivo é aplicado em projetos de grande escala, nos quais os
+requisitos são claros e estáveis.
+Por sua vez, o processo ágil é aplicado em projetos pequenos, médios e em startups; denotando certo
+grau de incerteza. Uma das características fundamentais das metodologias ágeis é que os requisitos
+podem variar de acordo com novas mudanças requeridas. Mesmo que não estejam tão claros e sejam
+poucos estáveis, eles evoluem com o tempo por meio de feedbacks rápidos e contínuos.
+
+
+Funcionalidade: conjunto formado por uma ou várias funções que
+empregam recursos e lógicas similares, tecnologias comuns e que capacitam
+o software a prover funções que atendam às necessidades externas e
+internas do software.
+Por exemplo: a funcionalidade CRUD (Create, Read, Update e Delete –
+Criar, Ler, Atualizar e Apagar) 
+
+PSP (Personal Software Process – Processo de Software Pessoal)
+
+
+
+metodologia criada pelo SEI (Software Engeneering Institute). Específica para
+o engenheiro de software, visa melhorar a engenharia individual de software, proporcionando uma
+metodologia disciplinada para planejar, medir e analisar o trabalho pessoal, tentando aumentar a
+qualidade e a produtividade. O PSP é focado no desenvolvimento de sistemas de software por engenheiros
+em nível pessoal (Humphrey, 1995).
+
+
+
+O PSP orienta o planejamento e o desenvolvimento dos componentes do software e tem como
+principais objetivos:
+• Melhoria da qualidade do software: práticas rigorosas de revisão e inspeção reduzem o
+número de defeitos no software desde as primeiras fases do desenvolvimento.
+• Precisão nas estimativas de tempo e custo: melhora a estimativa de prazo e esforço para o
+desenvolvimento do software.
+• Aumento da produtividade: um bom planejamento faz com que o índice de manutenção
+seja reduzido, de forma que o projeto pronto seja concluído em menos tempo, elevando
+a produtividade.
+• Disciplina e organização: ajuda os desenvolvedores a seguir processos definidos e
+coleta de medidas de seus trabalhos, melhorando a distribuição de serviços pela equipe
+de desenvolvimento.
+• Análise de desempenho: cria um comprometimento pessoal com a qualidade e a
+melhoria contínua do processo, fornecendo métricas para que os engenheiros avaliem e
+aprimorem continuamente seu desempenho com dados reais.
+
+
+TSP (Team Software Process – Processo de Software da Equipe)
+
+
+Trata‑se de uma metodologia criada para auxiliar equipes de desenvolvimento de software a
+produzir produtos de alta qualidade de maneira eficiente e previsível. São práticas disciplinares que
+melhoram a produtividade e a capacidade na entrega do software dentro do prazo e do orçamento.
+O TSP foi desenvolvido por Watts Humphrey (criador do CMMI e do PSP), com foco na equipe
+de trabalho. Nele, o profissional não trabalha sozinho no desenvolvimento de software.
+
+
+
+TSP complementa o PSP, ajudando cada membro da equipe a desenvolver e aprimorar suas
+habilidades pessoais dentro do contexto de trabalho em equipe, sendo que o treinamento prévio no PSP
+é essencial.
+
+ objetivos para o TSP são:
+• Criar equipes autodirigidas que planejem e acompanhem seu próprio trabalho, estabeleçam metas
+e sejam proprietárias de seus processos e planos. As equipes podem ser puras ou equipes de
+produto integradas (IPTs – Integrated Product Teams), com cerca de 3 a 20 engenheiros.
+• Mostrar aos gerentes como treinar e motivar suas equipes e como ajudá‑las a manter
+alto desempenho.
+• Acelerar o aperfeiçoamento dos processos de software, tornando o comportamento CMM nível 5
+algo normal e esperado.
+• Fornecer orientação para melhorias a organizações com elevado grau de maturidade.
+• Facilitar o ensino universitário de habilidades de trabalho em equipe de nível industrial.
+
+
+Modelos de processos de software
+
+
+
+modelos de processos de software englobam um conjunto de atividades, métodos, práticas
+e transformações empregadas no desenvolvimento e na manutenção de software. Eles fornecem
+estabilidade, controle e organização para as atividades, que, sem controle, tornam‑se bastante caóticas.
+
+
+
+ Cascata (Waterfall Model ou Sequencial Linear)
+O modelo Cascata, algumas vezes chamado ciclo de vida clássico, sugere uma
+abordagem sequencial e sistemática para o desenvolvimento de software,
+começando com a especificação dos requisitos do cliente, avançando pelas
+fases de planejamento, modelagem, construção e entrega, e culminando no
+suporte contínuo do software concluído
+
+s conceitos sobre as atividades do Cascata:
+• Comunicação: é a fase de elicitação, quando se inicia o projeto. Nela, é feito o levantamento de
+requisitos, determinando as funcionalidades, as restrições e os objetivos do sistema.
+• Planejamento: nessa atividade, os requisitos são agrupados para definir o escopo do sistema,
+determinar a arquitetura modelada, estimar prazos e custos. São produzidos artefatos de
+cronogramas, análises de caminho crítico e seleção de recursos a serem disponibilizados. Com os
+artefatos construídos, é feito o acompanhamento de cada etapa do projeto.
+• Modelagem: toda modelagem é acompanhada de sua especificação, além do processo de
+modelagem do negócio, que está na atividade “Comunicação”. Os modelos a serem criados envolvem
+três arquiteturas: modelagem da informação – diagrama de classes e de pacotes; modelagem
+da lógica de processamento – diagramas de UC, sequência, estado e outros; e modelagem da
+infraestrutura de TI – diagrama de componentes e de implantação.
+• Construção: refere‑se à codificação e aos testes a serem realizados do componente de software
+produzido. A verificação do requisito ocorre pelo atendimento das especificações, pela inspeção
+de código e pelos testes unitários e de integração. As unidades são integradas e testadas como um
+sistema completo.
+• Entrega: é a implantação do software no ambiente do cliente. Com o suporte necessário,
+feedbacks são colhidos de acordo com as observações dos usuários, tais como erros que não
+foram identificados anteriormente, melhoria na interface, aumento de funções para o sistema e
+descoberta de novos requisitos.
+
+
+Balbúrdia (codifica/corrige ou codifica/remenda)
+
+
+desenvolvimento é conduzido de forma improvisada e iterativa, com foco em
+resolver problemas imediatos ou entregar funcionalidades rapidamente, sem considerar uma visão de
+longo prazo ou práticas consolidadas de engenharia de software. Existe um ciclo contínuo de mudanças
+não planejadas que distancia cada vez mais o software de seu estado de maturidade e estabilidade.
+
+o Balbúrdia não é um modelo a ser seguido para desenvolver software, porém inúmeros
+profissionais o seguem, mesmo não sabendo disso. Ele é caracterizado pela administração de crises,
+informalidade, loop de gestão codifica/corrige, em que o planejamento, os requisitos do software, a
+modelagem e a documentação são caóticos ou até mesmo inexistentes.
+
+
+Prototipagem
+
+
+Protótipos são produtos em menor escala, modelos 2D e 3D gerados
+em computador ou simulações. Os protótipos permitem que as partes
+interessadas façam experiências com um modelo do seu produto final,
+em vez de somente discutirem representações abstratas dos requisitos.
+Os protótipos suportam o conceito de elaboração progressiva em ciclos
+iterativos de criação de modelos, experimentação de usuário, geração de
+feedbacks e revisão do protótipo. Quando ciclos de feedback suficientes
+forem realizados, os requisitos obtidos a partir do protótipo estarão
+completos o suficiente para passar para a fase de design ou de construção 
+
+
+prototipagem tem como objetivo principal simular o comportamento e a aparência do sistema
+final. O projeto passa por várias investigações para garantir que o desenvolvedor, o usuário e o cliente
+cheguem a um consenso sobre o que é necessário e o que deve ser proposto.
+
+
+protótipo de software é um mecanismo para identificar requisitos de IHC, RF, práticas de UX em
+mapas de navegação interativos, mapa de estilos para CSS e IDE (Integrated Development Environment –
+Ambiente de Desenvolvimento Integrado).
+
+
+vantagens da prototipagem, destacam‑se:
+• Ciclo de vida eficiente: permite ao desenvolvedor criar um modelo representativo do software
+a ser construído.
+• Adequação a objetivos definidos: é apropriada quando o cliente definiu os objetivos gerais
+do software, mas ainda não especificou ou identificou detalhes dos requisitos de entrada,
+processamento e saída.
+• Identificação antecipada de requisitos: facilita a análise conjunta entre desenvolvedor,
+cliente e usuário; mitigando riscos e incertezas durante o desenvolvimento. O crucial é definir
+as regras do jogo logo no começo.
+• Aceleração do desenvolvimento: proporciona uma visão mais tangível do software em
+desenvolvimento para o usuário, permitindo a visualização antecipada de telas e
+relatórios resultantes.
+• Envolvimento direto do usuário: transformando‑o em um coautor do projeto, o que aumenta
+a precisão das especificações e melhora a usabilidade do produto final.
+Como desvantagens, acentuam‑se:
+• Percepção do cliente sobre a totalidade do software: quando o cliente não está ciente
+de que o software em teste é apenas um protótipo, não considera a qualidade global ou a
+manutenibilidade necessária durante a operação do software, isso pode levar a expectativas
+mal alinhadas. O simples fato de o usuário clicar em um botão do protótipo pode fazê‑lo
+questionar, por exemplo, que o botão não está “chamando” o algoritmo da função. O algoritmo
+pode ainda nem existir, isto é, o que está sendo apresentado é apenas um layout de tela.
+• Expectativas do usuário: a prototipagem pode criar a falsa impressão de que todas as
+sugestões dos usuários podem ser facilmente implementadas, independentemente da fase
+do desenvolvimento. Além disso, os usuários podem não entender o motivo da demora na
+entrega final após visualizar uma versão demo, levando a frustrações e pressões para que o
+protótipo seja utilizado como produto final.
+
+
+Incremental
+É projetado para atender as exigências empresariais e usuais de prazos acelerados e alta
+qualidade. Ilustrado na figura 28, esse modelo operacionaliza a liberação do sistema em partes
+incrementais, cada uma delas entregando funcionalidades utilizáveis enquanto o desenvolvimento
+contínuo prossegue em paralelo.
+Esse modelo incorpora elementos sequenciais do Cascata de forma evolucionária. Ele
+permite a entrega de incrementos iterativos com base em marcos de entrega, aprovação e
+validação, assegurando que o usuário utilize partes do sistema em desenvolvimento desde cedo,
+minimizando o tempo de espera total e adaptando‑se às necessidades emergentes ao longo do
+ciclo de desenvolvimento.
+
+
+ processo incremental é caracterizado por sua natureza iterativa, com o objetivo de apresentar
+um produto operacional com cada incremento. Esse método é fundamentado no conceito de
+versões, quando iterações sequenciais são utilizadas para aprimorar continuamente o software.
+
+
+cada iteração, novas versões são geradas, registrando as mudanças implementadas no
+software até a entrega do release, que é a versão finalizada para os usuários. As iterações do
+processo são necessárias para a melhoria contínua do processo de software.
+
+
+sistema é especificado na documentação dos requisitos e decomposto em
+subsistemas funcionais
+
+ software
+alcança sua funcionalidade total gradualmente por meio desses incrementos sucessivos.
+
+RAD
+
+
+RAD permite que uma equipe de desenvolvimento crie um sistema totalmente funcional em
+um período de tempo reduzido. Conforme mencionado por Pressman (2002), o modelo RAD é um
+processo de software incremental que enfatiza um ciclo de desenvolvimento curto.
+
+
+
+
+abordagem que visa à entrega rápida de software, frequentemente utilizando ferramentas
+especializadas de programação de bancos de dados e apoio ao desenvolvimento, como geradores
+de interfaces e relatórios (Sommerville, 2011).
+O RAD adota uma estratégia baseada na construção modular e orientada a componentes
+reutilizáveis. Ele permite acelerar o desenvolvimento de sistemas, reduzindo significativamente o
+tempo necessário para a entrega de soluções de complexidade moderada.
+Conforme ilustrado na figura 29, é possível concluir o desenvolvimento completo de um sistema
+nesse modelo em um intervalo de 60 a 90 dias, dependendo da complexidade dos requisitos e da
+integração eficiente dos componentes.
+
+
+• Ciclo de desenvolvimento curto: segue uma abordagem sequencial linear com ciclos de
+desenvolvimento significativamente reduzidos, permitindo entregas em intervalos curtos,
+geralmente entre 60 e 90 dias.
+• Modularidade e componentização: a construção baseada em componentes reutilizáveis
+permite modularizar o sistema, facilitando o gerenciamento do projeto e a identificação
+precoce de desvios no escopo.
+• Requisitos claramente delimitados: os requisitos iniciais devem ser suficientes para viabilizar
+o escopo do projeto, otimizando o foco da equipe.
+• Escalabilidade para sistemas grandes: o modelo é ideal para aplicações de sistemas de
+informação extensos e modularizados, possibilitando que funções ou módulos principais
+sejam atribuídos a equipes independentes e que depois integrarão os componentes ao
+sistema completo.
+• Visibilidade incremental: a entrega contínua de incrementos oferece maior visibilidade ao
+cliente, que pode acompanhar e validar partes do sistema ao longo do desenvolvimento
+
+Entre suas principais desvantagens, acentuam‑se:
+• Dependência de modularidade: o sucesso do RAD depende da adequada modularização do
+sistema. Caso a segmentação dos componentes seja ineficiente, o desenvolvimento pode
+enfrentar dificuldades significativas.
+• Inadequação para riscos técnicos elevados: o modelo pode não ser apropriado quando o
+projeto envolve tecnologias emergentes ou pouco dominadas pela equipe, aumentando os
+riscos técnicos.
+• Necessidade de recursos humanos intensivos: a abordagem exige equipes dedicadas para
+cada módulo ou funcionalidade, o que pode ser inviável em projetos com limitações de pessoal.
+• Comprometimento intenso: tanto desenvolvedores quanto clientes devem estar altamente
+comprometidos com as atividades de ritmo acelerado (“fogo‑rápido”) para garantir que os
+prazos curtos sejam cumpridos.
+• Limitações em aplicações específicas: nem todos os tipos de sistemas ou aplicações se
+adaptam bem ao modelo RAD. Projetos que requerem alta integração ou sincronização entre
+componentes podem enfrentar dificuldades com essa abordagem.
+• Dependência de sincronismo e desempenho: quando o desempenho do sistema está
+fortemente vinculado ao sincronismo das interfaces entre componentes, o RAD pode não ser
+eficiente, comprometendo o resultado final.
+
+Espiral
+
+abordagem evolucionária que integra a natureza iterativa da
+prototipagem com a estrutura sequencial do Cascata. O desenvolvimento do software ocorre por meio
+de múltiplas versões incrementais, evoluindo progressivamente a partir de ciclos iterativos.
+Em cada iteração da espiral, são realizadas atividades estruturais previamente definidas no arcabouço,
+abrangendo desde o planejamento e a análise de riscos até a implementação e a avaliação.
+Ao final de cada ciclo, uma versão parcial ou completa do sistema é entregue (release), com
+novas funcionalidades ou melhorias incorporadas. 
+ é adequado para sistemas complexos, projetos de software de grande porte e
+aqueles que demandam um alto nível de interação com os usuários. Sua abordagem iterativa permite
+identificar e resolver problemas progressivamente, garantindo maior alinhamento com os requisitos e os
+objetivos do sistema.
+
+modelo é dividido em quatro etapas principais, que se repetem ao longo de cada ciclo da espiral:
+• Ativação: definem‑se os objetivos específicos, identificam‑se as restrições para o processo
+e é  preparado um plano de gerenciamento detalhado. Identificam‑se também os riscos sem
+analisá‑los profundamente (foco da próxima fase).
+• Análise de riscos e prototipagem: com base nos riscos identificados na fase anterior, são realizadas
+análises detalhadas e tomadas providências para amenizar esses riscos. Criam‑se várias versões de
+protótipos para apoiar essa fase.
+• Desenvolvimento: fundamentado pelas fases anteriores, escolhe‑se o modelo mais adequado
+para o desenvolvimento do software. A experiência profissional e a vivência do desenvolvedor em
+outros sistemas são estratégicas para essa fase. Dependendo da complexidade ou do tamanho do
+sistema, por vezes, é necessária a presença de um consultor especialista.
+• Planejamento: o projeto é revisto nessa fase e é tomada uma decisão de realizar um novo ciclo, na
+espiral ou não. Se continuar com o aperfeiçoamento do sistema, é traçado um plano para a próxima
+fase do projeto. Um diferencial nesse modelo comparado com outros é a explícita consideração
+de riscos dentro do projeto como um todo. Para tanto, criou‑se uma fase específica de análise de
+riscos nesse modelo.
+
+ PLANEJAMENTO DO PROCESSO DE SOFTWARE
+
+ definição detalhada das atividades, metodologias e práticas a serem adotadas ao longo
+do ciclo de vida do desenvolvimento de software, com o objetivo de garantir a entrega de um produto
+de alta qualidade, dentro dos requisitos de tempo e custo estipulados
+
+modelo de processo representa o processo em uma perspectiva particular, por exemplo, o
+Incremental é acompanhado do versionamento, que acompanha a evolução ou as mudanças do software
+por meio de registros de entrega, como uma funcionalidade. No caso Incremental, são apresentadas as
+atividades sequenciais desenvolvidas ao longo de seu ciclo; no entanto, não mostra a definição dos
+papéis e das responsabilidades das pessoas envolvidas no projeto.
+
+modelo de processo de software é uma representação
+simplificada de suas atividades, que acompanham todo o SDLC (Software Development Life Cycle –
+Ciclo de Vida de Desenvolvimento de Software).
+
+SDLC
+
+alinhamento do SDLC com estruturas organizacionais envolve as atividades, as funções
+(papéis) das pessoas, as responsabilidades e os fluxos de trabalho dentro da organização do processo
+de desenvolvimento.
+A estrutura influencia o grau de autoridade e de responsabilidades, que podem ser centralizadas
+ou distribuídas, podendo ter uma estrutura horizontal ou operar com equipes de projeto
+auto‑organizáveis, como é o caso das metodologias ágeis.
+O ciclo de vida do processo de software, acompanhado por um cronograma, envolve planejar,
+monitorar e controlar o tempo dedicado a cada fase do ciclo de vida.
+O cronograma é uma ferramenta prática para gerenciar o tempo e as entregas do projeto
+de software, enquanto o ciclo de vida do processo define as etapas estruturadas pelas quais o
+desenvolvimento do software passa. A integração de ambos visa garantir que o software seja
+entregue no tempo previsto, atendendo aos requisitos e padrões de qualidade.
+planejamento do processo de software, cada fase da estrutura organizacional é acompanhada
+de seus processos e cada um deverá ser executado com base em métodos, ferramentas e técnicas,
+que fazem parte das tarefas da equipe de desenvolvimento.
+
+
+Planejamento
+É a fase em que são levantados os requisitos do negócio e os requisitos não funcionais,
+com base nas arguições sobre os negócios, as necessidades de clientes e usuários, e as
+restrições do software
+Também são acordados custos e prazos, efetivados após a análise
+Análise
+Ocorre após o levantamento de requisitos do negócio e consiste em coletar
+dados, definir modelos de processo de software, especificar requisitos funcionais e do
+sistema, determinar as atividades do desenvolvimento do software, medir o escopo
+do sistema e avaliar a relação necessidade/capacidade (ou custo/benefício)
+São elaborados cronogramas, medição de capacidade da equipe de desenvolvimento,
+análises de caminho crítico, modelos do processo de negócios, UC, diagrama de
+atividades e diagramas de componentes e implantação
+Projeto
+Após a viabilidade do projeto (ou design), usa‑se a engenharia de software para
+escolher procedimentos de serviços, metodologias e técnicas apropriadas para
+o controle e a operacionalização do sistema que atendam aos requisitos. Definem‑se as
+interfaces, a estrutura da informação e as topologias
+Criam‑se diagramas de entidades e relacionamento dos dados com base em protótipos,
+modelos de testes (unitário de integração), classes, diagramas de sequência, diagramas
+de estado e outros, normalmente desenvolvidos em UML
+O desenvolvimento do software ocorre na sequência, quando são definidos frameworks
+para codificação, linguagens de programação e SGBD associados, formas de testar e
+diagnosticar o código
+Construção
+A construção está associada à implementação, quando ocorrem processos como
+codificação, testes, implantação do software, V&V, entrega, manutenção, treinamento e
+suporte técnico aos usuários
+Nota: a fase de desenvolvimento normalmente realiza 90% do software e os outros
+10% são desenvolvidos após a execução. O fato é que os 90% previsíveis ocupam
+a metade do tempo total para a finalização do software, ou seja, a outra metade é
+ocupada na implementação de código devido a mudanças requeridas. Novos problemas
+não previstos surgem: correções, mudança de requisitos, melhorias no software e
+mudanças no ambiente operacional
+
+
+Aspectos humanos da engenharia de software
+
+Software é criado por pessoas, usado por pessoas e dá suporte à interação entre pessoas. Assim,
+características, comportamentos e cooperações humanas são vitais no desenvolvimento prático de
+software (Pressman, 2021).
+
+
+engenheiro de software é quem precisa dominar uma diversidade de processos, métodos,
+ferramentas e técnicas da engenharia de software, desenvolver habilidades para entender problemas ou
+necessidades para projetar soluções com qualidade.
+
+
+sete características pessoais que demonstram competência
+do engenheiro de software:
+• Responsabilidade individual: determinação em cumprir promessas para gerência, membros da
+equipe e stakeholders.
+• Consciência aguçada: ter um estado de percepção elevada, sensibilidade ao ambiente, capaz de
+se adaptar a emoções, mudanças, comportamentos e necessidades da equipe.
+• Extremamente honesto: ser transparente, realista e sincero de forma construtiva para conduzir
+problemas e falhas.
+• Resiliência sob pressão: a engenharia de software está sempre à beira do caos. O engenheiro
+de software é capaz de suportar a pressão de modo que seu desempenho não seja prejudicado
+(Pressman, 2021).
+• Lealdade: à equipe e ao projeto, tendo boa vontade para colaborar e compartilhar conhecimentos,
+além de evitar conflitos e não sabotar o trabalho de outros. O profissional age com lealdade ao
+cliente e às expectativas, sempre com foco no usuário, pois seus objetivos envolvem garantir
+a qualidade do software entregue ao cliente e ser honesto sobre o progresso, os desafios e os
+possíveis atrasos no projeto.
+• Atenção aos detalhes: não significa ser perfeccionista. O engenheiro de software deve estar atento
+a prazos, requisitos, desempenho, custo e qualidade estabelecidos para o projeto e o software
+• Pragmático: reconhece que a engenharia de software não é uma religião na qual devem
+ser seguidas regras dogmáticas, mas sim uma disciplina que pode ser adaptada conforme as
+circunstâncias (Pressman, 2021).
+
+
+Análise de recursos para os processos do projeto
+A análise de recursos para os processos do projeto é uma atividade que envolve a gerência
+administrativa e analistas. Essa análise envolve a identificação, a avaliação e a alocação dos recursos
+necessários para garantir que os processos do projeto sejam executados de maneira eficiente, eficaz e
+dentro das restrições, como prazo, custo e qualidade.
+
+Praticado pela gerência administrativa, o princípio de gerenciamento de projetos inclui processos
+para identificar, adquirir e gerenciar os recursos necessários para a conclusão bem‑sucedida do projeto,
+bem como comprar ou adquirir produtos, serviços ou resultados externos à equipe e subcontratações.
+Por sua vez, o princípio do gerenciamento geral, praticado pela gerência da TI, refere‑se ao projeto
+do software.
+
+princípio do gerenciamento geral é aplicado na produção do negócio, que
+pode estar ligado a diversas áreas da indústria em geral, incluindo produção de software, comércio,
+medicina, instituições etc. Já o princípio de gerenciamento de projetos corresponde especificamente à
+área administrativa ligada a fornecedores, contratos, parcerias e transporte.
+
+objetivos da análise de recursos são:
+• Garantir as metas do projeto: avaliar se os recursos disponíveis atendem às necessidades
+para atingir os objetivos do projeto.
+• Minimizar riscos: identificar lacunas ou pontos críticos nos recursos que possam comprometer
+prazos, custos ou qualidade do produto.
+• Aumentar a eficiência: alocar recursos de forma otimizada para evitar desperdícios e sobrecarga
+da equipe.
+
+
+ Recursos do projeto e do software
+
+atender os requisitos do software, três perfis de analistas são essenciais:
+• Analista de negócios (ou autor do processo): responsável por identificar as necessidades do
+negócio, sejam elas de geração, correção ou melhoria; visando atender objetivos ou necessidades
+específicas. Ele utiliza uma linguagem natural e diagramas simples para comunicar claramente o
+que é exigido e o que precisa ser feito.
+• Analista de processos: interpreta a ideia do negócio, avaliando seus riscos e suas regras, com
+o objetivo de determinar as atividades e as tarefas necessárias para processar o negócio. Ele
+busca padronizar a nomenclatura e especificar, por meio de textos concisos e diagramas detalhados,
+a ordenação das atividades e das tarefas que compõem o processo do negócio.
+• Analista de sistemas: converte as atividades em componentes específicos que integram o
+processo. Cada componente representa uma parte do software suportado pelo processamento de
+dados. A interpretação das tarefas e do workflow (fluxo de trabalho) leva à criação das funções
+que irão operacionalizar o software, a lógica de processamento (programa de computador) e os
+recursos computacionais necessários para executar essas funções.
+
+prática da engenharia de software, o analista de sistemas especifica cada função através de
+descrições detalhadas e modelos gráficos (modelagem), determinando as funcionalidades que serão
+interpretadas pelos especialistas em TI.
+
+Gerência do projeto
+
+
+Promove o projeto em todos os aspectos, o que significa apoiar, defender e divulgá‑lo na organização
+tanto interna como externamente
+
+stakeholder é qualquer pessoa, grupo ou organização que tem interesse ou é afetado pelo
+resultado de um projeto, produto ou negócio; envolve as partes interessadas que podem influenciar ou
+serem influenciadas pelo que está sendo desenvolvido ou implementado.
+
+O gerente de projeto:
+• define os limites e os objetivos do projeto;
+• mantém uma comunicação clara e contínua com stakeholders e a equipe de desenvolvimento;
+• desenvolve, analisa e entende os processos envolvidos conforme os requisitos;
+• aloca tarefas e responsabilidades de acordo com as habilidades e competências;
+• estabelece uma estrutura organizada para administrar e monitorar o progresso da equipe;
+• estima e controla os custos do projeto de acordo com o orçamento.
+
+principais recursos sob a gerência do projeto incluem:
+
+• Recursos humanos: os recursos humanos envolvidos em um projeto variam de acordo com
+o tamanho, a complexidade e os objetivos do projeto.
+• Recursos materiais: referem‑se a localização, transporte, mobília e instalações para o ambiente
+de uso e ambiente de desenvolvimento do software. 
+• Recursos tecnológicos: envolvem os recursos intangíveis fornecidos pela gerência de TI, como
+ferramentas de software, licenças, plataformas de desenvolvimento e infraestrutura de  TI
+• Recursos financeiros: fornecem o financiamento necessário para cobrir todos os custos associados
+ao desenvolvimento do software, incluindo salários, ferramentas, infraestrutura e outros recursos. 
+
+
+Gerência da TI
+
+Ela envolve a administração dos recursos tecnológicos necessários para construir ou produzir software
+Os principais recursos tecnológicos necessários para desenvolver software incluem:
+• Recursos de software: referem‑se a ferramentas, plataformas e soluções digitais fáceis para
+desenvolvimento, gestão, implantação e manutenção de sistemas e aplicativos.
+
+• Recursos de hardware: são recursos tangíveis que garantem o desempenho necessário para executar
+o software com bom desempenho, oferece suporte para o desenvolvimento de sistemas escaláveis
+e seguros e que possibilitam conexões e operações em ambientes coorporativos. Os principais
+recursos de hardware são:
+— Computadores servidores e estações de trabalho usadas por desenvolvedores, analistas,
+programadores, gerenciadores do banco de dados e testadores
+
+• Recursos humanos (peopleware): são reservados aos especialistas que trabalham no
+desenvolvimento do software. Esses profissionais têm diferentes responsabilidades e especializações.
+Os principais peopleware são:
+— Gestores e líderes, como o gerente do projeto de software, que coordena todas as
+atividades do projeto, gerencia recursos, cronogramas e riscos e mantém a comunicação
+com os stakeholders. Também são citados o product owner, que representa os interesses
+dos stakeholders e dos usuários, e o Scrum master, que facilita o processo ágil, removendo
+obstáculos e garantindo que a equipe siga as práticas Scrum.
+— Programadores: escrevem o código, implementam funcionalidades e resolvem problemas
+técnicos. Acentua‑se que o front‑end tem como foco a IU. Já a UX usa tecnologias como
+HTML, CSS e JavaScript. Por sua vez, os back‑end trabalham na lógica do servidor, dos bancos
+de dados e da integração de sistemas e utilizam tecnologias como Java, Python, Ruby e outras.
+— IU e UX: são os especialistas em usabilidade. Eles analisam o uso do software e fazem
+recomendações de melhorias. O designer de UI/UX cria visuais atraentes e intuitivos para
+melhorar a experiência.
+— Equipe de suporte e manutenção.
+— Outros profissionais que atuam no desenvolvimento de software, como o engenheiro de
+software, responsável pela criação de soluções tecnológicas que atendem a necessidades
+complexas e, ao mesmo tempo, escaláveis e sustentáveis, acompanhando todo o ciclo de vida do
+software. Citam‑se ainda engenheiros de DevOps, responsáveis por integrar desenvolvimento
+e operações para automatizar processos de construção, teste e implantação; e os especialistas
+em segurança, que garantem que o software seja seguro contra ameaças e vulnerabilidades.
+
+• Recursos de dados: envolvem qualquer tipo de informação ou dados que podem ser usados
+para análises, tomada de decisões ou alimentar sistemas de software. 
+
+principais recursos de dados são:
+— Dados coletados diretamente da fonte: dados estruturados como tabelas, dados não
+estruturados como imagens, vídeos, documentos e demais extensões de arquivos.
+— Base de dados (databases): conjuntos organizados de dados armazenados e acessados
+eletronicamente. Incluem bancos de dados relacionais (SQL): MySQL, Microsoft SQL,
+PostgreSQL e Oracle; não relacionais (NoSQL): MongoBD e Cassandra; em nuvem: Azure
+Cosmos DB e AWS RDS.
+— APIs (Application Programming Interfaces – Interface de Programação de Aplicações):
+englobam um repositório de rotinas e ferramentas para construir o software, permitindo
+acesso e interação com dados de outros sistemas.
+— Streams de dados: são fluxos contínuos de dados em tempo real, como logs de servidor,
+dados de sensores, redes sociais e plataformas de vídeo.
+— Data Warehouse e Big Data: repositórios de grande volume de dados e múltiplas fontes que
+fornecem como resultados relatórios analíticos para tomada de decisões.
+— Segurança e proteção de dados: como criptografia, controle de acesso, backups,
+monitoramento e auditoria.
+
+• Recursos da rede de computadores: são serviços e componentes associados que permitem uma
+conectividade com bom desempenho, segura e escalabilidade. 
+
+— Recursos físicos: componentes tangíveis, responsáveis pela conectividade e pela infraestrutura
+de rede
+— Infraestrutura de comunicação: meios físicos e lógicos que suportam a troca de dados como
+topologias de rede, mapas de endereçamento, backbones e conectividade de nuvem.
+— Recursos lógicos: protocolos de rede como TCP (Transmission Control Protocol –
+Protocolo de Controle de Transmissão), HTTP/HTTPS, FTP, DNS e SMTP/IMAP/POP3. Citam‑se
+também sistemas operacionais de rede (SOR) como Windows Server, UNIX e Linux (as licenças
+dos sistemas operacionais fazem parte dos recursos de software).
+
+— Armazenamento de rede (network storage): dispositivos ou sistemas de armazenamento
+acessíveis através da rede, como NAS (Network Attached Storage – Armazenamento Conectado
+à Rede) e SAN (Storage Area Network – Rede de Área de Armazenamento).
+— Recursos de segurança e controle: ferramentas e práticas para proteger a integridade e a
+confidencialidade da rede, como firewall, VPN, criptografia de dados, antivírus, IPS (Intrusion
+Prevention System – Sistema de Prevenção de Intrusão), controle de acesso e monitoramento
+da rede.
+
+
+ Métodos, ferramentas e técnicas: modelagem da infraestrutura de TI
+
+ projeto de software, basicamente são desenvolvidas três arquiteturas: lógica de processamento,
+informação e infraestrutura de TI. Elas foram abordadas nas atividades de modelagem, comentadas
+quando estudamos o Cascata.
+As arquiteturas da lógica de processamento, da informação e da infraestrutura de TI, assim como
+diversos modelos derivados, compõem um repertório de alternativas de componentes para construir
+sistemas de software que ficam armazenados em um repositório e disponíveis para os desenvolvedores.
+
+O repositório do desenvolvimento de sistemas (figura 33) não apenas armazena dados e informações,
+mas é útil para a gestão e o compartilhamento de vários elementos do projeto de software, como
+componentes, módulos, objetos, projetos, modelos, ferramentas de software, documentos ou quaisquer
+outros artefatos produzidos para implementar ou construir sistemas de software.
+
+Normalmente, as ferramentas de desenvolvimento da indústria de software de qualquer tamanho
+trabalham com seu repertório de alternativas para o projeto de software. Elas ficam armazenadas em
+repositórios, que podem estar alocados na estação de trabalho, como é o caso da aplicação Astah
+Community, ou alocados em servidor ou nuvem, a exemplo do RUP.
+
+A reusabilidade de componentes de software é um princípio da engenharia de software, uma métrica
+da qualidade usada para avaliar o quanto um programa ou parte dele pode ser usada em outras aplicações.
+Tem como foco a criação de módulos de código que podem ser utilizados em diferentes aplicações, sem
+a necessidade de retrabalho significativo
+
+
+O componente de software é uma unidade modular e independente de código externo, ou seja,
+tem endereçamento próprio e os dados são consumidos no componente, o que significa que é possível
+fazer pequenas mudanças nele sem afetar a integridade do sistema. O componente realiza uma função
+específica dentro de um sistema maior. Assim, esses componentes podem ser desenvolvidos de maneira
+isolada e, depois, integrados a outros para construir aplicações.
+
+
+modelagem da infraestrutura de TI ajuda a alinhar a infraestrutura de TI com os objetivos e as
+necessidades da organização, garantindo que os recursos tecnológicos sejam implementados. Ela permite
+otimizar recursos de hardware e software e melhora a segurança com a identificação de pontos críticos,
+trazendo uma visão escalável e resiliente da arquitetura que garante a continuidade das operações,
+mesmo diante de falhas ou incidentes, permitindo a implementação de novas tecnologias.
+
+
+modelagem da arquitetura do software é construída a partir dos requisitos, principalmente os
+RS. Sua construção ocorre pelo processo de componentização do software.
+
+UML, um nó em um diagrama de implantação representa um recurso físico como dispositivo de
+hardware, servidor ou estação de trabalho, ambiente de execução de software como uma máquina virtual
+ou um contêiner, ou um recurso lógico que pode executar artefatos (software, bibliotecas ou arquivos).
+
+características do Astah:
+• Modelagem UML: tem uma ampla gama de ferramentas para criar diagramas UML, incluindo de
+classes, de UC, de sequência, de atividades etc.
+• Diagramas ER e DFD: além dos diagramas UML, o Astah permite a criação de diagramas de
+entidade‑relacionamento (ER) e de fluxo de dados (DFD), úteis para modelar dados e processos
+de negócios.
+• Interface intuitiva: com recursos de arrastar e soltar que facilitam a rápida criação de diagramas.
+• Colaboração em equipe: há ferramentas que permitem que equipes trabalhem juntas em
+projetos, compartilhando e mesclando diagramas facilmente.
+• Exportação e importação: os diagramas criados no Astah podem ser exportados em vários
+formatos, como imagens (JPG, PNG, EMF, SVG), documentos RTF, HTML, relatório de definição de
+entidade e XMI.
+• Versatilidade: o software é usado em diversas indústrias, como TI, desenvolvimento  de
+software e engenharia de sistemas, para criar representações visuais claras e padronizadas
+de sistemas complexos.
+
+
+
+
+
+
+
