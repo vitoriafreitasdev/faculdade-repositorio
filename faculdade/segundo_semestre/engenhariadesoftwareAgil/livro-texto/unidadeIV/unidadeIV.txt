@@ -1,0 +1,250 @@
+unidadeIV
+
+METODOLOGIAS ÁGEIS I
+
+metodologias ágeis são abordagens de desenvolvimento de software que promovem flexibilidade,
+colaboração e adaptação rápida às mudanças.
+
+foram criadas como uma alternativa aos modelos
+tradicionais, como o Cascata e o RUP.
+
+Embora os modelos tradicionais sejam úteis em determinados contextos, a crescente complexidade
+dos projetos e a necessidade de maior flexibilidade impulsionaram a busca por alternativas. As
+metodologias ágeis surgiram como uma resposta a essas limitações e desafios enfrentados pelas
+abordagens tradicionais de desenvolvimento de software.
+
+ Manifesto para Desenvolvimento Ágil de Software
+Antes da criação das metodologias ágeis, a indústria de software enfrentava desafios como atrasos,
+custos elevados e baixa qualidade nos projetos. O Manifesto para Desenvolvimento Ágil de Software,
+publicado nos dias 11 a 13 de fevereiro de 2001, por Kent Beck
+
+O desenvolvimento baseado em planos (desenvolvimento prescritivo) pauta‑se
+em uma abordagem estruturada e sequencial, com etapas planejadas e documentadas antes do início do
+projeto. Essa metodologia usa modelos clássicos de processo, como o Cascata, que organiza o trabalho
+em fases distintas, incluindo levantamento de requisitos, design, codificação, testes e manutenção.
+
+desenvolvimento prescritivo é valorizado pela sua capacidade de prever resultados e
+reduzir riscos em projetos bem definidos
+
+ desenvolvimento ágil é uma abordagem iterativa e incremental, com baixo índice de especificação,
+que prioriza a adaptação a mudanças e a entrega de valor contínuo ao cliente
+
+desenvolvimento prescritivo pode ser mais adequado para projetos estáveis e bem definidos,
+enquanto o ágil se destaca em cenários dinâmicos com interação entre indivíduos sobre processos
+rígidos, software funcional e sujeitos a mudanças constantes.
+
+
+Princípios das metodologias ágeis
+
+Métodos ágeis representam um conjunto de abordagens estruturadas pautadas na prática para
+modelagem efetiva de sistemas baseados em software, fundamentando‑se em princípios de flexibilidade,
+colaboração e entrega incremental.
+
+o desenvolvimento ágil não é uma metodologia única, mas um paradigma no qual
+diferentes frameworks, como XP, Scrum e FDD se encaixam; proporcionando um conjunto de diretrizes
+adaptáveis às necessidades específicas de cada projeto e equipe.
+
+Guiados por valores estabelecidos no Manifesto Ágil, os métodos ágeis empregam práticas como
+integração contínua, desenvolvimento iterativo, refatoração de código e testes automatizados para
+garantir qualidade e eficiência no ciclo de vida do desenvolvimento.
+
+XP
+
+ metodologia ágil XP tem foco na melhoria contínua da qualidade do código e na capacidade de
+respostas às mudanças de requisitos. Ela é ideal para projetos dinâmicos, nos quais os requisitos mudam
+com frequência, promovendo um ambiente colaborativo e eficiente no desenvolvimento de software.
+
+Criada por Kent Beck em 1998, a XP elevou a níveis “extremos” boas práticas reconhecidas, a
+exemplo do desenvolvimento iterativo. Ela enfatiza valores como comunicação, simplicidade, feedback,
+coragem e respeito.
+
+Planejamento
+
+planejamento do projeto em metodologias ágeis prioriza a eficiência e a adaptabilidade, evitando
+processos complexos ou demorados. Conforme o projeto avança, o planejamento incremental e
+iterativo permite entregas frequentes e implementação das mudanças necessárias durante todo o
+ciclo de desenvolvimento.
+
+valores das histórias de usuários são baseados em descrições simples e claras de
+funcionalidades desejadas, escritas na perspectiva do usuário. Cada história é priorizada com base
+no valor agregado ao negócio.
+Os critérios de aceitação são formulados em contratos entre stakeholders e desenvolvedores
+para assegurar que os requisitos estejam claros
+
+ XP considera o conhecimento técnico da equipe, permitindo que certos detalhes operacionais
+sejam omitidos, confiando na experiência dos desenvolvedores para interpretar e implementar
+soluções alinhadas aos objetivos do projeto
+
+A fase de planejamento é conhecida como jogo do planejamento (planning game), que se
+inicia com a atividade “ouvir”, na qual são coletados e analisados os RF e os RNF.
+
+Projeto
+
+ design de software na XP segue o princípio KIS (Keep it Simple – Preservar a Simplicidade), ou
+seja, prioriza soluções simples e eficazes,
+
+projeto não antecipa funcionalidades além do necessário, as mudanças e as novas
+necessidades são tratadas de forma iterativa ao longo do desenvolvimento.
+
+Nas ações são usados cartões CRC (Classe‑Responsabilidade‑Colaborador) para sessões de
+design. Esses cartões identificam e organizam classes orientadas a objetos, suas responsabilidades
+e colaboradores.
+
+a XP faz uso do Kanban, que é um sistema de
+gestão visual que permite acompanhar o progresso das tarefas. 
+
+ XP recomenda a prática da prototipagem
+de partes do sistema antes de sua execução definitiva,
+
+Codificação
+
+Durante as iterações na XP, o código é continuamente aprimorado por meio da implementação
+incremental e da realização de diversos testes de unidade. A cada ciclo iterativo, o código‑fonte
+é revisado de forma criteriosa, permitindo a identificação de oportunidades de refatoração,
+
+Um dos pilares da XP é a prática da programação em par (pair programming), que consiste na
+colaboração simultânea de dois desenvolvedores em uma mesma tarefa de codificação: enquanto
+um assume o papel de driver, escrevendo efetivamente o código, o outro atua como observador,
+com foco em aspectos estratégicos como detecção de erros,
+
+ Os papéis se alternam
+frequentemente, promovendo colaboração intensa, disseminação do conhecimento entre a equipe
+e aumento na qualidade do software produzido
+
+prática de refabricação se aproxima do conceito de reengenharia de software, que envolve
+analisar, redesenhar e reconstruir partes significativas do sistema, geralmente para adaptar o software
+a novas tecnologias, arquiteturas ou requisitos que a versão atual não suporta bem. 
+
+
+Testes
+
+código é frequentemente integrado e testado para evitar grandes conflitos de versão
+
+Kanban
+
+-ferramenta visual e evolutiva para gerenciamento
+de processos
+
+Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
+por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS 
+
+Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
+por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS 
+
+engenharia de software, Kanban é um método ágil de gerenciamento de trabalho (workflow), que
+visa melhorar a eficiência do fluxo de desenvolvimento e promover a entrega contínua de valor
+
+-pode ser aplicado em qualquer ramo de tarefas da engenharia de software
+
+Scrum
+
+Scrum está estruturado nos valores e nos princípios do Manifesto Ágil, buscando proporcionar
+uma abordagem iterativa e incremental para o desenvolvimento de software.
+
+ metodologia é projetada para atender às necessidades de projetos nos quais os requisitos são
+frequentemente instáveis ou desconhecidos, o que é típico em ambientes dinâmicos e imprevisíveis
+Scrum adota ciclos curtos e repetitivos, conhecidos
+como sprints, que permitem ajustes constantes e a entrega de valor incremental ao cliente.
+combina práticas orientadas a objetos e princípios
+ágeis, promove a colaboração intensa entre desenvolvedores, stakeholders e o product owner (dono do
+produto), garantindo maior transparência e adaptabilidade ao longo do ciclo de desenvolvimento.
+
+
+
+características da metodologia Scrum:
+• Equipes pequenas e multifuncionais: ênfase na formação de equipes com competências
+diversas, com maior integração e que trabalham de forma autônoma e colaborativa, ideal para
+contextos complexos. Assim, obtém‑se uma rápida solução de problemas.
+• Requisitos emergentes e pouco definidos: os requisitos são mutáveis e críticos do negócio.
+No Scrum, o conhecimento é compartilhado de forma estratégica para enriquecer o trabalho em
+equipe e acelerar resultados. O foco da equipe é a capacidade de absorver mudanças e adaptar‑se
+às condições do projeto de forma eficiente, promovendo uma cultura de colaboração contínua,
+na qual o progresso é medido continuamente com o mínimo de riscos.
+• Sprints curtas e entregas frequentes: no framework, o Scrum é um subconjunto do product
+backlog, que representa um ciclo de trabalho determinado regularmente para ter uma duração de
+1 a 4 semanas. Assim, a equipe se concentra para realizar um conjunto de tarefas ou funcionalidades. 
+
+• Product backlog: é uma lista priorizada de requisitos ou características do artefato que agrega
+valor ao software, contendo funcionalidades, melhorias, correções de bugs, requisitos e tarefas
+que a equipe pode trabalhar. É gerenciado pelo product owner,
+
+Scrum promove reuniões diárias de 15 minutos e todos respondem às questões:
+• O que realizou hoje?
+• Está tendo alguma dificuldade?
+• O que irá fazer amanhã?
+
+papéis desempenhados:
+• Agile coach: orienta várias equipes Scrum, coordenando as interações entre as equipes e
+promovendo práticas ágeis.
+• Product owner: responsável por maximizar o valor do produto e gerenciar o backlog. Prioriza as
+funcionalidades, mas não gerencia diretamente a equipe.
+• Scrum master: é o facilitador das tarefas a serem realizadas pela equipe, removendo obstáculos
+que possam impedir seu progresso, promovendo a colaboração e a comunicação na realização dos
+objetivos da sprint.
+• Equipe de desenvolvimento: conjunto de profissionais que trabalham na criação do produto,
+nas práticas de especificação, na modelagem, na programação, na análise de dados etc. Pode
+inclusive incorporar outras metodologias ágeis para atividades específicas, como XP, FDD e DevOps.
+
+O processo ágil é organizado
+em ciclos definidos por breves períodos, acompanhados de certa disciplina em compasso com a sprint
+
+Acentuaremos a seguir as atividades estruturais da metodologia Scrum:
+• Planejamento
+— Sprint planning: reunião inicial de cada sprint na qual o time define o objetivo, as tarefas
+prioritárias e os critérios de aceitação para o ciclo.
+• Execução
+— Daily Scrum: reuniões rápidas diárias para sincronização, identificação de impedimentos e
+ajuste de planos, promovendo transparência.
+— Desenvolvimento de incrementos: o time trabalha para construir funcionalidades ou soluções
+utilizáveis, baseando‑se no backlog priorizado.
+• Monitoramento e controle
+— Backlog refinement: sessões para ajustar, detalhar ou repriorizar itens do backlog, garantindo
+alinhamento com as necessidades do produto.
+— Sprint review: demonstração de incrementos concluídos para stakeholders, permitindo
+feedback e validação das entregas.
+• Reflexão e melhoria
+— Sprint retrospective: reunião de fechamento para refletir sobre o desempenho do time,
+identificar melhorias e implementar ações para sprints futuros.
+
+FDD
+
+uma metodologia ágil que se destaca pela
+sua abordagem estruturada e orientada a objetos. O FDD é apropriado para
+equipes que desejam aprimorar a colaboração e aumentar a eficiência na
+entrega de projetos complexos.
+Isso porque esta metodologia ágil enfatiza a importância de se dividir o
+desenvolvimento em características palpáveis, permitindo um progresso
+mensurável e contínuo.
+
+Com o uso do FDD, os stakeholders têm acesso a entregas rápidas e relatórios de progresso
+estruturados em uma linguagem acessível, facilitando o alinhamento entre as expectativas de negócio
+e o desenvolvimento técnico.
+Os gerentes de projeto se beneficiam de uma visibilidade abrangente e precisa do acompanhamento
+do projeto, com métricas objetivas que permitem tomadas de decisão ágeis e baseadas em dados.
+
+
+Para os engenheiros de software, o modelo favorece ciclos curtos de desenvolvimento, possibilitando o
+início de novas funcionalidades em poucos dias e promovendo uma participação ativa em todas as etapas
+do processo, desde a análise de requisitos até o design e, consequentemente, a implementação de código.
+
+
+A robustez da metodologia reside em sua combinação de práticas tradicionais de engenharia de
+software, como modelagem OO, com aspectos ágeis, como adaptação a mudanças e foco na colaboração
+contínua. Essa fusão permite um fluxo de trabalho adaptável e eficiente, garantindo alinhamento
+técnico e estratégico
+
+
+Observe a seguir os principais aspectos das características:
+• As características são modeladas como unidades funcionais independentes ou pequenos blocos
+de funcionalidades, cuja definição considera o tamanho, o escopo e a complexidade da aplicação
+a ser desenvolvida.
+• Estruturalmente, essas características são agrupadas segundo critérios hierárquicos ou prioridades
+estratégicas do negócio, o que viabiliza a gestão eficiente do backlog técnico e o alinhamento
+com os objetivos organizacionais.
+• A equipe de desenvolvimento trabalha com metas iterativas, comumente em ciclos quinzenais
+(timeboxes), com foco na entrega incremental de novas características
+
+
+parei na pag 15
+
+

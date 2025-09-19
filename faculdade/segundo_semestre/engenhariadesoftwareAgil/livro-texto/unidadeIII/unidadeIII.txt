@@ -346,35 +346,311 @@ de software, pois, neles, as mudanças são frequentes e a colaboração contín
 uma melhor gestão dos recursos e dos prazos. Essa integração permite que a equipe tenha uma estrutura
 flexível e adaptável de forma rápida, melhorando a produtividade de software com Scrum, por exemplo.
 
-parei na 18
+Análise de dados e construção da MR
+Na construção da MR neste livro‑texto, são considerados stakeholders todos os interessados no
+software com a seguinte hierarquia de decisão: cliente, representante do usuário, autor do processo,
+gerente de projeto, gerente do sistema, programador, DBA
+
+
+Uma matriz é uma tabela de números, símbolos ou expressões, organizados em um quadro retangular
+que comporta linhas e colunas, em que cada elemento (ou célula) da matriz é identificado por dois
+índices: um para a linha e outro para a coluna
+
+Para determinar os critérios de responsabilidades, algumas questões devem ser observadas
+quanto aos integrantes da equipe de desenvolvimento:
+• Qual é o organograma que será aplicado para os stakeholders?
+• Quem é o responsável mais cobrado por um determinado resultado: do processo, da atividade
+ou da tarefa?
+• Quem influencia mais no processo e tem maior poder de decisão?
+• Quem é o autor do processo?
+• Quem faz a maior parte do trabalho ou quais são os integrantes que são mais cobrados no processo?
+
+A distribuição dos atributos deve se orientar de acordo com o grau de envolvimento do integrante da
+equipe na atividade. Na MR RACI, a definição e a função para cada atributo do processo na montagem
+da matriz são acentuadas a seguir:
+• R (Responsável): é o integrante responsável pelo processo, atividade ou tarefa. Ele alinha a equipe,
+cria procedimentos de serviços e dispõe os recursos necessários para a execução da atividade.
+É quem responde pelo sucesso de execução da atividade. Para todas as atividades, sem exceção,
+deve existir obrigatoriamente apenas um R.
+• A (Aprova): é o integrante responsável pela validação (ou aceite) dos resultados da atividade, que
+normalmente é o cliente (interno ou externo), o autor da atividade, a diretoria ou a gerência. Deve
+ser usado apenas um atributo A para a atividade, porém não existe obrigatoriedade para aplicá‑lo
+em todas as atividades, porque nem todas elas necessitam de aprovação.
+• C (Consultado): envolve os auxiliares diretos que trabalham na atividade junto ao responsável
+(R). Os integrantes que dão suporte podem representar um determinado membro da equipe,
+terceiros contratados para trabalhar na atividade ou consultores. Para cada R é sugerido que seja
+acompanhado por pelo menos um C.
+• I (Informado): engloba os convidados a integrar a equipe para a realização de uma determinada
+atividade. Os informados atuam na atividade de forma indireta e podem representar vários
+perfis  da equipe. Eles podem ter o perfil de consultores que têm conhecimentos específicos
+sobre uma determinada atividade ou interessados na atividade por alguma razão, por exemplo,
+avaliar o custo da atividade quando esta envolver as operações de verificação de integração dos
+componentes do software.
+
+Construção da MR RACI: distribuição dos atributos RACI na MR
+Apesar de considerarmos um modelo básico e estático de sete tarefas (linhas) e cinco stakeholders
+(colunas), a distribuição dos atributos da matriz é dinâmica. Não existe especificamente uma distribuição
+estática dos atributos, esses parâmetros são variáveis, porque tudo depende do projeto, do custo, do
+prazo, do interesse na troca de conhecimento e na melhoria da comunicação.
+
+PROCESSO UNIFICADO
+
+Trata‑se de um framework de desenvolvimento de software que oferece uma abordagem iterativa
+e incremental. Ele enfatiza a importância da arquitetura, do gerenciamento de riscos e da qualidade
+do software.
+O processo unificado tem como base o RUP, a implementação comercial mais conhecida. Entre as
+suas diversas ramificações, destacam‑se:
+
+• Praxis: é um framework para desenvolvimento de software que se baseia nos princípios do processo
+unificado, mas com foco em sistemas embarcados e de tempo real
+
+• Iconix: é uma abordagem de desenvolvimento de software ágil que simplifica o processo unificado,
+tornando‑o mais leve e adaptável a projetos menores e equipes com menos experiência
+
+• AUP (Agile Unified Process – Processo Unificado Ágil): mantém as principais fases do RUP
+(concepção, elaboração, construção e transição), porém com iterações mais curtas e flexíveis
+
+• EUP (Enterprise Unified Process – Processo Unificado Empresarial): é uma extensão do RUP
+que visa tratar de todo o ciclo de vida do software, não se limitando apenas ao desenvolvimento, 
+
+
+• OpenUP (Open Unified Process – Processo Unificado Aberto): leve e flexível, é projetado para
+ser adaptado a diferentes tipos de projetos e equipes.
+
+
+ RUP: fases e workflow
+
+Trata‑se de um processo de engenharia de software. Originalmente desenvolvido pela Rational
+Software Corporation, agora está integrado à IBM, como IRUP
+
+
+O RUP oferece uma estrutura disciplinada para a produção e a atribuição de software de alta qualidade,
+com foco em práticas recomendadas e em uma abordagem iterativa e incremental.
+é distribuído online,
+
+RUP oferece uma abordagem baseada em disciplinas para atribuir tarefas e responsabilidades
+dentro de uma organização de desenvolvimento. Sua meta é garantir que a produção de software de alta
+qualidade atenda às necessidades dos usuários dentro do cronograma e com orçamentos previsíveis. Ele
+captura as principais boas práticas modernas da engenharia de software: o desenvolvimento iterativo,
+a gestão de requisitos, a arquitetura baseada em componentes, o uso de software de modelos visuais, a
+verificação contínua da qualidade e gestão e o controle de mudanças de software.
+
+Desenvolvimento iterativo e incremental
+
+desenvolvimento de um software de média à alta complexidade, não é possível definir um
+problema e uma solução eficiente em uma única etapa.
+
+
+requisitos mudam com frequência, devido a vários fatores como:
+• restrições nas arquiteturas da lógica de programação, da informação e da infraestrutura de TI;
+• mudanças nas necessidades primárias do cliente e mudanças ocorridas devido a um refinamento
+do problema inicialmente levantado.
+
+Cada iteração resulta em um incremento do software com novas funcionalidades e refinamentos,
+correspondendo a um novo release. As iterações permitem reduzir o risco do projeto e o acompanhamento
+do progresso.
+
+
+Modelagem orientada a objetos (OO)
+
+
+Usa a UML para modelagem OO do software, o que facilita a compreensão e a comunicação entre os
+membros da equipe e outras partes interessadas.
+Ao representar o projeto utilizando construções gráficas, o RUP expressa de forma eficiente uma visão
+geral da solução, o que permite que clientes sem nenhuma afinidade com a área de desenvolvimento de
+sistemas possam facilmente compreender o projeto
+
+Arquitetura baseada em componentes
+
+O RUP é baseado na arquitetura de componentes desde o início do projeto. Ela é desenvolvida e
+validada nas fases iniciais, servindo como pilar para o desenvolvimento subsequente.
+Uma arquitetura baseada em componentes viabiliza um sistema extensível, promovendo a reutilização
+de “peças” do software
+
+
+Centrado em UC
+
+O modelo RUP é conduzido por UC, Os UC capturam os RS e
+dirigem o processo de desenvolvimento.
+O RUP descreve como documentar as funcionalidades, as restrições do sistema, as restrições do
+projeto e os requisitos através do UC
+partir do UC são criadas diversas visões sustentadas por outros diagramas da UML, que compõem
+uma determinada funcionalidade
+
+ UC e os cenários são exemplos de artefatos do processo
+
+Gerenciamento de riscos
+
+Identifica e gerencia riscos ao longo do ciclo de vida do desenvolvimento do projeto, permitindo
+que a equipe tome medidas proativas para mitigá‑los.
+
+
+-O framework do RUP divide o processo em fases, formando a estrutura dinâmica, que acompanha
+todo o ciclo de desenvolvimento, bem como a estrutura estática com as disciplinas (workflows).
+
+Documentação
+Enfatiza a criação e a manutenção de documentação abrangente e detalhada ao longo do
+desenvolvimento
+
+Customizável
+Pode ser adaptado para atender às necessidades específicas de diferentes projetos e organizações
+
+Verificação contínua da qualidade
+Assegurar a qualidade do software durante o desenvolvimento do projeto é algo intensivo feito
+pelo RUP
+
+
+Gestão e controle de mudanças do software
+O RUP define métodos para controlar e monitorar as mudanças a fim de garantir que mudanças não
+comprometam inteiramente o sucesso do projeto (Kruchten, 2000).
+
+Framework do RUP
+
+framework é dividido em fases e cada ciclo resulta em uma nova geração do produto ou parte dele.
+Cada fase é dividida por iterações definidas para cada projeto.
+
+RUP apresenta um modelo gráfico com dois eixos: o horizontal tem quatro fases; o vertical, seis
+disciplinas de trabalho e três disciplinas gerenciais.
+Na dimensão horizontal estão as fases do ciclo de vida do desenvolvimento, designadas como
+estrutura dinâmica, que representa as mudanças ao longo da linha de tempo que ocorrem no
+processo de desenvolvimento.
+ dimensão vertical estão as disciplinas de trabalho (ou workflow), denominadas como
+estrutura estática, expressando as mudanças no esforço despendido no desenvolvimento.
+
+
+Estrutura dinâmica
+Acompanhada de diversas iterações, ela envolve as quatro fases do RUP ao longo do ciclo de vida
+de desenvolvimento do software.
+
+características das fases do RUP que acompanham o ciclo
+de desenvolvimento:
+
+• Fase 1: Iniciação/Concepção (Inception/Conception)
+— Definir o escopo e as fronteiras do sistema (contrato com o cliente).
+— Elaborar um UC crítico ao sistema (atores e requisitos).
+— Criar o business case do sistema, que deve incluir os critérios de sucesso, a avaliação de riscos, a
+estimativa de recursos e o cronograma do ciclo de desenvolvimento.
+- Ao término da fase, deverá haver a concordância de stakeholders e desenvolvedores, a
+compreensão dos requisitos e a credibilidade nas estimativas. O projeto pode ser cancelado ou
+fortemente reformulado se falhar nesse aspecto.
+• Fase 2: Elaboração (Elaboration)
+— Garantir que o projeto, a arquitetura e o conjunto de requisitos estejam estáveis para garantir
+o cumprimento de prazos e custos.
+— Produzir protótipos evolucionários e exploratórios.
+— Eliminar os elementos de maior risco.
+— Descrever requisitos adicionais (não funcionais e com menor grau de importância).
+— Revisar o business case.
+— Ao término da fase, deve‑se obter estabilidade da arquitetura, demonstrar que o projeto é
+viável (tempo e custo) e que ele pode ser cancelado ou reformulado se falhar nesse aspecto.
+• Fase 3: Construção (Construction)
+— Minimizar custos por meio da utilização ótima de recursos.
+— Desenvolver versões utilizáveis.
+— Completar os processos de análise, projeto, implementação e testes das funcionalidades
+do sistema.
+— Desenvolver de maneira iterativa e incremental um produto que esteja pronto para ser entregue
+aos usuários, por meio de um manual e de uma descrição da versão corrente.
+— Decidir se o software e os usuários estão prontos para a implantação do sistema.
+— Ao término da fase, deve‑se verificar se a disponibilização pode ser adiada se os critérios não
+forem cumpridos.
+• Fase 4: Transição/Implantação (Transition) – atividades de entrega do software
+— Realizar testes de integração para validar o novo sistema.
+— Treinar usuários e pessoas responsáveis pela manutenção.
+— Iniciar as tarefas de marketing e distribuição.
+— Ao término da fase, deve‑se obter a satisfação dos clientes e os gastos devem ser aceitáveis
+
+
+Estrutura estática
+Na estrutura estática, o RUP é representado por nove disciplinas (seis de trabalho e três gerenciais)
+
+• Papéis
+— Descrevem o comportamento e as responsabilidades de um indivíduo ou grupo de
+indivíduos de uma equipe.
+— O comportamento de cada papel é dado pelo conjunto de atividades desempenhadas por ele.
+— As responsabilidades de cada papel estão associadas a artefatos que devem ser desenvolvidos
+ao longo do processo.
+— Exemplos de papéis incluem especificador de UC, arquiteto de softwares, projetista de
+interface e gerente de projetos.
+• Atividades
+— Realizadas pelos papéis, consistem em ações que atualizam ou geram artefatos.
+— A granularidade de uma atividade é expressa em horas ou dias.
+— As atividades são divididas em etapas de tarefas: entendimento, realização e revisão.
+• Artefatos
+— Informações produzidas, modificadas ou utilizadas ao longo do desenvolvimento de software.
+— São utilizados como entrada para atividades e são produzidos como saída.
+— Exemplos incluem modelos (UC, projetos), documentos (plano de negócios, plano de
+projeto, conjunto de artefatos, de componentes e outros) e código‑fonte.
+• Workflows
+— Definem uma sequência de atividades que produzem resultados observáveis na forma
+de artefatos.
+— A modelagem pode ser expressa em forma de diagramas de atividades, sequência e colaboração.
+— Como mostra o quadro 12, o workflow do RUP é apresentado em dois grupos, compostos por
+seis disciplinas de trabalho e três gerenciais
+
+ Extensões do RUP
+
+
+ Praxis
+De acordo com Paula Filho (2015), o modelo Praxis foi desenvolvido pela equipe de Barry Boehm,
+fundamentando‑se no modelo de ciclo de vida Espiral, com as mesmas raízes no RUP, porém com
+estrutura diferente das disciplinas organizacionais.
+
+Igualmente ao RUP, o Praxis é dirigido por UC, centrado na arquitetura, iterativo e incremental.
+A modelagem do Praxis é feita com uso do EPF (Eclipse Process Framework), que facilita a adaptação, a
+personalização, a extensão e a evolução. Herda a arquitetura RUP, complementada por um metamodelo
+da parte estática do RUP e pelo perfil exclusivo do Praxis.
+Ele também se conecta aos métodos ágeis, como Scrum, Kanban e XP; enfatizando a aplicação prática
+das ideias teóricas em um ciclo dinâmico, promovendo aprimoramento contínuo entre prática e teoria.
 
 
 
+ Iconix
+O processo Iconix é uma metodologia proprietária de desenvolvimento
+de software baseada na UML
+
+quatro marcos principais do Iconix que ajudam a estruturar o processo de desenvolvimento são:
+• Modelagem do domínio: inicialmente, a partir do levantamento de requisitos, é criado o
+modelo de domínio para identificar os conceitos‑chave do sistema, utilizando diagramas
+UML, como diagramas de classes, para representar os objetos e suas relações.
+• Revisão de requisitos: são extraídos UC para especificar os RF do sistema. Esse marco é
+importante para que o design seja alinhado às expectativas e às necessidades do cliente.
+• Revisão preliminar do design: dos UC são extraídos diagramas de sequência e de colaboração,
+convertendo os UC em interações entre objetos, conectando requisitos ao design técnico
+do software.
+• Revisão crítica do design: é a validação dos diagramas de design que garante que o modelo
+esteja completo e que o sistema pode ser implementado com base nos artefatos criados.
 
 
+EUP
+De acordo com Ambler (2023), o EUP estende processos iterativos/ágeis, como DAD (Disciplined Agile
+Delivery), XP ou Scrum para atender às necessidades reais das organizações de TI.
+
+OpenUP
+É um processo unificado de código aberto, leve e flexível, projetado para ser adaptado a diferentes
+tipos de projetos e equipes; busca simplicidade, colaboração e entrega de valor ao cliente.
+O OpenUP é uma metodologia de desenvolvimento de software que faz parte do EPF. Criado como
+uma versão mais leve e ágil do RUP
+
+basicamente o mesmo ciclo de vida estruturado do RUP, com as
+quatro fases principais: concepção, elaboração, construção e transição; mantendo suas características
+essenciais, mas simplificando e reduzindo a complexidade. É ideal para equipes pequenas
 
 
+Métodos, ferramentas e técnicas: definição de papéis e
+responsabilidades para atividades do RUP
+
+No contexto do RUP, vimos que a matriz MR RACI é uma excelente ferramenta para organizar e
+comunicar as atribuições individuais e coletivas das equipes envolvidas.
+A definição de papéis e responsabilidades com MR RACI garante clareza e eficácia no gerenciamento
+de projetos de software, permitindo categorizar as responsabilidades de forma estruturada e padronizada,
+
+A abordagem da matriz MR RACI, conforme as diretrizes do RUP, assegura que cada fase do ciclo de
+vida do desenvolvimento esteja alinhada às funções definidas
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Análise dos dados da MR RACI
+Uma parte da análise é atribuir uma pontuação para os atributos de acordo com a hierarquia
+de decisão. Por exemplo: R = 5 pontos; A = 4 pontos; C = 3 pontos; e I = 2 pontos. Essa pontuação
+pode ser convertida posteriormente em valores de tempo ou custo.
 
 
 
