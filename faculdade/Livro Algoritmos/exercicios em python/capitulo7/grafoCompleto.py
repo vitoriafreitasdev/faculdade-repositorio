@@ -12,7 +12,7 @@ grafo["fim"] = {}
 custos = {"a": 6, "b": 2, "fim": infinito}
 
 # Pais iniciais (quem leva ao nó pelo menor caminho conhecido até agora)
-pais = {"a": "inicio", "b": "inicio", "fim": None}
+pais = {"inicio": None, "a": "inicio", "b": "inicio", "fim": None}  # CORREÇÃO AQUI
 
 # Lista de nós processados
 processados = []
@@ -46,7 +46,7 @@ while nodo is not None:
 # ---------- Reconstrução do caminho ótimo ----------
 caminho = []
 n = "fim"
-while n is not None:
+while n is not None:  # Agora funciona porque "inicio" tem pai None
     caminho.append(n)
     n = pais[n]
 caminho.reverse()
