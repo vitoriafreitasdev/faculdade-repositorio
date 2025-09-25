@@ -13,7 +13,7 @@ dos projetos e a necessidade de maior flexibilidade impulsionaram a busca por al
 metodologias ágeis surgiram como uma resposta a essas limitações e desafios enfrentados pelas
 abordagens tradicionais de desenvolvimento de software.
 
- Manifesto para Desenvolvimento Ágil de Software
+ Manifesto para Desenvolvimento Ágil de Software
 Antes da criação das metodologias ágeis, a indústria de software enfrentava desafios como atrasos,
 custos elevados e baixa qualidade nos projetos. O Manifesto para Desenvolvimento Ágil de Software,
 publicado nos dias 11 a 13 de fevereiro de 2001, por Kent Beck
@@ -26,7 +26,7 @@ em fases distintas, incluindo levantamento de requisitos, design, codificação,
 desenvolvimento prescritivo é valorizado pela sua capacidade de prever resultados e
 reduzir riscos em projetos bem definidos
 
- desenvolvimento ágil é uma abordagem iterativa e incremental, com baixo índice de especificação,
+ desenvolvimento ágil é uma abordagem iterativa e incremental, com baixo índice de especificação,
 que prioriza a adaptação a mudanças e a entrega de valor contínuo ao cliente
 
 desenvolvimento prescritivo pode ser mais adequado para projetos estáveis e bem definidos,
@@ -50,7 +50,7 @@ garantir qualidade e eficiência no ciclo de vida do desenvolvimento.
 
 XP
 
- metodologia ágil XP tem foco na melhoria contínua da qualidade do código e na capacidade de
+ metodologia ágil XP tem foco na melhoria contínua da qualidade do código e na capacidade de
 respostas às mudanças de requisitos. Ela é ideal para projetos dinâmicos, nos quais os requisitos mudam
 com frequência, promovendo um ambiente colaborativo e eficiente no desenvolvimento de software.
 
@@ -71,7 +71,7 @@ no valor agregado ao negócio.
 Os critérios de aceitação são formulados em contratos entre stakeholders e desenvolvedores
 para assegurar que os requisitos estejam claros
 
- XP considera o conhecimento técnico da equipe, permitindo que certos detalhes operacionais
+ XP considera o conhecimento técnico da equipe, permitindo que certos detalhes operacionais
 sejam omitidos, confiando na experiência dos desenvolvedores para interpretar e implementar
 soluções alinhadas aos objetivos do projeto
 
@@ -80,7 +80,7 @@ inicia com a atividade “ouvir”, na qual são coletados e analisados os RF e 
 
 Projeto
 
- design de software na XP segue o princípio KIS (Keep it Simple – Preservar a Simplicidade), ou
+ design de software na XP segue o princípio KIS (Keep it Simple – Preservar a Simplicidade), ou
 seja, prioriza soluções simples e eficazes,
 
 projeto não antecipa funcionalidades além do necessário, as mudanças e as novas
@@ -91,9 +91,9 @@ design. Esses cartões identificam e organizam classes orientadas a objetos, sua
 e colaboradores.
 
 a XP faz uso do Kanban, que é um sistema de
-gestão visual que permite acompanhar o progresso das tarefas. 
+gestão visual que permite acompanhar o progresso das tarefas.
 
- XP recomenda a prática da prototipagem
+ XP recomenda a prática da prototipagem
 de partes do sistema antes de sua execução definitiva,
 
 Codificação
@@ -107,13 +107,13 @@ colaboração simultânea de dois desenvolvedores em uma mesma tarefa de codific
 um assume o papel de driver, escrevendo efetivamente o código, o outro atua como observador,
 com foco em aspectos estratégicos como detecção de erros,
 
- Os papéis se alternam
+ Os papéis se alternam
 frequentemente, promovendo colaboração intensa, disseminação do conhecimento entre a equipe
 e aumento na qualidade do software produzido
 
 prática de refabricação se aproxima do conceito de reengenharia de software, que envolve
 analisar, redesenhar e reconstruir partes significativas do sistema, geralmente para adaptar o software
-a novas tecnologias, arquiteturas ou requisitos que a versão atual não suporta bem. 
+a novas tecnologias, arquiteturas ou requisitos que a versão atual não suporta bem.
 
 
 Testes
@@ -126,10 +126,10 @@ Kanban
 de processos
 
 Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
-por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS 
+por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS
 
 Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
-por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS 
+por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS
 
 engenharia de software, Kanban é um método ágil de gerenciamento de trabalho (workflow), que
 visa melhorar a eficiência do fluxo de desenvolvimento e promover a entrega contínua de valor
@@ -141,7 +141,7 @@ Scrum
 Scrum está estruturado nos valores e nos princípios do Manifesto Ágil, buscando proporcionar
 uma abordagem iterativa e incremental para o desenvolvimento de software.
 
- metodologia é projetada para atender às necessidades de projetos nos quais os requisitos são
+ metodologia é projetada para atender às necessidades de projetos nos quais os requisitos são
 frequentemente instáveis ou desconhecidos, o que é típico em ambientes dinâmicos e imprevisíveis
 Scrum adota ciclos curtos e repetitivos, conhecidos
 como sprints, que permitem ajustes constantes e a entrega de valor incremental ao cliente.
@@ -162,7 +162,7 @@ equipe e acelerar resultados. O foco da equipe é a capacidade de absorver mudan
 na qual o progresso é medido continuamente com o mínimo de riscos.
 • Sprints curtas e entregas frequentes: no framework, o Scrum é um subconjunto do product
 backlog, que representa um ciclo de trabalho determinado regularmente para ter uma duração de
-1 a 4 semanas. Assim, a equipe se concentra para realizar um conjunto de tarefas ou funcionalidades. 
+1 a 4 semanas. Assim, a equipe se concentra para realizar um conjunto de tarefas ou funcionalidades.
 
 • Product backlog: é uma lista priorizada de requisitos ou características do artefato que agrega
 valor ao software, contendo funcionalidades, melhorias, correções de bugs, requisitos e tarefas
@@ -245,6 +245,204 @@ com os objetivos organizacionais.
 (timeboxes), com foco na entrega incremental de novas características
 
 
-parei na pag 15
+
+O FDD é a metodologia ágil de desenvolvimento que mais enfatiza diretrizes e técnicas de gestão
+de projetos. O projeto é claro para todos os envolvidos e essa metodologia pode ser integrada
+com outras metodologias ágeis, como o Scrum. O FDD é composto por cinco processos principais:
+
+• Desenvolver um modelo geral: criação de um modelo conceitual abrangente para entender os RS
+e criar uma visão de alto nível. Utilizam‑se técnicas como modelagem de domínio, diagramas de
+classes e mapas conceituais. O objetivo é estabelecer a estrutura e os principais componentes
+do sistema antes de detalhar as funcionalidades.
+• Construir a lista de características: com base no modelo desenvolvido, é criada uma lista
+hierárquica de funcionalidades pequenas, claras e orientadas ao negócio. Cada característica
+representa algo que o sistema deve fazer e é escrita em linguagem voltada ao cliente, como:
+“relatório de clientes”. A lista é organizada em grupos chamados de grandes funcionalidades
+(major feature sets) e conjuntos de funcionalidades (feature sets).
+• Planejar por característica: é estruturar o trabalho a partir de prioridades. Nesse processo,
+é feito o planejamento da implementação com base nas características identificadas.
+Atribuem‑se responsabilidades como analistas de sistemas, programadores‑chefe e outros e
+define‑se a sequência de desenvolvimento. As funcionalidades são priorizadas com base em
+valor de negócio, dependências e complexidade.
+• Projetar por característica: engloba a criação de designs específicos, quando cada funcionalidade
+é projetada detalhadamente antes da codificação. O programador‑chefe seleciona a equipe
+que trabalhará na característica. É feita uma revisão de design envolvendo a equipe técnica,
+resultando em diagramas, documentos técnicos e decisões de arquitetura.
+• Construir por característica: é o processo de codificação, teste e integração da característica
+ao sistema. Envolve implementação de código, testes unitários, integração contínua e
+revisão de código.
 
 
+METODOLOGIAS ÁGEIS II
+
+
+DSDM
+É uma abordagem iterativa e incremental de CBSE (Component‑Based Software Engineering –
+Engenharia de Software Baseada em Componentes) para o projeto de sistemas de software.
+ 1990, o DSDM destacou‑se por sua flexibilidade e seu foco na
+entrega rápida de soluções de alta qualidade, mesmo em cenários com prazos e orçamentos limitados.
+Ele é amplamente utilizado em projetos com escopos dinâmicos
+DSDM surgiu como uma extensão do RAD
+ princípios fundamentais do DSDM são:
+• foco na necessidade do negócio: priorizar entregas que agreguem valor ao cliente;
+• entrega dentro do prazo: garantir que os projetos sejam concluídos de forma eficiente;
+• colaboração: promover o trabalho conjunto entre equipes e stakeholders;
+• qualidade inegociável: assegurar que os padrões de qualidade sejam mantidos;
+• desenvolvimento incremental e iterativo: melhorar continuamente as entregas com base
+em feedbacks.
+
+oito fases principais,
+organizadas de forma cíclica e contínua.
+• Viabilidade (feasibility) – início do ciclo: avalia se o projeto é tecnicamente viável e se faz
+sentido do ponto de vista do negócio. As ações se baseiam em fazer uma análise técnica preliminar,
+estimando inicialmente custos, tempo, recursos disponíveis e análise de riscos. Essa etapa inicial
+se refere à concepção do projeto, e somente depois dela se inicia o projeto.
+• Pré‑projeto (pre‑project): garante que apenas projetos com uma base sólida e justificativa
+de negócios sejam iniciados. Seu objetivo é confirmar que existe uma justificativa clara para o
+projeto. Consiste nas práticas de análise inicial de viabilidade, definição de escopo em alto nível e
+identificação de stakeholders.
+• Fundamentos (foundations): essa fase se preocupa em fixar uma base firme para o projeto
+antes de iniciar o desenvolvimento iterativo. As principais atividades são: definir a arquitetura,
+fazer a modelagem do processo de negócio, incluindo critérios de aceitação e plano de entrega.
+• Exploração (exploration): nessa fase são desenvolvidos incrementos de solução que atendam
+aos requisitos priorizados. As principais atividades estão no desenvolvimento colaborativo com
+usuários, prototipagem rápida, iterações frequentes e feedbacks constantes.
+• Desenvolvimento iterativo (iterative development): é o núcleo do DSDM. Essa fase busca
+garantir que a solução esteja tecnicamente robusta e pronta para produção. São realizados refino
+técnico, testes mais profundos e integração com sistemas de software existentes.
+• Implantação (deployment): é a entrega da solução para uso real, garantindo que esteja pronta
+e validada pelos usuários. A fase de implantação consiste em treinamento, migração de dados,
+planejamento da transição e entrega do incremento
+• Pós‑projeto (post‑project): avalia os resultados do projeto para assegurar uma manutenção
+contínua da solução. Realizam‑se revisões das lições aprendidas, avaliação de benefícios e
+plano de suporte.
+• Viabilidade (feasibility) – fim do ciclo: é quando o produto é construído incrementalmente
+com base em ciclos curtos. Nos ciclos de planejamento, ocorrem o desenvolvimento e revisões
+contínuas com foco na entrega de valor
+
+Crystal
+
+concebida por Alistair Cockburn em 2005 com contribuições de Jim Highsmith em 2002
+Cada metodologia da família é
+representada por uma cor refletindo sua adequação ao nível de criticidade do projeto e ao número de
+pessoas envolvidas na equipe. Quanto maior o risco do sistema, como risco de morte, mais rigorosa
+será a metodologia correspondente.
+O Crystal é fundamentado em princípios fortemente centrados nas relações humanas,
+comunicação e simplicidade. Ponderando que todo projeto tem necessidades, convenções e uma
+metodologia diferente, o Crystal destaca‑se por valorizar os princípios do Manifesto Ágil: pessoas
+e interações mais do que processos e ferramentas, iterações frequentes com entregas operacionais,
+reflexão e melhoria contínua.
+O método Crystal Clear, por exemplo, é direcionado a projetos com baixo risco e com equipes
+que variam entre seis e oito desenvolvedores. Suas principais práticas são:
+• Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
+do sistema em intervalos curtos, que variam entre um a três meses
+• Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
+do sistema em intervalos curtos, que variam entre um a três meses
+• Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
+do sistema em intervalos curtos, que variam entre um a três meses
+• Acesso fácil a usuários especialistas (easy access to expert users): assegura que desenvolvedores
+tenham acesso direto e frequente a usuários finais ou especialistas no domínio do sistema.
+• Testes automatizados (automated tests): são incorporados testes automatizados como parte
+integrante do processo de desenvolvimento,
+• Comunicação osmótica (osmotic communication): envolve a comunicação informal e constante
+que ocorre naturalmente quando a equipe trabalha fisicamente próxima, compartilhando o
+mesmo ambiente, favorecendo a troca rápida de informações, as decisões eficientes e a redução
+da necessidade de reuniões formais.
+• Foco (focus): as condições de trabalho devem favorecer a concentração e a produtividade,
+evitando interrupções desnecessárias, tarefas paralelas excessivas e ambientes ruidosos.
+
+AM
+Modelagem Ágil (AM) consiste em uma metodologia prática, voltada
+para a modelagem e documentação de sistemas baseados em software.
+Modelagem Ágil consiste em um conjunto de valores,
+princípios e práticas voltados para a modelagem do software que podem
+ser aplicados a um projeto de desenvolvimento de software de forma leve e
+eficiente.
+Ela apoia a criação de modelos que têm papel essencial na comunicação
+Modelo: um modelo é uma abstração que expressa aspectos importantes
+de uma coisa ou conceitos. Os modelos podem ser visuais (diagramas),
+não visuais (descrições de texto) ou executáveis (código de trabalho ou
+equivalente). Às vezes, os modelos são chamados de mapas ou roteiros
+dentro da comunidade ágil.
+Modelo ágil: Os modelos ágeis podem ser algo tão simples quanto adesivos
+em uma parede, esboços em um quadro branco, diagramas capturados
+digitalmente por meio de uma ferramenta de desenho ou modelos detalhados
+capturados usando uma ferramenta de engenharia de software baseada
+em modelo (MBSE – model‑based software engineering).
+Modelagem: modelagem é o ato de criar um modelo. A modelagem às
+vezes é chamada de mapeamento.
+AM: é realizada de forma colaborativa e evolutiva.
+146
+Documento: um documento é uma representação persistente de uma coisa
+ou conceito. Um documento é um modelo, mas nem todos os modelos são
+documentos (a maioria dos modelos não é persistente).
+Documento ágil: os documentos ágeis podem ser algo tão simples
+quanto notas pontuais, texto detalhado, testes executáveis ou um ou
+mais modelos ágeis
+
+DevOps
+
+O DevOps foi criado por Patrick DeBois para combinar Desenvolvimento
+(Development) e Operações (Operations).
+aplicar os princípios
+do desenvolvimento ágil e do enxuto a toda a cadeia logística de software
+abordagem promove automação, colaboração e integração ao longo de diversas etapas essenciais,
+como planejamento, desenvolvimento, testes, integração contínua, entrega contínua, monitoramento e
+feedback. Elas são interligadas em um ciclo iterativo que permite ajustes rápidos e eficiência ao longo
+do desenvolvimento.
+
+ DevOps faz uso de ferramentas especializadas, como Jenkins, Docker
+e Kubernetes, para automatizar processos críticos, desde a integração de código até o provisionamento e
+o monitoramento de infraestrutura. Elas são frequentemente utilizadas em conjunto: Jenkins para
+automação, Docker para conteinerização e Kubernetes para orquestração.
+
+Jenkins
+
+É uma ferramenta de automação open‑source focada em CI (Continuous Integration – Integração
+Contínua) e CD (Continuous Delivery – Entrega Contínua (CD)
+
+equipes automatizem tarefas como construção, teste e implantação de software, reduzindo o trabalho manual e acelerando os ciclos de desenvolvimento.
+suporte a pipelines declarativos, integração com repositórios como
+Git e uma ampla biblioteca de plugins que permite personalizar e estender sua funcionalidade.
+Exemplo de uso: sempre que um desenvolvedor realiza uma atualização no código Jenkins pode
+automaticamente compilar o código, executar testes e, se aprovado, implantar a aplicação no ambiente
+de staging ou produção.
+
+Docker
+É uma plataforma de conteinerização que permite empacotar aplicações e suas dependências em
+contêineres leves e portáteis. Ele garante que o software seja executado de forma consistente em diferentes
+ambientes do desenvolvimento, testes e produção
+Kubernetes (ou K8s)
+É um sistema de orquestração de contêineres projetado para gerenciar grandes volumes  de
+contêineres em ambientes distribuídos. O K8s automatiza tarefas complexas, como balanceamento
+de carga, escalonamento automático, gerenciamento de clusters e implantação contínua.
+Tal dispositivo promove o controle por escalonamento automático (autoscaling), permitindo que
+uma funcionalidade de software se ajuste dinamicamente à infraestrutura de software, ambientes de
+computação em nuvem e a recursos disponíveis de acordo com a demanda do sistema
+ DevOps tem como objetivo otimizar a entrega de valor ao cliente por meio de ciclos curtos e
+iterativos, garantindo flexibilidade para atender às mudanças de requisitos e necessidades do mercado,
+
+
+
+Métodos, ferramentas e técnicas: aplicativos para operações com
+metodologias ágeis
+
+metodologias ágeis, o gerenciamento de projetos e organização de tarefas
+é baseado em sistema visual de quadros, listas e cartões;
+Cada sprint pode ser organizada em um quadro específico
+Os principais recursos do Trello são:
+• Quadros: representam projetos ou áreas de trabalho.
+• Listas: organizam tarefas em diferentes etapas, como “a fazer”, “em progresso” e “concluído”.
+• Cartões: contêm tarefas específicas, que podem incluir descrições, verificações (checklists),
+prazos, anexos e comentários.
+• Automação: com o recurso Butler, é possível automatizar fluxos de trabalho repetitivos.
+• Integrações: pode‑se conectar a outras ferramentas, como Slack, Google Drive e Jira.
+• Colaboração: permite que equipes trabalhem juntas em tempo real, com notificações e
+atualizações instantâneas.
+Enfim, o uso da ferramenta Trello, aplicada com a metodologia Scrum, promove transparência,
+agilidade e organização; tornando o gerenciamento de projetos mais visual e acessível para todos
+os membros da equipe. Facilita a comunicação entre equipes por meio de quadros, listas e cartões
+
+Com o uso do Kanban, o TISI visa:
+A) Utilizar uma abordagem de mudança evolutiva, baseada em feedbacks, para o processo de
+desenvolvimento de soluções de software
