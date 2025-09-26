@@ -1,0 +1,456 @@
+engenharia anotações
+
+- 1940 => linguagens de programação de alto nível
+ainda não existiam.
+
+programação acompanhava cada um dos hardwares, que eram
+computadores grandes, complexos e voltados para aplicações específicas.
+
+para cada hardware
+específico existia um software específico, ou seja, a evolução de um necessita da evolução do outro.
+
+1950 surgiram o sistema operacional UNIVAC OS e as primeiras linguagens de programação
+de alto nível, Fortran e Cobol
+
+ 1960, a Otan propôs o termo engenharia de software
+como responsável pelo projeto e pela construção do software de computador
+
+software => definido como um programa ou conjunto de programas de computador organizados
+intelectualmente para atender a um ou mais objetivos de um negócio.
+
+Qualidade de software refere‑se à avaliação de um atributo próprio de um determinado
+componente de software para cumprir seus requisitos, livre de defeitos, com eficiência e entrega de
+valor ao usuário final.
+qualidade desejada se refere à definição dos RNF (Requisitos Não Funcionais)
+
+
+principais RNF:
+
+• Funcionalidade: o software deve atender a todas as especificações referentes às funções
+requeridas em RF (Requisitos Funcionais). Uma funcionalidade é identificada quando possui um
+agrupamento de funções similares desenvolvidas com o emprego da mesma tecnologia.
+• Confiabilidade: o software deve ser estável e, ponderando um marco de referência, apresentar o
+menor índice de falhas.
+• Usabilidade: envolve a facilidade de uso, a compreensão, a atratividade e o aprendizado pelo
+software. A usabilidade é o principal critério a ser avaliado na IHC (Interface Humano‑Computador).
+• Segurança: engloba práticas e medidas com o objetivo de proteger o software contra ameaças,
+ataques e vulnerabilidades.
+• Eficiência: refere‑se ao desempenho das funcionalidades do software; além de fornecer resultados
+corretos, ela pode ser melhorada, por exemplo, ofertando os mesmos resultados “corretos” com
+redução de tempo e/ou custo.
+• Manutenibilidade: representa o quão fácil é implementar mudanças para atualizações, correções
+e prevenção de falhas.
+• Portabilidade: o quanto um determinado software é portável para outros ambientes operacionais
+
+processos e métodos para a garantia de qualidade
+do software:
+
+• Verificação e validação (V&V): trata‑se de testes de software que incluem testes unitários, de
+integração, de sistema e de aceitação.
+• Revisões de código: envolvem revisões formais ou informais, auditorias, walkthroughs e inspeções
+para identificar problemas precocemente.
+• Controle de versão: engloba ferramentas e técnicas de versionamento que acompanham o
+desenvolvimento do software e entregas aos clientes. Ferramentas como Git (sistema de controle
+de versões distribuído) ajudam a gerenciar mudanças e colaborar de forma eficaz.
+• Documentação: compreende manuais de usuário e registro técnico detalhado, de preferência em
+formato eletrônico.
+• Gestão do risco: trata‑se de definir regras e procedimentos que assegurem a qualidade do software,
+mesmo apresentando problemas. Ao mesmo tempo, deve‑se definir um plano de contingência
+para mitigar riscos e, possivelmente, garantir a produtividade.
+
+
+vida útil de um produto é a soma entre os tempos das regiões da mortalidade infantil e da
+estabilidade.
+
+ML é uma ramificação da IA, cujo foco é o
+desenvolvimento de algoritmos e técnicas que permitem aos computadores aprender com grandes
+volumes de dados, analisar para identificar padrões, tomar decisões ou fazer previsões com base
+nesses padrões.
+
+
+• ERP: responsável por integrar diversos processos empresariais, é embasado na arquitetura
+servidor/cliente ou em uma infraestrutura em nuvem. Pode ser aplicado em manufatura, varejo,
+saúde, finanças, serviços e educação.
+• CRM: envolve ferramentas usadas para gerenciar as interações de uma empresa com seus clientes.
+O CRM é integrado ao ERP e uma das aplicações de maior abrangência que fazem uso do CRM
+está no call center com soluções VoIP (telefonia por IP), headsets, IVR (Interactive Voice Response
+– Resposta Interativa por Voz) e ACD (Automatic Call Distribution – Distribuição Automática
+de Chamadas).
+• SCM (Supply Chain Management – Gerenciamento da Cadeia de Suprimentos): específico
+para o controle de processos logísticos, tem ferramentas como scanner de código de barras, RFID e
+dispositivos IoT; gera inventários, responde ao processamento do pedido, monitora o roteamento
+do transporte nos armazéns e nos centros de distribuição.
+
+fábrica de software é um modelo de produção
+organizado e eficiente para o desenvolvimento de software. Utilizam‑se processos padronizados,
+metodologias, ferramentas automatizadas e equipes especializadas.
+
+
+Crise do software
+
+• as estimativas de prazo e de custo frequentemente são imprecisas;
+• a produtividade das pessoas da área de software não acompanha a demanda por seus serviços;
+• a qualidade de software às vezes não é adequada.
+
+Metodologias ágeis em resposta à crise do software
+
+• Ciclos curtos de desenvolvimento, permitindo a coleta regular de dados do projeto, feedbacks
+contínuos e ajustes rápidos nas práticas de desenvolvimento do software.
+• A comunicação entre cliente e desenvolvedor é contínua e transparente; são praticadas revisões
+regulares, de forma que os requisitos sejam claros e ajustados de acordo com a necessidade.
+• A integração contínua permite testes e diagnósticos antecipados, melhorando a qualidade do
+software; com entregas frequentes de versões incrementais, promovem‑se resultados melhores e
+alinhados às expectativas dos stakeholders.
+• As metodologias ágeis alinhadas a um planejamento iterativo e incremental permitem mudanças
+rápidas e adaptativas das prioridades e dos requisitos.
+• As metodologias ágeis incentivam equipes à autodisciplina e ao empoderadamento, o que
+aumenta a motivação e o compromisso dos stakeholders. As histórias de cada sprint permitem
+que a equipe desenvolvedora identifique melhorias e aprendizagem contínua
+
+ engenharia de requisitos é composto por um conjunto estruturado de atividades para
+identificar, documentar e gerenciar os requisitos de um software
+
+stakeholder, ou parte interessada, é um indivíduo, grupo ou organização que possui um interesse, impacto ou é influenciado por um projeto, empresa ou iniciativa, como funcionários, clientes, fornecedores, investidores ou a comunidade
+
+atividades do processo da engenharia de requisitos do software
+
+
+• Estudo da viabilidade do sistema: embora essa etapa não esteja inclusa no projeto do software,
+é obrigatória para iniciar o projeto.
+• Elicitação: engloba a identificação das entidades envolvidas no projeto, a abstração de
+conhecimentos do negócio, as necessidades ou alguma situação‑problema que será convertida
+em software com base nos requisitos do usuário e RNF.
+• Análise: é a interpretação do negócio junto ao cliente com revisões sucessivas por meio de
+modelos do negócio para elaborar o escopo do software e medir a necessidade do negócio em
+relação à capacidade e aos recursos para que os profissionais desenvolvam o software. Nessa fase,
+inicia‑se a elaboração dos requisitos do software.
+• Especificação e modelagem: corresponde a uma descrição detalhada dos requisitos funcionais e do
+sistema, ao lado da modelagem do software, para a interpretação dos desenvolvedores.
+• Validação: verifica‑se se os requisitos documentados estão de acordo com as necessidades do cliente.
+• Gestão de requisitos: monitoramento dos requisitos ao longo do ciclo de vida do desenvolvimento do
+software, de forma a garantir que os requisitos estão sendo executados corretamente.
+
+Estudo de viabilidade do sistema => identificação (ou concepção) das necessidades do software, o projeto começa quando uma
+necessidade de negócio é identificada ou um mercado ou serviço novo é descoberto.
+
+- software novo, o processo de engenharia de requisitos deve começar com o estudo de
+viabilidade
+
+Processos de requisitos do software
+• Prototipação e UC (Use Cases – Casos de Uso). O protótipo é recomendado para avaliar a interface do
+IU (usuário), os problemas de comunicação com outros produtos e a possibilidade de atendimento aos
+requisitos de desempenho. Nesse contexto, os UC são úteis para identificar funcionalidades do software.
+
+RU (Requisitos do Usuário)
+
+declarações em linguagem natural, formulários e diagramas simples sobre as funções que o
+software deve fornecer e as restrições sobre as quais deve operar.
+Os requisitos do usuário são obtidos na elicitação do projeto de software. Esse documento pode
+ser elaborado pelo próprio cliente ou pelo analista do processo de negócio alinhado ao cliente e ao
+representante dos usuários.
+modelos de negócios e UC são produzidos com especificações que permitem determinar
+os demais requisitos. Isso incluem os requisitos de interface com usuários e outros sistemas, normas e
+leis, aos quais o software deve ser submetido e regras de acesso, tais como níveis de permissões para
+diretores, gerentes e funcionários
+
+ Requisitos Funcionais (RF): São declarações detalhadas dos RU com a especificação das
+funcionalidades do software.
+
+ A atividade de elaboração dos requisitos funcionais consiste em extrair dos casos de uso as
+funções necessárias que irão operar no sistema.
+
+ Requisitos do Sistema (RS): São descrições detalhadas dos RU com foco no sistema, com
+uma especificação completa dos componentes do sistema de software.
+ Para a modelagem dos requisitos do sistema, são utilizados diversos diagramas, no
+entanto, os que mais se destacam são diagramas de componentes e o diagrama de
+implantação da UML. 
+
+RNF
+
+Determinam a qualidade e as propriedades que um software deve ter, sendo o diferencial que faz
+com que uma aplicação seja boa e atrativa. Uma forma de memorizar o que são RNF é saber que eles são
+tudo aquilo que o cliente não pede e que, se houver problema, ele vai reclamar.
+
+requisitos externos, que envolve o atendimento a regulamentações
+governamentais, normas, padrões da indústria de software, expectativas dos stakeholders, competitividade etc.
+É composto pelos seguintes elementos:
+• Interoperabilidade: é a capacidade do software em efetuar operações em ambientes integrados
+a outros sistemas de software ou sistemas distribuídos.
+• Ética: conjunto de princípios morais e diretrizes que orientam o comportamento dos profissionais
+participantes do projeto para criar uma boa comunicação, responsabilidade, confiabillidade
+e transparência.
+• Aspectos legais: englobam leis e regulamentações políticas, internas ou externas, que orientam o
+que é permitido e exigido no desenvolvimento, no uso e na distribuição do software. Os principais
+requisitos dos aspectos legais, incluindo segurança e privacidade, são:
+— Segurança: é associada a implementações de normas de segurança, responsabilidades por
+violações de segurança, conformidade com as leis, divulgação de incidentes, contratos, treinamento
+e auditorias.
+— Privacidade: determina como as empresas devem coletar, armazenar e tratar os dados
+pessoais dos usuários, garantindo sua privacidade e sua segurança. No Brasil, temos a LGPD;
+na Europa, GDPR.
+— Propriedade intelectual: do projeto, da codificação, por exemplo, no que se refere a direitos
+autorais, patentes e marcas registradas.
+35
+
+— Blockchain: tecnologia que permite a criação de um registro digital seguro. Em relação à
+segurança dos dados, suas principais características são integridade, distribuição, descentralização
+e criptografia; quanto à privacidade, anonimato e controle de acesso.
+
+Ergonomia cognitiva
+É uma área da ergonomia que se concentra no estudo e na melhoria da interação entre os seres
+humanos e os sistemas cognitivos, como a mente, a memória, a atenção e a percepção.
+Na engenharia de requisitos, é importante incluir em RNF e RF o projeto da IU, que envolve a
+UX, com base na abordagem aos usuários e na prototipagem.
+
+mapa mental é uma ferramenta versátil e poderosa que pode ser aplicada em diversas áreas e
+contextos. É muito útil nos processos iniciais do projeto de software de elicitação e análise. Ele ajuda
+a representar ideias, conceitos ou tarefas; estruturando‑os de uma maneira que facilita a compreensão
+e a recordação, sendo vital para brainstorming e planejamento.
+
+Os princípios fundamentais da AM são:
+• Assuma a simplicidade
+— Com um mapa mental, é possível visualizar os requisitos.
+• Abrace a mudança
+— Habilitar o próximo esforço é seu objetivo secundário.
+• Mudança incremental
+— Ao usar uma ferramenta para construir um mapa mental, as mudanças e os incrementos
+podem ser alterados de forma simples
+
+• Maximize o ROI (Return on Investment – Retorno sobre Investimento) das partes
+interessadas
+
+processo de software constitui a base para o controle do gerenciamento
+de  projetos de software e estabelece o contexto no qual são aplicados
+métodos técnicos, são produzidos artefatos (modelos, documentos, dados,
+relatórios, formulários etc.
+
+processo ágil é uma abordagem flexível e colaborativa para desenvolver software com o foco em
+entregas contínuas, agregando valor ao cliente. É formado pelo conjunto de diversas outras metodologias
+ágeis
+
+desenvolvimento prescritivo (baseado em planos) é caracterizado por seguir uma abordagem
+mais estruturada e sequencial, com etapas bem definidas e especificadas antes do início do projeto.
+
+desenvolvimento prescritivo enfatiza a previsibilidade e o planejamento detalhado, enquanto
+o desenvolvimento ágil valoriza a flexibilidade, a colaboração e o feedback constante. Ele pode ser
+mais adequado para projetos estáveis e bem definidos, enquanto o modelo ágil se destaca em cenários
+dinâmicos e sujeitos a mudanças constantes.
+
+O desenvolvimento ágil é uma abordagem iterativa e incremental, com baixo índice de especificação,
+que prioriza a adaptação a mudanças e a entrega de valor contínuo ao cliente.
+
+processo prescritivo é aplicado em projetos de grande escala
+
+ processo ágil é aplicado em projetos pequenos, médios e em startups; denotando certo
+grau de incerteza. Uma das características fundamentais das metodologias ágeis é que os requisitos
+podem variar de acordo com novas mudanças requeridas.
+
+Funcionalidade: conjunto formado por uma ou várias funções que
+empregam recursos e lógicas similares, tecnologias comuns e que capacitam
+o software a prover funções que atendam às necessidades externas e
+internas do software.
+Por exemplo: a funcionalidade CRUD (Create, Read, Update e Delete –
+Criar, Ler, Atualizar e Apagar)
+
+PSP (Personal Software Process – Processo de Software Pessoal)
+
+metodologia criada pelo SEI
+PSP orienta o planejamento e o desenvolvimento dos componentes do software e tem como
+principais objetivos:
+• Melhoria da qualidade do software: práticas rigorosas de revisão e inspeção reduzem o
+número de defeitos no software desde as primeiras fases do desenvolvimento.
+• Precisão nas estimativas de tempo e custo: melhora a estimativa de prazo e esforço para o
+desenvolvimento do software.
+• Aumento da produtividade: um bom planejamento faz com que o índice de manutenção
+seja reduzido, de forma que o projeto pronto seja concluído em menos tempo, elevando
+a produtividade.
+• Disciplina e organização: ajuda os desenvolvedores a seguir processos definidos e
+coleta de medidas de seus trabalhos, melhorando a distribuição de serviços pela equipe
+de desenvolvimento.
+• Análise de desempenho: cria um comprometimento pessoal com a qualidade e a
+melhoria contínua do processo, fornecendo métricas para que os engenheiros avaliem e
+aprimorem continuamente seu desempenho com dados reais.
+
+
+TSP (Team Software Process – Processo de Software da Equipe)
+
+Trata‑se de uma metodologia criada para auxiliar equipes de desenvolvimento de software a
+produzir produtos de alta qualidade de maneira eficiente e previsível. São práticas disciplinares que
+melhoram a produtividade e a capacidade na entrega do software dentro do prazo e do orçamento.
+O TSP foi desenvolvido por Watts Humphrey (criador do CMMI e do PSP), com foco na equipe
+de trabalho. Nele, o profissional não trabalha sozinho no desenvolvimento de software.
+
+TSP complementa o PSP
+
+Modelos de processos de software
+
+modelos de processos de software englobam um conjunto de atividades, métodos, práticas
+e transformações empregadas no desenvolvimento e na manutenção de software.
+
+
+Cascata (Waterfall Model ou Sequencial Linear)
+O modelo Cascata, algumas vezes chamado ciclo de vida clássico, sugere uma
+abordagem sequencial e sistemática para o desenvolvimento de software,
+começando com a especificação dos requisitos do cliente, avançando pelas
+fases de planejamento, modelagem, construção e entrega, e culminando no
+suporte contínuo do software concluído
+
+conceitos sobre as atividades do Cascata:
+• Comunicação: é a fase de elicitação, quando se inicia o projeto. Nela, é feito o levantamento de
+requisitos, determinando as funcionalidades, as restrições e os objetivos do sistema.
+• Planejamento: nessa atividade, os requisitos são agrupados para definir o escopo do sistema,
+determinar a arquitetura modelada, estimar prazos e custos. São produzidos artefatos de
+cronogramas, análises de caminho crítico e seleção de recursos a serem disponibilizados. Com os
+artefatos construídos, é feito o acompanhamento de cada etapa do projeto.
+• Modelagem: toda modelagem é acompanhada de sua especificação, além do processo de
+modelagem do negócio, que está na atividade “Comunicação”. Os modelos a serem criados envolvem
+três arquiteturas: modelagem da informação – diagrama de classes e de pacotes; modelagem
+da lógica de processamento – diagramas de UC, sequência, estado e outros; e modelagem da
+infraestrutura de TI – diagrama de componentes e de implantação.
+• Construção: refere‑se à codificação e aos testes a serem realizados do componente de software
+produzido. A verificação do requisito ocorre pelo atendimento das especificações, pela inspeção
+de código e pelos testes unitários e de integração. As unidades são integradas e testadas como um
+sistema completo.
+• Entrega: é a implantação do software no ambiente do cliente. Com o suporte necessário,
+feedbacks são colhidos de acordo com as observações dos usuários, tais como erros que não
+foram identificados anteriormente, melhoria na interface, aumento de funções para o sistema e
+descoberta de novos requisitos.
+
+Balbúrdia (codifica/corrige ou codifica/remenda)
+
+
+desenvolvimento é conduzido de forma improvisada e iterativa, com foco em
+resolver problemas imediatos ou entregar funcionalidades rapidamente, sem considerar uma visão de
+longo prazo ou práticas consolidadas de engenharia de software. Existe um ciclo contínuo de mudanças
+não planejadas que distancia cada vez mais o software de seu estado de maturidade e estabilidade.
+
+o Balbúrdia não é um modelo a ser seguido para desenvolver software, porém inúmeros
+profissionais o seguem, mesmo não sabendo disso. Ele é caracterizado pela administração de crises,
+informalidade, loop de gestão codifica/corrige, em que o planejamento, os requisitos do software, a
+modelagem e a documentação são caóticos ou até mesmo inexistentes.
+
+Prototipagem
+
+
+Protótipos são produtos em menor escala, modelos 2D e 3D gerados
+em computador ou simulações. Os protótipos permitem que as partes
+interessadas façam experiências com um modelo do seu produto final,
+protótipo de software é um mecanismo para identificar requisitos de IHC, RF, práticas de UX em
+mapas de navegação interativos, mapa de estilos para CSS e IDE 
+
+
+Incremental
+É projetado para atender as exigências empresariais e usuais de prazos acelerados e alta
+qualidade. Ilustrado na figura 28, esse modelo operacionaliza a liberação do sistema em partes
+incrementais, cada uma delas entregando funcionalidades utilizáveis enquanto o desenvolvimento
+contínuo prossegue em paralelo.
+Esse modelo incorpora elementos sequenciais do Cascata de forma evolucionária. Ele
+permite a entrega de incrementos iterativos com base em marcos de entrega, aprovação e
+validação, assegurando que o usuário utilize partes do sistema em desenvolvimento desde cedo,
+minimizando o tempo de espera total e adaptando‑se às necessidades emergentes ao longo do
+ciclo de desenvolvimento.
+
+
+ processo incremental é caracterizado por sua natureza iterativa, com o objetivo de apresentar
+um produto operacional com cada incremento. Esse método é fundamentado no conceito de
+versões, quando iterações sequenciais são utilizadas para aprimorar continuamente o software.
+
+
+cada iteração, novas versões são geradas, registrando as mudanças implementadas no
+software até a entrega do release, que é a versão finalizada para os usuários.
+
+
+
+
+RAD permite que uma equipe de desenvolvimento crie um sistema totalmente funcional em
+um período de tempo reduzido. Conforme mencionado por Pressman (2002), o modelo RAD é um
+processo de software incremental que enfatiza um ciclo de desenvolvimento curto.
+
+
+abordagem que visa à entrega rápida de software, frequentemente utilizando ferramentas
+especializadas de programação de bancos de dados e apoio ao desenvolvimento, como geradores
+de interfaces e relatórios (Sommerville, 2011).
+O RAD adota uma estratégia baseada na construção modular e orientada a componentes
+reutilizáveis. Ele permite acelerar o desenvolvimento de sistemas, reduzindo significativamente o
+tempo necessário para a entrega de soluções de complexidade moderada.
+
+Espiral
+
+abordagem evolucionária que integra a natureza iterativa da
+prototipagem com a estrutura sequencial do Cascata. O desenvolvimento do software ocorre por meio
+de múltiplas versões incrementais, evoluindo progressivamente a partir de ciclos iterativos.
+Em cada iteração da espiral, são realizadas atividades estruturais previamente definidas no arcabouço,
+abrangendo desde o planejamento e a análise de riscos até a implementação e a avaliação.
+Ao final de cada ciclo, uma versão parcial ou completa do sistema é entregue (release), com
+novas funcionalidades ou melhorias incorporadas. 
+ é adequado para sistemas complexos, projetos de software de grande porte e
+aqueles que demandam um alto nível de interação com os usuários. Sua abordagem iterativa permite
+identificar e resolver problemas progressivamente, garantindo maior alinhamento com os requisitos e os
+objetivos do sistema.
+
+modelo é dividido em quatro etapas principais, que se repetem ao longo de cada ciclo da espiral:
+• Ativação: definem‑se os objetivos específicos, identificam‑se as restrições para o processo
+e é  preparado um plano de gerenciamento detalhado. Identificam‑se também os riscos sem
+analisá‑los profundamente (foco da próxima fase).
+• Análise de riscos e prototipagem: com base nos riscos identificados na fase anterior, são realizadas
+análises detalhadas e tomadas providências para amenizar esses riscos. Criam‑se várias versões de
+protótipos para apoiar essa fase.
+• Desenvolvimento: fundamentado pelas fases anteriores, escolhe‑se o modelo mais adequado
+para o desenvolvimento do software. A experiência profissional e a vivência do desenvolvedor em
+outros sistemas são estratégicas para essa fase. Dependendo da complexidade ou do tamanho do
+sistema, por vezes, é necessária a presença de um consultor especialista.
+• Planejamento: o projeto é revisto nessa fase e é tomada uma decisão de realizar um novo ciclo, na
+espiral ou não. Se continuar com o aperfeiçoamento do sistema, é traçado um plano para a próxima
+fase do projeto. Um diferencial nesse modelo comparado com outros é a explícita consideração
+de riscos dentro do projeto como um todo. Para tanto, criou‑se uma fase específica de análise de
+riscos nesse modelo.
+
+
+modelo de processo representa o processo em uma perspectiva particular, por exemplo, o
+Incremental é acompanhado do versionamento, que acompanha a evolução ou as mudanças do software
+por meio de registros de entrega, como uma funcionalidade. No caso Incremental, são apresentadas as
+atividades sequenciais desenvolvidas ao longo de seu ciclo; no entanto, não mostra a definição dos
+papéis e das responsabilidades das pessoas envolvidas no projeto.
+
+modelo de processo de software é uma representação
+simplificada de suas atividades, que acompanham todo o SDLC (Software Development Life Cycle –
+Ciclo de Vida de Desenvolvimento de Software).
+
+SDLC
+
+alinhamento do SDLC com estruturas organizacionais envolve as atividades, as funções
+(papéis) das pessoas, as responsabilidades e os fluxos de trabalho dentro da organização do processo
+de desenvolvimento.
+A estrutura influencia o grau de autoridade e de responsabilidades, que podem ser centralizadas
+ou distribuídas, podendo ter uma estrutura horizontal ou operar com equipes de projeto
+auto‑organizáveis, como é o caso das metodologias ágeis.
+O ciclo de vida do processo de software, acompanhado por um cronograma, envolve planejar,
+monitorar e controlar o tempo dedicado a cada fase do ciclo de vida.
+O cronograma é uma ferramenta prática para gerenciar o tempo e as entregas do projeto
+de software, enquanto o ciclo de vida do processo define as etapas estruturadas pelas quais o
+desenvolvimento do software passa. A integração de ambos visa garantir que o software seja
+entregue no tempo previsto, atendendo aos requisitos e padrões de qualidade.
+planejamento do processo de software, cada fase da estrutura organizacional é acompanhada
+de seus processos e cada um deverá ser executado com base em métodos, ferramentas e técnicas,
+que fazem parte das tarefas da equipe de desenvolvimento.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
