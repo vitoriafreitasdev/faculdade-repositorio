@@ -18,7 +18,7 @@ travessia em pós‑ordem aguarda‑se a conclusão das visitas às subárvores 
 nó. Cada abordagem atende a exigências distintas, viabilizando operações como geração de expressões
 prefixas ou infixas, impressão ordenada de valores e remoção controlada de nós.
 
-s grafos configuram outro tipo de estrutura não linear que modela conjuntos de vértices interligados
+- grafos configuram outro tipo de estrutura não linear que modela conjuntos de vértices interligados
 por arestas, sendo empregados em cenários que vão desde redes de transporte até interações em
 redes sociais
 
@@ -73,9 +73,7 @@ relações entre elementos de maneira eficiente, especialmente em algoritmos que
 ordenações e hierarquias. A estrutura é formada por um nó principal, chamado raiz, do qual derivam
 outros nós, organizando‑se em subárvores.
 
- subárvore também é uma árvore binária
-
-: cada nó pode ser considerado
+ subárvore também é uma árvore binária: cada nó pode ser considerado
 o início de uma nova árvore, composta por seus dois filhos. Se um nó não possui filhos, ele é chamado de
 nó folha. A profundidade de um nó é definida pela quantidade de arestas entre ele e a raiz. Já a altura
 da árvore corresponde à maior profundidade entre todos os seus nós.
@@ -154,6 +152,8 @@ lista[:m] / lista[m:]
 Fatiamento de listas. Retorna uma sublista contendo os elementos antes ou depois do
 índice m. No código, é utilizado na travessia em ordem para visitar metade dos filhos
 antes e metade depois de visitar o nó
+
+### parei aqui
 
 3.2 Grafos: representação (matriz de adjacência e listas de adjacência) e
 travessias (DFS e BFS)

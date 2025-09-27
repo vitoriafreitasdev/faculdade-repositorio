@@ -1,0 +1,391 @@
+python_anotacoes 
+
+-algoritmo => sequência finita de passos bem definidos, projetados
+para resolver um problema ou executar uma tarefa específica. 
+desde de operações
+matemáticas simples, como somar dois números, até processos mais complexos, como ordenar grandes
+volumes de dados ou realizar buscas em estruturas de informação
+
+-estruturas de dados => maneiras de organizar, armazenar e manipular os dados necessários para que algoritmos sejam executados de maneira eficiente.
+
+-escolha de algoritmos => significar a diferença entre uma aplicação funcional e eficiente e outra que consome
+recursos desnecessários ou apresenta baixo desempenho.
+
+-Estruturas de dados: fornecer os meios para que informações
+sejam organizadas e acessadas de maneira eficiente. Com a correta operações( busca, inserção, remoção ou ordenação de dados) podem ser realizadas com maior rapidez, com economia de tempo e recursos computacionais.
+
+- Big‑O  => instrumentos mais utilizados para descrever
+a complexidade de algoritmos, pois oferece uma forma padronizada de expressar o comportamento
+de uma solução conforme o tamanho do conjunto de dados aumenta.
+descrever o comportamento
+de algoritmos em termos de complexidade de tempo e espaço. Usa símbolos matemáticos
+para expressar como o desempenho de um algoritmo escala em relação ao tamanho do conjunto de
+entrada. O(1) indica que o tempo de execução é constante, independentemente do tamanho
+da entrada
+O(n), por outro lado, indica que o tempo de execução aumenta linearmente com
+o tamanho da entrada, como em busca linear
+
+ Também chamada de notação assintótica ou notação de ordem de grandeza, é utilizada para
+descrever o comportamento de algoritmos conforme o tamanho da entrada cresce.
+ Essa notação permite representar a taxa de crescimento do tempo de execução ou do uso
+de memória, independentemente de detalhes específicos de implementação ou de hardware.
+
+comportamento assintótico refere-se à forma como uma função cresce quando seu
+parâmetro, como o tamanho da entrada de um algoritmo, tende ao infinito.
+ No contexto dos algoritmos, essa análise avalia como o tempo de execução ou o uso de
+memória se modifica à medida que n, o tamanho da entrada, se eleva consideravelmente.
+
+
+-- algoritmos - na computação =>  é um conjunto de instruções que um computador pode
+seguir para realizar uma operação específica
+
+
+-algoritmo deve atender a certas propriedades
+
+• Finitude: um algoritmo deve sempre terminar após um número finito de passos. Ele não pode
+continuar indefinidamente, a menos que seja projetado especificamente para isso
+• Precisão: cada passo de um algoritmo precisa ser bem definido, ou seja, sem ambiguidades.
+O computador (ou o executor humano) deve ser capaz de compreender e executar cada etapa
+exatamente como descrita.
+• Entrada: um algoritmo recebe zero ou mais entradas, que são os dados iniciais necessários para
+começar o processamento.
+• Saída: um algoritmo produz uma ou mais saídas, que são os resultados esperados após a execução
+das instruções.
+• Eficácia: cada instrução do algoritmo deve ser suficientemente básica para que possa ser
+executada em tempo finito, utilizando recursos computacionais disponíveis.
+
+complexidade O(1) não significa que o algoritmo levará exatamente o mesmo número de
+nanossegundos ou ciclos do processador independentemente do tamanho exato da entrada. Em vez
+disso, é que o número de passos fundamentais do algoritmo não aumenta conforme
+a entrada cresce.
+
+
+--  generator expression é um recurso da Python que permite
+criar coleções de maneira concisa e eficiente. Seu uso evita a necessidade
+de laços explícitos (for) e torna o código mais legível. Em vez de criar e
+armazenar a lista inteira na memória, ele gera os elementos sob demanda,
+economizando espaço. Por exemplo, ao invés de escrever um laço for
+tradicional para criar uma lista de quadrados dos números de 1 a 10,
+podemos usar o generator expression.
+
+conceitos de list comprehension e generator expression são recursos
+do Python que evitam a necessidade de laços explícitos (for) e tornam o
+código mais legível. No entanto, há diferenças fundamentais entre eles,
+principalmente no modo como armazenam e processam os dados. A list
+comprehension é uma maneira compacta de criar listas a partir de uma
+sequência de elementos, aplicando transformações e filtragens diretamente
+na declaração da lista.Sua principal característica é que ela retorna
+uma nova lista contendo todos os elementos gerados pela expressão
+interna. Como o resultado é armazenado diretamente na memória
+
+JSON (JavaScript Object Notation) é um formato de armazenamento e troca de dados que organiza
+informações de maneira estruturada e de fácil leitura, tanto para humanos quanto para computadores. 
+
+utiliza uma estrutura baseada em pares chave‑valor, semelhante a dicionários em Python ou objetos
+em JavaScript,
+
+API (Interface de Programação de Aplicações) é um conjunto de
+regras e definições que permite que diferentes sistemas e programas se
+comuniquem entre si
+
+o comportamento assintótico refere‑se à forma como uma função se comporta quando seu
+parâmetro tende ao infinito.
+
+
+o Big‑O é a forma mais amplamente utilizada para descrever limites superiores de crescimento
+
+exemplo: algoritmo 𝐴 tem complexidade 𝑂(𝑓(𝑛)) significa que, para entradas
+suficientemente grandes, o tempo de execução de 𝐴 não cresce mais rápido do que uma função
+constante vezes 𝑓(𝑛)
+
+ Se a sala tem 10 alunos, você faz 10 verificações; se tem 100, faz 100
+verificações e assim por diante. Esse é um exemplo de comportamento linear: conforme o número de
+alunos 𝑛 cresce, o trabalho sobe de forma proporcional e por isso dizemos que a tarefa está em 𝑂(𝑛).
+Usando a definição de Big‑O:
+• 𝐴(𝑛) é o tempo para conferir todas as assinaturas.
+• 𝑓(𝑛) pode ser simplesmente n
+
+execução constante, o que significa que não sofrem variação
+perceptível à medida que o tamanho da entrada cresce. São classificados como 0(1). Um exemplo típico
+desse comportamento é o acesso a um elemento específico de um array (ou lista) por índice: teoricamente,
+considera‑se que buscar o valor em uma posição já conhecida tem custo fixo, independentemente de
+quantos elementos existem ao todo.
+
+m algoritmos cujo tempo de execução é logarítmico, especialmente quando
+o tamanho do problema é reduzido pela metade (ou por um fator constante) a cada passo. A busca
+binária em uma lista ordenada é um exemplo clássico: a cada comparação, descarta‑se metade dos
+elementos, o que faz a quantidade de passos crescer de forma proporcional a log  
+
+
+ 𝑂(𝑛 log 𝑛), costuma-se dizer que ele é
+linear‑logarítmico (Merge Sort
+e Quick Sort (na média).)
+
+
+𝑂(𝑛2). Isso é frequente em
+algoritmos que utilizam laços aninhados, como Bubble Sort e Insertion Sort, em que para cada elemento
+da lista é preciso percorrer novamente toda a lista (ou uma fração significativa dela).
+
+
+𝑂(𝑛3
+), que surge em algoritmos
+com tripla aninhada de laços, por exemplo, em métodos básicos de multiplicação de matrizes. Já 𝑂(2𝑛)
+é frequente em algoritmos de força bruta, que testam todas as combinações possíveis para resolver um
+problema de decisão
+
+ 𝑂(𝑛!)  => caixeiro viajante
+
+No uso prático, nem sempre o algoritmo assintoticamente mais rápido é o mais indicado. Para
+entradas pequenas, métodos 𝑂(𝑛2) podem superar outros 𝑂(𝑛 log 𝑛) devido a fatores como constantes
+menores de tempo ou melhor uso de cache. É por isso que engenheiros e cientistas da computação
+realizam não apenas análise teórica, mas testes empíricos (microbenchmarks) para embasar suas
+decisões. 
+
+Big‑O é uma forma de medir e comparar a eficiência de algoritmos ao analisar
+como o tempo de execução (ou uso de memória) cresce conforme aumenta o tamanho da entrada
+
+ESTRUTURAS DE DADOS LINEARES
+
+organizam os elementos em
+uma sequência ordenada, na qual cada item possui um predecessor e um sucessor (exceto o primeiro e
+o último). 
+elementos são acessados de maneira sequencial, respeitando
+a ordem na qual foram inseridos. Diferentemente das estruturas não lineares, como árvores e grafos,
+que permitem múltiplas conexões entre os elementos, as estruturas lineares mantêm uma relação direta
+entre os itens, o que facilita a manipulação e o processamento dos dados.
+
+Em listas e arrays, por exemplo, o acesso a um item pode ser feito
+por meio de um índice numérico, garantindo eficiência quando a posição do elemento é conhecida.
+No entanto, a inserção e a remoção em determinadas posições podem exigir deslocamentos de outros
+elementos, o que impacta o desempenho dependendo da implementação utilizada.
+
+-pilhas e filas são classificadas como estruturas lineares porque
+seguem uma ordem específica de inserção e remoção.
+
+LIFO (Last In, First Out) para pilhas e FIFO (First In, First Out) para listas
+
+Quando há necessidade de relacionamentos hierárquicos entre elementos
+ou múltiplas conexões, como acontece em árvores e grafos, as estruturas não lineares tornam‑se mais
+apropriadas. Contudo, para armazenar e processar dados de forma sequencial, as estruturas lineares
+continuam sendo uma das abordagens mais eficientes e amplamente utilizadas na computação.
+
+Listas são adequadas para armazenamento genérico de elementos
+heterogêneos, enquanto arrays são preferíveis para manipulação eficiente de dados homogêneos.
+Pilhas são úteis em problemas que exigem rastreamento de estados anteriores, como a execução de
+chamadas recursivas e o gerenciamento de histórico de navegação. Filas, por sua vez, são empregadas
+em sistemas que necessitam de processamento sequencial de requisições, como filas de impressão
+e algoritmos de escalonamento
+
+-Latência refere‑se ao intervalo entre o momento em que um dado
+entra na estrutura e o instante em que se obtém resposta ou se processa
+a próxima etapa. Em robótica, latência reduzida garante reações rápidas;
+em atendimento, evita demora perceptível ao cliente; na blockchain,
+minimiza  o tempo necessário para que uma transação seja incluída em
+bloco. O controle de latência envolve escolha da estrutura, afinação de
+algoritmos e otimização de hardware subjacente.
+
+O termo LIDAR deriva de “Light Detection and Ranging”, ou “Detecção
+e Medição por Luz”, e refere‑se a uma tecnologia que utiliza pulsos de laser
+para medir distâncias com alta precisão.
+O funcionamento do LIDAR baseia‑se na emissão de feixes de laser em alta
+frequência em várias direções. Eles atingem objetos ao redor e retornam ao
+sensor. Medindo o tempo que o pulso leva para ir até o objeto e voltar, o sistema
+calcula a distância até esse objeto com grande exatidão. A partir da coleta
+de milhares ou milhões de pontos por segundo, o LIDAR gera uma nuvem de
+pontos tridimensional que representa a forma, a posição e, em alguns casos, até
+a densidade dos objetos no entorno do veículo
+
+time.sleep(segundos) Interrompe a execução do programa por um número de segundos especificado. No código, simula
+o tempo necessário para processar uma tarefa
+list.pop(índice) Remove e retorna o elemento da lista na posição indicada. Quando usado com o índice 0, remove o
+primeiro elemento, simulando uma fila (estrutura FIFO)
+
+time.strftime(‘%H:%M:%S’) Retorna a hora atual formatada como uma string no formato horas:minutos:segundos.
+No código, é utilizada para registrar o horário de chegada das requisições
+i % len(lista) Calcula o resto da divisão de i pelo comprimento da lista. Essa operação é usada para percorrer
+elementos de forma cíclica, garantindo que os índices se mantenham dentro dos limites da lista
+
+blockchain é um sistema distribuído e descentralizado que registra transações
+em blocos interligados, garantindo transparência, imutabilidade e segurança. Essa infraestrutura tem
+ganhado destaque em diversos setores, desde finanças até cadeias de suprimentos, pois permite a
+verificação confiável de operações sem a necessidade de intermediários centralizados.
+
+list como pilha (append + pop
+sem índice)
+A lista é utilizada como estrutura de pilha (LIFO), com append()para empilhar e
+pop() (sem argumento) para desempilhar o último elemento inserido
+for elemento in lista Itera sobre todos os elementos de uma lista, executando um bloco de código para
+cada item. No código, é usado para percorrer as transações e exibi-las na tela
+
+
+estruturas de dados não lineares diferenciam‑se das lineares pela ausência de organização sequencial,
+permitindo modelar relacionamentos mais complexos entre elementos
+as árvores
+representam hierarquias de forma intuitiva. Cada árvore é composta por nós interligados por arestas, tendo
+um nó raiz que origina ramificações
+árvore binária em Python, costuma‑se definir uma
+classe que armazena o valor do nó e referências para o filho esquerdo e para o filho direito.
+
+travessias de árvores binárias configuram‑se como procedimentos fundamentais para acesso e
+manipulação de dados: na travessia em pré‑ordem visita‑se primeiro o nó atual, após o qual ocorre a
+exploração recursiva do filho esquerdo e, em seguida, do filho direito;
+
+
+inorder -> left => node => right
+postorder -> left => right => node
+preorder -> node => left => right
+
+- grafos configuram outro tipo de estrutura não linear que modela conjuntos de vértices interligados
+por arestas, sendo empregados em cenários que vão desde redes de transporte até interações em
+redes sociais
+
+representação pode apoiar‑se em uma matriz de adjacência – uma matriz
+bidimensional em que cada célula indica a existência e, opcionalmente, o peso de uma aresta entre dois
+vértices – ou em listas de adjacência, que associam cada vértice a um conjunto de vizinhos. As listas de
+adjacência revelam‑se eficientes em grafos esparsos, reduzindo a ocupação de memória, ao passo que a
+matriz simplifica consultas diretas sobre conexões entre vértices.
+
+apoia-se em travessias por profundidade (DFS) e por largura (BFS). A primeira
+aprofunda‑se ao máximo em cada direção antes de retroceder, sendo frequentemente implementada
+via recursão ou pilha; a BFS utiliza fila para garantir que todos os vértices a uma certa distância sejam
+visitados antes de seguir para a próxima camada do grafo
+
+bons para =>  detecção de ciclos, busca de caminhos mínimos e análise de componentes conectados.
+
+Árvores: conceitos, árvores binárias e travessias (pré-ordem, em ordem
+e pós-ordem)
+
+# Arvores 
+
+O nó raiz corresponde à raiz do vegetal, sustentando toda a estrutura; os nós
+intermediários atuam como galhos que se ramificam; e os nós sem filhos assemelham-se às folhas que encerram
+os ramos
+
+árvore de cabeça para baixo enfatiza a ideia de descentralização progressiva: o
+processamento inicia-se pelo elemento raiz e avança sistematicamente pelos níveis subsequentes. Essa
+configuração facilita a visualização de operações como inserção, busca e remoção de nós, pois cada
+ramo pode ser percorrido de modo sequencial,
+
+• Percurso em pré‑ordem: visitamos primeiro a raiz S, depois E, em seguida C, depois seu filho A;
+voltamos, visitamos D, depois O e R. Isso produz a sequência de letras S → E → C → A → D → O
+→ R, formando a palavra SECADOR (a pré‑ordem lê a raiz antes dos filhos).
+• Percurso em pós‑ordem: visitamos primeiro todos os descendentes, começando do fundo da
+árvore, temos A (folha à esquerda), depois voltamos e lemos C, então passamos para o ramo de E,
+lendo O seguido de R, depois subimos para ler D e, por fim, a raiz S. A ordem resultante A → C →
+E → O → D → R → S soletra ACEORDS (a pós‑ordem lê a raiz por último).
+
+usadas em situações que envolvem classificações hierárquicas complexas ou sistemas de
+organização com múltiplos elementos relacionados a um mesmo ponto central. Um exemplo cotidiano
+é a estrutura de diretórios de um sistema operacional. Em um computador, uma pasta pode conter
+diversas subpastas e arquivos, o que exige uma árvore genérica, já que não há limite fixo de quantos
+filhos (itens) um nó (pasta) pode ter.
+
+
+árvore binária é uma estrutura de dados hierárquica composta por nós, na qual cada nó possui,
+no máximo, dois filhos, denominados filho esquerdo e filho direito. Essa organização permite representar
+relações entre elementos de maneira eficiente, especialmente em algoritmos que envolvem buscas,
+ordenações e hierarquias. A estrutura é formada por um nó principal, chamado raiz, do qual derivam
+outros nós, organizando‑se em subárvores.
+
+árvore binária é uma estrutura de dados hierárquica composta por nós, na qual cada nó possui,
+no máximo, dois filhos, denominados filho esquerdo e filho direito. Essa organização permite representar
+relações entre elementos de maneira eficiente, especialmente em algoritmos que envolvem buscas,
+ordenações e hierarquias. A estrutura é formada por um nó principal, chamado raiz, do qual derivam
+outros nós, organizando‑se em subárvores.
+
+subárvore também é uma árvore binária: cada nó pode ser considerado
+o início de uma nova árvore, composta por seus dois filhos. Se um nó não possui filhos, ele é chamado de
+nó folha. A profundidade de um nó é definida pela quantidade de arestas entre ele e a raiz. Já a altura
+da árvore corresponde à maior profundidade entre todos os seus nós.
+
+árvore binária de busca, por exemplo, mantém os dados organizados de modo que o valor de cada nó seja maior do
+que todos os valores de sua subárvore esquerda e menor do que todos os valores de sua subárvore
+direita
+
+árvores balanceadas, como a AVL, ou a árvore rubro‑negra, projetadas para manter
+a altura da árvore controlada mesmo após múltiplas inserções e exclusões, garantindo desempenho
+eficiente e previsível.
+
+sempre visitar primeiro o conteúdo do
+lado esquerdo, depois o conteúdo do próprio nó e, por fim, o conteúdo do lado direito
+
+
+import hashlib Importa o módulo hashlib, que fornece funções para calcular hashes criptográficos como SHA-256
+hashlib.sha256(objeto).
+hexdigest()
+Calcula o hash SHA-256 do objeto fornecido (normalmente em bytes) e retorna o valor como uma
+string hexadecimal
+str.encode(‘utf-8’) Converte uma string para bytes, necessários como entrada para funções de hashing
+list.copy() Retorna uma cópia superficial da lista original, permitindo modificações sem afetar a lista original
+indice //= 2 Atualiza a variável índice com o resultado da divisão inteira por 2. Essa operação é usada para
+navegar da base até a raiz da árvore binária
+
+
+
+str.strip(caractere) Remove caracteres do início e do fim da string. No código, remove barras / que
+envolvem o caminho antes da separação
+str.split(separador) Divide uma string em partes, com base em um separador. Aqui, é usada para separar
+os diretórios e os arquivos com base nas barras /
+next(iterador, valor_padrao)
+Retorna o próximo elemento de um iterador. Se o iterador estiver esgotado, retorna o
+valor padrão fornecido. No código, é usado para localizar rapidamente um filho com
+nome correspondente
+str.find(substring)
+Retorna o índice da primeira ocorrência da substring. Retorna -1 se a substring não
+for encontrada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

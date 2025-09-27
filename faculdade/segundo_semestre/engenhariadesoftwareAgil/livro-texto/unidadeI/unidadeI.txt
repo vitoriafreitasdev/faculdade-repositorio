@@ -218,9 +218,7 @@ Processos de requisitos do software
 IU (usuário), os problemas de comunicação com outros produtos e a possibilidade de atendimento aos
 requisitos de desempenho. Nesse contexto, os UC são úteis para identificar funcionalidades do software.
 
-
 RU (Requisitos do Usuário)
-
 
 declarações em linguagem natural, formulários e diagramas simples sobre as funções que o
 software deve fornecer e as restrições sobre as quais deve operar.

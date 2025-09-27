@@ -49,8 +49,6 @@ Criar, Ler, Atualizar e Apagar)
 
 PSP (Personal Software Process – Processo de Software Pessoal)
 
-
-
 metodologia criada pelo SEI (Software Engeneering Institute). Específica para
 o engenheiro de software, visa melhorar a engenharia individual de software, proporcionando uma
 metodologia disciplinada para planejar, medir e analisar o trabalho pessoal, tentando aumentar a
@@ -104,8 +102,6 @@ algo normal e esperado.
 
 
 Modelos de processos de software
-
-
 
 modelos de processos de software englobam um conjunto de atividades, métodos, práticas
 e transformações empregadas no desenvolvimento e na manutenção de software. Eles fornecem
@@ -356,6 +352,7 @@ planejamento do processo de software, cada fase da estrutura organizacional é a
 de seus processos e cada um deverá ser executado com base em métodos, ferramentas e técnicas,
 que fazem parte das tarefas da equipe de desenvolvimento.
 
+## parei aqui
 
 Planejamento
 É a fase em que são levantados os requisitos do negócio e os requisitos não funcionais,
@@ -475,10 +472,7 @@ prática da engenharia de software, o analista de sistemas especifica cada funç
 descrições detalhadas e modelos gráficos (modelagem), determinando as funcionalidades que serão
 interpretadas pelos especialistas em TI.
 
-Gerência do projeto
-
-
-Promove o projeto em todos os aspectos, o que significa apoiar, defender e divulgá‑lo na organização
+Gerência do projeto => Promove o projeto em todos os aspectos, o que significa apoiar, defender e divulgá‑lo na organização
 tanto interna como externamente
 
 stakeholder é qualquer pessoa, grupo ou organização que tem interesse ou é afetado pelo

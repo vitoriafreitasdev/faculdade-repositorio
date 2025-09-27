@@ -434,23 +434,194 @@ planejamento do processo de software, cada fase da estrutura organizacional é a
 de seus processos e cada um deverá ser executado com base em métodos, ferramentas e técnicas,
 que fazem parte das tarefas da equipe de desenvolvimento.
 
+Planejamento
+
+É a fase em que são levantados os requisitos do negócio e os requisitos não funcionais,
+com base nas arguições sobre os negócios, as necessidades de clientes e usuários, e as
+restrições do software
+Também são acordados custos e prazos
 
 
+###########
 
+Metodologias Ágeis (ou Abordagem Ágil)
+O que é: Uma filosofia ou um conjunto de princípios para o desenvolvimento de software, definida pelo Manifesto Ágil. O foco está na flexibilidade, colaboração com o cliente, entrega de valor contínua e resposta a mudanças.
+Scrum: Um framework ágil para gerenciamento de projetos. Trabalha em ciclos curtos (Sprints) de 2-4 semanas, com papéis definidos (Scrum Master, Product Owner, Time de Desenvolvimento) e eventos específicos (Reunião Diária, Planning, Review, Retrospectiva).
+Extreme Programming (XP): Foca muito nas práticas de engenharia. Enfatiza programação em par, integração contínua, testes automatizados, e entregas muito frequentes (a cada 1-3 semanas).
+Kanban: Um método visual para gerenciar o trabalho. O objetivo é limitar a quantidade de trabalho em progresso (WIP) e otimizar o fluxo de atividades, visualizado em um quadro (ex.: "A Fazer", "Fazendo", "Feito").
 
+2. Processos de Software (Prescritivo vs. Ágil)
+Aqui está o cerne da sua pergunta. "Processo de Software" é um termo genérico para a sequência de atividades, ações e tarefas realizadas para produzir um software. Dentro desse guarda-chuva, temos duas grandes abordagens filosóficas:
 
+a) Desenvolvimento Prescritivo (ou Tradicional / Planejado)
+O que é: Abordagem sequencial e linear, onde cada fase deve ser completamente finalizada e documentada antes do início da próxima. É baseado em planejamento extensivo no início do projeto. Mudanças são custosas e difíceis de implementar uma vez que o projeto está em andamento.
+b) Desenvolvimento Ágil
+O que é: A materialização prática da filosofia ágil em um processo concreto. É iterativo e incremental, entregando funcionalidades em pequenos ciclos. O escopo é adaptável e as mudanças são esperadas e bem-vindas
 
+Modelos de Processo de Software
+O que é: São representações abstratas de um processo de software. Eles descrevem a ordem e a interação entre as fases de desenvolvimento (requisitos, design, codificação, teste). Os modelos são como "plantas" genéricas que podem ser adaptadas para criar processos específicos.
 
+Métodos (ou Técnicas)
+O que é: São as ferramentas e técnicas específicas utilizadas dentro de um processo para realizar uma atividade específica. Eles são os "tijolos" que constroem o processo.
 
+Exemplos de Métodos:
 
+Métodos de Análise e Modelagem:
 
+UML (Unified Modeling Language): Uma linguagem visual para especificar, construir e documentar artefatos de software (ex: diagramas de classe, de sequência).
 
+Métodos de Programação:
 
+Programação em Par (Pair Programming): Dois programadores trabalhando juntos em uma mesma estação. Um escreve o código (motorista), o outro revisa cada linha (navegador). (Comum no XP).
 
+Métodos de Gerenciamento de Projeto:
 
+Planning Poker: Técnica de estimativa baseada em consenso para tarefas de desenvolvimento. (Usada no Scrum).
 
+Métodos de Garantia de Qualidade:
 
+TDD (Test-Driven Development): Desenvolvimento Guiado por Testes. O programador primeiro escreve um teste que falha, depois escreve o código mínimo para passar no teste e, por fim, refatora o código.
 
+Modelo de Processo é a categoria geral, a definição teórica.
 
+Processo de Software é a implementação específica desse modelo na vida real.
+##########
 
+engenheiro de software é quem precisa dominar uma diversidade de processos, métodos,
+ferramentas e técnicas da engenharia de software, desenvolver habilidades para entender problemas ou
+necessidades para projetar soluções com qualidade.
 
+sete características pessoais que demonstram competência
+do engenheiro de software:
+• Responsabilidade individual: determinação em cumprir promessas para gerência, membros da
+equipe e stakeholders.
+• Consciência aguçada: ter um estado de percepção elevada, sensibilidade ao ambiente, capaz de
+se adaptar a emoções, mudanças, comportamentos e necessidades da equipe.
+• Extremamente honesto: ser transparente, realista e sincero de forma construtiva para conduzir
+problemas e falhas.
+• Resiliência sob pressão: a engenharia de software está sempre à beira do caos. O engenheiro
+de software é capaz de suportar a pressão de modo que seu desempenho não seja prejudicado
+(Pressman, 2021).
+• Lealdade: à equipe e ao projeto, tendo boa vontade para colaborar e compartilhar conhecimentos,
+além de evitar conflitos e não sabotar o trabalho de outros. O profissional age com lealdade ao
+cliente e às expectativas, sempre com foco no usuário, pois seus objetivos envolvem garantir
+a qualidade do software entregue ao cliente e ser honesto sobre o progresso, os desafios e os
+possíveis atrasos no projeto.
+• Atenção aos detalhes: não significa ser perfeccionista. O engenheiro de software deve estar atento
+a prazos, requisitos, desempenho, custo e qualidade estabelecidos para o projeto e o software
+• Pragmático: reconhece que a engenharia de software não é uma religião na qual devem
+ser seguidas regras dogmáticas, mas sim uma disciplina que pode ser adaptada conforme as
+circunstâncias (Pressman, 2021).
+
+análise de recursos para os processos do projeto é uma atividade que envolve a gerência
+administrativa e analistas. Essa análise envolve a identificação, a avaliação e a alocação dos recursos
+necessários para garantir que os processos do projeto sejam executados de maneira eficiente, eficaz e
+dentro das restrições, como prazo, custo e qualidade.
+
+Praticado pela gerência administrativa, o princípio de gerenciamento de projetos inclui processos
+para identificar, adquirir e gerenciar os recursos necessários para a conclusão bem‑sucedida do projeto,
+bem como comprar ou adquirir produtos, serviços ou resultados externos à equipe e subcontratações.
+Por sua vez, o princípio do gerenciamento geral, praticado pela gerência da TI, refere‑se ao projeto
+do software.
+
+princípio do gerenciamento geral é aplicado na produção do negócio, que
+pode estar ligado a diversas áreas da indústria em geral, incluindo produção de software, comércio,
+medicina, instituições etc. Já o princípio de gerenciamento de projetos corresponde especificamente à
+área administrativa ligada a fornecedores, contratos, parcerias e transporte.
+
+três perfis de analistas são essenciais:
+• Analista de negócios (ou autor do processo): responsável por identificar as necessidades do
+negócio, sejam elas de geração, correção ou melhoria; visando atender objetivos ou necessidades
+específicas. Ele utiliza uma linguagem natural e diagramas simples para comunicar claramente o
+que é exigido e o que precisa ser feito.
+• Analista de processos: interpreta a ideia do negócio, avaliando seus riscos e suas regras, com
+o objetivo de determinar as atividades e as tarefas necessárias para processar o negócio. Ele
+busca padronizar a nomenclatura e especificar, por meio de textos concisos e diagramas detalhados,
+a ordenação das atividades e das tarefas que compõem o processo do negócio.
+• Analista de sistemas: converte as atividades em componentes específicos que integram o
+processo. Cada componente representa uma parte do software suportado pelo processamento de
+dados. A interpretação das tarefas e do workflow (fluxo de trabalho) leva à criação das funções
+que irão operacionalizar o software, a lógica de processamento (programa de computador) e os
+recursos computacionais necessários para executar essas funções.
+
+Gerência do projeto => Promove o projeto em todos os aspectos, o que significa apoiar, defender e divulgá‑lo na organização
+tanto interna como externamente
+
+stakeholder é qualquer pessoa, grupo ou organização que tem interesse ou é afetado pelo
+resultado de um projeto, produto ou negócio;
+
+O gerente de projeto:
+• define os limites e os objetivos do projeto;
+• mantém uma comunicação clara e contínua com stakeholders e a equipe de desenvolvimento;
+• desenvolve, analisa e entende os processos envolvidos conforme os requisitos;
+• aloca tarefas e responsabilidades de acordo com as habilidades e competências;
+• estabelece uma estrutura organizada para administrar e monitorar o progresso da equipe;
+• estima e controla os custos do projeto de acordo com o orçamento.
+
+principais recursos sob a gerência do projeto incluem:
+
+• Recursos humanos: os recursos humanos envolvidos em um projeto variam de acordo com
+o tamanho, a complexidade e os objetivos do projeto.
+• Recursos materiais: referem‑se a localização, transporte, mobília e instalações para o ambiente
+de uso e ambiente de desenvolvimento do software. 
+• Recursos tecnológicos: envolvem os recursos intangíveis fornecidos pela gerência de TI, como
+ferramentas de software, licenças, plataformas de desenvolvimento e infraestrutura de  TI
+• Recursos financeiros: fornecem o financiamento necessário para cobrir todos os custos associados
+ao desenvolvimento do software, incluindo salários, ferramentas, infraestrutura e outros recursos. 
+
+Gerência da TI
+
+Ela envolve a administração dos recursos tecnológicos necessários para construir ou produzir software
+Os principais recursos tecnológicos necessários para desenvolver software incluem:
+• Recursos de software: referem‑se a ferramentas, plataformas e soluções digitais fáceis para
+desenvolvimento, gestão, implantação e manutenção de sistemas e aplicativos.
+
+• Recursos de hardware: são recursos tangíveis que garantem o desempenho necessário para executar
+o software com bom desempenho, oferece suporte para o desenvolvimento de sistemas escaláveis
+e seguros e que possibilitam conexões e operações em ambientes coorporativos. Os principais
+recursos de hardware são:
+— Computadores servidores e estações de trabalho usadas por desenvolvedores, analistas,
+programadores, gerenciadores do banco de dados e testadores
+
+• Recursos humanos (peopleware): são reservados aos especialistas que trabalham no
+desenvolvimento do software. Esses profissionais têm diferentes responsabilidades e especializações.
+product owner, que representa os interesses
+dos stakeholders e dos usuários, e o Scrum master, que facilita o processo ágil, removendo
+obstáculos e garantindo que a equipe siga as práticas Scrum.
+
+• Recursos de dados: envolvem qualquer tipo de informação ou dados que podem ser usados
+para análises, tomada de decisões ou alimentar sistemas de software. 
+
+• Recursos da rede de computadores: são serviços e componentes associados que permitem uma
+conectividade com bom desempenho, segura e escalabilidade.
+— Recursos físicos: componentes tangíveis, responsáveis pela conectividade e pela infraestrutura
+de rede
+— Infraestrutura de comunicação: meios físicos e lógicos que suportam a troca de dados como
+topologias de rede, mapas de endereçamento, backbones e conectividade de nuvem.
+— Recursos lógicos: protocolos de rede como TCP (Transmission Control Protocol –
+Protocolo de Controle de Transmissão), HTTP/HTTPS, FTP, DNS e SMTP/IMAP/POP3. Citam‑se
+também sistemas operacionais de rede (SOR) como Windows Server, UNIX e Linux (as licenças
+dos sistemas operacionais fazem parte dos recursos de software).
+
+- projeto de software, basicamente são desenvolvidas três arquiteturas: lógica de processamento,
+informação e infraestrutura de TI
+
+UML, um nó em um diagrama de implantação representa um recurso físico como dispositivo de
+hardware, servidor ou estação de trabalho, ambiente de execução de software como uma máquina virtual
+ou um contêiner, ou um recurso lógico que pode executar artefatos (software, bibliotecas ou arquivos).
+
+características do Astah:
+• Modelagem UML: tem uma ampla gama de ferramentas para criar diagramas UML, incluindo de
+classes, de UC, de sequência, de atividades etc.
+• Diagramas ER e DFD: além dos diagramas UML, o Astah permite a criação de diagramas de
+entidade‑relacionamento (ER) e de fluxo de dados (DFD), úteis para modelar dados e processos
+de negócios.
+• Interface intuitiva: com recursos de arrastar e soltar que facilitam a rápida criação de diagramas.
+• Colaboração em equipe: há ferramentas que permitem que equipes trabalhem juntas em
+projetos, compartilhando e mesclando diagramas facilmente.
+• Exportação e importação: os diagramas criados no Astah podem ser exportados em vários
+formatos, como imagens (JPG, PNG, EMF, SVG), documentos RTF, HTML, relatório de definição de
+entidade e XMI.
+• Versatilidade: o software é usado em diversas indústrias, como TI, desenvolvimento  de
+software e engenharia de sistemas, para criar representações visuais claras e padronizadas
+de sistemas complexos.
