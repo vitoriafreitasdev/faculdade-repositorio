@@ -165,9 +165,7 @@ cada pessoa está ligada a um ancestral direto, sem conexões cruzadas complicad
 
 grafo é uma estrutura mais ampla e flexível, na qual os elementos (chamados
 vértices) podem se conectar de qualquer jeito, permitindo caminhos que formem loops, conexões com
-pesos (como distâncias) ou direções (como ruas de mão única
-
-a árvore é um tipo específico
+pesos (como distâncias) ou direções (como ruas de mão única árvore é um tipo específico
 de grafo: uma estrutura hierárquica e rígida sem loops, enquanto o grafo é mais livre,
 
 árvore é um grafo, mas nem todo grafo é uma árvore
@@ -187,8 +185,6 @@ posição [i][j] indica a existência de uma aresta entre os vértices i e j. Em
 elemento pode ser 1 (se há aresta) ou 0 (se não há)
 l. Em Python, uma matriz de adjacência pode ser implementada como uma lista de
 listas, inicializada com zeros e preenchida conforme as arestas do grafo.
-
-
 
 grafos ponderados, o valor pode representar o peso da aresta. Essa estrutura é vantajosa por
 sua simplicidade e acesso rápido às conexões, mas consome espaço de memória proporcional a n²,

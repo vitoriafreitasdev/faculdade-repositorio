@@ -1,0 +1,47 @@
+questionarios_pesquisa_tec_inov
+
+-conhecimento filosófico - debates e em análises conceituais realizados por meio da razão e da reflexão critica a respeito da experiencia huana
+
+-popular: experiencia cotidiana e nas percepções do mundo
+
+-teológico: divino/sagrado, transmitido por autoridades reliogiosas, por textos sagrados ou experiencias espirituais 
+
+-cientifico: especifico de conhecimento sistemático, baseados em métodos de observação de formulação de hipóteses de experimentação e de formulação de teorias
+
+///
+
+exemplo A:
+premissa 1: Todos os pássaros tem asas
+premissa 2: O canário é um pássaro 
+conclusão: Portando, o canário tem asas
+
+B:
+
+premissa 1: O composto X reduziu tumores em ratos de laboratório 
+premissa 2: O composto x reduziu tumores em coelhos de laboratórios 
+premissa 3: O composto x reduziu tumures em primatas não humanos 
+premissa 4: O composto x reduziu tumures em seres humanos 
+conclusão: O composto x é eficaz no tramento de tumures em seres vivos 
+
+- A é dedutivo, pois conclusão deriva logicamente de premissas gerais 
+
+- B é indutivo, pois parte de casos específicos para uma generalização 
+
+
+
+dedutivo => parte de premissas gerais para chegar em conclusão especifica 
+indutivo => parte de premissas especificas para conclusão geral. Assim é provável que seja vdd
+
+*O contexto do racicionio não interfere no seu tipo
+
+///
+
+O retângulo X corresponde as leis, formuladas a partir da verificação experimental(indutiva) das Hipoteses H
+
+O retângulo Y representa as teorias, formuladas a partir das verificações dedutiva das hipóteses mais gerais
+
+Uma teoria é uma explicação abrangente e bem fundamentada para um conjunto de fenômenos
+Hipótese pode ser definida como uma suposição testável 
+
+
+parei na questão 4 q1

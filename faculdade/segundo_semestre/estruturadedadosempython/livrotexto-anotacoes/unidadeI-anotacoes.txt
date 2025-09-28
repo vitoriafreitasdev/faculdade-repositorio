@@ -10,8 +10,7 @@ desde de operações
 matemáticas simples, como somar dois números, até processos mais complexos, como ordenar grandes
 volumes de dados ou realizar buscas em estruturas de informação
 
--estruturas de dados => maneiras de organizar, armazenar e manipular os dados necessários para que algoritmos sejam executados
-de maneira eficiente.
+-estruturas de dados => maneiras de organizar, armazenar e manipular os dados necessários para que algoritmos sejam executados de maneira eficiente.
 
 -relevância dos algoritmos => capacidade de automatizar processos, reduzindo
 o esforço humano necessário para realizar tarefas repetitivas ou complicadas
@@ -164,8 +163,7 @@ principalmente no modo como armazenam e processam os dados. A list
 comprehension é uma maneira compacta de criar listas a partir de uma
 sequência de elementos, aplicando transformações e filtragens diretamente
 na declaração da lista. Sua principal característica é que ela retorna
-36
-Unidade I
+
 uma nova lista contendo todos os elementos gerados pela expressão
 interna. Como o resultado é armazenado diretamente na memória
 
@@ -240,8 +238,7 @@ problema de decisão
 
 
 No uso prático, nem sempre o algoritmo assintoticamente mais rápido é o mais indicado. Para
-entradas pequenas, métodos 𝑂(𝑛2
-) podem superar outros 𝑂(𝑛 log 𝑛) devido a fatores como constantes
+entradas pequenas, métodos 𝑂(𝑛2) podem superar outros 𝑂(𝑛 log 𝑛) devido a fatores como constantes
 menores de tempo ou melhor uso de cache. É por isso que engenheiros e cientistas da computação
 realizam não apenas análise teórica, mas testes empíricos (microbenchmarks) para embasar suas
 decisões. 

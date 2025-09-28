@@ -334,30 +334,137 @@ str.find(substring)
 Retorna o índice da primeira ocorrência da substring. Retorna -1 se a substring não
 for encontrada.
 
+###################
+
+-uma árvore é uma estrutura organizada que começa com um ponto inicial,
+chamado raiz, no qual cada elemento (nó) se conecta a exatamente um nó pai acima, formando uma
+hierarquia sem caminhos que voltem ao mesmo ponto (sem loops).
+
+-grafo é uma estrutura mais ampla e flexível, na qual os elementos (chamados
+vértices) podem se conectar de qualquer jeito, permitindo caminhos que formem loops, conexões com
+pesos (como distâncias) ou direções
+árvore é um tipo específico
+de grafo: uma estrutura hierárquica e rígida sem loops, enquanto o grafo é mais livre,
+-árvore é um grafo, mas nem todo grafo é uma árvore
+
+ grafo pode ser entendido como uma forma de representar conexões
+entre coisas.
+
+grafo é => um conjunto de
+pontos conectados por linhas, que mostram como esses pontos se relacionam
+
+algoritmos de travessia (DFS e a BFS), permitem explorar vértices e arestas de
+um grafo de forma sistemática
+
+**matriz de adjacência é uma representação que utiliza uma matriz quadrada para indicar as
+conexões entre vértices. Para um grafo com n vértices, cria‑se uma matriz n x n, na qual o elemento na
+posição [i][j] indica a existência de uma aresta entre os vértices i e j. Em grafos não ponderados, esse
+elemento pode ser 1 (se há aresta) ou 0 (se não há)
+l. Em Python, uma matriz de adjacência pode ser implementada como uma lista de
+listas, inicializada com zeros e preenchida conforme as arestas do grafo.
+
+-grafos ponderados, o valor pode representar o peso da aresta. Essa estrutura é vantajosa por
+sua simplicidade e acesso rápido às conexões, mas consome espaço de memória proporcional a n²,
+o que a torna ineficiente para grafos esparsos, nos quais o número de arestas é muito menor que o
+máximo possível
+
+-a lista de adjacência oferece uma representação mais eficiente para grafos esparsos - cada vértice está associado a uma lista que contém os vértices adjacentes a ele
+Python, isso pode ser implementado usando um dicionário, no qual as chaves são os vértices e os valores
+são listas dos vértices vizinhos
+
+*grafos ponderados, as listas podem armazenar tuplas contendo o
+vértice vizinho e o peso da aresta. A lista de adjacência ocupa menos espaço em grafos com poucas
+arestas, pois armazena apenas as conexões existentes e permite iterações rápidas sobre os vizinhos de
+um vértice. a ocupa menos espaço em grafos com poucas
+arestas, pois armazena apenas as conexões existentes e permite iterações rápidas sobre os vizinhos de
+um vértice. verificar a existência de uma aresta específica pode ser mais lento, exigindo uma
+busca na lista correspondente.
+
+-travessias de grafos, como DFS e BFS, são usadas para visitar todos os vértices acessíveis a partir
+de um ponto inicial, sendo úteis em problemas como busca de caminhos, detecção de ciclos e análise de
+conectividade.
+
+DFS explora o grafo seguindo um caminho o mais longe possível antes de retroceder.
+Em Python, ela pode ser implementada de forma recursiva ou iterativa, usando uma pilha
+
+recursiva, a função chama a si mesma para cada vizinho não visitado, marcando os vértices visitados em
+um conjunto para evitar ciclos. A DFS é particularmente útil para encontrar componentes conectados ou
+caminhos em labirintos, mas sua natureza profunda pode levar a um uso significativo de memória em
+grafos muito profundos.
+
+BFS, por sua vez, explora o grafo nível por nível, visitando todos os vizinhos de um vértice antes de
+prosseguir para os vizinhos dos vizinhos. Em Python, a BFS é implementada usando uma fila, que armazena
+os vértices a serem explorados. Um conjunto de vértices visitados é mantido para evitar revisitas. A BFS
+é ideal para encontrar o menor caminho em grafos não ponderados, pois garante que os vértices são
+visitados na ordem de sua distância ao vértice inicial. Sua implementação é iterativa, o que a torna menos
+suscetível a problemas de estouro de pilha em comparação com a DFS recursiva
+
+minimizar distâncias ou explorar grafos amplos de forma sistemática => BFS 
+problemas que demandam exploração profunda, detecção de ciclos ou lidam com restrições de
+memória => DFS
+ 
+O DFS não para quando visita todos os vértices, mas sim quando completa a exploração de todos os possíveis caminhos a partir da origem, tenham eles chegado ao destino ou não!
+
+BFS: Expansão permanente (cada caminho é independente)
+
+DFS: Exploração com backtracking (reutilização de recursos)
+Essa diferença é que permite ao BFS encontrar o caminho mínimo e ao DFS encontrar todos os caminhos!
+
+BFS => busca em largura
+DFS => busca em profundidade
+
+#### algoritmos de ordenação 
 
 
 
+Bubble Sort ilustra a ordenação por troca repetitiva de pares adjacentes.
+Durante cada varredura, elementos consecutivos são comparados; se estiverem fora de ordem, são trocados,
+de modo que o maior (ou menor, conforme o critério) borbulha gradualmente para a extremidade do
+vetor. Embora a implementação seja simples e utilize apenas espaço auxiliar constante, o algoritmo realiza,
+em média, n²/2 comparações e, aproximadamente, o mesmo número de trocas, o que conduz a uma
+complexidade temporal O(n²). 
 
 
+Selection Sort, em contraste, identifica a menor chave remanescente e a posiciona no início da
+porção não ordenada. Realizando n-1 seleções sucessivas, cada uma custando uma busca linear, totaliza
+n(n-1)/2 comparações, igualmente situado em O(n²). Apenas uma troca por passagem é necessária,
+característica que reduz deslocamentos de dados em memórias nas quais a operação de escrita é
+onerosa. Entretanto, conservar a estabilidade demandaria adaptações adicionais, pois a simples troca de
+posições pode alterar a ordem preexistente entre registros iguais.
 
+Insertion Sort segue lógica análoga ao ato de inserir cartas em mãos de jogo. A lista é percorrida
+da esquerda para a direita; cada elemento corrente desloca‑se para trás enquanto encontra valores
+maiores, colocando‑se enfim na posição correta. Para listas quase ordenadas, os deslocamentos tendem
+a ser limitados, permitindo caso médio linear em cenários favoráveis. No entanto, no pior cenário,
+envolvendo sequência decrescente, ocorre novamente O(n²) operações. A natureza incremental, aliada
+ao acesso predominantemente sequencial, confere grande eficiência para tamanhos reduzidos ou para
+lotes parcialmente organizados, além de preservar a estabilidade
 
+Merge Sort. O
+vetor é particionado sucessivamente até que cada sublista contenha um único elemento; em seguida,
+sublistas vizinhas unem‑se por meio de fusão estável que consome tempo linear em relação ao
+número total de elementos envolvidos. Como a altura da árvore de recursão equivale a log2
+ n, decorre
+complexidade O(n log n).   custo
+suplementar surge no uso de memória auxiliar proporcional a n, necessária para armazenar resultados
+intermédios durante as fusões
 
+Quick Sort compartilha o princípio de divisão, embora empregue partição em torno de
+um pivô. Elementos menores do que o pivô deslocam‑se para seu lado esquerdo, enquanto os
+maiores deslocam‑se para a direita, formando duas sublistas que receberão tratamento recursivo.
+A eficiência resulta da média de O(n log n) comparações, pois a partição divide a entrada em frações
+equilibradas na maioria dos casos. A escolha do pivô, entretanto, influencia sobremaneira o tempo
+total, visto que distribuição extremamente assimétrica conduz a profundidade máxima da recursão
+e, consequentemente, a O(n²) operações. A execução in‑place economiza espaço, recurso que torna
+o algoritmo atraente para ambientes restritos, embora seu mecanismo de troca impeça estabilidade
+sem artifícios adicionais
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ *Bubble Sort percorre a lista repetidamente, comparando elementos adjacentes
+e trocando‑os se estiverem na ordem errada. Ele inclui uma otimização que interrompe a execução se
+nenhuma troca ocorrer em uma iteração, indicando que a lista já está ordenada. O *Insertion Sort constrói
+a lista ordenada incrementalmente, inserindo cada elemento na posição correta ao compará‑lo com
+os elementos anteriores. Já o * Selection Sort seleciona o menor elemento restante em cada iteração e o
+posiciona no início da sublista não ordenada.
 
 
 

@@ -37,8 +37,6 @@ ou
 	outros campos (Perkovic, 2016, p. 4).
 
 
-
-
  -Citação indireta
 
 citação indireta é um tipo de citação em que o autor do texto usa dados ou ideias extraídas
@@ -53,7 +51,7 @@ virtuais), ajudando a resolver problemas complexos da matemática, da economia e
 nosso contexto ou para adaptar a linguagem original ao nosso público. Podemos, por exemplo, simplificar
 uma linguagem muito técnica para tornar o conteúdo mais acessível, ou reescrever um conteúdo com
 linguagem arcaica em um estilo mais moderno.
--tilizadas para trazermos dados estatísticos ao nosso
+-utilizadas para trazermos dados estatísticos ao nosso
 trabalho, como taxas percentuais levantadas por institutos de pesquisa.
 
 -Citação de citação
@@ -160,7 +158,6 @@ Sistema numérico
 chamada ocorre de forma mais discreta, apontando apenas o número da citação (no caso de
 citações indiretas) ou o número da citação e a página (quando citações diretas).
 
-
 • Exemplo de chamada numérica em citação indireta
 — No texto:
 A sustentabilidade hídrica não pode ser dissociada de práticas agrícolas responsáveis4
@@ -223,10 +220,6 @@ O destaque em negrito ou itálico deve ser feito ao título do periódico. Veja 
 DOREA, R. D.; COSTA, J. N.; BATITA, J. M.; FERREIRA, M. M.; MENEZES, R. V.; SOUZA, T. S. Reticuloperitonite
 traumática associada à esplenite e hepatite em bovino: relato de caso. Veterinária e zootecnia, São
 Paulo, v. 18, n. 4, p. 199‑202, 2011. Supl. 3.
-
-
-
-
 
 Artigo, seção e/ou matéria de publicação periódica em meio eletrônico
 
