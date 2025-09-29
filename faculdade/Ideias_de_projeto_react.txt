@@ -1,5 +1,7 @@
 Ideias_de_projeto_react
 
+- fazer um quiz, aonde você vai se cadastrar e vai ter os  ranking de pontuação 
+
 Projetos Intermediários/Avançados
 1. Sistema de Agendamento com Calendário
 Stack: React + TypeScript + FullCalendar + Node.js
