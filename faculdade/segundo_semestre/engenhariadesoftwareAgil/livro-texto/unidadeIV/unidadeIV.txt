@@ -35,7 +35,7 @@ rígidos, software funcional e sujeitos a mudanças constantes.
 
 
 Princípios das metodologias ágeis
-
+***
 Métodos ágeis representam um conjunto de abordagens estruturadas pautadas na prática para
 modelagem efetiva de sistemas baseados em software, fundamentando‑se em princípios de flexibilidade,
 colaboração e entrega incremental.
@@ -128,9 +128,6 @@ de processos
 Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
 por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS
 
-Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
-por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS
-
 engenharia de software, Kanban é um método ágil de gerenciamento de trabalho (workflow), que
 visa melhorar a eficiência do fluxo de desenvolvimento e promover a entrega contínua de valor
 
@@ -148,8 +145,6 @@ como sprints, que permitem ajustes constantes e a entrega de valor incremental a
 combina práticas orientadas a objetos e princípios
 ágeis, promove a colaboração intensa entre desenvolvedores, stakeholders e o product owner (dono do
 produto), garantindo maior transparência e adaptabilidade ao longo do ciclo de desenvolvimento.
-
-
 
 características da metodologia Scrum:
 • Equipes pequenas e multifuncionais: ênfase na formação de equipes com competências
@@ -336,10 +331,6 @@ O método Crystal Clear, por exemplo, é direcionado a projetos com baixo risco 
 que variam entre seis e oito desenvolvedores. Suas principais práticas são:
 • Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
 do sistema em intervalos curtos, que variam entre um a três meses
-• Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
-do sistema em intervalos curtos, que variam entre um a três meses
-• Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
-do sistema em intervalos curtos, que variam entre um a três meses
 • Acesso fácil a usuários especialistas (easy access to expert users): assegura que desenvolvedores
 tenham acesso direto e frequente a usuários finais ou especialistas no domínio do sistema.
 • Testes automatizados (automated tests): são incorporados testes automatizados como parte
@@ -421,8 +412,6 @@ uma funcionalidade de software se ajuste dinamicamente à infraestrutura de soft
 computação em nuvem e a recursos disponíveis de acordo com a demanda do sistema
  DevOps tem como objetivo otimizar a entrega de valor ao cliente por meio de ciclos curtos e
 iterativos, garantindo flexibilidade para atender às mudanças de requisitos e necessidades do mercado,
-
-
 
 Métodos, ferramentas e técnicas: aplicativos para operações com
 metodologias ágeis

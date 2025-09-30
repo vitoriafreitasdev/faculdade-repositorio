@@ -42,7 +42,6 @@ A engenharia de software é uma tecnologia em camadas
 
 Foco na qualidade
 
-
 qualidade estabelece regras, padrões, normas, procedimentos e atividades que orientam o
 desenvolvimento de software de alta qualidade, levando à cultura de melhoria contínua dos processos
 e a abordagens cada vez mais eficientes da engenharia de software.
@@ -69,7 +68,6 @@ Agora observe alguns modelos.
 • CMMI: os níveis de maturidade acentuados a seguir representam diferentes estágios de evolução
 dos processos de uma organização.
 
-
 Tem cinco níveis de maturidade:
 – Inicial (initial): processos não padronizados.
 – Gerenciado (managed): processos controlados.
@@ -92,8 +90,6 @@ de software.
 – B (gerenciado quantitativamente).
 – A (em otimização)
 
-
-
 ITIL (Information Technology Infrastructure Library – Biblioteca de Infraestrutura de
 Tecnologia da Informação): é o conjunto de melhores práticas para gerenciamento de serviços
 de TI, incluindo suporte e manutenção de software.
@@ -101,19 +97,13 @@ de TI, incluindo suporte e manutenção de software.
 Controle para Informação e Tecnologias Relacionadas): trata‑se de modelo de governança
 de TI que ajuda empresas a alinhar software e tecnologia aos objetivos estratégicos do negócio.
 
-
-
 Processo
-
 
 Define a estrutura fundamental para a concepção e o desenvolvimento de software orientando‑se
 por padrões e normas da qualidade estabelecida. O processo assegura a integração das camadas
 tecnológicas, permitindo um desenvolvimento de software racional e oportuno.
 O processo estabelece uma metodologia a ser seguida para a entrega eficaz de tecnologia,
 constituindo a base para o controle e o gerenciamento do projeto
-
-
-
 
 Um framework do ciclo de desenvolvimento de software é composto basicamente pelos processos:
 • Elicitação (início ou concepção): compreende o gerenciamento das relações com o cliente, a
@@ -179,11 +169,11 @@ MR (Matriz de Responsabilidades)
 relação às atividades e tarefas do projeto, com o objetivo de deixar claro quem está envolvido e qual
 função deve desempenhar.
 
-
 PERT
 Preocupa‑se com o fator tempo, com o objetivo de planejar e controlar o projeto. Os prazos são
 tratados de forma probabilística, indicando que, inicialmente, os períodos são estimados com base em
 experiências anteriores.
+
 CPM
 Preocupa‑se com o fator custo, em que são aplicadas técnicas de planejamento e controle para
 realização das tarefas por meio de cálculos determinísticos, o que significa que, pela CMP ou rede de
@@ -200,7 +190,6 @@ Amplamente constantes na engenharia de software, pode‑se citar os métodos de:
  Ferramentas
 Trata‑se de recursos tecnológicos que dão apoio automatizado para os processos e os métodos em
 todas as fases do desenvolvimento de software.
-
 
 
 Gestão de projetos
@@ -241,9 +230,6 @@ IDE
 para uma “família de problemas” específicos de uma determinada funcionalidade. Essencialmente, é
 composto por um conjunto de classes e interfaces, decomposto em quadros com seus respectivos códigos.
 
-
-
-
 ASP.NET Core (C#) De código aberto, é uma ferramenta para a construção de aplicações
 web modernas baseadas em.NET
 Django (Python) Promove o desenvolvimento rápido e o design limpo e pragmático.
@@ -266,8 +252,6 @@ React, permite a criação de apps para iOS e Android a partir de um único
 código‑fonte
 Xamarin (C#) Utiliza o.NET para construir aplicativos móveis para Android e iOS com
 uma única base de código compartilhada
-
-
 
 
 JAD (Joint Application Development – Desenvolvimento de
