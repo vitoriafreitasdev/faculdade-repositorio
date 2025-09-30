@@ -467,9 +467,30 @@ os elementos anteriores. Já o * Selection Sort seleciona o menor elemento resta
 posiciona no início da sublista não ordenada.
 
 
+Merge Sort é um algoritmo baseado na estratégia de divisão e conquista. Ele opera dividindo
+recursivamente o conjunto de dados em subconjuntos menores até que cada um contenha um único
+elemento. Em seguida, esses subconjuntos são combinados (ou mesclados) de forma ordenada, reconstruindo
+o conjunto final. Essa abordagem garante uma complexidade de tempo de O(n log n) em todos os casos,
+seja no melhor, médio ou pior cenário. A estabilidade do Merge Sort, que preserva a ordem relativa de
+elementos iguais, é uma vantagem significativa em aplicações que exigem essa propriedade. Além disso, sua
+previsibilidade o torna adequado para sistemas nos quais a consistência de desempenho é crucial. Contudo, o
+Merge Sort tem desvantagens notáveis. Ele requer espaço adicional de memória proporcional ao tamanho do
+conjunto de dados, o que pode ser um entrave em sistemas com recursos limitados. Ademais, a necessidade
+de cópias frequentes durante a mesclagem pode impactar o desempenho em termos de constantes de tempo,
+mesmo que a complexidade assintótica seja ótima.
 
+Quick Sort também adota a estratégia de divisão e conquista, mas com uma
+abordagem distinta. Ele seleciona um elemento, chamado pivô, e particiona o conjunto de dados de
+modo que elementos menores que o pivô fiquem à sua esquerda e maiores à sua direita. Esse processo
+é aplicado recursivamente às partições resultantes até que o conjunto esteja ordenado. A eficiência do
+Quick Sort reside em sua complexidade média de O(n log n), que o torna extremamente rápido na prática,
+especialmente devido ao baixo overhead de operações. Diferentemente do Merge Sort, o Quick Sort é um
+algoritmo in‑place, exigindo apenas uma quantidade constante de memória adicional, o que o torna mais
+eficiente em termos de espaço. No entanto, sua performance depende fortemente da escolha do pivô.
+Em cenários desfavoráveis, como quando o pivô é o menor ou o maior elemento em um conjunto quase
+ordenado, a complexidade pode degradar para O(n²).
 
-
+parei na unidade III
 
 
 

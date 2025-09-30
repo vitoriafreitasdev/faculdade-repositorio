@@ -1,5 +1,5 @@
 Ideias_de_projeto_react
-
+- fazer um site com js para usuários se cadastrar e registrar seus treinos
 - fazer um quiz, aonde você vai se cadastrar e vai ter os  ranking de pontuação 
 
 Projetos Intermediários/Avançados
