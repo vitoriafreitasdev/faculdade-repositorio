@@ -625,3 +625,1153 @@ entidade e XMI.
 • Versatilidade: o software é usado em diversas indústrias, como TI, desenvolvimento  de
 software e engenharia de sistemas, para criar representações visuais claras e padronizadas
 de sistemas complexos.
+
+unidade III
+
+-fusão do software com o processo de desenvolvimento para gerar artefatos ou sistemas de software
+ajuda as empresas desenvolvedoras a consolidar suas operações - integração estreita entre a definição do produto final e as atividades
+necessárias para desenvolvê‑lo
+
+ -software é o resultado final do desenvolvimento, incluindo elementos como código, interfaces do
+usuário e do hardware, documentação, funcionalidades e desempenho esperado.
+O processo de software abrange as camadas da engenharia de software, como qualidade, processos,
+métodos, ferramentas e técnicas utilizadas para criá‑lo. Inclui desde a engenharia de requisitos,
+arquiteturas, codificação, testes unitários e de integração até a manutenção contínua.
+
+- as quatro atividades básicas do processo – especificação,
+desenvolvimento, validação e evolução
+
+-atividades dependem do tipo de software a ser elaborado, dos desenvolvedores e da estrutura
+organizacional. Por exemplo: na metodologia ágil Scrum, as especificações e as tarefas são escritas em
+cartões (Kanban)
+
+-domínio de análise, que se refere ao conjunto de áreas de conhecimento e aspectos técnicos,
+organizacionais e de negócio que esse profissional deve considerar para desenvolver soluções
+eficazes alinhadas às necessidades dos usuários, da equipe e da organização.
+Essa análise envolve a compreensão detalhada do problema ou das necessidades a serem
+implementadas, o conhecimento de normas e padrões da qualidade do software, processos
+organizacionais, de desenvolvimento e tecnologias envolvidas, ferramentas, infraestrutura de TI e
+comunicação com clientes e usuários.
+
+-qualidade estabelece regras, padrões, normas, procedimentos e atividades que orientam o
+desenvolvimento de software de alta qualidade, levando à cultura de melhoria contínua dos processos
+e a abordagens cada vez mais eficientes da engenharia de software.
+
+• ISO/IEC 25010 (SQuaRE – Systems and Software Quality Requirements and Evaluation – Requisitos
+de Qualidade e Avaliação de Sistemas e Software):
+— Define os modelos de qualidade para sistemas e software, incluindo características de qualidade
+e subcaracterísticas como funcionalidade, desempenho, segurança e manutenibilidade.
+— Substitui a antiga norma ISO/IEC 9126 e a ISO/IEC 14598.
+
+• ISO 12207 – Processos do ciclo de vida do software:
+— Padroniza os processos envolvidos no ciclo de vida do software, desde a concepção até
+a manutenção.
+• ISO 15504 – SPICE:
+— Define um modelo para avaliação e melhoria de processos de software, permitindo medir a
+maturidade dos processos organizacionais.
+— Serve de base para modelos como o CMMI.
+• ISO 9001 – Sistema de gestão da qualidade:
+— Foco na padronização e melhoria contínua. A ISO 9001 é referência na garantia de gestão da
+qualidade em projeto, instalação, desenvolvimento, produção, arquitetura e serviço.
+Agora observe alguns modelos.
+
+• CMMI: os níveis de maturidade acentuados a seguir representam diferentes estágios de evolução
+dos processos de uma organização.
+Tem cinco níveis de maturidade:
+– Inicial (initial): processos não padronizados.
+– Gerenciado (managed): processos controlados.
+– Definido (defined): processos padronizados.
+– Quantitativamente gerenciado (quantitatively managed): controle por métricas.
+– Em otimização (optimizing): melhoria contínua.
+
+• MPS.BR (Melhoria do Processo de Software Brasileiro)
+— Elaborado para atender micro, pequenas e médias empresas, fazendo uso das principais
+abordagens internacionais voltadas para a definição, a avaliação e a melhoria dos processos
+de software.
+— Compatível com o CMMI, ele tem sete níveis de maturidade alinhados aos cinco níveis do CMMI.
+— Os sete níveis de maturidade no modelo MPS.BR são:
+– G (parcialmente gerenciado).
+– F (gerenciado).
+– E (parcialmente definido).
+– D (largamente definido).
+– C (definido).
+– B (gerenciado quantitativamente).
+– A (em otimização)
+
+ITIL (Information Technology Infrastructure Library – Biblioteca de Infraestrutura de
+Tecnologia da Informação): é o conjunto de melhores práticas para gerenciamento de serviços
+de TI, incluindo suporte e manutenção de software.
+• COBIT (Control Objectives for Information and Related Technologies – Objetivos de
+Controle para Informação e Tecnologias Relacionadas): trata‑se de modelo de governança
+de TI que ajuda empresas a alinhar software e tecnologia aos objetivos estratégicos do negócio.
+
+-Processo: Define a estrutura fundamental para a concepção e o desenvolvimento de software orientando‑se
+por padrões e normas da qualidade estabelecida. O processo assegura a integração das camadas
+tecnológicas, permitindo um desenvolvimento de software racional e oportuno.
+O processo estabelece uma metodologia a ser seguida para a entrega eficaz de tecnologia,
+constituindo a base para o controle e o gerenciamento do projeto
+
+-Um framework do ciclo de desenvolvimento de software é composto basicamente pelos processos:
+
+• Elicitação (início ou concepção): compreende o gerenciamento das relações com o cliente, a
+comunicação e a interpretação do negócio com o objetivo de levantar os requisitos do software.
+A intenção é identificar as entidades e as operações e compreender os objetivos dos stakeholders
+(conjunto dos interessados).
+• Análise: após a interpretação do negócio, elabora‑se um modelo conceitual do plano de
+projeto de software, que abrange a especificação detalhada do software a ser desenvolvido. Esse
+plano contempla a definição das atividades e tarefas técnicas, a estruturação do cronograma, a
+gestão de riscos, além da alocação de recursos e a estimativa de custos envolvidos no processo.
+Faz‑se nessa etapa a relação entre as necessidades funcionais do cliente e a capacidade da
+equipe ou empresa desenvolvedora para construir o software.
+• Especificação e modelagem: a especificação define com clareza e precisão as características,
+os requisitos e as condições de algo. Normalmente, ela é acompanhada de um modelo gráfico
+com a modelagem, que expressa a especificação. Essa ação envolve detalhar as funcionalidades,
+os comportamentos e as restrições de um sistema ou componente, fornecendo uma descrição
+completa que orienta a sua construção, implementação e verificação.
+• Construção: é o processo de codificação (geração do código), depuração (exame e limpeza dos
+dados, do código e da interface), testes unitários e diagnósticos.
+• Implementação: é a integração do código construído ao software, realizando‑se nessa etapa
+testes de integração e diagnósticos.
+• Implantação: corresponde à fase de entrega do release do software ao cliente, que, por sua vez,
+fornece feedbacks de avaliação para validar e aceitar o software.
+• Validação: é o processo que envolve a garantia da qualidade ao cliente. Esse acordo entre cliente
+e desenvolvedor garante que o software produzido atende às necessidades e expectativas do
+cliente ou do usuário final. É a confirmação de que o produto faz o que deve fazer de maneira
+correta e adequada para seu propósito.
+Esses frameworks são mostrados nos modelos de processos:
+• PSP: criado pelo SEI, é específico para engenheiros de software.
+• TSP: também criado pelo SEI, seu foco é a equipe de trabalho.
+• Cascata: modelo clássico do ciclo de vida de desenvolvimento do software.
+• Prototipagem: modelo iterativo com atividades para montagem de protótipos.
+• Incremental: modelo iterativo desenvolvido com o conceito de versões.
+• RAD: usando frameworks de linguagens de programação, visa à entrega rápida de sistemas de
+software, adotando uma estratégia baseada na construção modular e orientada a componentes
+reutilizáveis.
+• Espiral: modelo evolucionário que combina a natureza iterativa da prototipagem com os aspectos
+sistemáticos do Cascata.
+• RUP: processo proprietário de engenharia de software criado pela Rational Software Corporation
+e atualmente representado pela IBM.
+
+Métodos
+É o conjunto estruturado de procedimentos, regras e técnicas utilizados para guiar o desenvolvimento
+do software para alcançar uma meta, um fim ou um conhecimento. Um método assegura que as
+etapas do ciclo de vida do software sejam seguidas de maneira sistemática e eficiente.
+O método determina os passos a serem seguidos na construção do software ou parte dele. Envolve
+um amplo conjunto de tarefas, desde gestão de equipes, análise de requisitos, projeto e construção de
+programas, até os testes, a entrega, o suporte e a manutenção.
+
+Metodologias ágeis
+Trata‑se de uma coleção de metodologias baseada na prática para modelagem efetiva de sistemas
+de software e podem ser aplicadas por profissionais no dia a dia.
+Em contraponto aos modelos de processos estruturados, as metodologias ágeis são específicas para
+cada atividade do ciclo de desenvolvimento e, basicamente, são aplicadas em projetos orientados a
+objetos, podendo ser integradas em determinadas atividades dos modelos de processos estruturados.
+A metodologia ágil que mais se destaca é o Scrum, por ser flexível e adaptável, com entregas
+incrementais, foco no cliente e melhoria contínua. Ele pode ser integrado a outras metodologias ágeis,
+como XP, Kanban, FDD e demais metodologias ágeis que se fizerem necessárias no desenvolvimento
+do software
+
+MR (Matriz de Responsabilidades)
+É um método de gestão para definir papéis e responsabilidades de cada membro da equipe em
+relação às atividades e tarefas do projeto, com o objetivo de deixar claro quem está envolvido e qual
+função deve desempenhar.
+
+
+PERT
+Preocupa‑se com o fator tempo, com o objetivo de planejar e controlar o projeto. Os prazos são
+tratados de forma probabilística, indicando que, inicialmente, os períodos são estimados com base em
+experiências anteriores.
+
+CPM
+Preocupa‑se com o fator custo, em que são aplicadas técnicas de planejamento e controle para
+realização das tarefas por meio de cálculos determinísticos, o que significa que, pela CMP ou rede de
+cartões (Kanban), é possível ajustar os períodos das tarefas em um período total mais curto.
+Outros métodos
+Amplamente constantes na engenharia de software, pode‑se citar os métodos de:
+• engenharia de requisitos;
+• modelagem e design;
+• implementação e programação;
+• testes de software;
+• manutenção e evolução de software.
+
+
+ Ferramentas
+Trata‑se de recursos tecnológicos que dão apoio automatizado para os processos e os métodos em
+todas as fases do desenvolvimento de software.
+
+
+Gestão de projetos
+Na análise de customização dos serviços, o software GanttProject, fornecido gratuitamente, tem
+várias funcionalidades compatíveis com o Project, da Microsoft, que é pago.
+Com o GanttProject é possível obter cronogramas, gráfico de análise do caminho crítico da rede de
+tarefas e diagrama de recursos (ou pessoas), entre outras aplicações. Esses gráficos e análises são os
+resultados da automação dos métodos PERT/CPM, MR e Kanban.
+
+
+Astah
+Permite criar diagramas UML de UC, atividades, classes, sequência, componentes,
+implantação, entre outros. Tem recursos de exportação/importação de arquivos ou
+programas e integração com ferramentas de desenvolvimento
+Bizagi Utilizada na BPM, com suporte para criação de diagramas BPMN e automatização de
+processos empresariais
+Draw.io
+É uma ferramenta de modelagem e diagramação. Permite criar uma variedade de
+diagramas, desde fluxogramas, diagramas UML, design de telas de software, mapas
+mentais, diagramas em rede etc.
+FreeMind
+É uma ferramenta de modelagem mental que permite aos usuários criar mapas
+mentais para organizar, visualizar informações, criar mapas de navegação em
+software, entre outros. O mapa mental é utilizado em abordagens para levantamento
+de requisitos e recursos, brainstorm, planejamento e organização de ideias
+MySQL Workbench
+É uma ferramenta de design de banco de dados que permite criar e visualizar
+esquemas de banco de dados, realizar engenharia direta e reversa e gerenciar bases
+de dados MySQL
+Microsoft Visio
+É uma ferramenta de modelagem e diagramação. Com gráficos vetoriais, foi lançada
+pela primeira vez em 1992 pela Visio Corporation e a Microsoft adquiriu a empresa
+em 2000. É usada para criar uma variedade de diagramas, incluindo fluxogramas,
+organogramas, planos de piso, diagramas de rede, diagramas UML e mapas mentais
+
+IDE
+É um framework de programação que opera no domínio da aplicação, fornecendo uma solução completa
+para uma “família de problemas” específicos de uma determinada funcionalidade. Essencialmente, é
+composto por um conjunto de classes e interfaces, decomposto em quadros com seus respectivos códigos.
+
+ASP.NET Core (C#) De código aberto, é uma ferramenta para a construção de aplicações
+web modernas baseadas em.NET
+Django (Python) Promove o desenvolvimento rápido e o design limpo e pragmático.
+É ideal para construir aplicações web robustas
+Eclipse
+Desenvolvido pela Eclipse Foundation, é um dos IDEs mais populares e
+versáteis disponíveis atualmente, operando com diversas linguagens de
+programação em ambiente multiplataforma
+Electron (JavaScript, HTML, CSS) Permite a criação de aplicações desktop multiplataforma usando
+tecnologias web
+NetBeans
+Plataforma de desenvolvimento de software modular, foi inicialmente
+desenvolvida pela Sun Microsystems e hoje é mantida pela Apache
+Software Foundation
+Qt (C++) Ferramenta robusta e completa para o desenvolvimento de aplicações
+desktop e móveis com suporte multiplataforma
+React Native (JavaScript)
+Ferramenta para desenvolvimento de aplicativos móveis nativos usando
+React, permite a criação de apps para iOS e Android a partir de um único
+código‑fonte
+Xamarin (C#) Utiliza o.NET para construir aplicativos móveis para Android e iOS com
+uma única base de código compartilhada
+
+
+JAD (Joint Application Development – Desenvolvimento de
+Aplicação Conjunta)
+De acordo com Fournie (1994), o JAD é uma metodologia criada pela IBM em 1977 e tem por
+finalidade reunir uma equipe de usuários, stakeholders e desenvolvedores para alcançar acordos
+baseados na compreensão das operações do processo.
+O JAD é uma metodologia colaborativa de ciclo rápido utilizada no desenvolvimento de software
+para acelerar o processo de comunicação, por meio de reuniões estruturadas denominadas sessões
+JAD. Essas sessões são lideradas por um facilitador, que orienta a discussão e garante que as partes
+interessadas contribuam com suas perspectivas para determinar requisitos, design de software e
+resolução de problemas.
+
+
+
+Facilitador (ou líder da sessão)
+Conduz a sessão JAD. É responsável pelas interações entre os participantes, contribuindo para que
+os objetivos sejam alcançados.
+
+
+Executivo patrocinador (autor do produto, analista de negócios ou analista de processos)
+É a representação da gerência de mais alto nível, pertencente às fileiras dos usuários, estando muito
+comprometido com as atividades do processo de negócio.
+
+
+Gerência funcional (ou representante do usuário)
+Trata‑se das pessoas peritas na matéria em discussão nas sessões JAD, são aquelas que precisam do
+software. Elas devem ser escolhidas pela sua capacitação profissional em descrever as práticas atuais e
+operações do negócio que serão implementadas no software a ser desenvolvido.
+
+
+Gerente de projeto
+Auxilia na coordenação da sessão JAD com o objetivo de alinhar os interesses estratégicos da
+organização com os recursos necessários para produzir o software.
+Esse profissional atua na gestão da equipe de desenvolvimento e stakeholders com a preocupação
+de controlar a comunicação, os custos e o tempo do projeto. Elabora cronogramas, planilhas de custo e
+distribuição dos recursos de uma forma geral.
+Gerente de projeto da infraestrutura de TI
+Atua diretamente com a equipe de desenvolvimento, avaliando a capacitação do pessoal de
+desenvolvimento para produzir o software e os recursos de infraestrutura.
+
+Analistas de sistemas (e/ou desenvolvedores)
+São aqueles que trabalham no desenvolvimento do software, que levam conhecimentos técnicos e
+específicos de como os assuntos de negócios serão implementados no software.
+Esses profissionais documentam os requisitos e ajudam na interpretação das necessidades dos
+usuários em especificações técnicas, analisam a viabilidade técnica das soluções propostas e identificam
+possíveis riscos.
+
+Secretário (escriba ou documentador)
+Registra apenas as informações relevantes das discussões e das decisões tomadas durante a sessão.
+Para tal, usa ferramentas de software para organizar, documentar e apontar tendências dos assuntos
+pertinentes na discussão. O secretário JAD é muitas vezes citado como um especialista no uso de
+ferramentas CASE e de prototipação.
+
+
+Gerenciamento da equipe de desenvolvimento
+A gestão de equipes de desenvolvimento de software assegura que todas as partes interessadas
+estejam devidamente informadas e engajadas em uma comunicação eficaz e melhor alocação de recursos
+
+
+ principais aplicações da MR na engenharia de software envolvem:
+• Definição clara de papéis e responsabilidades: com ela, todos os membros da equipe de
+stakeholders sabem exatamente suas funções e responsabilidades no projeto, o que melhora a
+comunicação e evita sobreposições e redundâncias de tarefas.
+• Gestão de recursos: a MR ajuda na alocação e no controle eficiente dos recursos, garantindo
+que o indivíduo trabalhe especificamente na sua tarefa e saiba também as responsabilidades dos
+demais companheiros de equipe que trabalham na atividade, facilitando o relacionamento das
+partes e a hierarquia de decisão na realização da atividade.
+• Integração com os métodos PERT/CPM: são métodos de gerenciamento de projetos aplicados ao
+desenvolvimento e à produção em diversos ramos da indústria, neste caso, a indústria de software.
+• Integração com metodologias ágeis: nos ambientes de desenvolvimento ágil como XP, Scrum,
+FDD e outras, as responsabilidades podem mudar de sprint para sprint.
+
+transparência proporcionada pela integração da MR com metodologias ágeis é útil em projetos
+de software, pois, neles, as mudanças são frequentes e a colaboração contínua é essencial, promovendo
+uma melhor gestão dos recursos e dos prazos. Essa integração permite que a equipe tenha uma estrutura
+flexível e adaptável de forma rápida, melhorando a produtividade de software com Scrum, por exemplo.
+
+Análise de dados e construção da MR
+Na construção da MR neste livro‑texto, são considerados stakeholders todos os interessados no
+software com a seguinte hierarquia de decisão: cliente, representante do usuário, autor do processo,
+gerente de projeto, gerente do sistema, programador, DBA
+
+
+Uma matriz é uma tabela de números, símbolos ou expressões, organizados em um quadro retangular
+que comporta linhas e colunas, em que cada elemento (ou célula) da matriz é identificado por dois
+índices: um para a linha e outro para a coluna
+
+Para determinar os critérios de responsabilidades, algumas questões devem ser observadas
+quanto aos integrantes da equipe de desenvolvimento:
+• Qual é o organograma que será aplicado para os stakeholders?
+• Quem é o responsável mais cobrado por um determinado resultado: do processo, da atividade
+ou da tarefa?
+• Quem influencia mais no processo e tem maior poder de decisão?
+• Quem é o autor do processo?
+• Quem faz a maior parte do trabalho ou quais são os integrantes que são mais cobrados no processo?
+
+A distribuição dos atributos deve se orientar de acordo com o grau de envolvimento do integrante da
+equipe na atividade. Na MR RACI, a definição e a função para cada atributo do processo na montagem
+da matriz são acentuadas a seguir:
+• R (Responsável): é o integrante responsável pelo processo, atividade ou tarefa. Ele alinha a equipe,
+cria procedimentos de serviços e dispõe os recursos necessários para a execução da atividade.
+É quem responde pelo sucesso de execução da atividade. Para todas as atividades, sem exceção,
+deve existir obrigatoriamente apenas um R.
+• A (Aprova): é o integrante responsável pela validação (ou aceite) dos resultados da atividade, que
+normalmente é o cliente (interno ou externo), o autor da atividade, a diretoria ou a gerência. Deve
+ser usado apenas um atributo A para a atividade, porém não existe obrigatoriedade para aplicá‑lo
+em todas as atividades, porque nem todas elas necessitam de aprovação.
+• C (Consultado): envolve os auxiliares diretos que trabalham na atividade junto ao responsável
+(R). Os integrantes que dão suporte podem representar um determinado membro da equipe,
+terceiros contratados para trabalhar na atividade ou consultores. Para cada R é sugerido que seja
+acompanhado por pelo menos um C.
+• I (Informado): engloba os convidados a integrar a equipe para a realização de uma determinada
+atividade. Os informados atuam na atividade de forma indireta e podem representar vários
+perfis  da equipe. Eles podem ter o perfil de consultores que têm conhecimentos específicos
+sobre uma determinada atividade ou interessados na atividade por alguma razão, por exemplo,
+avaliar o custo da atividade quando esta envolver as operações de verificação de integração dos
+componentes do software.
+
+Construção da MR RACI: distribuição dos atributos RACI na MR
+Apesar de considerarmos um modelo básico e estático de sete tarefas (linhas) e cinco stakeholders
+(colunas), a distribuição dos atributos da matriz é dinâmica. Não existe especificamente uma distribuição
+estática dos atributos, esses parâmetros são variáveis, porque tudo depende do projeto, do custo, do
+prazo, do interesse na troca de conhecimento e na melhoria da comunicação.
+
+PROCESSO UNIFICADO
+
+Trata‑se de um framework de desenvolvimento de software que oferece uma abordagem iterativa
+e incremental. Ele enfatiza a importância da arquitetura, do gerenciamento de riscos e da qualidade
+do software.
+O processo unificado tem como base o RUP, a implementação comercial mais conhecida. Entre as
+suas diversas ramificações, destacam‑se:
+
+• Praxis: é um framework para desenvolvimento de software que se baseia nos princípios do processo
+unificado, mas com foco em sistemas embarcados e de tempo real
+
+• Iconix: é uma abordagem de desenvolvimento de software ágil que simplifica o processo unificado,
+tornando‑o mais leve e adaptável a projetos menores e equipes com menos experiência
+
+• AUP (Agile Unified Process – Processo Unificado Ágil): mantém as principais fases do RUP
+(concepção, elaboração, construção e transição), porém com iterações mais curtas e flexíveis
+
+• EUP (Enterprise Unified Process – Processo Unificado Empresarial): é uma extensão do RUP
+que visa tratar de todo o ciclo de vida do software, não se limitando apenas ao desenvolvimento, 
+
+
+• OpenUP (Open Unified Process – Processo Unificado Aberto): leve e flexível, é projetado para
+ser adaptado a diferentes tipos de projetos e equipes.
+
+
+ RUP: fases e workflow
+
+Trata‑se de um processo de engenharia de software. Originalmente desenvolvido pela Rational
+Software Corporation, agora está integrado à IBM, como IRUP
+
+
+O RUP oferece uma estrutura disciplinada para a produção e a atribuição de software de alta qualidade,
+com foco em práticas recomendadas e em uma abordagem iterativa e incremental.
+é distribuído online,
+
+RUP oferece uma abordagem baseada em disciplinas para atribuir tarefas e responsabilidades
+dentro de uma organização de desenvolvimento. Sua meta é garantir que a produção de software de alta
+qualidade atenda às necessidades dos usuários dentro do cronograma e com orçamentos previsíveis. Ele
+captura as principais boas práticas modernas da engenharia de software: o desenvolvimento iterativo,
+a gestão de requisitos, a arquitetura baseada em componentes, o uso de software de modelos visuais, a
+verificação contínua da qualidade e gestão e o controle de mudanças de software.
+
+Desenvolvimento iterativo e incremental
+
+desenvolvimento de um software de média à alta complexidade, não é possível definir um
+problema e uma solução eficiente em uma única etapa.
+
+
+requisitos mudam com frequência, devido a vários fatores como:
+• restrições nas arquiteturas da lógica de programação, da informação e da infraestrutura de TI;
+• mudanças nas necessidades primárias do cliente e mudanças ocorridas devido a um refinamento
+do problema inicialmente levantado.
+
+Cada iteração resulta em um incremento do software com novas funcionalidades e refinamentos,
+correspondendo a um novo release. As iterações permitem reduzir o risco do projeto e o acompanhamento
+do progresso.
+
+
+Modelagem orientada a objetos (OO)
+
+
+Usa a UML para modelagem OO do software, o que facilita a compreensão e a comunicação entre os
+membros da equipe e outras partes interessadas.
+Ao representar o projeto utilizando construções gráficas, o RUP expressa de forma eficiente uma visão
+geral da solução, o que permite que clientes sem nenhuma afinidade com a área de desenvolvimento de
+sistemas possam facilmente compreender o projeto
+
+Arquitetura baseada em componentes
+
+O RUP é baseado na arquitetura de componentes desde o início do projeto. Ela é desenvolvida e
+validada nas fases iniciais, servindo como pilar para o desenvolvimento subsequente.
+Uma arquitetura baseada em componentes viabiliza um sistema extensível, promovendo a reutilização
+de “peças” do software
+
+
+Centrado em UC
+
+O modelo RUP é conduzido por UC, Os UC capturam os RS e
+dirigem o processo de desenvolvimento.
+O RUP descreve como documentar as funcionalidades, as restrições do sistema, as restrições do
+projeto e os requisitos através do UC
+partir do UC são criadas diversas visões sustentadas por outros diagramas da UML, que compõem
+uma determinada funcionalidade
+
+ UC e os cenários são exemplos de artefatos do processo
+
+Gerenciamento de riscos
+
+Identifica e gerencia riscos ao longo do ciclo de vida do desenvolvimento do projeto, permitindo
+que a equipe tome medidas proativas para mitigá‑los.
+
+
+-O framework do RUP divide o processo em fases, formando a estrutura dinâmica, que acompanha
+todo o ciclo de desenvolvimento, bem como a estrutura estática com as disciplinas (workflows).
+
+Documentação
+Enfatiza a criação e a manutenção de documentação abrangente e detalhada ao longo do
+desenvolvimento
+
+Customizável
+Pode ser adaptado para atender às necessidades específicas de diferentes projetos e organizações
+
+Verificação contínua da qualidade
+Assegurar a qualidade do software durante o desenvolvimento do projeto é algo intensivo feito
+pelo RUP
+
+
+Gestão e controle de mudanças do software
+O RUP define métodos para controlar e monitorar as mudanças a fim de garantir que mudanças não
+comprometam inteiramente o sucesso do projeto (Kruchten, 2000).
+
+Framework do RUP
+
+framework é dividido em fases e cada ciclo resulta em uma nova geração do produto ou parte dele.
+Cada fase é dividida por iterações definidas para cada projeto.
+
+RUP apresenta um modelo gráfico com dois eixos: o horizontal tem quatro fases; o vertical, seis
+disciplinas de trabalho e três disciplinas gerenciais.
+Na dimensão horizontal estão as fases do ciclo de vida do desenvolvimento, designadas como
+estrutura dinâmica, que representa as mudanças ao longo da linha de tempo que ocorrem no
+processo de desenvolvimento.
+ dimensão vertical estão as disciplinas de trabalho (ou workflow), denominadas como
+estrutura estática, expressando as mudanças no esforço despendido no desenvolvimento.
+
+
+Estrutura dinâmica
+Acompanhada de diversas iterações, ela envolve as quatro fases do RUP ao longo do ciclo de vida
+de desenvolvimento do software.
+
+características das fases do RUP que acompanham o ciclo
+de desenvolvimento:
+
+• Fase 1: Iniciação/Concepção (Inception/Conception)
+— Definir o escopo e as fronteiras do sistema (contrato com o cliente).
+— Elaborar um UC crítico ao sistema (atores e requisitos).
+— Criar o business case do sistema, que deve incluir os critérios de sucesso, a avaliação de riscos, a
+estimativa de recursos e o cronograma do ciclo de desenvolvimento.
+- Ao término da fase, deverá haver a concordância de stakeholders e desenvolvedores, a
+compreensão dos requisitos e a credibilidade nas estimativas. O projeto pode ser cancelado ou
+fortemente reformulado se falhar nesse aspecto.
+• Fase 2: Elaboração (Elaboration)
+— Garantir que o projeto, a arquitetura e o conjunto de requisitos estejam estáveis para garantir
+o cumprimento de prazos e custos.
+— Produzir protótipos evolucionários e exploratórios.
+— Eliminar os elementos de maior risco.
+— Descrever requisitos adicionais (não funcionais e com menor grau de importância).
+— Revisar o business case.
+— Ao término da fase, deve‑se obter estabilidade da arquitetura, demonstrar que o projeto é
+viável (tempo e custo) e que ele pode ser cancelado ou reformulado se falhar nesse aspecto.
+• Fase 3: Construção (Construction)
+— Minimizar custos por meio da utilização ótima de recursos.
+— Desenvolver versões utilizáveis.
+— Completar os processos de análise, projeto, implementação e testes das funcionalidades
+do sistema.
+— Desenvolver de maneira iterativa e incremental um produto que esteja pronto para ser entregue
+aos usuários, por meio de um manual e de uma descrição da versão corrente.
+— Decidir se o software e os usuários estão prontos para a implantação do sistema.
+— Ao término da fase, deve‑se verificar se a disponibilização pode ser adiada se os critérios não
+forem cumpridos.
+• Fase 4: Transição/Implantação (Transition) – atividades de entrega do software
+— Realizar testes de integração para validar o novo sistema.
+— Treinar usuários e pessoas responsáveis pela manutenção.
+— Iniciar as tarefas de marketing e distribuição.
+— Ao término da fase, deve‑se obter a satisfação dos clientes e os gastos devem ser aceitáveis
+
+
+Estrutura estática
+Na estrutura estática, o RUP é representado por nove disciplinas (seis de trabalho e três gerenciais)
+
+• Papéis
+— Descrevem o comportamento e as responsabilidades de um indivíduo ou grupo de
+indivíduos de uma equipe.
+— O comportamento de cada papel é dado pelo conjunto de atividades desempenhadas por ele.
+— As responsabilidades de cada papel estão associadas a artefatos que devem ser desenvolvidos
+ao longo do processo.
+— Exemplos de papéis incluem especificador de UC, arquiteto de softwares, projetista de
+interface e gerente de projetos.
+• Atividades
+— Realizadas pelos papéis, consistem em ações que atualizam ou geram artefatos.
+— A granularidade de uma atividade é expressa em horas ou dias.
+— As atividades são divididas em etapas de tarefas: entendimento, realização e revisão.
+• Artefatos
+— Informações produzidas, modificadas ou utilizadas ao longo do desenvolvimento de software.
+— São utilizados como entrada para atividades e são produzidos como saída.
+— Exemplos incluem modelos (UC, projetos), documentos (plano de negócios, plano de
+projeto, conjunto de artefatos, de componentes e outros) e código‑fonte.
+• Workflows
+— Definem uma sequência de atividades que produzem resultados observáveis na forma
+de artefatos.
+— A modelagem pode ser expressa em forma de diagramas de atividades, sequência e colaboração.
+— Como mostra o quadro 12, o workflow do RUP é apresentado em dois grupos, compostos por
+seis disciplinas de trabalho e três gerenciais
+
+ Extensões do RUP
+
+
+ Praxis
+De acordo com Paula Filho (2015), o modelo Praxis foi desenvolvido pela equipe de Barry Boehm,
+fundamentando‑se no modelo de ciclo de vida Espiral, com as mesmas raízes no RUP, porém com
+estrutura diferente das disciplinas organizacionais.
+
+Igualmente ao RUP, o Praxis é dirigido por UC, centrado na arquitetura, iterativo e incremental.
+A modelagem do Praxis é feita com uso do EPF (Eclipse Process Framework), que facilita a adaptação, a
+personalização, a extensão e a evolução. Herda a arquitetura RUP, complementada por um metamodelo
+da parte estática do RUP e pelo perfil exclusivo do Praxis.
+Ele também se conecta aos métodos ágeis, como Scrum, Kanban e XP; enfatizando a aplicação prática
+das ideias teóricas em um ciclo dinâmico, promovendo aprimoramento contínuo entre prática e teoria.
+
+
+
+ Iconix
+O processo Iconix é uma metodologia proprietária de desenvolvimento
+de software baseada na UML
+
+quatro marcos principais do Iconix que ajudam a estruturar o processo de desenvolvimento são:
+• Modelagem do domínio: inicialmente, a partir do levantamento de requisitos, é criado o
+modelo de domínio para identificar os conceitos‑chave do sistema, utilizando diagramas
+UML, como diagramas de classes, para representar os objetos e suas relações.
+• Revisão de requisitos: são extraídos UC para especificar os RF do sistema. Esse marco é
+importante para que o design seja alinhado às expectativas e às necessidades do cliente.
+• Revisão preliminar do design: dos UC são extraídos diagramas de sequência e de colaboração,
+convertendo os UC em interações entre objetos, conectando requisitos ao design técnico
+do software.
+• Revisão crítica do design: é a validação dos diagramas de design que garante que o modelo
+esteja completo e que o sistema pode ser implementado com base nos artefatos criados.
+
+
+EUP
+De acordo com Ambler (2023), o EUP estende processos iterativos/ágeis, como DAD (Disciplined Agile
+Delivery), XP ou Scrum para atender às necessidades reais das organizações de TI.
+
+OpenUP
+É um processo unificado de código aberto, leve e flexível, projetado para ser adaptado a diferentes
+tipos de projetos e equipes; busca simplicidade, colaboração e entrega de valor ao cliente.
+O OpenUP é uma metodologia de desenvolvimento de software que faz parte do EPF. Criado como
+uma versão mais leve e ágil do RUP
+
+basicamente o mesmo ciclo de vida estruturado do RUP, com as
+quatro fases principais: concepção, elaboração, construção e transição; mantendo suas características
+essenciais, mas simplificando e reduzindo a complexidade. É ideal para equipes pequenas
+
+
+Métodos, ferramentas e técnicas: definição de papéis e
+responsabilidades para atividades do RUP
+
+No contexto do RUP, vimos que a matriz MR RACI é uma excelente ferramenta para organizar e
+comunicar as atribuições individuais e coletivas das equipes envolvidas.
+A definição de papéis e responsabilidades com MR RACI garante clareza e eficácia no gerenciamento
+de projetos de software, permitindo categorizar as responsabilidades de forma estruturada e padronizada,
+
+A abordagem da matriz MR RACI, conforme as diretrizes do RUP, assegura que cada fase do ciclo de
+vida do desenvolvimento esteja alinhada às funções definidas
+
+
+Análise dos dados da MR RACI
+Uma parte da análise é atribuir uma pontuação para os atributos de acordo com a hierarquia
+de decisão. Por exemplo: R = 5 pontos; A = 4 pontos; C = 3 pontos; e I = 2 pontos. Essa pontuação
+pode ser convertida posteriormente em valores de tempo ou custo.
+
+unidade IV
+
+-metodologias ágeis são abordagens de desenvolvimento de software que promovem flexibilidade,
+colaboração e adaptação rápida às mudanças.
+Embora os modelos tradicionais sejam úteis em determinados contextos, a crescente complexidade
+dos projetos e a necessidade de maior flexibilidade impulsionaram a busca por alternativas. As
+metodologias ágeis surgiram como uma resposta a essas limitações e desafios enfrentados pelas
+abordagens tradicionais de desenvolvimento de software.
+
+-Manifesto para Desenvolvimento Ágil de Software
+Antes da criação das metodologias ágeis, a indústria de software enfrentava desafios como atrasos,
+custos elevados e baixa qualidade nos projetos. O Manifesto para Desenvolvimento Ágil de Software,
+publicado nos dias 11 a 13 de fevereiro de 2001, por Kent Beck
+
+**
+O desenvolvimento baseado em planos (desenvolvimento prescritivo) pauta‑se
+em uma abordagem estruturada e sequencial, com etapas planejadas e documentadas antes do início do
+projeto. Essa metodologia usa modelos clássicos de processo, como o Cascata, que organiza o trabalho
+em fases distintas, incluindo levantamento de requisitos, design, codificação, testes e manutenção.
+
+desenvolvimento prescritivo é valorizado pela sua capacidade de prever resultados e
+reduzir riscos em projetos bem definidos
+
+ desenvolvimento ágil é uma abordagem iterativa e incremental, com baixo índice de especificação,
+que prioriza a adaptação a mudanças e a entrega de valor contínuo ao cliente
+
+desenvolvimento prescritivo pode ser mais adequado para projetos estáveis e bem definidos,
+enquanto o ágil se destaca em cenários dinâmicos com interação entre indivíduos sobre processos
+rígidos, software funcional e sujeitos a mudanças constantes.
+
+-Princípios das metodologias ágeis
+Métodos ágeis representam um conjunto de abordagens estruturadas pautadas na prática para
+modelagem efetiva de sistemas baseados em software, fundamentando‑se em princípios de flexibilidade,
+colaboração e entrega incremental.
+
+o desenvolvimento ágil não é uma metodologia única, mas um paradigma no qual
+diferentes frameworks, como XP, Scrum e FDD se encaixam; proporcionando um conjunto de diretrizes
+adaptáveis às necessidades específicas de cada projeto e equipe.
+
+Guiados por valores estabelecidos no Manifesto Ágil, os métodos ágeis empregam práticas como
+integração contínua, desenvolvimento iterativo, refatoração de código e testes automatizados para
+garantir qualidade e eficiência no ciclo de vida do desenvolvimento.
+
+XP
+
+ metodologia ágil XP tem foco na melhoria contínua da qualidade do código e na capacidade de
+respostas às mudanças de requisitos. Ela é ideal para projetos dinâmicos, nos quais os requisitos mudam
+com frequência, promovendo um ambiente colaborativo e eficiente no desenvolvimento de software.
+
+Criada por Kent Beck em 1998, a XP elevou a níveis “extremos” boas práticas reconhecidas, a
+exemplo do desenvolvimento iterativo. Ela enfatiza valores como comunicação, simplicidade, feedback,
+coragem e respeito.
+
+Planejamento
+
+planejamento do projeto em metodologias ágeis prioriza a eficiência e a adaptabilidade, evitando
+processos complexos ou demorados. Conforme o projeto avança, o planejamento incremental e
+iterativo permite entregas frequentes e implementação das mudanças necessárias durante todo o
+ciclo de desenvolvimento.
+
+valores das histórias de usuários são baseados em descrições simples e claras de
+funcionalidades desejadas, escritas na perspectiva do usuário. Cada história é priorizada com base
+no valor agregado ao negócio.
+Os critérios de aceitação são formulados em contratos entre stakeholders e desenvolvedores
+para assegurar que os requisitos estejam claros
+
+ XP considera o conhecimento técnico da equipe, permitindo que certos detalhes operacionais
+sejam omitidos, confiando na experiência dos desenvolvedores para interpretar e implementar
+soluções alinhadas aos objetivos do projeto
+
+A fase de planejamento é conhecida como jogo do planejamento (planning game), que se
+inicia com a atividade “ouvir”, na qual são coletados e analisados os RF e os RNF.
+
+Projeto
+
+ design de software na XP segue o princípio KIS (Keep it Simple – Preservar a Simplicidade), ou
+seja, prioriza soluções simples e eficazes,
+
+projeto não antecipa funcionalidades além do necessário, as mudanças e as novas
+necessidades são tratadas de forma iterativa ao longo do desenvolvimento.
+
+Nas ações são usados cartões CRC (Classe‑Responsabilidade‑Colaborador) para sessões de
+design. Esses cartões identificam e organizam classes orientadas a objetos, suas responsabilidades
+e colaboradores.
+
+a XP faz uso do Kanban, que é um sistema de
+gestão visual que permite acompanhar o progresso das tarefas.
+
+ XP recomenda a prática da prototipagem
+de partes do sistema antes de sua execução definitiva,
+
+Codificação
+
+Durante as iterações na XP, o código é continuamente aprimorado por meio da implementação
+incremental e da realização de diversos testes de unidade. A cada ciclo iterativo, o código‑fonte
+é revisado de forma criteriosa, permitindo a identificação de oportunidades de refatoração,
+
+Um dos pilares da XP é a prática da programação em par (pair programming), que consiste na
+colaboração simultânea de dois desenvolvedores em uma mesma tarefa de codificação: enquanto
+um assume o papel de driver, escrevendo efetivamente o código, o outro atua como observador,
+com foco em aspectos estratégicos como detecção de erros,
+
+ Os papéis se alternam
+frequentemente, promovendo colaboração intensa, disseminação do conhecimento entre a equipe
+e aumento na qualidade do software produzido
+
+prática de refabricação se aproxima do conceito de reengenharia de software, que envolve
+analisar, redesenhar e reconstruir partes significativas do sistema, geralmente para adaptar o software
+a novas tecnologias, arquiteturas ou requisitos que a versão atual não suporta bem.
+
+
+Testes
+
+código é frequentemente integrado e testado para evitar grandes conflitos de versão
+
+Kanban
+
+-ferramenta visual e evolutiva para gerenciamento
+de processos
+
+Surgiu no Japão na década de 1940 como parte do sistema de produção da Toyota, desenvolvido
+por Taiichi Ohno, um dos engenheiros responsáveis pelo revolucionário TPS
+
+engenharia de software, Kanban é um método ágil de gerenciamento de trabalho (workflow), que
+visa melhorar a eficiência do fluxo de desenvolvimento e promover a entrega contínua de valor
+
+-pode ser aplicado em qualquer ramo de tarefas da engenharia de software
+
+Scrum
+
+Scrum está estruturado nos valores e nos princípios do Manifesto Ágil, buscando proporcionar
+uma abordagem iterativa e incremental para o desenvolvimento de software.
+
+ metodologia é projetada para atender às necessidades de projetos nos quais os requisitos são
+frequentemente instáveis ou desconhecidos, o que é típico em ambientes dinâmicos e imprevisíveis
+Scrum adota ciclos curtos e repetitivos, conhecidos
+como sprints, que permitem ajustes constantes e a entrega de valor incremental ao cliente.
+combina práticas orientadas a objetos e princípios
+ágeis, promove a colaboração intensa entre desenvolvedores, stakeholders e o product owner (dono do
+produto), garantindo maior transparência e adaptabilidade ao longo do ciclo de desenvolvimento.
+
+características da metodologia Scrum:
+• Equipes pequenas e multifuncionais: ênfase na formação de equipes com competências
+diversas, com maior integração e que trabalham de forma autônoma e colaborativa, ideal para
+contextos complexos. Assim, obtém‑se uma rápida solução de problemas.
+• Requisitos emergentes e pouco definidos: os requisitos são mutáveis e críticos do negócio.
+No Scrum, o conhecimento é compartilhado de forma estratégica para enriquecer o trabalho em
+equipe e acelerar resultados. O foco da equipe é a capacidade de absorver mudanças e adaptar‑se
+às condições do projeto de forma eficiente, promovendo uma cultura de colaboração contínua,
+na qual o progresso é medido continuamente com o mínimo de riscos.
+• Sprints curtas e entregas frequentes: no framework, o Scrum é um subconjunto do product
+backlog, que representa um ciclo de trabalho determinado regularmente para ter uma duração de
+1 a 4 semanas. Assim, a equipe se concentra para realizar um conjunto de tarefas ou funcionalidades.
+
+• Product backlog: é uma lista priorizada de requisitos ou características do artefato que agrega
+valor ao software, contendo funcionalidades, melhorias, correções de bugs, requisitos e tarefas
+que a equipe pode trabalhar. É gerenciado pelo product owner,
+
+Scrum promove reuniões diárias de 15 minutos e todos respondem às questões:
+• O que realizou hoje?
+• Está tendo alguma dificuldade?
+• O que irá fazer amanhã?
+
+papéis desempenhados:
+• Agile coach: orienta várias equipes Scrum, coordenando as interações entre as equipes e
+promovendo práticas ágeis.
+• Product owner: responsável por maximizar o valor do produto e gerenciar o backlog. Prioriza as
+funcionalidades, mas não gerencia diretamente a equipe.
+• Scrum master: é o facilitador das tarefas a serem realizadas pela equipe, removendo obstáculos
+que possam impedir seu progresso, promovendo a colaboração e a comunicação na realização dos
+objetivos da sprint.
+• Equipe de desenvolvimento: conjunto de profissionais que trabalham na criação do produto,
+nas práticas de especificação, na modelagem, na programação, na análise de dados etc. Pode
+inclusive incorporar outras metodologias ágeis para atividades específicas, como XP, FDD e DevOps.
+
+O processo ágil é organizado
+em ciclos definidos por breves períodos, acompanhados de certa disciplina em compasso com a sprint
+
+Acentuaremos a seguir as atividades estruturais da metodologia Scrum:
+• Planejamento
+— Sprint planning: reunião inicial de cada sprint na qual o time define o objetivo, as tarefas
+prioritárias e os critérios de aceitação para o ciclo.
+• Execução
+— Daily Scrum: reuniões rápidas diárias para sincronização, identificação de impedimentos e
+ajuste de planos, promovendo transparência.
+— Desenvolvimento de incrementos: o time trabalha para construir funcionalidades ou soluções
+utilizáveis, baseando‑se no backlog priorizado.
+• Monitoramento e controle
+— Backlog refinement: sessões para ajustar, detalhar ou repriorizar itens do backlog, garantindo
+alinhamento com as necessidades do produto.
+— Sprint review: demonstração de incrementos concluídos para stakeholders, permitindo
+feedback e validação das entregas.
+• Reflexão e melhoria
+— Sprint retrospective: reunião de fechamento para refletir sobre o desempenho do time,
+identificar melhorias e implementar ações para sprints futuros.
+
+FDD
+
+uma metodologia ágil que se destaca pela
+sua abordagem estruturada e orientada a objetos. O FDD é apropriado para
+equipes que desejam aprimorar a colaboração e aumentar a eficiência na
+entrega de projetos complexos.
+Isso porque esta metodologia ágil enfatiza a importância de se dividir o
+desenvolvimento em características palpáveis, permitindo um progresso
+mensurável e contínuo.
+
+Com o uso do FDD, os stakeholders têm acesso a entregas rápidas e relatórios de progresso
+estruturados em uma linguagem acessível, facilitando o alinhamento entre as expectativas de negócio
+e o desenvolvimento técnico.
+Os gerentes de projeto se beneficiam de uma visibilidade abrangente e precisa do acompanhamento
+do projeto, com métricas objetivas que permitem tomadas de decisão ágeis e baseadas em dados.
+
+Para os engenheiros de software, o modelo favorece ciclos curtos de desenvolvimento, possibilitando o
+início de novas funcionalidades em poucos dias e promovendo uma participação ativa em todas as etapas
+do processo, desde a análise de requisitos até o design e, consequentemente, a implementação de código.
+
+A robustez da metodologia reside em sua combinação de práticas tradicionais de engenharia de
+software, como modelagem OO, com aspectos ágeis, como adaptação a mudanças e foco na colaboração
+contínua. Essa fusão permite um fluxo de trabalho adaptável e eficiente, garantindo alinhamento
+técnico e estratégico
+
+
+Observe a seguir os principais aspectos das características:
+• As características são modeladas como unidades funcionais independentes ou pequenos blocos
+de funcionalidades, cuja definição considera o tamanho, o escopo e a complexidade da aplicação
+a ser desenvolvida.
+• Estruturalmente, essas características são agrupadas segundo critérios hierárquicos ou prioridades
+estratégicas do negócio, o que viabiliza a gestão eficiente do backlog técnico e o alinhamento
+com os objetivos organizacionais.
+• A equipe de desenvolvimento trabalha com metas iterativas, comumente em ciclos quinzenais
+(timeboxes), com foco na entrega incremental de novas características
+
+O FDD é a metodologia ágil de desenvolvimento que mais enfatiza diretrizes e técnicas de gestão
+de projetos. O projeto é claro para todos os envolvidos e essa metodologia pode ser integrada
+com outras metodologias ágeis, como o Scrum. O FDD é composto por cinco processos principais:
+
+• Desenvolver um modelo geral: criação de um modelo conceitual abrangente para entender os RS
+e criar uma visão de alto nível. Utilizam‑se técnicas como modelagem de domínio, diagramas de
+classes e mapas conceituais. O objetivo é estabelecer a estrutura e os principais componentes
+do sistema antes de detalhar as funcionalidades.
+• Construir a lista de características: com base no modelo desenvolvido, é criada uma lista
+hierárquica de funcionalidades pequenas, claras e orientadas ao negócio. Cada característica
+representa algo que o sistema deve fazer e é escrita em linguagem voltada ao cliente, como:
+“relatório de clientes”. A lista é organizada em grupos chamados de grandes funcionalidades
+(major feature sets) e conjuntos de funcionalidades (feature sets).
+• Planejar por característica: é estruturar o trabalho a partir de prioridades. Nesse processo,
+é feito o planejamento da implementação com base nas características identificadas.
+Atribuem‑se responsabilidades como analistas de sistemas, programadores‑chefe e outros e
+define‑se a sequência de desenvolvimento. As funcionalidades são priorizadas com base em
+valor de negócio, dependências e complexidade.
+• Projetar por característica: engloba a criação de designs específicos, quando cada funcionalidade
+é projetada detalhadamente antes da codificação. O programador‑chefe seleciona a equipe
+que trabalhará na característica. É feita uma revisão de design envolvendo a equipe técnica,
+resultando em diagramas, documentos técnicos e decisões de arquitetura.
+• Construir por característica: é o processo de codificação, teste e integração da característica
+ao sistema. Envolve implementação de código, testes unitários, integração contínua e
+revisão de código.
+
+
+METODOLOGIAS ÁGEIS II
+
+DSDM
+É uma abordagem iterativa e incremental de CBSE (Component‑Based Software Engineering –
+Engenharia de Software Baseada em Componentes) para o projeto de sistemas de software.
+ 1990, o DSDM destacou‑se por sua flexibilidade e seu foco na
+entrega rápida de soluções de alta qualidade, mesmo em cenários com prazos e orçamentos limitados.
+Ele é amplamente utilizado em projetos com escopos dinâmicos
+DSDM surgiu como uma extensão do RAD
+ princípios fundamentais do DSDM são:
+• foco na necessidade do negócio: priorizar entregas que agreguem valor ao cliente;
+• entrega dentro do prazo: garantir que os projetos sejam concluídos de forma eficiente;
+• colaboração: promover o trabalho conjunto entre equipes e stakeholders;
+• qualidade inegociável: assegurar que os padrões de qualidade sejam mantidos;
+• desenvolvimento incremental e iterativo: melhorar continuamente as entregas com base
+em feedbacks.
+
+oito fases principais,
+organizadas de forma cíclica e contínua.
+• Viabilidade (feasibility) – início do ciclo: avalia se o projeto é tecnicamente viável e se faz
+sentido do ponto de vista do negócio. As ações se baseiam em fazer uma análise técnica preliminar,
+estimando inicialmente custos, tempo, recursos disponíveis e análise de riscos. Essa etapa inicial
+se refere à concepção do projeto, e somente depois dela se inicia o projeto.
+• Pré‑projeto (pre‑project): garante que apenas projetos com uma base sólida e justificativa
+de negócios sejam iniciados. Seu objetivo é confirmar que existe uma justificativa clara para o
+projeto. Consiste nas práticas de análise inicial de viabilidade, definição de escopo em alto nível e
+identificação de stakeholders.
+• Fundamentos (foundations): essa fase se preocupa em fixar uma base firme para o projeto
+antes de iniciar o desenvolvimento iterativo. As principais atividades são: definir a arquitetura,
+fazer a modelagem do processo de negócio, incluindo critérios de aceitação e plano de entrega.
+• Exploração (exploration): nessa fase são desenvolvidos incrementos de solução que atendam
+aos requisitos priorizados. As principais atividades estão no desenvolvimento colaborativo com
+usuários, prototipagem rápida, iterações frequentes e feedbacks constantes.
+• Desenvolvimento iterativo (iterative development): é o núcleo do DSDM. Essa fase busca
+garantir que a solução esteja tecnicamente robusta e pronta para produção. São realizados refino
+técnico, testes mais profundos e integração com sistemas de software existentes.
+• Implantação (deployment): é a entrega da solução para uso real, garantindo que esteja pronta
+e validada pelos usuários. A fase de implantação consiste em treinamento, migração de dados,
+planejamento da transição e entrega do incremento
+• Pós‑projeto (post‑project): avalia os resultados do projeto para assegurar uma manutenção
+contínua da solução. Realizam‑se revisões das lições aprendidas, avaliação de benefícios e
+plano de suporte.
+• Viabilidade (feasibility) – fim do ciclo: é quando o produto é construído incrementalmente
+com base em ciclos curtos. Nos ciclos de planejamento, ocorrem o desenvolvimento e revisões
+contínuas com foco na entrega de valor
+
+Crystal
+
+concebida por Alistair Cockburn em 2005 com contribuições de Jim Highsmith em 2002
+Cada metodologia da família é
+representada por uma cor refletindo sua adequação ao nível de criticidade do projeto e ao número de
+pessoas envolvidas na equipe. Quanto maior o risco do sistema, como risco de morte, mais rigorosa
+será a metodologia correspondente.
+O Crystal é fundamentado em princípios fortemente centrados nas relações humanas,
+comunicação e simplicidade. Ponderando que todo projeto tem necessidades, convenções e uma
+metodologia diferente, o Crystal destaca‑se por valorizar os princípios do Manifesto Ágil: pessoas
+e interações mais do que processos e ferramentas, iterações frequentes com entregas operacionais,
+reflexão e melhoria contínua.
+O método Crystal Clear, por exemplo, é direcionado a projetos com baixo risco e com equipes
+que variam entre seis e oito desenvolvedores. Suas principais práticas são:
+• Entrega frequente (frequent delivery): refere‑se à entrega contínua de versões executáveis
+do sistema em intervalos curtos, que variam entre um a três meses
+• Acesso fácil a usuários especialistas (easy access to expert users): assegura que desenvolvedores
+tenham acesso direto e frequente a usuários finais ou especialistas no domínio do sistema.
+• Testes automatizados (automated tests): são incorporados testes automatizados como parte
+integrante do processo de desenvolvimento,
+• Comunicação osmótica (osmotic communication): envolve a comunicação informal e constante
+que ocorre naturalmente quando a equipe trabalha fisicamente próxima, compartilhando o
+mesmo ambiente, favorecendo a troca rápida de informações, as decisões eficientes e a redução
+da necessidade de reuniões formais.
+• Foco (focus): as condições de trabalho devem favorecer a concentração e a produtividade,
+evitando interrupções desnecessárias, tarefas paralelas excessivas e ambientes ruidosos.
+
+AM
+Modelagem Ágil (AM) consiste em uma metodologia prática, voltada
+para a modelagem e documentação de sistemas baseados em software.
+Modelagem Ágil consiste em um conjunto de valores,
+princípios e práticas voltados para a modelagem do software que podem
+ser aplicados a um projeto de desenvolvimento de software de forma leve e
+eficiente.
+Ela apoia a criação de modelos que têm papel essencial na comunicação
+Modelo: um modelo é uma abstração que expressa aspectos importantes
+de uma coisa ou conceitos. Os modelos podem ser visuais (diagramas),
+não visuais (descrições de texto) ou executáveis (código de trabalho ou
+equivalente). Às vezes, os modelos são chamados de mapas ou roteiros
+dentro da comunidade ágil.
+Modelo ágil: Os modelos ágeis podem ser algo tão simples quanto adesivos
+em uma parede, esboços em um quadro branco, diagramas capturados
+digitalmente por meio de uma ferramenta de desenho ou modelos detalhados
+capturados usando uma ferramenta de engenharia de software baseada
+em modelo (MBSE – model‑based software engineering).
+Modelagem: modelagem é o ato de criar um modelo. A modelagem às
+vezes é chamada de mapeamento.
+AM: é realizada de forma colaborativa e evolutiva.
+146
+Documento: um documento é uma representação persistente de uma coisa
+ou conceito. Um documento é um modelo, mas nem todos os modelos são
+documentos (a maioria dos modelos não é persistente).
+Documento ágil: os documentos ágeis podem ser algo tão simples
+quanto notas pontuais, texto detalhado, testes executáveis ou um ou
+mais modelos ágeis
+
+DevOps
+
+O DevOps foi criado por Patrick DeBois para combinar Desenvolvimento
+(Development) e Operações (Operations).
+aplicar os princípios
+do desenvolvimento ágil e do enxuto a toda a cadeia logística de software
+abordagem promove automação, colaboração e integração ao longo de diversas etapas essenciais,
+como planejamento, desenvolvimento, testes, integração contínua, entrega contínua, monitoramento e
+feedback. Elas são interligadas em um ciclo iterativo que permite ajustes rápidos e eficiência ao longo
+do desenvolvimento.
+
+ DevOps faz uso de ferramentas especializadas, como Jenkins, Docker
+e Kubernetes, para automatizar processos críticos, desde a integração de código até o provisionamento e
+o monitoramento de infraestrutura. Elas são frequentemente utilizadas em conjunto: Jenkins para
+automação, Docker para conteinerização e Kubernetes para orquestração.
+
+Jenkins
+
+É uma ferramenta de automação open‑source focada em CI (Continuous Integration – Integração
+Contínua) e CD (Continuous Delivery – Entrega Contínua (CD)
+
+equipes automatizem tarefas como construção, teste e implantação de software, reduzindo o trabalho manual e acelerando os ciclos de desenvolvimento.
+suporte a pipelines declarativos, integração com repositórios como
+Git e uma ampla biblioteca de plugins que permite personalizar e estender sua funcionalidade.
+Exemplo de uso: sempre que um desenvolvedor realiza uma atualização no código Jenkins pode
+automaticamente compilar o código, executar testes e, se aprovado, implantar a aplicação no ambiente
+de staging ou produção.
+
+Docker
+É uma plataforma de conteinerização que permite empacotar aplicações e suas dependências em
+contêineres leves e portáteis. Ele garante que o software seja executado de forma consistente em diferentes
+ambientes do desenvolvimento, testes e produção
+Kubernetes (ou K8s)
+É um sistema de orquestração de contêineres projetado para gerenciar grandes volumes  de
+contêineres em ambientes distribuídos. O K8s automatiza tarefas complexas, como balanceamento
+de carga, escalonamento automático, gerenciamento de clusters e implantação contínua.
+Tal dispositivo promove o controle por escalonamento automático (autoscaling), permitindo que
+uma funcionalidade de software se ajuste dinamicamente à infraestrutura de software, ambientes de
+computação em nuvem e a recursos disponíveis de acordo com a demanda do sistema
+ DevOps tem como objetivo otimizar a entrega de valor ao cliente por meio de ciclos curtos e
+iterativos, garantindo flexibilidade para atender às mudanças de requisitos e necessidades do mercado,
+
+Métodos, ferramentas e técnicas: aplicativos para operações com
+metodologias ágeis
+
+metodologias ágeis, o gerenciamento de projetos e organização de tarefas
+é baseado em sistema visual de quadros, listas e cartões;
+Cada sprint pode ser organizada em um quadro específico
+Os principais recursos do Trello são:
+• Quadros: representam projetos ou áreas de trabalho.
+• Listas: organizam tarefas em diferentes etapas, como “a fazer”, “em progresso” e “concluído”.
+• Cartões: contêm tarefas específicas, que podem incluir descrições, verificações (checklists),
+prazos, anexos e comentários.
+• Automação: com o recurso Butler, é possível automatizar fluxos de trabalho repetitivos.
+• Integrações: pode‑se conectar a outras ferramentas, como Slack, Google Drive e Jira.
+• Colaboração: permite que equipes trabalhem juntas em tempo real, com notificações e
+atualizações instantâneas.
+Enfim, o uso da ferramenta Trello, aplicada com a metodologia Scrum, promove transparência,
+agilidade e organização; tornando o gerenciamento de projetos mais visual e acessível para todos
+os membros da equipe. Facilita a comunicação entre equipes por meio de quadros, listas e cartões
+
+Com o uso do Kanban, o TISI visa:
+A) Utilizar uma abordagem de mudança evolutiva, baseada em feedbacks, para o processo de
+desenvolvimento de soluções de software
+
+-Um artefato de software é qualquer documento, arquivo ou item criado durante o ciclo de vida do desenvolvimento de software, seja para descrever a função, arquitetura e design do sistema, seja para facilitar o próprio processo de desenvolvimento e manutenção. Exemplos comuns incluem documentos de requisitos, diagramas, código-fonte, arquivos de configuração e executáveis, que servem como repositório de informações para a equipe, melhoram a comunicação e garantem a qualidade do produto final
+
+SDLC, MF&T
+O SDLC é o processo completo que descreve todas as atividades desde a concepção até a retirada de um software. Dentro do SDLC, temos:
+MÉTODOS -  Conjuntos de princípios, filosofias e diretrizes que orientam COMO o desenvolvimento deve ser realizado.
+FERRAMENTAS  - Aplicações, softwares ou dispositivos que automatizam ou facilitam atividades do SDLC.
+TÉCNICAS - Procedimentos, práticas ou "como-fazer" específicos para executar atividades particulares do desenvolvimento.
+SDLC (Processo Completo)
+    │
+    ├── MÉTODOS (Filosofias)
+    │   ├── Estruturado
+    │   ├── Orientado a Objetos  
+    │   └── Ágil
+    │
+    ├── FERRAMENTAS (Instrumentos)
+    │   ├── Jira, Git, VS Code
+    │   ├── Selenium, Docker
+    │   └── Jenkins, Kubernetes
+    │
+    └── TÉCNICAS (Práticas)
+        ├── UML, TDD, Pair Programming
+        ├── Code Reviews, Design Patterns
+        └── Planning Poker, Retrospectivas
+
+A) ❌ INCORRETA - Prototipagem rápida e diagramas UML são atividades de projeto/construção (nível tático/operacional), não estratégico.
+
+B) ❌ INCORRETA - Testes unitários e integração contínua são atividades de construção (nível operacional), mas estão associadas à fase de Construção, não de Planejamento.
+
+C) ✅ CORRETA - A fase de Análise no nível Tático envolve exatamente: levantamento de requisitos, modelagem de dados e análise de viabilidade.
+
+D) ❌ INCORRETA - Cronogramas, marcos e análise de riscos de negócio são atividades de Planejamento (nível estratégico/tático), não da fase de Projeto.
+
+E) ❌ INCORRETA - Reuniões JAD, definição de escopo e elicitação de requisitos são atividades da fase de Análise (nível tático), não da fase de Construção.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

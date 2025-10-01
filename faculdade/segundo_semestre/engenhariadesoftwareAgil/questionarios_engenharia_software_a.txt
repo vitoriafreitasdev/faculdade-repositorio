@@ -1,0 +1,884 @@
+questionarios_engenharia_software_agil 
+
+Q1
+
+O software é definido como um programa ou conjunto de programas de computador, organizados intelectualmente para atender um ou mais objetivos de um negócio. Fazem parte do software dados, bibliotecas, instruções e documentação que executa, controla ou dá suporte ao funcionamento de sistemas computacionais, atendendo aos requisitos do software. Assinale a alternativa que considere uma análise correta do texto. 
+-O software é formado por programas e seus componentes complementares (dados, bibliotecas e documentação), organizados para atender objetivos de negócio e aos requisitos do sistema. 
+Comentário: A alternativa C é a única que reflete fielmente o conteúdo do texto. De acordo com Unidade 1 na seção 1.1 Definição de Software, o software é um conjunto de programas organizados intelectualmente, com o propósito de atender os objetivos de negócio, e inclui dados, bibliotecas, instruções e documentação, que sustentam o funcionamento e os requisitos do sistema. 
+///
+
+No ciclo de vida do software, é comum haver diversas versões antes que uma delas seja oficialmente liberada como release. Essa diferença entre versão e release está relacionada a etapas específicas do desenvolvimento e da entrega do produto. Por que geralmente existem mais versões de um sistema do que releases? 
+-Porque uma versão é gerada a cada modificação significativa no código, mas o release só ocorre após validação de uma única versão e preparação para distribuição. 
+Comentário: Sempre existiram mais versões de um software do que releases. O release é a versão do software ou do sistema produzido que é autorizada para distribuir ao cliente. Até chegar ao release, frequentemente mudanças no software vão ocorrer. O release é a versão estável e preparada oficialmente para distribuição aos clientes. O lançamento do release é acompanhado de vários fatores técnicos e organizacionais, como: 
+
+Programa de instalação. 
+
+Manual técnico e do usuário. 
+
+Arquivos de configurações. 
+
+Bibliotecas, arquivos de dados e scripts de registros. 
+
+///
+Durante uma reunião estratégica de alinhamento entre os negócios e a infraestrutura de TI, os setores de Engenharia de Software e Departamento de Negócios de uma empresa de soluções tecnológicas, foram elencadas ações para atualizações de sua plataforma computacional e sistemas internos. O analista de sistemas designado classificou as seguintes ações: 
+
+I – Atualizar o sistema de gestão interno para uma versão executável em estações locais com Windows, otimizando recursos de CPU e memória.  
+
+II – Criar um app nativo para dispositivos móveis com sistema de notificação push e acesso a dados via API RESTful.  
+
+III – Migrar os bancos de dados e os serviços web para um ambiente escalável com armazenamento e backup automáticos na nuvem.  
+
+IV – Implementar um sistema de detecção de intrusão (IDS) baseado em heurísticas para proteger as comunicações internas da empresa.  
+
+V – Integrar recursos de recomendação automatizada de materiais e fornecedores, com base no histórico de projetos, usando algoritmos de aprendizado de máquina.  
+
+Com base nas descrições, associe corretamente cada item à respectiva área da tecnologia de sistemas de software: 
+I – Aplicativo para microcomputadores; II – Aplicações móveis; III – Computação em nuvem; IV – Segurança cibernética; V – Inteligência artificial e aprendizado de máquina. 
+
+Comentário: 
+Veja referências apresentadas na Unidade 1, seção: 1.3 Aplicabilidade do Software. 
+
+I – Aplicativo para microcomputadores: Em um sistema de gestão interno, e como destaca versões executáveis no Windows, se refere ao uso de processadores de textos, planilhas eletrônicas, computação gráfica, diversões, gerenciamento de banco de dados e outros, voltados para desktops (não aplicações web), disponíveis no comércio. 
+
+II – Aplicações Móveis: Trata do desenvolvimento de aplicações móveis com recursos do próprio sistema operacional ou desenvolvidos.  
+
+III – Computação em nuvem: Envolve migração para infraestrutura escalável e com serviços sob demanda. 
+
+IV – Segurança cibernética - ou Segurança da informação: No ambiente computacional, trata da validação de integridade e conformidade com normas de dados sensíveis, com o foco, p. ex., na proteção ativa de sistemas, como IDS (Intrusion Detection System). 
+
+V – Inteligência artificial e aprendizado de máquina: Tem o foco no desenvolvimento de algoritmos e técnicas que permitem aos computadores aprender com grandes volumes de dados, em analisar para identificar padrões, tomar decisões ou fazer previsões. Utiliza modelos preditivos para recomendações com base em grandes volumes de dados históricos. 
+
+///
+
+	
+Estudo de caso: Durante uma reunião de alinhamento entre os setores de engenharia, produção e TI de uma empresa de automação industrial, foram discutidas necessidades específicas relacionadas a diferentes tipos de software utilizados nas operações e projetos da empresa. Um analista de sistemas foi designado para classificar corretamente as soluções listadas abaixo, a fim de planejar sua aquisição, desenvolvimento ou integração com o ambiente computacional existente. 
+
+As soluções identificadas foram: 
+
+Item A: Um ambiente gráfico do tipo CAD (Computer-Aided Design), utilizado para simulação tridimensional de arquitetura de sistemas elétricos e eletrônicos, com alto consumo de processamento matemático e gráfico. 
+
+Item B: Um sistema integrado de gestão empresarial que unifica informações de clientes (CRM), fornecedores e cadeia de suprimentos (SCM), bem como controle de estoque e produção (ERP). 
+
+Item C: O software que gerencia o processo de inicialização (boot) de um smartphone, carregando o sistema operacional e os componentes essenciais de hardware. 
+
+Com base nos conceitos da engenharia de software e classificação por finalidade, relacione corretamente os itens com sua categoria funcional de software: 
+
+* Categorias: 
+
+1. Software científico 
+
+2. Software empresarial 
+
+3. Software básico 
+
+* Associação correta: | Item | Categoria | 
+
+-A – 1 | B – 2 | C – 3.
+
+Comentário:  
+
+Veja referências apresentadas na Unidade 1, seção: 1.3 Aplicabilidade do Software. 
+
+Item A → Software científico: Os softwares CAD realizam cálculos complexos de geometria, simulações físicas e manipulação de gráficos 3D. Isso os classifica como software científico ou de engenharia, com foco em precisão matemática e modelagem. 
+
+Item B → Software empresarial: Sistemas ERP, CRM e SCM fazem parte de sistemas integrados de gestão que dão suporte à operação e tomada de decisão nas empresas. Estão associados ao domínio do e-business, como solução corporativa. 
+
+Item C → Software básico: O processo de inicialização de um smartphone depende de software de baixo nível, como bootloaders, que fazem parte do sistema operacional e dos drivers de hardware – ou seja, software básico. 
+
+A crise do software, marcada por atrasos, custos elevados e baixa qualidade nos sistemas entregues, impulsionou o surgimento de novas abordagens no desenvolvimento de software. Dentre essas, destacam-se as metodologias ágeis, que vêm sendo adotadas amplamente por sua capacidade de lidar com mudanças, reduzir riscos e promover entregas frequentes e de qualidade. 
+
+Com base nos princípios e práticas das metodologias ágeis, assinale a alternativa que apresenta corretamente seus benefícios na gestão moderna de projetos de software: 
+-As práticas ágeis baseiam-se em ciclos curtos, feedback contínuo, integração e testes frequentes, promovendo entregas incrementais, adaptabilidade e envolvimento ativo dos stakeholders. 
+
+Comentário: A alternativa C está de acordo com o texto e com os princípios das metodologias ágeis. Ela destaca: 
+
+* Ciclos curtos de desenvolvimento (sprints); 
+
+* Feedback contínuo e comunicação com o cliente; 
+
+* Integração contínua e testes frequentes; 
+
+* Entregas incrementais e adaptabilidade às mudanças; 
+
+* Participação ativa dos stakeholders e aprendizagem contínua. 
+
+As demais alternativas estão incorretas ou distorcidas: 
+
+a) Vai contra a principal característica do ágil, que é justamente acolher mudanças mesmo em fases avançadas do desenvolvimento. 
+
+b) Exagera e nega o valor da documentação, que, embora reduzida, ainda é praticada no ágil. 
+
+d) Elimina a importância do cliente e da priorização de requisitos – o que contradiz a prática ágil. 
+
+e) Falsamente afirma que o ágil evita testes – o oposto é verdade. 
+
+///
+As afirmações a seguir tratam de conceitos fundamentais da Engenharia de Requisitos de Software, prática essencial para garantir que o sistema atenda às necessidades do cliente e das partes interessadas. Analise-as. 
+
+I. A negociação de requisitos visa resolver conflitos entre os stakeholders, buscando priorizar demandas e alinhar expectativas com as restrições técnicas.  
+
+II. A validação de requisitos consiste em revisar os requisitos identificados, verificando se estão corretos, completos e coerentes.  
+
+III. O estudo de viabilidade permite que o cliente acompanhe todas as fases do desenvolvimento do software, servindo também como base para a execução de testes e para a identificação antecipada de falhas funcionais no sistema.  
+
+Com base nos conceitos da Engenharia de Requisitos, assinale a alternativa correta na respectiva sequência, considerando V (Verdadeiro) ou F (Falso): 
+
+Resposta Selecionada:	
+V, V, F.
+
+Comentário: 
+
+I. A negociação de requisitos é essencial para resolver conflitos, equilibrar expectativas e priorizar requisitos com base em valor e viabilidade. Está correta, portanto, é verdadeira. 
+
+II. A validação garante que os requisitos estejam corretos e que representem o que o cliente realmente deseja, sendo parte crítica da engenharia de requisitos. Está, correta, portanto, é verdadeira. 
+
+III. O estudo de viabilidade é uma atividade preliminar, tem seu início antes mesmo do início formal para desenvolver o software. E não é uma ferramenta de acompanhamento das fases de desenvolvimento. Está incorreta, portanto, é falsa. 
+
+///
+
+Durante a fase de planejamento de um sistema de software, o estudo de viabilidade busca identificar riscos de diversos aspectos técnicos, econômicos, operacionais, legais e outros, a fim de assegurar que os recursos da organização estejam alinhados entre stakeholders e que serão aplicados com segurança e retorno. Entre os problemas comuns de gestão de projetos que podem ser evitados ou minimizados com um estudo de viabilidade bem conduzido, destacam-se: 
+
+I. Avaliação da compatibilidade entre a infraestrutura de TI existente do cliente e requisitos do sistema. 
+
+II. Alinhamento de cronogramas e prazos entre a equipe de desenvolvimento e stakeholders representantes do cliente, evitando conflitos na entrega de recursos, treinamentos e migração de dados.  
+
+III. A garantia da qualidade final do produto entregue, assegurando garantia econômica do negócio implementado pelo software.  
+
+IV. Previsão de custos e recursos com margem de erro reduzida, evitando estouros de orçamento e atrasos no cronograma por falta de planejamento do investimento.  
+
+Assinale a alternativa que apresenta corretamente os itens que podem ser identificados ou tratados preventivamente no estudo de viabilidade: 
+
+Resposta Selecionada:	
+Somente os problemas I, II e IV podem ser tratados no estudo de viabilidade. 
+
+Comentário:  
+
+I. A análise de viabilidade verifica se o ambiente de TI do cliente suporta os requisitos técnicos do sistema, como rede, hardware e SO. Se atualizações serão necessárias, compatibilidade técnica e outros. É um problema típico a ser tratado no estudo de viabilidade. 
+
+II. O estudo de viabilidade inclui estimativas de custo e orçamento, fundamentais para o planejamento financeiro do projeto alinhado ao ciclo de desenvolvimento. É um problema a ser tratado no estudo de viabilidade. 
+
+III. A qualidade do produto final não garante o sucesso econômico do produto no mercado. Isso é função da administração do negócio e marketing. Não é um problema a ser tratado no estudo de viabilidade. 
+
+IV. O estudo de viabilidade inclui estimativas de custo e orçamento, fundamentais para o planejamento financeiro do projeto. É um problema a ser tratado no estudo de viabilidade. 
+
+///
+
+Durante a análise de requisitos para o desenvolvimento de um sistema de controle de acesso físico a áreas restritas de uma empresa, o analista de sistemas estruturou os seguintes requisitos com base em reuniões entre os setores de Segurança, TI e RH: 
+
+I – O sistema deve controlar o acesso por meio de autenticação facial integrada ao crachá do funcionário.  
+
+II – O tempo máximo de autenticação não deve exceder 1,5 segundo por usuário.  
+
+III – O sistema será implementado utilizando arquitetura baseada em microsserviços com containers Docker.  
+
+IV – A interface do sistema deve ser acessível em dispositivos móveis com sistema Android versão 10 ou superior.  
+
+V – O sistema deve gerar relatórios diários de acessos por local, data e colaborador.  
+
+Classifique os requisitos nas categorias: RF – Requisito Funcional; RNF – Requisito Não-Funcional; e RS – Requisito de Sistema: 
+
+Resposta Selecionada:	
+(RF) – I e V; (RNF) – II e IV; (RS) – III. 
+
+Comentário: 
+
+Requisito 	                      Classificação 	                      Justificativa 
+I – Autenticação facial e crachá 	RF	        Define uma função do sistema (controle de acesso). 
+II – Tempo máximo de 1,5 s 	 	RNF             Relaciona-se ao desempenho do sistema (tempo de resposta). 
+III – Uso de microsserviços e Docker 	RS 	        Refere-se à arquitetura e plataforma tecnológica, elemento de infraestrutura. 
+IV – Acessível em Android 10+	        RNF 	        Diz respeito à compatibilidade da interface com plataforma específica, um requisito de usabilidade. 
+V – Geração de relatórios 	        RF 	        Define uma função principal do sistema (relatórios de acesso).
+
+///
+
+Com base na estrutura da ISO 9241-11 sobre usabilidade, quais dos seguintes elementos estão diretamente relacionados ao conceito de usabilidade? 
+Produto, ambiente, tarefa, resultado pretendido, medidas de usabilidade (eficácia, eficiência e satisfação)
+
+Comentário: A estrutura da ISO 9241-11 define usabilidade como a medida na qual objetivos são alcançados com eficácia, eficiência e satisfação, levando em consideração elementos como usuário, tarefa, equipamento, ambiente e produto dentro do contexto de uso. 
+
+///
+
+“É considerada uma ferramenta eficaz em brainstorming, planejamento, tomada de decisões e aprendizado, promovendo a criatividade e clareza de um determinado tema central, com ramificações que detalham os subtemas e suas inter-relações.”  
+
+Em relação ao conceito descrito no texto, assinale a alternativa com o nome da ferramenta e a justificativa correta de uso aplicado ao conceito. 
+
+Resposta Selecionada:	
+Mapa mental – facilita a visualização e organização de informações de forma criativa e associativa.
+
+ comentário: O mapa mental ajuda a representar ideias, conceitos ou tarefas, estruturando-as de uma maneira que facilita a compreensão e a recordação. Esta ferramenta é extremamente útil para brainstorming e planejamento.  
+
+//Q4
+
+Pergunta 1
+
+
+Analise as regras abaixo e assinale como verdadeira (V) ou falsa (F) em relação às regras do Manifesto para Desenvolvimento Ágil de Software. 
+
+I. Colaborar com o cliente mais do que negociar contratos.  
+
+II. Empregar processos de software prescritivos como metodologias ágeis, em respostas aos requisitos de mudanças. 
+
+III. Indivíduos e interações mais que processos e ferramentas. 
+
+IV. Software funcionando é mais importante do que documentação abrangente. 
+
+Assinale a alternativa correspondente na sequência de análise. 
+
+Resposta Selecionada:	 
+I, III e IV são verdadeiros. II é falso. 
+
+
+Comentário: 
+O Manifesto Ágil apresenta quatro valores fundamentais: Indivíduos e interações acima de processos e ferramentas, software funcionando acima de documentação abrangente, colaboração com o cliente acima de negociação de contratos e responder a mudanças acima de seguir um plano.  
+
+A afirmativa II está incorreta, pois metodologias ágeis não se caracterizam como processos prescritivos; ao contrário, elas são adaptativas e flexíveis, favorecendo mudanças de requisitos ao longo do desenvolvimento. Assim, I, III e IV estão corretas, e apenas II é falsa. 
+
+Pergunta 2
+
+Em relação aos modelos estruturados (baseados em planos) e às metodologias ágeis de desenvolvimento de software, analise as afirmativas abaixo e assinale a alternativa correta. 
+
+Resposta Selecionada:	
+Modelos estruturados seguem uma sequência linear de etapas bem definidas, com forte ênfase no planejamento inicial, enquanto métodos ágeis valorizam a flexibilidade, colaboração e iteração contínua. 
+
+Comentário: 
+Os modelos estruturados (ou tradicionais), como o cascata (waterfall), priorizam planejamento detalhado e etapas sequenciais. Já os métodos ágeis valorizam a entrega incremental, feedback constante, interação com o cliente e adaptação rápida a mudanças. As demais alternativas contêm erros conceituais. 
+
+Referência: U4 – seções: 7.1 Manifesto para desenvolvimento ágil de software; e 7.1.1 Princípios das Metodologias Ágeis.  
+
+Pergunta 3
+
+Correta	
+Uma equipe de desenvolvimento foi contratada para criar um sistema bancário com alta frequência de mudanças nas regras de negócio e pressão por entregas constantes de funcionalidades. Diante disso, um analista sugeriu a adoção da metodologia ágil Extreme Programming (XP), argumentando que ela oferece práticas específicas para lidar com mudanças rápidas, melhorar a comunicação entre cliente e equipe, e garantir qualidade contínua do software. 
+
+Com base nesse argumento, qual das hipóteses justifica corretamente a escolha pela metodologia XP? 
+
+Resposta Selecionada:	
+
+A XP propõe práticas como integração contínua, refatoração e programação em par, que favorecem adaptações rápidas e melhoria constante.
+ 
+
+Comentário: 
+
+Referência: U4 – seções: 7.1.1 Princípios das Metodologias Ágeis; e 7.2 Extreme Programming (XP). 
+
+A) Incorreta — A XP envolve fortemente o cliente, por meio do cliente in loco (on-site customer). 
+
+B) Incorreta — XP funciona bem com equipes pequenas e coesas, em ambientes dinâmicos com mudanças frequentes. 
+
+C) Incorreta — XP é ideal justamente para contextos com mudanças frequentes, não para requisitos totalmente estáveis. 
+
+D) Correta — XP propõe práticas técnicas e de equipe (como integração contínua, refatoração, TDD, programação em par) que favorecem adaptações ágeis e melhoria contínua. 
+
+E) Incorreta — XP valoriza testes automatizados desde o início, como o Test-Driven Development (TDD). 
+
+Pergunta 4
+
+Na metodologia XP (Extreme Programming), qual prática é característica do processo de desenvolvimento? 
+
+Resposta Selecionada:	 
+Codificação feita por duplas em colaboração constante. 
+
+Comentário: 
+
+No XP, uma prática central é o pair programming (programação em pares), em que duas pessoas trabalham juntas no mesmo código, promovendo qualidade e troca de conhecimento. 
+
+Referência: U4 – seções: 7.1.1 Princípios das Metodologias Ágeis; e 7.2 Extreme Programming (XP). 
+
+Pergunta 5
+O framework Scrum é utilizado na engenharia de software por promover organização, colaboração e entregas iterativas de valor. O Scrum propõe uma abordagem prática e incremental, com eventos e artefatos bem definidos. Analise as atividades abaixo, verificando quais se alinham aos princípios do Scrum. 
+
+I. Ao final de cada sprint, realiza-se uma retrospectiva para discutir o que pode ser melhorado no próximo ciclo.  
+
+II. O período de uma sprint pode ser ajustado durante sua execução para acomodar mudanças de escopo. 
+
+III. O Product Owner é responsável por maximizar o valor do produto e por manter o product backlog organizado e acessível à equipe.  
+
+IV. O Sprint Planning define o objetivo da sprint e os itens do backlog que serão entregues ao final do ciclo.  
+
+Considerando falsa (F) ou verdadeira (V) cada atividade que possivelmente se alinha aos princípios do Scrum, assinale a alternativa correta na ordem em que aparece. 
+
+Resposta Selecionada:	
+ 
+V F V V
+Comentário:  
+
+Esses comentários têm como referência: U4 – seção 7.3 Scrum. 
+
+Análise das atividades: 
+
+I. Verdadeira (V) - Ao final de cada sprint, [..]: A Sprint Retrospective é uma cerimônia oficial do Scrum, focada na melhoria contínua da equipe e do processo. 
+
+II. Falsa (F) - O período de uma sprint [..]: A sprint tem duração fixa (geralmente de 2 a 4 semanas) e não pode ser alterada uma vez iniciada, mesmo que ocorram mudanças de escopo. 
+
+III. Verdadeira (V) - O Product Owner é responsável [..]: Essa é a principal responsabilidade do Product Owner. Ele prioriza e atualiza os itens do backlog. 
+
+IV. Verdadeira (V) - O Sprint Planning define [..]: O Sprint Planning é a reunião de início de cada sprint, onde a equipe define seleciona os itens do product backlog que serão trabalhados. 
+
+Pergunta 6	
+Em um cenário de desenvolvimento de software ágil, diversas metodologias podem ser utilizadas conforme o tipo de projeto e as necessidades do cliente. Entre as metodologias ágeis abaixo, uma se destaca por ser uma extensão do modelo RAD e sua forte ênfase na entrega dentro de prazos definidos, participação ativa do usuário e abordagem iterativa e incremental, baseada em oito fases principais. Assinale a alternativa que apresenta corretamente a metodologia mais adequada a esse perfil. 
+
+Resposta Selecionada:	 
+Dynamic Systems Development Method (DSDM), por enfatizar entregas frequentes, colaboração intensa com o usuário e controle de prazo e orçamento.
+Comentário: 
+
+A alternativa A está correta, pois o DSDM é uma metodologia ágil que prioriza entregas no prazo, com participação constante dos usuários, uso de timeboxes (ciclos quinzenais) e adaptação contínua baseada em feedback. Seu conjunto de princípios o torna ideal para projetos com prazos e orçamentos rígidos. Possui cinco princípios fundamentais: Foco na necessidade do negócio, Entrega dentro do prazo, Colaboração, Qualidade inegociável e desenvolvimento incremental e iterativo. Seu framework é composto de oito fases principais: Viabilidade (Feasibility) – Início do ciclo; Pré-Projeto (Pre-Project); Fundamentos (Foundations); Exploração (Exploration); Desenvolvimento Iterativo (Iterative Development); Implantação (Deployment); Pós-projeto (Post-project); e Viabilidade (Feasibility) – Fim do ciclo.  
+
+Referência: U4 – seção 8.1 Dynamic Systems Development Method (DSDM). 
+
+As demais metodologias possuem características úteis, mas não atendem com a mesma ênfase os requisitos descritos no enunciado. 
+
+Pergunta 7	
+A modelagem ágil promove o uso de diagramas de forma leve e eficiente em diferentes momentos do desenvolvimento. Com base no quadro apresentado, assinale a alternativa que apresenta uma associação correta entre uma prática da modelagem ágil e o tipo de diagrama UML mais indicado para apoiar essa prática. 
+
+Resposta Selecionada:	
+Tempestade de modelos — Diagrama de Classe, por ser útil para pensar rapidamente sobre a estrutura de dados e responsabilidades das classes. 
+
+Comentário: 
+
+Referência: U4 – seção 8.3 Agile modeling (AM). 
+
+A Tempestade de modelos é uma prática just-in-time (JIT) que visa pensar rapidamente sobre uma parte da solução. O Diagrama de Classe da UML é ideal nesse contexto, pois permite modelar a estrutura de dados, atributos, métodos e os relacionamentos entre classes de forma rápida e eficaz.  
+
+Análise das demais alternativas que estão incorretas: 
+
+A. Os diagramas que mais se adaptam à previsão da arquitetura seriam os diagramas de componentes e de implantação. Esta arquitetura está limitada, somente, no aspecto físico que liga os componentes. 
+
+B. A modelagem da interação se baseia no fluxo de mensagens entre os objetos, muito bom para a arquitetura da lógica de processamento, porém descarta a parte estática do sistema de software. Podem ser usados os diagramas de casos de uso, sequência, atividades e de estado. Pode-se modelar a interação com diagramas de classe, são bem abrangentes. 
+
+D. O modelo de primeiro-teste (TFD) é útil para a arquitetura da informação, como ela trafega e as mudanças que ocorrem no tratamento da informação. O diagrama de estado é o mais específico e indicado para essa situação, não sendo possível, porém, determinar a lógica de processamento envolvida na tarefa. 
+
+E. Refatoração corresponde à melhora do design interno do código, sem alterar seu contexto. Os diagramas que mais se adaptam aqui são: Componentes, Pacotes e de Sequência. Aqui também pode-se praticar a refatoração com diagramas de classe também, mas são limitados para essa prática. 
+
+Pergunta 8
+A figura abaixo ilustra o fluxo de trabalho típico do DevOps, um paradigma que promove integração entre desenvolvimento e operações por meio de um ciclo contínuo. Com base no framework do DevOps e nas etapas representadas na figura, assinale a alternativa correta. 
+  
+
+Resposta Selecionada:	
+ 
+A principal característica do DevOps é a automação e integração contínua entre as etapas de planejamento, desenvolvimento, testes, integração, entrega, monitoramento e feedback, em um ciclo iterativo. 
+
+Justificativa: 
+
+A alternativa A descreve corretamente o modelo DevOps, como é apresentado em seu framework, que promove automação, integração contínua, entrega frequente e feedback contínuo por meio de um ciclo iterativo que une as equipes de desenvolvimento e operações.  
+
+As demais alternativas contradizem os princípios do DevOps. 
+
+Pergunta 9
+Durante a preparação para uma grande campanha de vendas online na Black Friday, a equipe de desenvolvimento da empresa ShopFast decidiu adotar práticas DevOps para garantir estabilidade, escalabilidade e entregas contínuas. Entre as ações implementadas, destacam-se: envio de código frequente para o repositório, testes automatizados, implantação em ambientes de pré-produção, criação automática de infraestrutura em nuvem e monitoramento com alertas de falhas. Com base nesse cenário, qual etapa do workflow do DevOps corresponde à criação automatizada da infraestrutura em nuvem? 
+
+Resposta Selecionada:	
+ 
+Infraestrutura como Código (IaC)
+Comentário: 
+
+Referência: U4 – seção 8.4 Desenvolvimento e Operações (DevOps) 
+
+No caso apresentado, a criação automatizada da infraestrutura em nuvem refere-se diretamente ao uso de Infraestrutura como Código (IaC), uma etapa do workflow DevOps que permite configurar e gerenciar recursos de forma programável e replicável. Ferramentas como Terraform e AWS CloudFormation são comumente usadas nessa etapa. CI e CD são voltadas ao ciclo de desenvolvimento e entrega do software, enquanto monitoramento e resiliência são práticas posteriores à implantação. 
+
+Pergunta 10
+Na metodologia Scrum, cada sprint pode ser organizado em um quadro específico, permitindo que a equipe acompanhe o progresso de forma colaborativa. Ferramentas como o Trello são amplamente utilizadas para auxiliar no acompanhamento de tarefas e sprints. Com base nesse texto sobre a aplicação da ferramenta Trello no Scrum, assinale a alternativa correta.  
+
+Resposta Selecionada:	
+ 
+Os cartões no Trello representam histórias ou tarefas individuais que podem conter descrições, prazos e comentários.
+Comentário: 
+
+Os cartões no Trello são usados para representar tarefas ou histórias individuais dentro do projeto, e podem conter descrições detalhadas, prazos, checklists, comentários e anexos. As demais alternativas estão incorretas quanto à função dos quadros, listas e recursos do Trello, ou subestimam seu potencial colaborativo e integrativo. 
+
+Análise das alternativas que estão erradas: 
+
+A. Quadros: Representam projetos ou áreas de trabalho, para uma sprint por exemplo. 
+
+B. Listas: Organizam tarefas em diferentes etapas, como "A Fazer", "Em Progresso" e "Concluído". 
+
+D. Automação: Com o recurso Butler (uma função da aplicação), é possível automatizar fluxos de trabalho repetitivos. Não permite que a equipe acompanhe o progresso de forma colaborativa. 
+
+E. Colaboração: Permite que equipes trabalhem juntas em tempo real, com notificações e atualizações instantâneas. 
+
+
+///// Q2
+
+
+Pergunta 1
+0,25 em 0,25 pontos
+
+Correta	
+Um processo de software é um conjunto estruturado de atividades inter-relacionadas que visam desenvolver, operar, manter e gerenciar produtos de software. Envolve métodos, ferramentas, papéis e regras organizacionais, e pode ser avaliado em termos de eficácia, eficiência e maturidade. 
+
+Sobre os elementos fundamentais que compõem os processos de software e sua avaliação, considere as afirmações a seguir: 
+
+I. A relação entre os resultados entregues (saídas) e os recursos utilizados (entradas) está relacionada à eficiência e eficácia do processo de software.  
+
+II. As entradas de um processo incluem recursos financeiros e infraestrutura, sendo considerados os artefatos a serem produzidos.  
+
+III. As saídas de um processo de software são os artefatos gerados, como documentos, códigos, pacotes ou componentes implantáveis.  
+
+Está correto o que se afirma em: 
+
+Resposta Selecionada:	
+Corretad. 
+I e III, apenas. 
+
+Comentário: 
+
+Acompanhe este comentário vendo o modelo básico do processo de software na U2 – seção 3. Processos de software. 
+
+Análise das afirmações: 
+
+I. A eficiência mede o uso de recursos (tempo, custo), e a eficácia mede se o processo atingiu seus objetivos (qualidade da entrega). 
+
+II. Incorreta. As entradas de um processo de software incluem requisitos, modelos, documentos técnicos, além de pessoas, ferramentas e infraestrutura. Não se limitam a bens ou capital financeiro. 
+
+III. No processo de software, saídas são artefatos concretos como: código-fonte, documentos, testes, builds e manuais. 
+
+Pergunta 2
+
+Na engenharia de software, os processos de desenvolvimento podem ser classificados como prescritivos ou ágeis, dependendo da abordagem adotada para planejamento, execução e entrega de software. Com base nesse contexto, analise as afirmações abaixo e assinale a alternativa correta sobre as principais diferenças entre os modelos prescritivos e as abordagens ágeis: 
+
+Resposta Selecionada:	
+No desenvolvimento prescritivo, o foco está no controle formal do processo e documentação detalhada, enquanto no ágil prioriza-se a colaboração contínua, entregas incrementais e adaptação. 
+
+Comentário: 
+
+Veja mais detalhes na U2 – seção 3.1 Agilidade e decomposição do processo. 
+
+Análise das alternativas sobre os modelos prescritivos e ágeis: 
+
+Alternativa A: Errada. Está equivocada. O ágil reduz a ênfase na documentação, mas não elimina sua necessidade, especialmente em projetos complexos ou regulados. 
+
+Alternativa B: Errada. Os conceitos estão invertidos: prescritivos seguem fluxo sequencial (ex.: Cascata); ágeis são iterativos e incrementais. 
+
+Alternativa C: Errada. O ágil não exige planejamento completo no início; o planejamento é iterativo. Já os prescritivos, sim, exigem planejamento extensivo desde o início. 
+
+Alternativa D: Errada. Os conceitos estão invertidos: ágeis aceitam mudanças constantes; prescritivos tentam evitá-las após o início do projeto. 
+
+Alternativa E: Correta: Os prescritivos valorizam controle e documentação; ágeis focam em entregas frequentes, colaboração e adaptação contínua. 
+
+Pergunta 3
+
+Com base na imagem, ilustrada sob a metáfora de um guarda-chuva, a figura abaixo, idealizada por Humphrey (2000), um dos gurus da engenharia de software, apresenta uma estrutura hierárquica de três métodos de melhoria de processos de software: CMMI (Capability Maturity Model Integration), TSP (Team Software Process) e PSP (Personal Software Process). Cada método atua em um nível específico da organização, com focos distintos. Qual alternativa relaciona corretamente o método com seu nível de atuação e objetivo? 
+
+Resposta Selecionada:	
+CMMI atua em nível organizacional, com foco em gestão e melhoria da capacidade empresarial.  
+
+Comentário: 
+
+De acordo com a alternativa A e como pode ser visto na U2 – seção 3.3 TSP – Team Software Process (Processo de Software Pessoal), na análise da imagem, os métodos correspondem a: 
+
+1. CMMI (Capability Maturity Model Integration) – Modelo de Maturidade e Capacidade Integrado. Melhora a capacidade da organização. 
+
+2. TSP (Team Software Process) – Processo de Software de Equipe, com o foco na equipe e produto. 
+
+3. PSP (Personal Software Process) – Processo de Software Pessoal. Melhora as habilidades individuais, com o foco na pessoa. 
+
+Pergunta 4
+
+O modelo em cascata foi o primeiro paradigma formalizado no desenvolvimento de software, herdando princípios da engenharia tradicional e sendo considerado o marco inicial da engenharia de software moderna. Embora esteja em desuso frente a metodologias ágeis e iterativas, ele ainda é referenciado por sua contribuição teórica e estrutural aos modelos posteriores. Qual característica tecnológica principal justifica o papel do modelo em cascata como base para os processos atuais? 
+
+Resposta Selecionada:	
+
+É fundamentado na linearidade e sequenciamento das fases, o que define um ciclo de vida estruturado e previsível.    
+
+Comentário:  
+
+O modelo em cascata é reconhecido por seu ciclo de vida clássico, sequencial e estruturado. Cada etapa (comunicação, planejamento, modelagem, construção e entrega) é completada antes do início da próxima, com forte dependência de documentação técnica e validação em cada fase. Entenda mais sobre o modelo cascata na U2 – seção 3.4.1 Modelo Cascata (Waterfall Model ou Sequencial Linear). Essa abordagem influenciou a definição de processos sistematizados e a construção de modelos híbridos e evolutivos como o RUP, o modelo em espiral e mesmo frameworks ágeis que incorporam aspectos formais da engenharia. 
+
+As alternativas como A e D descrevem modelos iterativos ou incrementais, como o modelo espiral e as abordagens ágeis. Já B e E são incorretas tecnicamente – o modelo cascata preza pela documentação e é dividido em mais de duas fases bem definidas. 
+
+Pergunta 5
+
+O modelo de processo de software incremental operacionaliza a liberação do sistema em partes incrementais, cada uma delas entregando funcionalidades utilizáveis enquanto o desenvolvimento contínuo prossegue em paralelo. Sobre o modelo de processo de software incremental, pode-se afirmar que: 
+
+Resposta Selecionada:	
+
+os clientes identificam em um esboço as funções a serem fornecidas pelo sistema e posteriormente se define uma série de estágios, sendo que cada série fornece um subconjunto das funcionalidades do sistema. 
+
+Comentário:  
+
+De acordo com a U2 – seção 3.4.4 Modelo incremental, neste modelo, o sistema é especificado na documentação dos requisitos e decomposto em subsistemas funcionais. As versões são inicialmente definidas a partir de um pequeno subsistema funcional, com novas funcionalidades sendo adicionadas a cada versão seguinte. O software alcança sua funcionalidade total gradualmente, por meio desses incrementos sucessivos. 
+
+As alternativas A, B, C e E estão incorretas. Veja por quê: A alternativa A se refere aos níveis de maturidade do modelo CMMI; A alternativa B se refere ao modelo cascata; A alternativa C tem relação com a engenharia cognitiva da interação humano-computador; E a alternativa E não está associada com nenhum modelo de processo de desenvolvimento de software. 
+
+Pergunta 6
+
+Em uma das fases do Ciclo de Vida do Desenvolvimento de Sistema (System Development Life Cycle (SDLC)), são elaborados cronogramas, medição de capacidade da equipe de desenvolvimento, análises de caminho crítico, modelos do processo de negócios, casos de uso, diagrama de atividades e diagramas de componentes e implantação. Assinale a alternativa correspondente a essa fase do SDLC. 
+
+Resposta Selecionada:	
+Análise 
+
+Comentário: 
+
+Após o levantamento de requisitos do negócio, a fase de análise consiste em coletar dados, definir modelos de processo de software, especificar requisitos funcionais e do sistema, determinar as atividades do desenvolvimento do software, medir o escopo do sistema e avaliar a relação necessidade/capacidade (ou custo/benefício). Os métodos, técnicas e ferramentas (MF&T) permitem criar cronogramas para diversas análises que acompanham o desenvolvimento do software, bem como a criação de diagramas que refletem o domínio do negócio. Veja os detalhes sobre o emprego de MF&T na análise do sistema, na U2 – seção 4.1 Software Development Life Cycle (SDLC). 
+
+Pergunta 7
+ta igual a anterior 
+
+Pergunta 8
+
+De acordo com Pressman (2021), o engenheiro de software eficaz vai além do domínio técnico de processos, métodos e ferramentas. Ele também deve demonstrar competência pessoal por meio de características comportamentais que impactam diretamente a qualidade do produto e o sucesso do projeto. Essas características envolvem aspectos como responsabilidade, consciência situacional, resiliência, lealdade, honestidade, atenção aos detalhes e pragmatismo. 
+
+Com base nessas diretrizes, assinale a alternativa que representa corretamente uma dessas competências do profissional engenheiro de software. 
+
+Resposta Selecionada:	
+
+O engenheiro pragmático reconhece que a engenharia de software exige adaptação a diferentes contextos, evitando seguir regras inflexíveis e dogmas técnicos sem considerar as circunstâncias do projeto. 
+
+Comentário: 
+
+A alternativa B expressa corretamente a competência “pragmático”, de acordo com Pressman (2021). Trata da flexibilidade do engenheiro de software em adaptar métodos e processos ao contexto do projeto, em vez de seguir práticas rígidas de forma cega. Examine na U2 – seção 4.2 Aspectos Humanos da Engenharia de Software as sete características pessoais que demonstram competência do engenheiro de software. 
+
+E por que as demais alternativas (A, C, D e E) estão erradas? 
+
+Na alternativa A (Ser extremamente honesto implica [..]): A “honestidade” pressupõe transparência proativa e construtiva, não apenas sob demanda. 
+
+Na alternativa C (O engenheiro de software eficaz [..]): Contraria a “consciência aguçada”, que exige sensibilidade ao ambiente e adaptação emocional. 
+
+Na alternativa D (A resiliência sob pressão [..]): A característica envolve “suportar pressão” sem comprometer o desempenho. 
+
+Na alternativa E (A lealdade profissional [..]): “Lealdade” inclui colaboração com a equipe e compromisso com o cliente, não exclusividade corporativa. 
+
+Pergunta 9
+
+O Guia PMBOK® é uma base sobre a qual as organizações podem criar metodologias, políticas, procedimentos, regras, ferramentas e técnicas e fases do ciclo de vida necessários para a prática do gerenciamento de projetos (PMBOK®, 2017).  
+
+Dos stakeholders, fazem parte do projeto os principais perfis: Cliente, Usuário, Gerente do projeto, Engenheiro de software, Analista de sistemas, Programador e Administrador do banco de dados (DBA). Abaixo estão definidas algumas das atividades do Gerenciamento de Projetos para produtos de software.  
+
+I. Escrever e desenvolver o código do software para manipulação de dados de acordo com as especificações técnicas. 
+
+II. Fornecer feedbacks e aprovação em fases-chave do desenvolvimento.  
+
+III. Planejar e definir objetivos, escopo, prazos e recursos do projeto.  
+
+IV. Realizar backups, recuperações e fornecer suporte técnico para a equipe de desenvolvimento em relação ao acesso e manipulação dos dados.  
+
+Das responsabilidades no gerenciamento de projetos de software, assinale a alternativa correspondente aos perfis profissionais na ordem que aparece na lista de atividades. 
+
+Resposta Selecionada:	
+
+I – Programador; II – Cliente; III – Gerente do projeto; IV – Administrador do banco de dados. 
+
+Comentário: 
+
+Análise das atividades: 
+
+Acompanhe esta análise na U2 – seções: “4.2 Análise de recursos para os processos do projeto” e 4.3.1 Recursos do projeto e do produto software. 
+
+I. Escrever e desenvolver o código do software [..] – Esta atividade se refere aos recursos de software, sob a gerência da TI e o principal responsável por essa atividade é o “Programador”. 
+
+II. Fornecer feedbacks e aprovação [..] – Aqui o “Cliente”, em comunicação com a gerência do projeto, é quem dita as regras do negócio e é quem aprova as funções definidas nos requisitos, alinhadas na infraestrutura da TI. 
+
+III. Planejar e definir objetivos, escopo, [..] – Após o levantamento de requisitos do usuário e requisitos não funcionais, custos e prazos, alinhados entre stakeholders e desenvolvedores, o gerente de projeto define limites e objetivos do projeto, como o domínio do sistema, investimentos e prazos de conclusão das partes do projeto. 
+
+IV. Realizar backups, recuperações [..] – Estas atividades se referem aos recursos de dados, como segurança e proteção de dados como criptografia, controle de acesso, backups, monitoramento e auditoria, característica do “Administrador do banco de dados”. 
+
+Pergunta 10
+
+A figura ilustra a integração de diversas atividades do desenvolvimento de software com o uso de um repositório central. A utilização desse repositório favorece práticas como modularização e reúso, promovendo a qualidade e a produtividade no desenvolvimento. Assinale a alternativa que melhor expressa o papel do repositório na engenharia de software moderna. 
+
+
+Resposta Selecionada:	
+
+O repositório permite a reutilização de componentes e módulos previamente desenvolvidos, integrando atividades como modelagem, testes e configuração, o que promove consistência e economia de esforço. 
+Comentário: 
+
+Em relação à alternativa C, a função do repositório no desenvolvimento de software promove a reusabilidade, modularização, e integração entre diversas áreas (como modelagem, testes e controle de versões), conforme representado na figura. As demais alternativas apresentam visões equivocadas ou limitadas sobre o papel do repositório. Referência: U2 – seção: 4.4 Métodos, Ferramentas e Técnicas (MF&T): Modelagem da Infraestrutura de TI.  
+
+////Q3
+
+Pergunta 1
+
+
+Analise o argumento I e a explicação II a seguir. Assinale (V) para Verdadeira ou (F) para Falsa.  
+
+I. A fusão do produto de software com o processo de desenvolvimento, ao integrar o produto final e as atividades de desenvolvimento, reduz custos e aumenta a produtividade  
+
+PORQUE 
+
+II. promove uma abordagem holística que garante que os requisitos do produto e os processos de desenvolvimento sejam considerados simultaneamente, resultando em um ciclo de desenvolvimento mais eficiente. 
+
+Assinale a alternativa que contém a sequência correta. 
+
+Resposta Selecionada:	
+
+I - V; II - V 
+
+Comentário: 
+
+Referência: U3 – seção: 5. Fusão do produto e do processo de software. 
+
+Tanto o argumento como a explicação são verdadeiros (V). 
+
+Argumento I (V – Verdadeiro): O texto afirma explicitamente que a fusão do produto de software com o processo de desenvolvimento ajuda as empresas desenvolvedoras a consolidar suas operações, reduzindo os custos e aumentando a produtividade. Portanto, a primeira parte da afirmação é Verdadeira. 
+Explicação II (V – Verdadeiro): O texto detalha que esta fusão representa a integração estreita entre a definição do produto final e as atividades necessárias para desenvolvê-lo. É uma abordagem holística que assegura que os requisitos do produto software e seus processos de desenvolvimento sejam considerados simultaneamente. Essa explicação justifica diretamente como a fusão leva à redução de custos e ao aumento da produtividade, pois essa consideração simultânea evita retrabalhos e alinha melhor as expectativas, tornando o ciclo de desenvolvimento mais eficiente. Portanto, a explicação também é Verdadeira e corrobora o argumento.
+Pergunta 2
+
+
+ “A engenharia de software é uma tecnologia em camadas e que deve estar fundamentada em um comprometimento organizacional com a qualidade” (Pressman, 2021). As camadas da engenharia de software são: Qualidade, Processos, Métodos e Ferramentas. A lista abaixo corresponde a vários nomes comuns no mercado dos recursos disponíveis das camadas ao engenheiro de software. 
+
+
+No planejamento do projeto de software, como analista, associe respectivamente os recursos desse arcabouço às camadas da engenharia de software:  
+
+Resposta Selecionada:	
+
+Qualidade – ISO/IEC 25010; Processo – RUP; Métodos – Scrum; e Ferramenta – Astah. 
+
+
+Comentário: 
+
+Referência: U3 – seção: 5.1 Domínio da análise do engenheiro de software. 
+
+Qualidade: A qualidade estabelece regras, padrões, normas, procedimentos e atividades que orientam o desenvolvimento de software de alta qualidade, leva à cultura de melhoria contínua dos processos e abordagens cada vez mais eficientes da engenharia de software. São classificadas em Normas e Modelos da qualidade, como: ISO/IEC 25010, ISO 12207 e CMMI. 
+
+Processos: Define a estrutura fundamental para a concepção e desenvolvimento de software, orientado por padrões e normas da qualidade estabelecida, como: Modelo Cascata, Modelo Espiral e RUP. 
+
+Métodos: É o conjunto estruturado de procedimentos, regras e técnicas utilizadas para guiar o desenvolvimento do software para alcançar uma meta, fim ou conhecimento, como: Scrum, XP e MR RACI. 
+
+Ferramentas: São recursos tecnológicos que dão apoio automatizado para os processos e métodos em todas as fases do desenvolvimento de software, como: Visual Studio, Astah, ASP.NET, Eclipse, Project da Microsoft, Trello e Freemind. 
+
+Análise das alternativas: 
+
+A) Errada. No item Métodos – Project da Microsoft. Os outros itens estão corretos. 
+
+B) Errada. Todos os itens estão errados.  
+
+C) Errada. No item Métodos – CMMI. Os outros itens estão corretos. 
+
+D) Errada. Nos itens: Processo – CMMI; e Métodos – Visual Studio. Os outros itens estão corretos. 
+
+E) Correta. Todos os itens estão corretos. 
+
+Pergunta 3
+
+
+Durante a fase de levantamento de requisitos de um projeto de software para gestão de biblioteca, uma equipe de analistas optou por uma abordagem interativa para capturar as necessidades dos usuários. Essa abordagem envolveu: 
+
+I. Um analista de negócios, representando o cliente, para garantir que as regras da organização fossem corretamente compreendidas. 
+
+II. Um facilitador para manter o foco das reuniões e gerenciar conflitos. 
+
+III. Um secretário responsável por registrar todas as decisões e criar a documentação dos modelos. 
+
+IV. Uma gerência funcional. Representante dos usuários que utilizarão o sistema dia a dia. 
+
+V. Inclusão de desenvolvedores que podem discutir a viabilidade técnica das soluções sugeridas. 
+
+A estratégia utilizada pela equipe de desenvolvedores faz parte de uma metodologia criada pela IBM® com finalidade de reunir uma equipe capacitada na compreensão e definição das funções do processo, denominada: 
+
+Resposta Selecionada:	
+Joint Application Development - JAD (Desenvolvimento de Aplicação Conjunta). 
+
+Comentários:  
+
+Análise das demais alternativas: 
+
+A) Errada. Brainstorming [..]: É bem o significado da palavra. É uma reunião para discutir ideias sobre algum assunto. 
+
+B) Errada. É uma metodologia centrada no ser humano para a solução de problemas complexos, focando na empatia com o usuário, na definição clara do problema, na geração criativa de ideias, prototipagem e testes rápidos. Não tem um modelo formal de participantes ditados no texto da questão. 
+
+C) Correta. As sessões de JAD (metodologia criada pela IBM®) são usadas no setor de desenvolvimento de software. Essas sessões facilitadas são focadas em reunir os especialistas em assuntos de negócio e a equipe de desenvolvimento para coletar requisitos e melhorar o processo de desenvolvimento de software (PMBOK®, 2017). Referência: Unidade III, seção 5.2 Joint Application Development (JAD). 
+
+D) Errada. O PIECES é um modelo de análise usado na engenharia de requisitos e análise de sistemas para identificar problemas e oportunidades de melhoria em sistemas de informação. Não tem um modelo formal de participantes ditados no texto da questão. 
+
+E) Errada. A prototipação evolutiva é um método específico para construir sistemas de forma incremental por meio de protótipos evolutivos, que vão sendo refinados a cada etapa. Similar ao que é apresentado no modelo de processo Espiral. 
+
+
+Pergunta 4
+
+Um dos principais métodos aplicados no gerenciamento de equipes de desenvolvimento é a Matriz de Responsabilidades RACI (MR RACI), sugerida pelo PMBOK®. Esta matriz se baseia nos atributos RACI, que definem papéis e responsabilidades em um projeto. Na hierarquia de decisão estão: R – Responsável; A – quem Aprova o trabalho; C – Consultado, é quem dá suporte ao responsável; I – Informado, é quem participa, para se manter atualizado no projeto.  
+
+Para o processo de modelagem do software, faça uma análise dos dados da matriz e, com base nos atributos e na sequência a seguir, assinale a alternativa referente aos profissionais: que é mais cobrado pela execução das atividades; o responsável pela definição dos requisitos funcionais; e o responsável pela definição dos requisitos do sistema. 
+
+Resposta Selecionada:	
+
+Gerente de Sistemas; Gerente de Sistemas e Analista de Sistemas. 
+
+Comentário:  
+
+Acompanhe a análise: Os atributos RACI correspondem à hierarquia de tomada de decisão no projeto, sendo o de grau maior no projeto o atributo R (Responsável), logo depois o atributo A (quem Aprova), depois o atributo C (Consultado) e o de menor grau o atributo I (Informado). Para essa matriz, pequena, no cálculo basta somar a quantidade de R que detém um participante. Em um impasse ou em uma matriz grande, pode-se também atribuir pontos para cada atributo, em que a somatória destes pontos represente quanto o participante está envolvido no projeto, servindo também para dimensionar custos e períodos. Exemplo: R = 5 pts., A = 4 pts., C = 3 pts. e I = 2 pts. Desta forma, o participante mais cobrado pelos serviços é aquele que detém o maior número de atributos R, no caso, o “Gerente de Sistemas”. 
+
+O participante responsável pela definição dos requisitos funcionais é aquele que possui o atributo R no cruzamento da atividade “Def. Requisitos Funcionais (RF)” com o Stakeholder. No caso, é o “Gerente de Sistemas” também. 
+
+O participante responsável pela definição dos requisitos do sistema é aquele que possui o atributo R no cruzamento da atividade “Def. Requisitos do Sistema (RS)” com o Stakeholder. No caso, é o “Analista de Sistemas”. 
+
+Faça uso da MR RACI do guia de projeto PMBOK® na gestão de equipes, desde pequenas a grandes equipes de desenvolvimento, veja como é essa prática da análise na U3 – seções 5.3 Gerenciamento da equipe de desenvolvimento; 5.3.1 Análise de dados e construção da matriz de responsabilidades; e 6.4 Métodos, ferramentas e técnicas (MF&T): Definição de papéis e responsabilidades para atividades do RUP. 
+
+Pergunta 5
+
+
+A empresa SuperBlue, desenvolvedora de software, construiu uma matriz de responsabilidades RACI (MR RACI), vista no quadro abaixo, para o controle de projetos de software, realizados com uso da metodologia Scrum. 
+
+
+Glossário: 
+
+Atributos da matriz RACI: define papéis e responsabilidades em um projeto. Na hierarquia de decisão estão: R – Responsável; A – quem Aprova o trabalho; C – Consultado, é quem dá suporte ao responsável; I – Informado, é quem participa, para se manter atualizado no projeto. 
+
+Backlog: lista de funcionalidades, tarefas e requisitos de software que precisam ser desenvolvidas, o product backlog contém todas as funcionalidades e mudanças que precisam ser feitas. 
+
+Sprint: é um ciclo de trabalho, determinado regularmente para ter uma duração de 1 a 4 semanas, em que a equipe se concentra para realizar um conjunto de tarefas ou funcionalidades. 
+
+Agile Coach: similar ao gerente de projetos, orienta várias equipes Scrum coordenando as interações entre as equipes e a promoção de práticas ágeis. 
+
+Product Owner: similar a um analista de sistemas, prioriza as funcionalidades, mas não gerencia diretamente a equipe. 
+
+Scrum Master: similar ao papel de um gerente de sistemas da equipe, é o facilitador das tarefas a serem realizada pela equipe, removendo obstáculos que possam impedir o progresso da equipe, promovendo a colaboração e a comunicação na realização dos objetivos da sprint. 
+
+FDD, XP e DevOps: metodologias ágeis, respectivamente, específicas para projeto, programação e análise de dados. 
+
+Analise os dados da matriz e assinale a alternativa que indica, respectivamente, qual dos participantes é mais cobrado pelas atividades do projeto e qual participante mais valida as atividades do projeto do software. 
+
+Resposta Selecionada:	
+Scrum Master e o Agile Coach.
+
+Comentário:  
+
+Acompanhe a análise: Os atributos RACI correspondem à hierarquia de tomada de decisão no projeto, sendo o de grau maior no projeto o atributo R (Responsável), logo depois o atributo A (quem Aprova), depois o atributo C (Consultado) e o de menor grau o atributo I (Informado). Para essa matriz, pequena, no cálculo basta somar a quantidade de R que detém um participante. Em um impasse ou em uma matriz grande, pode-se também atribuir pontos para cada atributo, em que a somatória destes pontos represente quanto o participante está envolvido no projeto, servindo também para dimensionar custos e períodos. Exemplo: R = 5 pts., A = 4 pts., C = 3 pts. e I = 2 pts. 
+
+Desta forma, o participante mais cobrado pelos serviços é aquele que detém o maior número de atributos R, no caso, o “Scrum Master”. 
+
+O participante que mais valida as etapas do projeto é o que detém o maior número de A. No caso, o Agile Coach. 
+
+Pratique essa análise, vale a pena. Tem um exercício similar em “Exemplo de aplicação” na U3 – seções 5.3 Gerenciamento da equipe de desenvolvimento; e 5.3.1 Análise de dados e construção da matriz de responsabilidades. 
+
+Pergunta 6
+
+
+Uma startup de tecnologia está desenvolvendo um aplicativo web para gerenciamento de tarefas em equipes. O projeto exige respostas rápidas às mudanças, entregas contínuas de versões funcionais e colaboração constante com os usuários finais. A equipe de desenvolvimento deseja adotar uma metodologia que mantenha a estrutura disciplinada do Processo Unificado, com fases bem definidas (concepção, elaboração, construção e transição), mas que também permita iterações curtas, flexibilidade e integração com práticas ágeis como feedback contínuo e adaptação rápida. 
+
+Considerando essas características, qual variação do Processo Unificado é a mais adequada para essa equipe? 
+
+Resposta Selecionada:	
+
+AUP (Agile Unified Process), por manter as fases do RUP com flexibilidade ágil e iterações curtas. 
+
+Comentário: 
+
+O AUP (Agile Unified Process) é uma versão adaptada do RUP que incorpora princípios ágeis, como iterações curtas, entrega contínua e colaboração com o cliente, mantendo ao mesmo tempo a estrutura formal do Processo Unificado. É ideal para equipes que precisam de disciplina e agilidade combinadas, como startups em ambientes dinâmicos. 
+
+Referência: U3 – seção 6. Processo Unificado. 
+
+Pergunta 7
+
+
+No Processo Unificado, sabe-se que uma funcionalidade é construída a partir de um caso de uso, conforme representado no framework da figura. 
+
+ Figura – Construção de funcionalidade a partir do caso de uso, de acordo com o RUP 
+
+Fonte: Kruchten (2000).
+
+Na visão de alguns analistas que resolveram interpretar o framework, surgiram diferentes interpretações. No entanto, apenas uma está correta. Assinale a alternativa correta.    
+
+Resposta Selecionada:	
+
+A Visão de Casos de Uso é central no modelo, servindo como base para as demais visões, pois expressa a funcionalidade esperada do sistema segundo a perspectiva do usuário final. 
+
+Comentário: 
+
+No modelo 4+1 de Kruchten, a Visão de Casos de Uso ocupa o centro do framework e orienta a construção da funcionalidade do sistema. Ela é o ponto de partida para as demais visões (lógica, processo, implementação e desenvolvimento), pois descreve os requisitos funcionais com base na perspectiva do usuário final, por meio de casos de uso e cenários. Referência: U3 – seção 6.1 Rational Unified Process (RUP): Fases e Workflow. 
+
+Análise das alternativas Erradas: 
+
+A) A Visão da Lógica foca na comunicação entre os módulos [...] - Descreve a arquitetura de software do ponto de vista funcional. A Instalação e entrega contínua (descritas na alternativa) são atividades da Visão de Desenvolvimento, não da Lógica. 
+
+C) A Visão de Desenvolvimento é responsável por documentar [...] - Está voltada para a geração de código e instalação do sistema no ambiente de produção. Quem trata dos requisitos funcionais e casos de uso (descritas na alternativa) é a Visão de Casos de Uso, não a de Desenvolvimento. 
+
+D) A Visão de Implementação representa a estrutura [...] - Trata do modelo de componentes, do gerenciamento de entregas (builds), bibliotecas e arquivos executáveis. A estrutura lógica do sistema, como classes e relacionamentos (descritas na alternativa) é da Visão Lógica, e analistas de requisitos não são os responsáveis diretos por isso, normalmente são designers e arquitetos de software. 
+
+E) A Visão de Processo está voltada exclusivamente para [...] - Está relacionada ao comportamento do sistema em tempo de execução, como concorrência, fluxo de atividades, desempenho e escalabilidade (throughput). A Geração de código e instalação (descritas na alternativa) fazem parte da Visão de Desenvolvimento ou Implementação, não da de Processo. 
+
+Pergunta 8
+
+
+Com base na análise da arquitetura do RUP apresentada na figura, considere que os workers (trabalhadores) são perfis que representam funções ou papéis no projeto, cada um com responsabilidades específicas em atividades chamadas de workflows (ou disciplinas), tais como: requisitos, análise e design, implementação, testes etc. 
+
+Essas atividades se distribuem ao longo das fases dinâmicas do ciclo de vida (iniciação, elaboração, construção e transição) e não ocorrem de forma fixa ou linear, mas variam de acordo com o esforço e as necessidades de cada fase. 
+
+Com isso em mente, assinale a alternativa que melhor expressa a análise da arquitetura do RUP.  
+
+Resposta Selecionada:	
+
+A disciplina de requisitos tem maior intensidade nas fases iniciais, mas pode continuar em iterações posteriores, conforme mudanças forem identificadas. 
+
+Comentário: 
+
+No RUP, os workflows (disciplinas) têm intensidade variável ao longo das fases. A disciplina de requisitos, por exemplo, é mais intensa nas fases de iniciação e elaboração, mas pode continuar nas fases posteriores à medida que surgem novas necessidades ou mudanças. 
+
+As demais alternativas estão erradas, porque tratam as disciplinas como fixas, exclusivas ou isoladas das fases, o que contradiz a natureza iterativa e incremental do RUP. 
+
+Referência: U3 – seção 6.1.1 Framework do RUP. 
+
+Pergunta 9
+
+O PRAXIS é uma variação do Processo Unificado voltada para o desenvolvimento de sistemas embarcados e de tempo real, como aplicações aeroespaciais, médicas ou industriais. Com base no framework do PRAXIS, apresentado na figura, e nos princípios que o fundamentam, assinale a alternativa que melhor representa uma afirmação correta desse modelo. 
+
+Resposta Selecionada:	
+
+O PRAXIS mantém as fases do Processo Unificado, mas com ênfase na modelagem formal, validação rigorosa e controle de requisitos em tempo real. 
+
+Comentário: 
+
+O Praxis adapta os conceitos do Processo Unificado (como fases, iterações e papéis), mas com um foco especial em confiabilidade, precisão e segurança, necessários em sistemas embarcados. Isso inclui o uso de modelagem formal, verificação estática, validação contínua e controle de tempo real — práticas essenciais para garantir integridade em sistemas críticos. 
+
+O framework do Praxis é bem útil para projetos em geral, por ser um framework integrado de gerenciamento de projetos, programas e portfólios, e por ter uma abordagem holística que une método, competência, conhecimento e maturidade. Como exemplo prático, o Praxis pode ser usado para: 
+
+Planejar e monitorar releases de software; 
+Gerenciar tarefas com backlog alinhado às entregas do projeto; 
+Usar avaliações de competência para planejar treinamentos; 
+Aplicar práticas de governança e maturidade em equipes que evoluem de métodos informais para processos mais organizados. 
+Complete o conhecimento sobre o Praxis, vale a pena. Consulte as referências na U3 – seções 6. Processo Unificado; e 6.2.1 Praxis. 
+
+Pergunta 10
+
+Em um sistema de agendamento de consultas, durante o desenvolvimento da funcionalidade “Marcar Consulta”, a equipe começou pelo mapeamento dos conceitos envolvidos, seguido da modelagem da interação do usuário com o sistema. A equipe de desenvolvimento usa o processo ICONIX, que é uma metodologia proprietária de desenvolvimento de software baseada na UML, com o foco nos quatros principais marcos:  
+
+I – Modelo do domínio. 
+
+II – Revisão de requisitos.  
+
+III – Revisão preliminar do design.  
+
+IV – Revisão crítica do design. 
+
+No processo de modelagem, associe o número do item ao respectivo diagrama da UML que deve ser usado e assinale a alternativa correspondente. Nota: São válidos apenas os itens I, II e III. 
+
+Resposta Selecionada:	
+
+I – Diagrama de classes; II – Diagrama de casos de uso; III – Diagramas de sequência. 
+
+Comentários: 
+
+Referência: U3 – seção 6.2.2 ICONIX. 
+
+A modelagem do domínio inicia a partir do levantamento de requisitos, em que é criado o modelo de domínio para identificar os conceitos-chave do sistema, utilizando diagramas UML, como por exemplo, “diagrama de casos de uso” para definir os interesses gerais do negócio, ou “diagramas de classes”, para representar os objetos e suas relações.  
+
+Na revisão de requisitos, são extraídos casos de uso para especificar os requisitos funcionais (RF), nesse caso, o diagrama mais apropriado é o “diagrama de casos de uso”. No caso de requisitos do sistema (RS), os principais diagramas são o “diagrama de componentes e o de implantação”. Nessa fase, pode-se usar também o “diagrama de atividades” para conhecer o fluxo dos eventos no comportamento do software. 
+
+E na revisão preliminar do design, é avaliada a troca de mensagens entre os objetos. Dos casos de uso são extraídos “diagramas de sequência” e de “colaboração”, convertendo os casos de uso em interações entre objetos, conectando assim requisitos ao design técnico do sistema de software, pronto para codificação. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
