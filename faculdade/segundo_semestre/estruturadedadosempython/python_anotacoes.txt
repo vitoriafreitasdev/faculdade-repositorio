@@ -492,7 +492,444 @@ ordenado, a complexidade pode degradar para O(n²).
 
 parei na unidade III
 
+forma mais elementar dessas técnicas é a pesquisa linear, cuja lógica reside em examinar
+sequencialmente cada elemento até localizar o item desejado ou concluir que ele não existe no conjunto. 
 
+pesquisa linear revela‑se pouco eficiente para conjuntos extensos ou situações nas quais
+consultas frequentes ocorrem, já que, no pior caso, demanda tempo proporcional ao número total de
+elementos (complexidade O(n)). Entretanto, sua facilidade de aplicação faz dessa abordagem uma solução
+válida para pequenos volumes de dados ou contextos em que nenhuma ordenação prévia tenha ocorrido,
+como listas aleatórias de valores, coleções dinâmicas ou ambientes com pouca complexidade estrutural.
+
+ pesquisa binária oferece uma alternativa significativamente mais eficiente, desde que
+aplicada a dados previamente ordenados. Nesse método, o conjunto é repetidamente dividido pela metade,
+comparando‑se o elemento buscado ao elemento central da divisão atual. Se o valor central coincidir com
+o elemento buscado, a busca encerra‑se com sucesso. Caso contrário, a metade correspondente ao valor
+buscado é selecionada e o processo repete‑se até o elemento ser encontrado ou a sublista tornar‑se
+vazia, indicando ausência
+
+vantagem crucial da pesquisa binária reside
+em sua complexidade temporal logarítmica, O(log n), que garante um desempenho muito superior ao da
+pesquisa linear em conjuntos extensos. Contudo, para que essa eficiência seja plenamente explorada, é
+necessária a manutenção rigorosa dos dados em ordem crescente ou decrescente, o que implica operações
+prévias de ordenação e custos adicionais relacionados a essa organização inicial.
+
+algoritmos de pesquisa em árvores
+ganham destaque significativo, especialmente pela flexibilidade e capacidade de manter um equilíbrio
+eficiente entre tempo de busca e custo de manutenção. As árvores binárias de busca são uma representação
+hierárquica que armazenam elementos de maneira estruturada, permitindo buscas mais rápidas e eficientes
+do que listas ou vetores simples. Como vimos no tópico 3, a propriedade essencial dessas árvores é que cada
+nó possui valor maior do que qualquer elemento em sua subárvore esquerda e menor do que qualquer
+elemento em sua subárvore direita. Assim, realizar uma busca nessas árvores é intuitivamente semelhante à pesquisa binária, seguindo‑se um percurso lógico através de nós e subárvores, resultando também em
+complexidade média logarítmica O(log n). 
+
+
+árvores binárias convencionais podem apresentar um sério inconveniente, que é a
+possibilidade de degeneração. Caso inserções sucessivas ocorram em ordem estritamente crescente
+ou decrescente, a árvore binária pode degenerar em uma estrutura linear, perdendo sua eficiência
+e retornando para complexidade de pesquisa linear O(n). Para solucionar essa limitação surgem as árvores
+balanceadas, destacando‑se as AVL e Red‑Black.
+
+árvores AVL realizam ajustes rígidos através de rotações simples ou duplas após cada inserção ou
+remoção, mantendo a altura das subárvores estritamente controlada. Por meio dessas rotações, as árvores
+AVL preservam uma diferença máxima de altura de uma unidade entre quaisquer duas subárvores de um
+mesmo nó. Essa propriedade garante tempos de busca consistentemente próximos à eficiência teórica
+máxima, O(log n). Apesar da eficiência garantida, as árvores AVL podem exigir maior número de rotações
+em certas operações, resultando em custo adicional significativo para inserções frequentes.
+
+
+ árvores Red‑Black introduzem uma abordagem menos rigorosa, porém mais eficiente em termos
+gerais, atribuindo cores (vermelho e preto) aos nós e estabelecendo regras específicas sobre a distribuição
+dessas cores ao longo da árvore. As inserções e as remoções desencadeiam processos de recoloração e
+eventuais rotações, que são menos frequentes e menos custosas que nas árvores AVL. Assim, as Red‑Black
+preservam o balanceamento suficiente para garantir complexidade O(log n) com menor custo operacional
+nas modificações, o que as torna amplamente preferidas em aplicações reais, como bancos de dados e
+sistemas de arquivos. Em Python, embora existam implementações complexas dessas estruturas, elas
+frequentemente são encontradas em módulos e bibliotecas especializadas, simplificando significativamente
+sua adoção em cenários práticos.
+
+Pesquisas linear e binária: funcionamento e eficiência
+
+pesquisa linear percorre cada posição de uma coleção até encontrar o elemento desejado ou
+esgotar o conjunto. Durante esse processo, a comparação ocorre item a item, o que significa custo
+proporcional à quantidade total de registros. Quando o valor procurado ocupa a última posição, todas as
+verificações possíveis já terão sido realizadas, originando complexidade temporal O(n). Em contrapartida,
+o consumo de memória permanece constante, pois apenas índices e variáveis de controle precisam ser mantidos
+
+pesquisa binária explora previamente a ordenação do conjunto. A cada iteração, o algoritmo seleciona
+o elemento central, confronta‑o com o valor procurado e elimina imediatamente metade dos casos restantes,
+pois qualquer valor inferior reside na região esquerda e qualquer valor superior na região direita. A operação
+se repete de forma recursiva ou iterativa até restar um único candidato. Como o número de elementos
+avaliados diminui exponencialmente, a quantidade total de comparações situa‑se em O(log n). A exigência
+de pré‑ordenar a coleção pode introduzir custo adicional, contudo essa etapa costuma ocorrer apenas uma
+vez antes de inúmeras consultas posteriores, compensando o investimento inicial. A pesquisa binária mantém
+consumo de memória igualmente constante, pois utiliza apenas variáveis de controle para delimitar os limites
+esquerdo e direito da subseção ativa.
+
+comparar eficiência, observa‑se que a pesquisa linear apresenta desempenho previsível
+independentemente da organização dos valores, enquanto a pesquisa binária oferece ganho expressivo
+quando trabalha sobre coleções já ordenadas. Em contextos nos quais atualizações frequentes reorganizam
+os dados, o tempo de ordenação pode atenuar os benefícios do método logarítmico; em cenários dominados
+por múltiplas consultas sobre conjuntos estáticos ou raramente modificados, a pesquisa binária destaca‑se
+como escolha preferencial
+
+ pesquisa
+linear percorre todos os registros até encontrar o alvo, revelando‑se apropriada para listas curtas ou para
+catálogos ainda não classificados. Já a pesquisa binária, executada sobre coleções previamente ordenadas,
+divide repetidamente o espaço de busca pela metade, atingindo o item desejado em O(logn) operações
+
+Pesquisa em árvores: busca binária e introdução a árvores balanceadas
+(AVL e Red‑Black)
+
+A busca em árvores constitui abordagem fundamental para recuperação eficiente de informação, pois
+permite explorar a estrutura hierárquica dos dados reduzindo drasticamente o conjunto de comparações
+necessárias até a localização de um valor. Na árvore binária de busca, cada nó guarda uma chave que mantém
+relação estrita com as subárvores filhas: todo elemento presente à esquerda apresenta valor inferior ao
+contido no nó central, enquanto todo elemento à direita apresenta valor superior. Tal propriedade conduz
+a um processo de pesquisa que se assemelha a uma versão dinâmica da divisão binária aplicada a listas
+ordenadas; inicia‑se na raiz, compara‑se a chave procurada com a chave do nó corrente e, dependendo do
+resultado, segue‑se para a subárvore esquerda ou direita. A altura da árvore determina o número máximo de
+comparações, de forma que, em condições ideais nas quais as subárvores apresentam tamanhos equilibrados,
+alcança‑se complexidade O(log n). Ocorre, entretanto, que inserções sucessivas em ordem crescente ou
+decrescente convertem a árvore em uma sequência degenerada comparável a uma lista encadeada, elevando
+a demora das pesquisas a O(n).
+
+
+árvores AVL constituem a primeira proposta amplamente adotada para alcançar tal equilíbrio.
+Cada nó armazena um fator de balanceamento equivalente à diferença entre as alturas das subárvores filhas.
+Quando essa diferença ultrapassa uma unidade, executa‑se uma rotação simples ou dupla que redistribui
+os nós e restabelece o peso simétrico entre os lados da árvore. A rigidez dessas correções assegura alturas
+mínimas próximas ao limite teórico, de modo que pesquisas, inclusões e exclusões permanecem sempre
+dentro de O(log n). A contrapartida desse rigor reside no custo adicional introduzido pelas rotações,
+particularmente quando o fluxo de atualizações é intenso; ainda assim, o ganho em previsibilidade costuma
+compensar o esforço.
+
+B‑trees: são árvores balanceadas projetadas para sistemas de disco, em que cada nó pode conter
+múltiplas chaves e ponteiros para filhos. Elas minimizam acessos a disco ao manter uma estrutura
+hierárquica com poucos níveis, sendo ideais para bancos relacionais (como MySQL ou PostgreSQL),
+que exigem buscas rápidas e atualizações moderadas. São eficientes para leituras aleatórias e
+suportam operações como inserções, exclusões e consultas de intervalo.
+• LSM‑trees (Log‑Structured Merge‑trees): são otimizadas para cenários de escrita intensiva,
+comuns em bancos NoSQL (como Cassandra ou RocksDB). Os dados são primeiro armazenados em
+memória (estruturas como árvores AVL ou similares) e, ao atingir um limite, são mesclados em camadas
+no disco em formato de arquivos ordenados. Isso reduz escritas em disco, mas pode aumentar a latência
+de leitura, exigindo compactação periódica para organizar os dados.
+
+
+arvore avl
+se pesou na esquerda(balance > 1 e valor < no.esquerda.valor) => rotação para direita
+se pesou na direita(balance < -1 e valor > no.direitt.valor) => rotação para esquerda
+se balace > 1 valor > no.esquerda.valor => nó esquerdo rotacao esquerda, dps rotacao direita no nó
+se balance < -1 and valor < no.direita.valor => nó direito rotacao direita, dps rotacao esquerda no nó
+
+Árvore Binária Simples → Uma estante com livros em ordem, mas mal distribuídos
+Árvore AVL → Uma estante com livros em ordem e perfeitamente organizada
+
+6 ESTRUTURAS AVANÇADAS DE DADOS 
+
+
+tabelas hash representam uma poderosa estrutura baseada no conceito matemático de
+espalhamento uniforme de valores através de uma função específica, conhecida como função hash.
+O princípio fundamental dessas tabelas é a transformação de chaves em valores numéricos que, por
+sua vez, correspondem diretamente às posições em um vetor, permitindo recuperação extremamente
+rápida dos elementos. As funções hash são desenhadas especificamente para minimizar a ocorrência
+de colisões, ou seja, situações em que diferentes chaves geram o mesmo valor numérico, levando ao
+compartilhamento de posições e à necessidade de tratamento adicional para resolver o conflito. Apesar
+do esforço em criar funções que reduzam colisões ao mínimo, sua ocorrência é inevitável em cenários
+reais; por esse motivo, técnicas de resolução tornam‑se necessárias.
+
+
+estratégias comuns para tratamento de colisões estão o encadeamento separado e o
+endereçamento aberto. No encadeamento separado, cada posição do vetor armazena uma lista ou estrutura
+secundária, que mantém todos os elementos que compartilham aquela posição. Essa abordagem permite
+simplicidade de implementação e manutenção da eficiência geral das operações, mesmo que as colisões
+sejam frequentes. Por outro lado, o endereçamento aberto utiliza um sistema sequencial de sondagem
+para localizar um espaço vazio no próprio vetor principal, reduzindo consumo de memória adicional e
+mantendo desempenho eficiente enquanto houver baixa densidade de elementos. Ambas as abordagens
+encontram aplicações práticas na linguagem Python, sendo especialmente evidentes na implementação
+interna do tipo de dado dict, que utiliza uma estrutura hash otimizada, permitindo inserções, buscas e
+exclusões em tempo médio constante O(1).
+
+heaps binários, tipos específicos de
+árvores binárias completas que seguem um critério de ordenação entre o nó pai e seus filhos. Nos
+heaps, cada nó possui valor maior ou igual (heap máximo) ou menor ou igual (heap mínimo) do que seus
+filhos imediatos. Essa propriedade estrutural garante acesso eficiente ao elemento de maior ou menor
+prioridade, que se encontra sempre no topo da árvore, sendo especialmente útil em filas de prioridade
+e algoritmos de escalonamento.
+
+
+ Hash Tables: conceito, funções hash e resolução de colisões
+
+a função hash exige que
+chaves iguais retornem valores idênticos e que a propriedade de imutabilidade lógica seja respeitada, pois
+qualquer alteração posterior ao cálculo poderia inviabilizar a localização do elemento.
+Quando duas ou mais chaves geram resultado idêntico, a estrutura recorre a endereçamento aberto
+com algoritmo de sondagem que emprega perturbação aritmética. O processo desloca o ponteiro de busca
+por incrementos dependentes dos bits altos do hash original junto a fator de perturbação reduzido a cada
+iteração, visitando posições subsequentes até encontrar slot livre ou chave correspondente. Esse modelo
+evita listas encadeadas adicionais, preservando a localidade de memória e diminuindo acessos cache
+adversos. Durante inserções, se a taxa de ocupação ultrapassa limite predefinido – setenta e poucos por
+cento do vetor – ocorre redimensionamento automático, no qual nova tabela com capacidade ampliada é
+alocada e todas as chaves sofrem reinserção utilizando os hashes previamente computados. Tal operação
+mantém complexidade amortizada aceitável, já que o custo elevado do rehash distribui‑se ao longo de
+várias inserções.
+
+
+contexto de segurança, a função hash global aplica chave secreta (sal) gerada a cada inicialização
+do interpretador, técnica conhecida como hash randomization. Esse sal impede que o invasor antecipe
+colisões em massa, preservando tempo de resposta de aplicações web expostas a entradas hostis.
+Desenvolvedores que definem suas próprias classes devem garantir compatibilidade entre __hash__
+e __eq__, pois igualdade verdadeira obriga hashes iguais, enquanto desigualdade não impõe qualquer
+relação específica. O descumprimento dessas regras compromete operações internas da tabela,
+resultando em falhas de busca ou duplicação indesejada de chaves.
+
+combinação de vetor de potência de dois, sondagem com perturbação, marcação de exclusão preguiçosa
+e redimensionamento dinâmico confere ao dicionário padrão robustez e desempenho consistente na maioria
+dos cenários
+
+cargas de trabalho apresentam perfil de chaves extensas ou probabilidades elevadas
+de colisão, recomenda‑se avaliar hash personalizado que distribua melhor os valores. Em contrapartida,
+aplicações focadas em manipular grande quantidade de pares pequenos beneficiam‑se da otimização de
+memória introduzida no layout compartilhado, no qual múltiplos objetos de mesmo tipo reutilizam tabela
+de índices. Pela atenção a esses detalhes, a infraestrutura de tabela hash em Python demonstra equilíbrio entre
+simplicidade de uso na superfície e engenhosidade de engenharia no núcleo, atendendo simultaneamente
+requisitos de velocidade, segurança e economia de recursos.
+
+Heaps: heaps binários e introdução ao Heap Sort
+
+heap é uma estrutura de dados que organiza números (ou outros valores) de forma a sempre
+manter o menor (ou o maior) deles facilmente acessível, como se fosse uma lista especial com uma regra
+específica. Imagine uma árvore genealógica, mas em vez de pessoas, temos números, e cada pai (nó pai)
+tem que ser menor (heap mínimo) ou maior (heap máximo) que seus filhos. Essa organização é guardada
+em uma lista (vetor) de forma compacta, sem precisar de ponteiros, o que economiza memória.
+
+em um heap mínimo, o número na raiz (o topo) é sempre o menor de todos.
+Quando você quer adicionar um número novo, ele é colocado no final da lista e sobe, trocando de lugar
+com outros números até encontrar seu lugar certo, respeitando a regra de que o pai é menor que os
+filhos. Isso é rápido, leva um tempo proporcional à altura da árvore, que é pequena (cresce lentamente,
+como um logaritmo). Para remover o menor número, você pega a raiz, coloca o último número da lista
+no lugar dela e faz ele descer até que a regra do heap seja restaurada.
+
+ heap máximo, ocorre a relação inversa.
+
+Remover o elemento prioritário – sempre situado na raiz – envolve trocá‑lo com o último item do
+vetor, reduzir o tamanho efetivo e executar descida que restaura a propriedade comparando o novo valor
+da raiz com os filhos e trocando‑o repetidamente com o menor (ou maior) deles. 
+
+
+Heap Sort surge diretamente da propriedade de dominância ao combinar construção de heap
+máximo com extrações sucessivas. Inicialmente todo o vetor torna‑se heap, garantindo que o maior
+valor resida na posição zero. Em seguida, a raiz troca‑se com o elemento da última posição ainda não
+ordenada, reduzindo o intervalo considerado e restaurando o heap por descida. Após n‑1 repetições,
+o vetor encontra‑se completamente ordenado em ordem crescente. A fase de construção consome
+O(n); cada remoção exige O(log n) e ocorre n‑1 vezes, resultando em complexidade total O(n log n)
+independentemente da disposição inicial dos dados. 
+[]~çl
+
+unidadeIV
+
+
+Em um grafo simples, os vértices representam objetos ou estados, enquanto arestas simbolizam
+interações, dependências, rotas ou fluxos de informação
+
+tribuir pesos às arestas, adiciona‑se dimensão
+quantitativa apta a expressar custos, distâncias ou capacidades, permitindo tratamento de problemas de
+otimização. Desde sistemas de navegação até redes neurais profundas, a eficiência do software depende da
+escolha apropriada de algoritmos que percorrem, medem ou transformam essas topologias.
+
+
+ exploração inicial costuma recorrer às buscas em largura e profundidade. A busca em largura parte de
+um vértice fonte e visita vizinhos em camadas crescentes, garantindo descoberta do caminho mínimo em
+número de saltos quando o grafo não apresenta pesos. O emprego de fila permite que a travessia mantenha
+ordem de expansão por distância. A busca em profundidade, por sua vez, avança por um caminho até o fim
+para depois retroceder, procedimento natural para identificar componentes conectados, detectar ciclos ou
+gerar ordens topológicas em grafos acíclicos direcionados. 
+
+arestas carregam pesos não negativos, surge o problema de caminhos mínimos
+ponderados, resolvido com eficiência pela técnica de Dijkstra.
+
+arestas carregam pesos não negativos, surge o problema de caminhos mínimos
+ponderados, resolvido com eficiência pela técnica de Dijkstra.
+
+ pesos negativos, a abordagem de Dijkstra deixa de oferecer garantias e cede lugar ao algoritmo de
+Bellman‑Ford, que executa relaxamento de todas as arestas repetidas vezes até não ocorrerem
+melhorias. Ainda que seu consumo temporal O(V E)
+
+Caminhos mínimos: Dijkstra e Bellman‑Ford
+
+Dijkstra admite que todos os pesos sejam não negativos e emprega uma fila de prioridade para
+escolher em cada iteração o vértice cuja distância provisória já atingiu o menor valor entre os que
+permanecem por visitar. Ao retirar esse vértice da fila, a distância associada torna‑se definitiva, pois
+nenhum caminho alternativo poderá reduzi-la, dado que todas as rotas futuras acrescentarão custo
+positivo. A estrutura de dados típica para expressar a fila de prioridade em Python é o heap binário
+oferecido pelo módulo heapq. A cada extração, o algoritmo percorre as arestas que partem do vértice
+recém‑fixado, recalculando o custo até os seus vizinhos mediante a operação denominada relaxamento.
+Se a soma da distância definitiva com o peso da aresta reduzir a estimativa anterior do vizinho, essa
+estimativa é substituída e o par atualizado retorna à fila.
+
+
+
+e Bellman‑Ford, cuja
+lógica baseia‑se em varrer todas as arestas repetidas vezes. A cada passagem, o algoritmo examina uma
+aresta e verifica se a distância até o vértice de destino pode ser melhorada pela rota que passa pela
+aresta de origem; quando a soma apresenta valor inferior à estimativa corrente, realiza‑se o relaxamento.
+Se o grafo contém V vértices, repetir o processo V − 1 vezes assegura que qualquer caminho com até
+V − 1 arestas terá sido considerado, contemplando todos os caminhos simples possíveis.
+
+7.2 Grafos com árvores: algoritmos de Kruskal e Prim para árvores
+geradoras mínimas
+
+construção de árvores geradoras mínimas em grafos ponderados estabelece um procedimento que
+seleciona subconjunto de arestas com custo total mínimo sem violar a conectividade global do conjunto
+de vértices. Sob essa perspectiva, os algoritmos de Kruskal e Prim emergem como estratégias consagradas,
+cada qual explorando princípios distintos de seleção progressiva ao mesmo objetivo.
+Kruskal inicia com floresta formada por vértices isolados, ordena todas as arestas pelo peso e percorre
+essa lista crescente, acrescentando sucessivamente arestas que unem componentes desconexos. A decisão
+de inclusão baseia‑se na verificação de que a nova aresta não introduz ciclo, operação implementada com
+estrutura união‑busca equipada com compressão de caminho e união por tamanho, capazes de manter a
+identificação de componentes em tempo quase constante. Em consequência, a execução percorre E arestas
+e realiza buscas em subárvore de complexidade praticamente inversa do crescimento de Ackermann,
+conduzindo a custo final O(E log E) devido à ordenação inicial. A cada inclusão, o número de componentes
+diminui, até que apenas um componente permaneça, no qual o conjunto resultante apresenta exatamente
+V − 1 arestas e custo mínimo garantido pela propriedade do corte: quando o conjunto de arestas já
+escolhidas não contém ciclo, qualquer aresta de menor peso que atravesse partição entre componentes
+preserva a condição de minimalidade
+
+Prim adota perspectiva alternativa; em vez de unir componentes dispersas, expande um componente
+único começando por vértice arbitrário. A fronteira inicial contém todas as arestas que partem
+desse vértice, armazenadas em fila de prioridade. Em cada iteração extrai‑se a aresta de menor peso
+que conecta o componente já formado a um vértice externo. Tal vértice é incorporado e as arestas
+incidentes a partir dele ingressam na fila se conduzirem a vértices ainda não visitados. A fila de prioridade
+implementada com heap binário, provido pelo módulo heapq em Python, assegura remoções do
+mínimo e inserções em tempo O(log V). Como cada vértice ingressa na árvore exatamente uma vez e
+cada aresta é considerada no máximo quando seu vértice final permanece fora do componente, o custo
+total situa‑se em O(E log V). Quando o grafo é denso, substituir o heap por matriz de chaves e buscar
+o mínimo em varredura linear conduz a tempo O(V²), conferindo vantagem a Prim sobre Kruskal na
+ausência de estrutura de dados esparsa.
+
+O que são Árvores Geradoras Mínimas (MST)?
+Uma Árvore Geradora Mínima (Minimum Spanning Tree - MST) é um subconjunto de arestas de um grafo conectado, não-direcionado e ponderado que:
+
+Conecta todos os vértices
+
+Não forma ciclos
+
+Tem a soma mínima possível dos pesos das arestas
+
+Algoritmo de Kruskal
+Como funciona:
+Ordenação: Ordena todas as arestas por peso (crescente)
+
+Seleção: Processa as arestas em ordem, da menor para a maior
+
+Verificação de ciclos: Usa a estrutura Union-Find para verificar se a aresta forma um ciclo
+
+Adição: Adiciona à MST apenas arestas que não formam ciclos
+
+Quando usar Kruskal:
+Grafos esparsos (poucas arestas)
+
+Quando as arestas já estão ou podem ser facilmente ordenadas
+
+Implementação mais simples
+
+Complexidade: O(E log V) com Union-Find eficiente
+
+Algoritmo de Prim
+Como funciona:
+Inicialização: Começa com um vértice arbitrário
+
+Expansão: Mantém uma árvore que cresce incrementalmente
+
+Seleção gulosa: Sempre adiciona a aresta de menor peso conectada à árvore atual
+
+Heap: Usa uma fila de prioridade para eficiência
+
+Quando usar Prim:
+Grafos densos (muitas arestas)
+
+Quando você tem um vértice inicial específico
+
+Implementação mais eficiente para grafos densos
+
+Complexidade: O(E + V log V) com heap de Fibonacci
+
+Comparação Direta:
+Aspecto		Kruskal				Prim
+Abordagem	Baseada em arestas	Baseada em vértices
+Melhor para	Grafos esparsos		Grafos densos
+Estrutura	Union-Find		Heap/Array
+Complexidade	O(E log V)		O(E + V log V)
+Ordenação	Necessária		Não necessária
+
+Aplicações Práticas:
+Kruskal é ideal para:
+Redes de computadores com poucas conexões
+
+Sistemas de distribuição de utilities (água, energia)
+
+Clusterização de dados
+
+Projeto de circuitos elétricos
+
+Prim é ideal para:
+Redes de fibra óptica em cidades
+
+Sistemas de transporte com muitas rotas
+
+Redes de comunicação densas
+
+Layout de circuitos integrados
+
+
+2. Kruskal e Prim
+
+👉 Objetivo: encontrar a Árvore Geradora Mínima (MST).
+
+Eles não procuram um caminho entre dois nós específicos.
+
+Em vez disso, procuram um subconjunto de arestas que conecta todos os nós do grafo com o menor custo total possível, sem formar ciclos.
+
+São usados para problemas de conexão de redes (redes elétricas, cabos de internet, encanamento etc.), onde o que importa é ligar tudo gastando menos.
+
+Imagine que você quer construir cabos de fibra ótica para ligar todas as cidades do interior de SP.
+
+Kruskal/Prim vão responder: “qual a maneira mais barata de ligar todas as cidades entre si?”
+
+
+
+Dijkstra e Bellman-Ford → caminho mínimo de um ponto a outro.
+
+Kruskal e Prim → menor custo para conectar todos os pontos.
+
+APLICAÇÕES PRÁTICAS E PROBLEMAS CLÁSSICOS
+
+aprendizagem de algoritmos em Python conduz à percepção de que padronizar raciocínios em
+torno de paradigmas fortalece tanto a clareza do código quanto a eficiência de execução. A estratégia
+de divisão e conquista ilustra esse princípio ao fragmentar o problema em subpartes independentes,
+resolver cada fragmento de forma recursiva e, por fim, recombinar as respostas.
+
+caso da mochila binária destaca essa metodologia quando se trata de selecionar subconjunto ótimo
+de itens em capacidade limitada. Ao dividir o conjunto de objetos em duas metades, calcula‑se o ganho
+máximo de cada subconjunto independente e, na etapa de fusão, examina‑se a possibilidade de combinar
+lucros sem exceder o peso permitido.
+
+Em termos práticos, profissionais encontram na divisão e na conquista solução apropriada quando
+subproblemas permanecem independentes e fusão apresenta custo relativamente baixo, enquanto
+recorrem à programação dinâmica quando a sobreposição de subestruturas exige memorização para
+evitar redundância. Python, devido ao suporte a geradores, compreensões de listas e dicionários, fornece
+ferramentas diretas para concretizar ambos os paradigmas, seja através de recursão explícita, seja
+empregando iteração controlada que preenche tabelas de maneira ascendente.
+
+Problemas de divisão e conquista: análise de exemplos como o problema
+da mochila
+
+estratégia de divisão e conquista estabelece um percurso lógico no qual um problema complexo é
+fracionado em partes menores, cada uma tratada independentemente, e, por fim, as respostas parciais
+são combinadas para formar a solução global.
+
+Programação dinâmica: introdução e resolução de problemas clássicos
+(como a subsequência comum mais longa)
 
 
 

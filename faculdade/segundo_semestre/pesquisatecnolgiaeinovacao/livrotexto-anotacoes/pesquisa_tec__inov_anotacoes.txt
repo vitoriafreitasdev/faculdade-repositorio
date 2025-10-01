@@ -213,6 +213,10 @@ Lista(s) de abreviaturas e siglas (opcional)
 Lista de símbolos (opcional)
 Sumário (obrigatório)
 
+-A função do resumo de uma monografia é trazer os pontos principais da introdução, do
+desenvolvimento e da conclusão. Ou seja, seu intuito é sintetizar a parte textual como um todo,
+entregando ao leitor uma visão sucinta mas completa do trabalho.
+
 elementos textuais 
 
 -A introdução é um elemento textual obrigatório em trabalhos acadêmicos. De acordo com
@@ -229,6 +233,17 @@ encontra entre a introdução e a conclusão e abrange diversas seções primár
 A conclusão é um elemento textual obrigatório em trabalhos acadêmicos e representa a última seção
 primária numerada da parte textual. Ela pode ganhar títulos distintos, como Conclusão, Conclusões ou
 Considerações finais.
+seção primária numerada. Essas
+seções se ocupam de:
+• apresentar o referencial teórico que sustentará o debate posterior;
+• detalhar os métodos da pesquisa, conferindo a ela cientificidade;
+• apresentar os dados coletados, quando for o caso, realizando as devidas análises e discussões.
+A divisão das seções primárias dependerá da natureza do trabalho. Como exemplo, veja a seguir as
+seções primárias de um trabalho acadêmico produzido em nível de dissertação de mestrado.
+2 REVISÃO DA LITERATURA
+3 MATERIAIS E MÉTODOS
+4 RESULTADOS E DISCUSSÕES
+A seção primária 2, intitulada Revisão d
 
 • os métodos;
 • os resultados e discussões;
@@ -386,11 +401,6 @@ caracterizado pela apropriação de obra alheia, na qual estão envolvidos basic
 autor original e o plagiário reprodutor”
 consiste na indevida apropriação, parcial ou integral, do conteúdo de terceiros.
 
-Detecção de plágio
-De acordo com Krokoscz (2015, p. 14), “o plágio é entendido como uma modalidade de fraude,
-caracterizado pela apropriação de obra alheia, na qual estão envolvidos basicamente dois sujeitos: o
-autor original e o plagiário reprodutor”
-consiste na indevida apropriação, parcial ou integral, do conteúdo de terceiros.
 
 • Plágio direto: consiste na reprodução literal de uma obra original, sem identificação da fonte.
 Desse modo, o autor que publica a obra plagiada “finge” que aquela sequência de palavras é sua,
