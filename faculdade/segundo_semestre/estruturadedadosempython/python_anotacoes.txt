@@ -157,7 +157,7 @@ entre os itens, o que facilita a manipulação e o processamento dos dados.
 Em listas e arrays, por exemplo, o acesso a um item pode ser feito
 por meio de um índice numérico, garantindo eficiência quando a posição do elemento é conhecida.
 No entanto, a inserção e a remoção em determinadas posições podem exigir deslocamentos de outros
-elementos, o que impacta o desempenho dependendo da implementação utilizada.
+elementos, o que impacta o desempenho dependendo da implementação utilizada.f
 
 -pilhas e filas são classificadas como estruturas lineares porque
 seguem uma ordem específica de inserção e remoção.
@@ -280,12 +280,6 @@ organização com múltiplos elementos relacionados a um mesmo ponto central. Um
 diversas subpastas e arquivos, o que exige uma árvore genérica, já que não há limite fixo de quantos
 filhos (itens) um nó (pasta) pode ter.
 
-
-árvore binária é uma estrutura de dados hierárquica composta por nós, na qual cada nó possui,
-no máximo, dois filhos, denominados filho esquerdo e filho direito. Essa organização permite representar
-relações entre elementos de maneira eficiente, especialmente em algoritmos que envolvem buscas,
-ordenações e hierarquias. A estrutura é formada por um nó principal, chamado raiz, do qual derivam
-outros nós, organizando‑se em subárvores.
 
 árvore binária é uma estrutura de dados hierárquica composta por nós, na qual cada nó possui,
 no máximo, dois filhos, denominados filho esquerdo e filho direito. Essa organização permite representar
@@ -627,7 +621,6 @@ se balance < -1 and valor < no.direita.valor => nó direito rotacao direita, dps
 
 6 ESTRUTURAS AVANÇADAS DE DADOS 
 
-
 tabelas hash representam uma poderosa estrutura baseada no conceito matemático de
 espalhamento uniforme de valores através de uma função específica, conhecida como função hash.
 O princípio fundamental dessas tabelas é a transformação de chaves em valores numéricos que, por
@@ -748,8 +741,6 @@ gerar ordens topológicas em grafos acíclicos direcionados.
 arestas carregam pesos não negativos, surge o problema de caminhos mínimos
 ponderados, resolvido com eficiência pela técnica de Dijkstra.
 
-arestas carregam pesos não negativos, surge o problema de caminhos mínimos
-ponderados, resolvido com eficiência pela técnica de Dijkstra.
 
  pesos negativos, a abordagem de Dijkstra deixa de oferecer garantias e cede lugar ao algoritmo de
 Bellman‑Ford, que executa relaxamento de todas as arestas repetidas vezes até não ocorrerem
@@ -931,26 +922,239 @@ são combinadas para formar a solução global.
 Programação dinâmica: introdução e resolução de problemas clássicos
 (como a subsequência comum mais longa)
 
+-subsequência comum mais longa ilustra de forma clara a utilidade desse paradigma. Diante de
+duas cadeias de caracteres, procura‑se a maior sequência de símbolos que aparece nas duas cadeias
+na mesma ordem relativa, embora não necessariamente contígua. Um procedimento ingenuamente
+recursivo testaria todas as combinações possíveis de remoção de caracteres, gerando quantidade
+exponencial de chamadas.
+
+programação dinâmica revela que a resposta para prefixos de comprimento i e j depende apenas
+de duas situações: se o caractere corrente nas duas cadeias coincide, então basta acrescentar um à
+solução encontrada para os prefixos imediatamente anteriores; caso contrário, escolhe‑se a maior entre
+as soluções obtidas ao descartar o último caractere de uma cadeia ou da outra. Após reconhecer esse
+relacionamento, preenche‑se uma tabela bidimensional cujas dimensões correspondem aos tamanhos
+das cadeias, avançando linha a linha ou coluna a coluna. Cada célula recebe valor proveniente de
+operações constantes sobre células vizinhas já calculadas, resultando em complexidade de tempo O(n m)
+e consumo de memória proporcional à área da tabela, no qual n e m são os comprimentos das cadeias.
+
+a LCS mede quão parecidas são duas sequências,
+preservando a ordem de ocorrência, mas sem exigir contiguidade. Aplicada às reações de stories, a
+métrica responde à pergunta: qual é o maior conjunto de emojis, na ordem original, que aparece em
+ambos os históricos de reação? Quanto maior esse conjunto, maior é o indício de que os amigos não
+apenas gostam das mesmas coisas, mas respondem de maneira sincronizada ao conteúdo, reforçando a
+tese de amigos do peito.
+O charme dessa abordagem reside no fato de que o LCS ignora os intervalos entre reações: não importa
+se um deles reagiu em dias diferentes ou se adicionou emojis extras, basta que a sequência relativa se
+mantenha. Dessa forma, a análise reflete afinidade de padrão e não apenas coincidência pontual.
+Ao traduzir um fenômeno social em algoritmo de programação dinâmica, o exercício demonstra como
+técnicas formais podem iluminar hábitos aparentemente triviais da vida online.
 
 
+Novamente, faremos um exercício prático. As redes sociais adicionaram camadas de linguagem
+que transcendem o texto e os emojis transformaram‑se em sinais de empatia digital. No universo do
+Instagram, o recurso “Reações rápidas” permite que o usuário responda a um story com um único
+clique em um emoji predefinido. Diferentemente de comentários longos, essas reações funcionam
+como microexpressões que, quando observadas em sequência, podem revelar padrões de sincronia ou
+afinidade entre dois perfis. Se dois amigos costumam reagir aos stories de seus círculos usando a mesma
+ordem de emojis – riso, coração, aplauso –, cresce a impressão de que pensam parecido e compartilham
+repertório afetivo.
+Essa hipótese, divertida e quase antropológica, pode ser mapeada para o problema clássico da
+subsequência comum mais longa (LCS). Como vimos, a LCS mede quão parecidas são duas sequências,
+preservando a ordem de ocorrência, mas sem exigir contiguidade. Aplicada às reações de stories, a
+métrica responde à pergunta: qual é o maior conjunto de emojis, na ordem original, que aparece em
+ambos os históricos de reação? Quanto maior esse conjunto, maior é o indício de que os amigos não
+apenas gostam das mesmas coisas, mas respondem de maneira sincronizada ao conteúdo, reforçando a
+tese de amigos do peito.
+O charme dessa abordagem reside no fato de que o LCS ignora os intervalos entre reações: não importa
+se um deles reagiu em dias diferentes ou se adicionou emojis extras, basta que a sequência relativa se
+mantenha. Dessa forma, a análise reflete afinidade de padrão e não apenas coincidência pontual.
+Ao traduzir um fenômeno social em algoritmo de programação dinâmica, o exercício demonstra como
+técnicas formais podem iluminar hábitos aparentemente triviais da vida online.
+
+########################################################################################################
+
+Questão 1:
+
+"Durante a construção de uma árvore de Merkle, quando o nível corrente contém número ímpar de hashes, qual estratégia é aplicada ao último hash?"
+
+Opções:
+A) O hash é duplicado para formar um par
+B) O hash é descartado
+C) Um valor nulo é emparelhado
+D) O algoritmo lança exceção e encerra
+E) O nível é processado sem considerar o último hash
+
+➡️ Resposta correta: A) O hash é duplicado para formar um par
+
+Questão 2:
+
+Considere a função de busca sequencial que contabiliza comparações:
+
+def busca_linear(vetor, alvo):
+    comp = 0
+    for item in vetor:
+        comp += 1
+        if item == alvo:
+            return comp
+    return comp
 
 
+E o enunciado:
+"Para o vetor v = list(range(1, 11)) e a chamada busca_linear(v, 10), quantas comparações são realizadas?"
+
+Opções:
+A) O valor 1
+B) O valor 5
+C) O valor 9
+D) O valor 10
+E) O valor 11
+
+🔎 Análise:
+
+O vetor é [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
+
+O algoritmo percorre o vetor, comparando cada elemento com o alvo = 10.
+
+Ele só retorna quando encontra o 10.
+
+Isso acontece na 10ª comparação.
+
+➡️ Resposta correta: D) O valor 10 ✅
+
+Questão 3:
+
+"Durante a fusão das duas metades no algoritmo 'meet-in-the-middle' da mochila, emprega-se busca binária:"
+
+Trecho dado:
+
+lista_dir.sort(key=lambda t: t[0])  # ordena por peso
+
+for peso_e, valor_e in lista_esq:
+    idx = bisect_right(lista_dir, capacidade - peso_e, key=lambda t: t[0]) - 1
 
 
+Pergunta:
+"Qual vantagem imediata a ordenação de lista_dir oferece para a busca da melhor combinação?"
+
+Opções:
+A) A busca binária identifica em log N a entrada mais pesada que ainda cabe, reduzindo o tempo da fusão.
+B) A ordenação elimina a necessidade de verificar restrição de peso.
+C) A ordenação aumenta o valor total alcançável.
+D) A lista torna-se inútil, podendo ser descartada.
+E) A busca passa a custar tempo constante O(1).
+
+🔎 Análise:
+
+A lista da direita (lista_dir) é ordenada por peso.
+
+Isso permite usar busca binária para localizar rapidamente o maior item que ainda pode ser combinado com um item da esquerda.
+
+Busca binária é O(log N) em vez de O(N).
+
+➡️ Resposta correta: A) A busca binária identifica em log N a entrada mais pesada que ainda cabe, reduzindo o tempo da fusão. ✅
+
+Questão 4:
+
+"Qual é a complexidade de tempo amortizada para adicionar um elemento no final de uma lista Python com append()?"
+
+Opções:
+A) O tempo O(1) (constante)
+B) O tempo O(log n)
+C) O tempo O(n)
+D) O tempo O(n log n)
+E) O tempo O(n²)
+
+🔎 Análise:
+
+Em Python, listas são implementadas como arrays dinâmicos.
+
+O append() normalmente insere em tempo constante O(1).
+
+Em alguns casos raros, ocorre realocação de memória (quando o array precisa crescer), o que custa mais caro, mas esse custo é amortizado.
+
+Portanto, a complexidade amortizada é O(1).
+
+➡️ Resposta correta: A) O tempo O(1) (constante) ✅
+
+Questão 5:
+
+"Examine o trecho central do algoritmo de Dijkstra em Python:"
+
+tempo_u, _, u = heapq.heappop(fila)
+
+for aresta in grafo.adj[u]:
+    novo = tempo_u + aresta.tempo
+    if novo < dist[aresta.destino]:
+        dist[aresta.destino] = novo
+        heapq.heappush(fila, (novo, aresta.destino))
 
 
+Pergunta:
+"Qual premissa garante que o valor retirado da fila (tempo_u) já é a menor distância definitiva para o vértice u?"
+
+Opções:
+A) A premissa de que existe um caminho simples entre todos os pares de vértices.
+B) A premissa de que o grafo é completo.
+C) A premissa de que a fila contém cada vértice no máximo uma vez.
+D) A premissa de que todos os pesos das arestas são não negativos.
+E) A premissa de que o número de vértices é menor que o número de arestas.
+
+🔎 Análise:
+
+O algoritmo de Dijkstra funciona apenas quando não há pesos negativos nas arestas.
+
+Isso garante que, quando retiramos o menor valor da fila de prioridade, ele realmente corresponde à distância mínima definitiva daquele vértice.
+
+➡️ Resposta correta: D) A premissa de que todos os pesos das arestas são não negativos. ✅
+
+Questão 6 (AP2.jpg)
+Qual percurso garante visita em ordem crescente em uma árvore binária de busca?
+
+O percurso em ordem (in-order) ✅
+
+Questão 7 (AP2.jpg)
+Quick Sort com sublista < 32 elementos geralmente usa:
+
+O Insertion Sort ✅
+
+Questão 8 (AP2.jpg)
+Bellman-Ford: if not atualizado: break
+
+D) O teste interrompe o algoritmo assim que nenhuma relaxação adicional ocorre, evitando iterações inúteis. ✅
+
+Questão discursiva 1 (AP2.jpg)
+Duplicar último hash em nível ímpar:
+
+Garante que a árvore seja um binário completo (todos os nós têm 0 ou 2 filhos).
+
+Isso mantém a propriedade de que o hash pai depende de ambos os filhos, sem necessidade de tratamento especial além da duplicação.
+
+Em relação ao tamanho da prova de inclusão: aumenta ligeiramente o número de hashes necessários na prova em alguns casos, porque pode introduzir nós duplicados no caminho, mas garante que a estrutura seja consistente e previsível.
+
+Comparado com níveis sempre pares (que não ocorrem naturalmente), essa duplicação é a estratégia comum para lidar com impares.
 
 
+Questão 2 (discursiva):
+A seleção do pivô como mediana de três no Quick Sort ajuda a evitar a escolha do pior caso (pivô mínimo ou máximo) em sequências parcialmente ordenadas.
 
+Mecanismo:
 
+Escolhe-se o primeiro, o meio e o último elementos da sublista.
 
+O pivô é o valor do meio desses três (não o índice do meio, mas a mediana em valor).
 
+Em arrays já ordenados ou quase ordenados, isso garante que o pivô fique próximo do valor mediano real da sublista.
 
+Resultado:
 
+A divisão tende a ser mais balanceada (tamanho das partições ≈ n/2).
 
+A profundidade de recursão fica próxima de O(log n) em vez de O(n).
 
+Reduz o risco de estouro de pilha, porque a pilha de chamadas recursivas terá profundidade logarítmica.
 
+Comparação:
 
+Sem mediana de três, um array ordenado com pivô no primeiro elemento gera partições de tamanhos 0 e n-1, levando a O(n) níveis de recursão.
 
-
-
+Com mediana de três, o primeiro, meio e último em um array ordenado são justamente os candidatos que resultarão no elemento do meio como pivô, dividindo quase ao meio.
