@@ -7,6 +7,8 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
+    // primeira atividade
+
     int a = 10, b = 3;
 
     printf("Soma: %d\n", a + b);
@@ -15,7 +17,7 @@ int main()
     printf("Divisao: %d\n", a / b);
     printf("Resto da divisao: %d\n", a % b);
 
-    //
+    // segunda atividade
 
     int x = 5;
 
@@ -25,7 +27,7 @@ int main()
     x *= 2;
     printf("Resultado de x *= 2: %d\n", x);
 
-    //
+    // terceira atividade
 
     int idade = 18;
 
@@ -33,19 +35,20 @@ int main()
     printf("Idade maior que 17 %d\n", idade > 17);
     printf("Idade diferente de 20? %d\n", idade != 20);
 
-    //
+    // quarta atividade
     int A = 5, B = 10;
 
     printf("a > 0 E b > 0: %d\n",(A > 0) && (B > 0));
     printf("a > 0 OU b < 0: %d\n", (A > 0) || (B < 0));
     printf("Nao (a > b): %d\n", !(A > B));
 
-    //
 
+    // quinta atividade
+    // variaveis
     char name[50];
     int age;
     float n1, n2, media;
-
+    // entrada de dados
     printf("Digite seu nome: ");
     scanf(" %[^\n]", &name);
 
@@ -56,7 +59,7 @@ int main()
     scanf("%f %f", &n1, &n2);
 
     media = (n1 + n2 ) / 2;
-
+    // resultado
     printf("\Ola, %s!\n", name);
     printf("Media: %.2f\n", media);
     printf("Media >= 7? %d\n", media >= 7);
