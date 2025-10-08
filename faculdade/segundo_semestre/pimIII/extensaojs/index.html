@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="codigo.js" defer></script>
+</head>
+<body>
+    <div class="main-div">
+        <h1>Formulário de conscientização do meio ambiente </h1>
+        <form>
+            <div>
+                <label for="nome">Qual é o seu nome? </label>
+                <input type="text" id="nome" class="nome" required>
+            </div>
+            <h2>Responda com 'sim' ou 'não' às perguntas abaixo:</h2>
+            <div>
+                <label for="agua">Você já descartou medicamentos na pia ou no vaso sanitário? </label>
+                <input type="text" id="agua" class="agua" required>
+            </div>
+            <div>
+                <label for="lixo">Você costuma jogar medicamentos vencidos no lixo comum? </label>
+                <input type="text" id="lixo" class="lixo" required>
+            </div>
+            <div>
+                <label for="posto">Você conhece algum ponto de coleta de medicamentos na sua cidade? </label>
+                <input type="text" id="posto" class="posto" required>
+            </div>
+        </form>
+            <input type="submit" id="submit-btn">
+        <div class="response" id="res">
+            <!-- <h2>Resultados do teste</h2>
+             <p> Evite descartar medicamentos na água! Isso contamina rios e solos, prejudicando o meio ambiente.</p>  -->
+        </div>
+    </div>
+</body>
+</html>
