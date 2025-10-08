@@ -2,3 +2,227 @@ programacao_c
 
 unidade I
 
+Introdução à programação estruturada em C
+
+Estrutura de um programa em C
+
+estrutura básica de um programa em C segue um padrão simples, mas organizado.
+primeira parte de um programa em C geralmente inclui diretivas com o uso de #include, #include adiciona
+o arquivo .h (sendo h a abreviação de header),  #include <stdio.h>.
+Todo programa em C precisa ter uma função especial chamada main(), pois é por ela que o
+computador começa a executar o código. Portanto, ela é a função principal do programa
+As funções devem ter um tipo de retorno de valores. Funções que não são do tipo retornam valores
+ao chamador
+Como informação introdutória útil, vale destacar que, na linguagem C, é comum o uso de parênteses
+após algumas palavras. Por exemplo, suponha uma função chamada de cadastrar, sem nenhum
+argumento. Nos exemplos de código, ela vai ser escrita como cadastrar(), com parênteses no fim da
+palavra.
+
+o pré‑processador inclui o conteúdo do arquivo stdio.h, associado à biblioteca
+padrão de entrada e saída, que disponibiliza, por exemplo, a função printf(). Sem a inclusão desse
+arquivo, não é possível utilizar o comando printf(), entre outros de entrada e saída.
+
+execução do programa começa pela função principal chamada main(). Esse nome não deve ser
+alterado, pois é padrão da linguagem C.
+comando return 0 indica que o programa foi executado com sucesso
+
+ temos um segundo exemplo de código em linguagem C, também com uma estrutura
+mínima. Diferentemente do anterior, neste caso, o tipo de retorno da função principal é void, o que
+indica que a função não retorna nenhum valor. Por esse motivo, o programa não tem o comando
+return 0
+
+O bloco { } dentro da função main() está vazio, indicando que o programa não realiza nenhuma operação.
+O que acontece ao executar o programa do exemplo anterior?
+Ele compila e roda corretamente, pois não há erros de sintaxe. Nenhuma saída será exibida no console,
+pois não há comandos como printf ou outras operações dentro da função. O programa simplesmente
+inicia e termina sem fazer nada perceptível ao usuário.
+Por que usar um programa vazio? Ele pode ser útil para:
+• Testes básicos: verificar se o ambiente de desenvolvimento (IDE ou compilador) está
+configurado corretamente.
+• Ponto de partida: criar um esqueleto inicial para adicionar instruções e funcionalidades posteriormente.
+
+Tipos de dados básicos em C
+
+Trata‑se de elementos essenciais na construção de qualquer programa, pois definem o tipo de valor
+que uma variável pode armazenar e determinam a quantidade de memória que será alocada para essa
+armazenagem
+
+linguagem C oferece uma ampla gama de tipos de dados, organizados em três categorias principais:
+• Tipos primitivos: representam os dados básicos, como números inteiros, números com ponto
+flutuante e caracteres.
+• Modificadores de tipos: ajustam as propriedades dos tipos básicos, como tamanho e faixa
+de valores.
+• Tipos compostos: permitem a criação de estruturas mais complexas, como arrays, structs
+e ponteiros.
+
+Os quatro principais tipos de dados em C (tipos de dados primitivos) são:
+• char (tipo de dado caractere): ‘a’, ‘1’, ‘#’.
+• int (tipo de dado inteiro): ‑1, 0, 1, 2, ..., 10.
+• float (tipo de dado ponto flutuante (decimal)): ‑1.5, 1.0, 2.2.
+• double (tipo de dado ponto flutuante de dupla precisão)
+
+char (caractere) =>  único caractere, como letras, dígitos ou símbolos. Um char ocupa 1 byte de memória
+O scanf(“%s”,nome); não lê espaços. Para ler espaços com scanf, utilize scanf(“%[^\n]”,nome);
+
+int (inteiro) => Utilizado para armazenar números inteiros, positivos ou negativos, sem casas decimais.
+A  capacidade de armazenamento pode variar de acordo com o compilador e o sistema operacional, mas
+geralmente ocupa 4 bytes na maioria dos computadores modernos. Em sistemas mais antigos ou
+específicos, pode ocupar 2 bytes. Exemplo:
+scanf(“%d %d” ,&num1,&num2):
+
+float (ponto flutuante (decimal))
+Usado para armazenar números com casas decimais, ou seja, valores fracionários. Um float
+normalmente ocupa 4 bytes de memória e tem precisão limitada (aproximadamente seis dígitos
+significativos), ou seja, o tipo é ideal para armazenar números reais com precisão de até seis casas
+decimais. Conforme já explicado, o separador decimal, no caso da linguagem C, é o ponto (.), e não a
+vírgula.
+
+double (ponto flutuante de dupla precisão)
+Semelhante ao float, mas com maior capacidade e precisão (cerca de 15 dígitos significativos).
+O double geralmente ocupa 8 bytes de memória e é ideal para cálculos que requerem maior precisão.
+
+Modificadores de tipo
+
+Eles alteram a capacidade de armazenamento ou a faixa de valores que um tipo de dado pode
+representar. Eles podem ser combinados com os tipos primitivos para ajustar o uso de memória e a
+precisão dos dados. Os principais modificadores são:
+• signed: pode armazenar valores positivos e negativos (padrão para a maioria dos tipos inteiros).
+• unsigned: armazena apenas valores positivos, o que permite dobrar a faixa de valores positivos
+que um tipo de dado pode representar.
+• short: reduz a quantidade de memória usada, mas diminui a faixa de valores (geralmente aplicado
+ao tipo int).
+• long: aumenta a capacidade de armazenamento de um tipo de dado, permitindo que ele represente
+uma faixa maior de valores.
+
+exemplo: unsigned int pode armazenar apenas valores positivos, enquanto long int permite
+armazenar inteiros maiores que o tipo int padrão.
+
+-void representa a ausência de tipo. Ele é utilizado em situações específicas, como:
+• Funções que não retornam valor.
+• Ponteiros genéricos (void *).
+• Parâmetros vazios em funções.
+Exemplo: void saudacao() indica que a função saudacao() não retorna nada.
+
+• Inteiros (int, short, long): o formador varia com base no tipo e no tamanho, como %d para int
+e %ld para long int. float ocupa 4 bytes na memória; double é fixado em 8 bytes; depende do
+compilador: pode ser 10 bytes (x86) ou 16 bytes (x64).
+• Reais (float, double, long double): usam, %f, %lf e %Lf para diferenciar as precisões.
+• Unsigned: utilizam formadores específicos (%u, %lu) para evitar interpretações como valores
+negativos. Em sistemas de 16 bits, int pode ter 2 bytes. Em sistemas de 32 ou 64 bits, geralmente
+têm 4 bytes. long int. e unsigned long int podem variar entre 4 e 8 bytes dependendo do compilador
+e do sistema operacional.
+
+Comando printf()
+
+função de saída utilizada na linguagem C para exibir informações na tela. Ele permite
+a formatação de texto e a apresentação de variáveis de diferentes tipos (inteiros (int), reais (float),
+caracteres (char) etc.) ao usuário. Por exemplo, ao usar printf(“Olá Aluno!”);,
+
+O que acontece ao executar o programa do exemplo anterior, com quebra de linha e uso de tabulação?
+Ele compila e roda corretamente, pois não há erros de sintaxe. Analisando a saída do código, temos:
+• Primeira linha: a palavra “Um” é impressa. O \n move o cursor para a próxima linha.
+• Segunda linha: o \t insere uma tabulação antes da palavra “texto”. Após “texto”, outro \n move o
+cursor para a próxima linha.
+• Terceira linha: dois \t inserem duas tabulações antes da palavra “Simples”.
+
+• %d\n: o especificador %d é usado para imprimir um número inteiro na sua forma padrão. O \n
+provoca uma quebra de linha após a impressão. Saída: 10 seguido de uma nova linha.
+• %3d\n: o especificador %3d define que o número inteiro deve ser exibido com, no mínimo,
+três caracteres de largura. Se o número tiver menos dígitos, espaços em branco serão adicionados
+à esquerda para completar a largura. Neste caso, o número 10 ocupa apenas dois caracteres, então
+um espaço em branco será adicionado antes dele.
+• %5d: o especificador %5d funciona da mesma maneira que %3d, mas define uma largura mínima
+de cinco caracteres. Como o número 10 ocupa apenas dois caracteres, três espaços em branco
+serão adicionados antes dele.
+
+Caractere de barra invertida
+
+em C, certos caracteres especiais não podem ser inseridos diretamente pelo teclado, como o retorno
+de carro (CR) ou o alerta sonoro. Para representá‑los e aumentar a portabilidade, a linguagem C utiliza
+sequências de escape, que são constantes de barra invertida (\) seguidas por um código.
+
+
+• Representar caracteres invisíveis, como \n (nova linha) e \t (tabulação).
+• Inserir caracteres que têm significado especial, como aspas duplas (\”) ou aspas simples (\’),
+em strings.
+• Trabalhar com códigos octais e hexadecimais para representar valores na tabela ASCII
+
+
+///
+
+Código Significado Descrição
+\a Alerta (beep) Emite um som de alerta no terminal(se suportado pelo dispositivo)
+
+\b Retrocesso (BS) Move o cursor uma posição para trás
+
+\f Alimentação de formulário (FF) Passa para a próxima página em dispositivos
+de impressão
+
+\n Nova linha (LF) Move o cursor para o início da próxima linha
+
+\r Retorno de carro (CR) Move o cursor para o início da linha atual, sem
+avançar para a próxima
+
+\t Tabulação horizontal (HT) Insere um espaço de tabulação horizontal
+
+\” Aspas duplas Permite usar aspas duplas dentro de strings
+
+\’ Aspas simples Permite usar aspas simples em strings ou
+caracteres
+
+\0 Nulo Marca o final de uma string
+
+\\ Barra invertida Insere uma barra invertida literal (\)
+
+\v Tabulação vertical Move o cursor para a próxima linha
+vertical alinhada
+
+\N Constante octal Representa um caractere pelo seu valor octal na
+tabela ASCII (exemplo: \101)
+
+\xN Constante hexadecimal Representa um caractere pelo seu valor
+hexadecimal (exemplo: \x41)
+
+///
+
+• #include <stdio.h>: permite usar funções como printf() para entrada e saída de dados.
+• #include <locale.h>: necessária para definir configurações regionais, como o suporte a caracteres
+acentuados (á, é, ç, etc.) e símbolos localizados
+
+• Linha 1\n: exibe o texto “Linha 1” seguido por uma nova linha (\n), movendo o cursor para a
+próxima linha.
+• \tLinha com tabulação\n: adiciona uma tabulação horizontal (\t) antes de “Linha com tabulação”
+e, em seguida, insere uma nova linha (\n).
+• Texto com \”aspas\”\n: exibe o texto com aspas duplas (\”) inclusas, seguido por uma nova linha.
+• Caractere: %c\n: exibe o texto “Caractere:” e o caractere especial \n, que representa uma nova linha.
+• Alerta sonoro: \a\n: exibe “Alerta sonoro:” e emite um beep (\a), se suportado, seguido por
+uma nova linha.
+
+O printf é uma função de saída usada para exibir informações na tela. Ele utiliza especificadores de
+formato (como %d, %f, %s) para indicar o tipo de dado que será exibido. Sequências de escape
+(como \n, \t \\) permitem inserir caracteres especiais ou invisíveis, como quebras de linha ou tabulações
+
+
+Em C, não existe um tipo de dado nativo chamado string, como em outras linguagens (Python,
+Java). No entanto, o termo “string” é amplamente usado para se referir a uma sequência de caracteres
+terminada por \’0’ (caractere nulo).
+
+Comando scanf()
+ função definida no arquivo de cabeçalho padrão <stdio.h> usada para ler dados de entrada,
+geralmente fornecidos pelo usuário através do teclado. Ou seja, permite que o programa leia informações
+digitadas pelo usuário. Esses dados são interpretados e atribuídos a variáveis específicas, permitindo a
+interação entre o usuário e o sistema.
+Por meio de scanf(), é possível capturar dados de diferentes tipos, como inteiros, números de ponto
+flutuante, caracteres e strings que serão armazenados em variáveis durante a execução do programa.
+
+sempre deve ser escrita com
+parênteses: scanf(). Sem eles, o compilador gerará um erro, pois não reconhecerá a chamada como uma
+função. O mesmo se aplica ao printf e a qualquer outra função em C.
+
+— %d: para leitura de inteiros (int).
+— %f: para leitura de números de ponto flutuante do tipo (float).
+— %lf: para leitura de números de ponto flutuante do tipo (double).
+— %c: para leitura de um caractere (char).
+— %s: para a leitura de uma string, ou seja, um vetor (array) de caracteres do tipo char
+
+parei na 31
