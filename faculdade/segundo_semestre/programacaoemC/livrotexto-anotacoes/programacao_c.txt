@@ -1,6 +1,7 @@
 programacao_c
 
-unidade I
+
+Unidade I
 
 Introdução à programação estruturada em C
 
@@ -225,4 +226,300 @@ função. O mesmo se aplica ao printf e a qualquer outra função em C.
 — %c: para leitura de um caractere (char).
 — %s: para a leitura de uma string, ou seja, um vetor (array) de caracteres do tipo char
 
-parei na 31
+• O identificador de nome variavel representa o nome da variável previamente declarada
+no programa.
+
+%f e %lf não são equivalentes. No scanf() usamos %f para ler variáveis
+do tipo float e %lf para ler variáveis do tipo double.
+
+• &variavel: o operador & é usado para passar o endereço de memória da variável à função scanf.
+Isso permite que a função armazene o valor lido diretamente nessa variável.
+• Leitura de caracteres (%c): sempre adicione um espaço antes de %c no formato para
+evitar capturar o caractere de nova linha (\n) deixado no buffer por comandos anteriores.
+
+operador & é necessário para a maioria das variáveis, pois o valor lido é armazenado diretamente
+no endereço de memória. Ou seja, usamos o operador & para fornecer o endereço de memória da
+variável ao scanf.
+
+• Strings (vetores de char): no caso da leitura de uma string com o especificador %s, não usamos
+o operador &. Isso acontece porque o nome do vetor já representa o seu endereço de memória.
+Trata‑se de uma exceção.
+• Uso de colchetes [] no scanf() em C: está relacionado a um recurso chamado scanset
+(conjunto de caracteres). Ele permite ler uma sequência de caracteres até que um caractere não
+especificado apareça.
+
+número 49 em %49[^\n] define que serão lidos no máximo 49 caracteres, reservando um espaço
+para o caractere nulo ¬(‘\0’).
+O scanf lerá todos os caracteres digitados, exceto ‘\n’, ou seja, até a quebra de linha.
+
+Temos também a possibilidade de ler textos com espaços entre as palavras com outras funções
+como: fgets().
+Exemplo de fgets() para leitura de textos (strings) com espaços:
+
+• Para ler strings com espaços, use %[^(\n) ou fgets().
+• Nunca use scanf(“%s”,nome) sem um limite, pois pode causar falhas de segurança!
+scanf(“%49[^\n]”,nome) usa um limite de tamanho seguro na entrada
+ 
+fgets(nome,sizeof(nome),stdin); é uma alternativa mais segura para evitar estouro
+de buffer, operador sizeof(nome) retorna o tamanho total da variável, que, neste caso, é o
+array nome. Quando usado na função fgets(), ele define automaticamente o tamanho máximo
+de caracteres que podem ser lidos, garantindo que a entrada não ultrapasse o limite do array e
+evitando problemas de segurança.
+
+• Sempre use o operador & antes do nome da variável, exceto para strings (arrays de caracteres),
+pois o nome do array já representa o endereço de memória.
+• O scanf() pode ser problemático se a entrada do usuário não corresponder ao formatador
+especificado. Por isso, em programas robustos, é comum usar funções como fgets() para leitura de
+strings e depois converter para o tipo desejado.
+
+• char titulo[100]; declara uma string para armazenar o título do livro.
+• scanf(“%99[^\n]”,titulo; lê uma linha de texto (título) até encontrar o caractere de nova linha (\n).
+O especificador %99[^(\n) garante que não haja estouro de buffer, limitando a leitura a 99 caracteres.
+Esse limite é importante porque deixa espaço para o caractere nulo (\0), que é adicionado
+automaticamente ao final da para indicar o término dela.
+
+• scanf(”%d”, &paginas); lê um número inteiro (número de páginas).
+• scanf(“%d”, &ano); lê outro número inteiro (ano de publicação).
+
+-É importante ter muito cuidado ao utilizar a função “scanf” para a entrada de dados: usar essa
+função sem um limite de leitura pode ocasionar invasões (ou transbordo) de memória, o que pode gerar
+erros na execução do programa.
+
+Nomes de identificadores
+
+linguagem C, as letras maiúsculas e minúsculas são tratadas como caracteres distintos, o que
+significa que os identificadores count, Count e COUNT são diferentes
+
+identificador não pode ter o mesmo nome que uma palavra‑chave reservada da
+linguagem C, como int, return, if, entre outras, nem deve coincidir com os nomes das funções presentes
+identificadores seguem algumas regras importantes para sua definição:
+• O primeiro caractere deve ser uma letra (a‑z ou A‑Z) ou um sublinhado (_).
+• Os caracteres subsequentes podem ser letras, números (0‑9) ou sublinhados.
+• Um identificador não pode conter espaços, caracteres especiais (como @, #, !) ou começar
+com números.
+• Identificadores diferenciam letras maiúsculas e minúsculas (case‑sensitive)
+
+Variáveis
+Uma variável é uma posição nomeada de memória, que é usada para guardar um valor que pode ser
+modificado pelo programa. Em C, todas as variáveis precisam ser declaradas antes de serem utilizadas
+
+Por padrão, elas podem ser declaradas em três lugares básicos:
+• Dentro de funções: estas são variáveis locais.
+• Na definição dos parâmetros das funções: parâmetros formais.
+• Fora de todas as funções: variáveis globais, respectivamente.
+
+Delimitadores de escopo em C
+
+
+Na linguagem C, os delimitadores de escopo são usados para indicar onde um bloco de código começa
+e termina. Eles definem o contexto em que variáveis, funções e instruções são visíveis e executadas.
+As chaves {} são os principais delimitadores de escopo em C. Tudo que está entre { e } pertence a um
+mesmo bloco de código.
+Importância do escopo:
+• Variáveis locais só existem dentro do escopo em que foram declaradas.
+• Funções e estruturas de controle (if, while, for, etc.) usam blocos {} para delimitar ações.
+• Evita conflitos entre nomes de variáveis.
+• Permite estruturação e organização clara do código.
+
+Variáveis locais e globais em C
+
+Na linguagem C, as variáveis podem ser de dois tipos, locais ou globais, dependendo de onde são
+declaradas no código. A principal diferença entre elas está no escopo (onde podem ser acessadas) e na
+duração (quanto tempo permanecem na memória).
+
+LOCAIS
+
+As variáveis locais são aquelas declaradas dentro de funções ou blocos de código, delimitados
+por chaves {}. Seu escopo é restrito ao bloco onde foram definidas, o que significa que só podem ser
+acessadas dentro desse mesmo trecho de código.
+Essas variáveis são criadas assim que o bloco começa a ser executado e destruídas ao final do bloco,
+deixando de ocupar espaço na memória. Portanto, elas existem apenas durante a execução do bloco no
+qual estão inseridas.
+Internamente, variáveis locais são armazenadas em uma região da memória chamada pilha (stack).
+Essa área é usada para armazenar dados temporários durante a execução de funções.
+Observe a seguir suas características:
+• Escopo: só podem ser acessadas dentro da função ou bloco onde foram declaradas.
+• Duração: são criadas quando a função/bloco é executada e destruída quando a execução termina.
+• Memória: usam a pilha (stack), garantindo que cada função tenha suas próprias variáveis locais
+
+GLOBAIS
+
+As variáveis globais são aquelas declaradas fora de qualquer função, geralmente no início do
+programa, antes da função main().
+Observe a seguir as características das variáveis globais:
+• Escopo: podem ser acessadas e modificadas por qualquer função dentro do programa.
+• Duração: existem durante toda a execução do programa, sendo criadas no início e destruídas ao final.
+• Memória: usam a área global ou área de dados na memória.
+
+Boas práticas em programação C
+
+• Comentário do código: adicione comentários que expliquem partes importantes do código para
+torná‑lo compreensível para outras pessoas (ou para você mesmo no futuro).
+• Nomes de variáveis significativos: use nomes de variáveis que descrevam seu propósito, em vez
+de nomes genéricos como x ou y .
+• Indentação e formatação consistente: mantenha o código bem indentado e formatado para
+facilitar a leitura e a manutenção.
+• Uso de constantes e macros: defina valores constantes usando #define ou const para facilitar
+futuras alterações e tornar o código mais legível.
+• Evitar o uso excessivo de variáveis globais: prefira o uso de variáveis locais para evitar conflitos
+e manter o escopo do código mais claro. Essas práticas ajudam a evitar erros, simplificam a
+identificação de problemas e tornam o programa mais compreensível e profissional.
+
+
+Boas práticas com identificadores
+Use nomes significativos para identificar o propósito da variável ou função:
+
+Use convenções de nomenclatura consistentes, como:
+• Camel Case: é uma convenção de nomenclatura que consiste em escrever nomes de variáveis
+e funções unindo as palavras em uma única palavra, e a primeira letra de cada palavra (exceto a
+primeira) é maiúscula.
+• Snake Case: neste padrão, as palavras em uma string são separadas por underscores e todas as
+letras são minúsculas. Em C, a convenção de nomenclatura Snake Case é frequentemente usada
+para variáveis e funções.
+
+Boas práticas no uso de variáveis
+Prefira variáveis locais:
+• Elas são mais seguras e evitam alterações acidentais de valores por funções não relacionadas.
+• Tornam o programa mais modular e fácil de depurar.
+
+Use variáveis globais com cuidado:
+• Só utilize globais se realmente precisar compartilhar dados entre várias funções.
+• Identifique‑as claramente e limite seu uso para evitar conflitos de valor.
+Use nomes descritivos:
+• Para globais, prefira nomes que indiquem claramente sua função no programa.
+
+
+• Evite usar valores “hardcoded” diretamente no código.
+— Em programação, o termo hardcoded (ou codificado de forma fixa) se refere a valores definidos
+diretamente no código‑fonte.
+
+
+Indentação e formatação
+• Use indentação consistente para melhorar a legibilidade.
+• Escolha um estilo de formatação (como K&R (Kernighan & Ritchie) ou Allman) e siga‑o em
+todo o código.
+— K&R: ideal para projetos que priorizam compactação do código e são baseados em convenções
+já estabelecidas (como o kernel, do Linux).
+
+Principais características são:
+• Chaves ({}) na mesma linha
+— A chave de abertura { fica na mesma linha da declaração da função, estrutura de controle (if,
+for, while, etc.) ou bloco de código.
+— A chave de fechamento } fica em uma nova linha, alinhada com o início da declaração.
+
+‑ Allman: recomendado para projetos que valorizam clareza e legibilidade, especialmente em
+equipes grandes ou com código complexo.
+Principais características são:
+• Chaves ({}) em linhas separadas
+— A chave de abertura { e a chave de fechamento } ficam em linhas separadas, alinhadas com a
+declaração do bloco, tornando os blocos de código mais destacados.
+
+
+Testes e depuração
+• Teste o código em diferentes cenários para garantir que ele funcione corretamente.
+• Use ferramentas de depuração, como GNU Debugger (GDB), para identificar e corrigir problemas.
+O GDB é uma das ferramentas de depuração mais populares para linguagens como C e C++. Ele é
+gratuito, open‑source e suporta uma variedade de plataformas e arquiteturas.
+• Ferramentas de depuração são programas que ajudam desenvolvedores a encontrar e corrigir
+erros (bugs) em seu código. Elas permitem:
+— Executar o código linha por linha.
+— Inspecionar o valor de variáveis em tempo de execução.
+— Analisar a pilha de chamadas (call stack) para entender o fluxo do programa.
+— Detectar vazamentos de memória, falhas de segmentação (segmentation faults) e outros
+problemas comuns.
+
+Padrões de codificação e documentação
+• Siga um padrão de codificação consistente, como o GNU Coding Standards ou o Google C++
+Style Guide (adaptado para C).
+• Documente o código, especialmente funções públicas e APIs.
+• Use ferramentas para gerar documentação automaticamente.
+
+OPERADORES BÁSICOS EM C
+
+o essenciais para a manipulação de dados e o controle de fluxos
+dentro do programa. Eles incluem operadores aritméticos, relacionais, lógicos, de atribuição,
+incremento/decremento.
+
+Operadores de atribuição
+
+São usados para atribuir valores a variáveis. O operador básico é o =, que atribui o valor à direita
+à variável à esquerda. Além disso, existem operadores combinados, como +=, -=, *=, !=, e %=, que
+realizam uma operação aritmética antes de atribuir o valor
+
+Operadores aritméticos
+
+São utilizados para realizar operações matemáticas básicas, como soma (+), subtração (‑),
+multiplicação (*), divisão (/) e o operador de módulo (%) que retorna o resto de uma divisão entre dois inteiros
+
+Operadores relacionais
+
+Eles são usados na linguagem C para comparar dois valores, sejam eles variáveis ou constantes.
+O resultado dessas comparações é interpretado como um valor lógico: 1 quando a expressão é verdadeira
+e 0 quando é falsa.
+Exemplo de operadores relacionais: (==, >, <, >=, <=, !=).
+
+Operadores lógicos
+
+Permitem a construção de expressões lógicas mais complexas. Eles combinam múltiplas condições
+para criar verificações mais detalhadas, sendo úteis quando é necessário testar várias condições ao
+mesmo tempo dentro de uma instrução condicional.
+
+Operador Descrição
+AND - (&&) - Retorna verdadeiro (1) apenas se ambas as condições
+forem verdadeiras
+OR - (||) - Retorna verdadeiro (1) se pelo menos uma das condições
+for verdadeira
+NOT - (!) - Inverte o valor lógico de uma condição, transformando
+verdadeiro em falso e vice‑versa
+
+Pergunta: o que acontece, dentro de uma estrutura condicional if, quando a condição avaliada
+é verdadeira?
+Resposta: o bloco de código dentro do if é executado!
+operadores lógicos em C são essenciais para a criação de condições em estruturas de controle. 
+
+Operadores de incremento/decremento
+
+São usados para aumentar ou diminuir o valor de uma variável.
+Podemos utilizar para somar ou subtrair 1 de uma variável.
++ + Incrementa em 1 (x + + ou + + x)
+- - Decrementa em 1 (x - - ou - - x)
+
+ operadores são elementos vitais em qualquer linguagem de programação. Com eles, realizamos
+cálculos, comparações, construímos lógicas de decisão e controlamos o fluxo dos programas
+
+Aplicações e exemplos do uso de operadores na linguagem C
+
+Cálculos matemáticos
+São feitos usando operadores aritméticos (+, -, *, /, %) para somas, médias, porcentagens, descontos,
+área de um triângulo, o IMC, juros compostos etc.
+
+Comparações e decisões
+Em C, usamos operadores relacionais e lógicos (==, !=, >, <, &&, ||, !) para construir expressões que
+controlam o fluxo de execução do programa, como em instruções if, while, entre outras.
+
+Atualização de variáveis
+Os operadores de atribuição composta (+=, ‑=, *=, /=, %=) são usados para atualizar variáveis de
+forma prática e eficiente, combinando uma operação aritmética com a atribuição.
+
+Unidade II
+
+OPERAÇÕES E CONTROLE DE FLUXO
+
+Em C, as
+principais estruturas condicionais são:
+• if
+• if ... else
+• if ... else if ... else
+
+Estrutura condicional: if // parei aqui
+
+
+
+
+
+
+
+
+
+
+
