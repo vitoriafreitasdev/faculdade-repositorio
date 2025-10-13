@@ -1,6 +1,12 @@
-nome = input("Seu nome: ").strip()
 
-qtd = int(input("Quantas valores você vai digitar: "))
+nome = input("Seu nome: ").strip()
+# fazendo verificação, não se pode dividir por zero
+while True:
+    qtd = int(input("Quantas valores você vai digitar: "))
+    if qtd != 0:
+        break
+    else:
+        print("Insira um número maior que zero")
 
 soma = 0.0 
 

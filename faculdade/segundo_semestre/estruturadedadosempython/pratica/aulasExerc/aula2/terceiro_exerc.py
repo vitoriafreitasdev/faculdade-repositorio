@@ -1,3 +1,4 @@
+
 from collections import deque 
 
 pilha = []
@@ -12,15 +13,17 @@ print(fila.popleft())
 
 ###
 
+import time 
+
 fila = deque()
 pilha = []
-print(fila)
+t0 = time.time() 
 for i in range(3):
     nome = input("Nome do cliente: ")
     fila.append(nome)
 
 print("\n Iniciando atendimentos.")
-print(fila)
+
 while fila:
     cliente = fila.popleft()
     print(f"Atendendo {cliente}")
@@ -32,6 +35,8 @@ for i in range(3):
 print(f"\nExecutando tarefa {i+1}")
 
 while pilha:
-    print(pilha)
     print(f"Executando: {pilha.pop()}")
-    print(pilha)
+t1 = time.time()
+
+tempo_de_execucao = t1 - t0 
+print("Tempo de execução: ", tempo_de_execucao)

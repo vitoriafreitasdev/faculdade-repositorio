@@ -1,0 +1,6 @@
+planos_de_estudo
+hoje
+-ler livro texto de c ate pag 40
+-fazer os exercícios técnicos de react e js
+-fazer uns exercícios de estruturas de dados(dijkstra, por exemplo, bfs, dfs)
+-ler livro "entendendo algoritmos"

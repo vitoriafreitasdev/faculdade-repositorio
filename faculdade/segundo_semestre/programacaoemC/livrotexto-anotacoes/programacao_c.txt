@@ -310,7 +310,6 @@ Por padrão, elas podem ser declaradas em três lugares básicos:
 
 Delimitadores de escopo em C
 
-
 Na linguagem C, os delimitadores de escopo são usados para indicar onde um bloco de código começa
 e termina. Eles definem o contexto em que variáveis, funções e instruções são visíveis e executadas.
 As chaves {} são os principais delimitadores de escopo em C. Tudo que está entre { e } pertence a um
@@ -475,7 +474,7 @@ verdadeiro em falso e vice‑versa
 Pergunta: o que acontece, dentro de uma estrutura condicional if, quando a condição avaliada
 é verdadeira?
 Resposta: o bloco de código dentro do if é executado!
-operadores lógicos em C são essenciais para a criação de condições em estruturas de controle. 
+operadores lógicos em C são essenciais para a criação de condições em estruturas de controle.
 
 Operadores de incremento/decremento
 
@@ -484,20 +483,20 @@ Podemos utilizar para somar ou subtrair 1 de uma variável.
 + + Incrementa em 1 (x + + ou + + x)
 - - Decrementa em 1 (x - - ou - - x)
 
- operadores são elementos vitais em qualquer linguagem de programação. Com eles, realizamos
+ operadores são elementos vitais em qualquer linguagem de programação. Com eles, realizamos
 cálculos, comparações, construímos lógicas de decisão e controlamos o fluxo dos programas
 
 Aplicações e exemplos do uso de operadores na linguagem C
 
-Cálculos matemáticos
+-Cálculos matemáticos
 São feitos usando operadores aritméticos (+, -, *, /, %) para somas, médias, porcentagens, descontos,
 área de um triângulo, o IMC, juros compostos etc.
 
-Comparações e decisões
+-Comparações e decisões
 Em C, usamos operadores relacionais e lógicos (==, !=, >, <, &&, ||, !) para construir expressões que
 controlam o fluxo de execução do programa, como em instruções if, while, entre outras.
 
-Atualização de variáveis
+-Atualização de variáveis
 Os operadores de atribuição composta (+=, ‑=, *=, /=, %=) são usados para atualizar variáveis de
 forma prática e eficiente, combinando uma operação aritmética com a atribuição.
 
@@ -511,15 +510,144 @@ principais estruturas condicionais são:
 • if ... else
 • if ... else if ... else
 
-Estrutura condicional: if // parei aqui
+Estrutura condicional: if
+
+o comando if é utilizado quando o programa
+precisa tomar decisões com base em uma condição. Ele avalia uma expressão lógica que deve resultar
+em verdadeiro (1) ou falso (0).
+Se a condição for verdadeira, o bloco de instruções delimitado pelas chaves {} será executado.
+
+A condição pode envolver operações de comparação (==, !=, >, < etc.) e operações lógicas (&&, ||, !).
+
+A estrutura if – else é uma extensão da estrutura condicional if e permite ao programa escolher
+entre dois caminhos de execução: um quando a condição for verdadeira e outro quando for falsa.
+
+Estrutura condicional: if, else if, else (encadeadas)
+Em C, podemos usar estruturas condicionais encadeadas para testar múltiplas condições
+sequenciais. Isso é feito com o uso de if, else if e else, permitindo que o programa tome diferentes
+decisões dependendo do valor de uma variável.
+
+Aprendemos como utilizar estruturas de decisão e aplicações. Essa abordagem é essencial para tomadas
+de decisão em C, permitindo que o programa reaja dinamicamente a diferentes entradas do usuário.
+As estruturas de decisão são fundamentais para controlar o fluxo de execução de um programa
+em C. Elas permitem que o código tome decisões com base em condições lógicas, garantindo um
+comportamento dinâmico e interativo.
+Principais características:
+• if(): executa um bloco de código se a condição for verdadeira.
+• else: executa um bloco se nenhuma das condições anteriores for atendida.
+• if()else if(): permite testar múltiplas condições sequenciais.
+utilizadas em validações, cálculos condicionais e controle de fluxos complexos
+
+4 ESTRUTURAS DE REPETIÇÃO (LAÇOS)
+
+Em C, existem três estruturas principais de repetição:
+• while
+• do – while
+• for
+
+Repetição controlada por contador
+Nesse modelo, o número de vezes que o laço será executado é conhecido previamente. Ou seja, o
+programador sabe exatamente quantas repetições são necessárias.
+Para isso, usamos uma variável de controle, também chamada de contador, que normalmente
+começa com um valor inicial e é atualizada a cada ciclo do loop (geralmente incrementada de 1 em 1).
+Como funciona?
+• Define‑se um valor inicial para o contador.
+• Estabelece‑se uma condição que define o fim da repetição.
+• O contador é atualizado em cada iteração.
+• Quando a condição é falsa, o laço é encerrado.
+Repetição controlada por sentinela
+Esse tipo de laço é usado quando não sabemos quantas vezes o código deverá ser repetido.
+O processo continua enquanto os dados forem válidos e só termina quando um valor especial, chamado
+de sentinela, for informado.
+O que é uma sentinela?
+É um valor utilizado para marcar o fim da entrada de dados. Esse valor deve ser único ou distinto dos
+dados normais, para que o programa consiga identificar o momento certo de parar.
+
+Laço de repetição: while
+
+Na linguagem C, o laço while é uma estrutura de repetição usada para executar um bloco de código
+enquanto uma condição for verdadeira. A condição é verificada antes de cada repetição, o que significa
+que, se ela for falsa desde o início, o bloco não será executado nenhuma vez.
+A estrutura while é normalmente usada quando não sabemos exatamente quantas vezes um bloco de
+código será repetido, mas desejamos que a execução continue enquanto uma condição for verdadeira.
+
+Laço de repetição: do – while
+
+O loop do – while é uma estrutura de repetição usada em C quando precisamos garantir que uma
+ação aconteça pelo menos uma vez, mesmo que a condição seja falsa logo no início.
+O que acontece aqui?
+• O bloco de código é executado primeiro.
+• Depois, a condição é verificada.
+• Se a condição for verdadeira, o laço repete.
+• Se a condição for falsa, o laço termina
+
+Laço de repetição: for
+O laço (loop) for é uma estrutura de repetição muito usada na programação, sobretudo quando
+sabemos exatamente quantas vezes queremos que uma ação aconteça.
+
+Pode parecer complicado à primeira vista, então vamos explicar cada parte:
+• Inicialização: define uma variável de controle (geralmente chamada de contador) e executa essa
+etapa apenas uma vez, no início do loop.
+• Condição: é verificada antes de cada repetição (ou iteração). Se for verdadeira, o bloco de código
+dentro do loop é executado. Se for falsa, o loop é encerrado.
+• Atualização: modifica o valor do contador ao final de cada iteração. É normalmente usada para
+avançar para o próximo passo.
+
+•• Que o for é mais direto em casos com número fixo de repetições.
+•• Que o while é mais indicado quando não se sabe previamente o número de vezes que o laço vai
+se repetir.
 
 
+O laço for é mais utilizado quando sabemos de antemão quantas vezes o bloco de código precisa
+ser executado. Ele é ideal para laços contadores, quando existe um valor inicial, um valor final e um
+incremento claro. Por reunir inicialização, condição e incremento no cabeçalho, proporciona um código
+mais compacto e legível.
+
+O laço while é mais indicado quando a repetição depende de uma condição dinâmica, que pode ou
+não ser verdadeira logo na primeira verificação. Ele é muito utilizado em validações de entrada, leituras
+condicionais, laços indefinidos ou quando o controle do fluxo depende de uma lógica externa.
+
+O do – while garante que o bloco de código seja executado ao menos uma vez, antes de verificar a
+condição. É útil em situações como menus interativos, confirmações, validações com retorno obrigatório
+ou ações que devem ser apresentadas ao menos uma vez ao usuário.
+
+Comando break
+
+O break é um comando usado para interromper imediatamente a execução de estruturas de repetição
+(for, while, do – while) ou de seleção (switch – case). Também podemos utilizar o break dentro de if, caso
+o if esteja dentro de um (for, while, do –while) ou switch.
+faz o programa sair do laço imediatamente, indo para a instrução que
+vem logo após o fim do laço.
+
+Comando continue
+
+É usado para pular a iteração atual e volta ao início do laço. Ou seja, o continue é um comando em C
+que interrompe apenas a iteração atual do laço (for, while ou do– while) e pula diretamente para a próxima
+repetição, sem executar o restante do código dentro do laço.
+
+-o continue não sai do laço como o break faz. Ele pula o que vem depois dentro do
+laço e volta para o início da próxima repetição.
+
+• continue faz o programa pular o restante do bloco do laço e ir direto para a próxima repetição do for.
+
+ Switch – case
+
+A estrutura switch é uma forma de seleção múltipla utilizada na programação para permitir que o
+programa execute diferentes blocos de código, de acordo com o valor de uma variável. Essa estrutura
+é comumente conhecida como switch – case.
+Conforme descrito por diversos autores, o switch – case é composto por uma sequência de rótulos,
+chamados case, além de um default (opcional), que representa o bloco a ser executado caso nenhum
+dos case seja correspondente. Em resumo, a estrutura oferece vários caminhos possíveis baseados em
+um único valor.
+o switch pode ser adotado como alternativa ao uso de múltiplas instruções if – else if
+
+switch: estrutura de decisão com múltiplas alternativas.
+case: define os valores testados dentro do switch.
+break: encerra a execução do case atual ou de um laço.
+continue: interrompe a iteração atual e pula para a próxima repetição
 
 
-
-
-
-
+Unidade III
 
 
 

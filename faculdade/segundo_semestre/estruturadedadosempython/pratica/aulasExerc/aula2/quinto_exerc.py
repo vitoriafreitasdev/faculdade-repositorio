@@ -1,3 +1,5 @@
+
+# atidade realizada para ver a diferença no tempo de execução do pop(0) e o popleft()
 from collections import deque
 import time 
 n = 20000

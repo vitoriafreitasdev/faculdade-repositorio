@@ -1,3 +1,4 @@
+
 vezes = int(input("Quantas vezes você vai digitar: "))
 
 for i in range(1, vezes + 1):
