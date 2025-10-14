@@ -1,5 +1,5 @@
 from collections import deque
-
+# função bfs
 def bfs(grafo, origem, destino):
     fila = deque([[origem]])
     visitados = {origem}
@@ -9,7 +9,7 @@ def bfs(grafo, origem, destino):
         atual = caminho[-1]
         
         if atual == destino:
-            
+            #aqui irá retornar tanto a distancia quanto o caminho
             distancia_total = 0
             for i in range(len(caminho) - 1):
                 cidade_atual = caminho[i]
@@ -24,7 +24,7 @@ def bfs(grafo, origem, destino):
                 fila.append(caminho + [vizinho])
                 
     return None, 0
-
+#grafo
 grafo_cidades = {
     "São Paulo": {
         "Rio de Janeiro": 400,
@@ -49,7 +49,7 @@ grafo_cidades = {
         "Belo Horizonte": 720
     }
 }
-
+#inicialização
 if __name__ == "__main__":
     origem = input("Cidade de origem: ").strip()
     destino = input("Cidade de destino: ").strip()

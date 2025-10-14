@@ -1,0 +1,9 @@
+Roteiro 3
+Definição de árvore e grafo, vantagens de cada estrutura
+Árvores é uma estrutura de dados que organiza os dados de forma hierarquia. Toda árvore é composta por nós e arestas, as arestas são o que ligam esses nós. As árvores possuem um nó chamado de raiz, que é o nó inicial dela. Todos nós superiores são chamados de nós pais e os inferiores de nós filhos, os que não possuem filhos são chamados de folhas.
+	Grafo é uma estrutura de dados que representa um conjunto de objetos e a relação entre eles, é constituído por vértices e arestas. As vértices, também chamadas de nós e as arestas, é o que os conecta. 
+	Essas estruturas são essenciais para computação, pois são uma ótima maneira de organizar seus dados para diversos programas. As árvores, por exemplo, podem representar um catálogo de produtos, onde o nó raiz é a categoria (como eletrônicos), e os nós filhos são os produtos que tem dentro dessa categoria. Os grafos podem representar caminhos de uma cidade até outra, ligando as que possuem uma conexão, assim podemos mostrar qual é o caminho mais curto de uma cidade até a outra ou todos caminhos possíveis.
+
+Escolha de Python para ilustrar algoritmos de percursos
+	Python é uma excelente linguagem para construção desses algoritmos de percursos, tanto para alguém que está iniciando os estudos sobre esses algoritmos, tanto para pessoas experientes, pois com ela temos um conjunto de bibliotecas que facilita a construção desses algoritmos, deixando de forma mais legível e às vezes mais eficiente. 
+Um exemplo de uma forma mais eficiente de construir um algoritmo utilizando uma biblioteca Python, seria na construção de um algoritmos bfs (Busca em Largura) usando o “popleft” que é um método que vem de uma biblioteca de Python chamada de “deque”, com ela a execução do programa fica mais rápida do que ficaria usando o “pop(0)”, principalmente, caso a quantidade de dados seja grande.

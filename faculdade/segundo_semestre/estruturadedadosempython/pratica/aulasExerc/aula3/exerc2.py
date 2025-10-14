@@ -1,8 +1,11 @@
+
 from collections import deque
 def bfs(grafo, origem, destino):
+    #  fila para o bfs, começa apenas com a origem
     fila = deque([[origem]])
+    #  visitados para o bfs, começa apenas com a origem
     visitados = {origem}
-
+    # enquanto tiver item na fila ele ira buscar ou se encontrar o caminho mais curto ele retorna o caminho
     while fila: 
         caminho = fila.popleft()
         atual = caminho[-1]
@@ -19,7 +22,7 @@ def bfs(grafo, origem, destino):
 
     return None
     
-
+# grafo das cidades
 grafo_cidades = {
     "São Paulo": ["Rio de Janeiro", "Curitiba"],
     "Rio de Janeiro": ["São Paulo", "Belo Horizonte"],
@@ -29,7 +32,7 @@ grafo_cidades = {
 }
 
 
-
+#inicialização
 if __name__ == "__main__":
     origem = input("Cidade de origem: ").strip()
     destino = input("Cidade de destino: ").strip()
