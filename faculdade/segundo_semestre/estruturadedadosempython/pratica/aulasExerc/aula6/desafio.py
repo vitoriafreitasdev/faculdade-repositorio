@@ -1,24 +1,52 @@
-import random, string, timeit
-
-def gerar_str(tam=8):
-    return "".join(random.choices(string.ascii_letters, k=tam))
+import heapq
+import random
+import timeit
 
 n = 50_000
-chaves = [gerar_str() for _ in range(n)]
-valores = list(range(n))
-lista = list(zip(chaves, valores))
-tabela = dict(zip(chaves, valores)) # zip combina os itens
+# Cria uma lista com 50 mil números aleatórios entre 1 e 1 milhão
+dados = [random.randint(1, 1_000_000) for _ in range(n)]
+
+def heap_invertendo_sinal():
+    heap = []
+    # heappush insere elemento mantendo a propriedade de heap
+    # Aqui invertemos o sinal (-v) para simular uma max-heap,
+    # pois o heapq por padrão é um min-heap
+    for v in dados:
+        heapq.heappush(heap, -v)
+    # heappop remove o menor elemento (que, com sinal invertido,
+    # equivale ao maior valor original)
+    while heap:
+        heapq.heappop(heap)
 
 
-consulta = random.sample(chaves, 1_000)
+class MaxValue:
+    __slots__ = ("valor",)  # economiza memória, define atributos fixos
+    def __init__(self, valor):
+        self.valor = valor
 
-def busca_lista():
-    for c in consulta:
-        next((v for k, v in lista if k == c), None)
+    # Método de comparação especial usado pelo heapq
+    # Aqui invertemos o critério: maior valor é considerado "menor"
+    # para o heapq, simulando uma max-heap real.
+    def __lt__(self, outro):
+        return self.valor > outro.valor
 
-def busca_tabela():
-    for c in consulta:
-        tabela.get(c)
+    def __repr__(self):
+        return f"{self.valor}"
 
-print("Lista:", timeit.timeit(busca_lista, number=1))
-print("Dict:", timeit.timeit(busca_tabela, number=1))
+def heap_classe_propria():
+    heap = []
+    # heappush insere objetos da classe MaxValue
+    for v in dados:
+        heapq.heappush(heap, MaxValue(v))
+    # heappop remove mantendo a ordem definida em __lt__
+    while heap:
+        heapq.heappop(heap)
+
+
+# Mede o tempo de execução de cada abordagem apenas 1 vez
+tempo_sinal = timeit.timeit(heap_invertendo_sinal, number=1)
+tempo_classe = timeit.timeit(heap_classe_propria, number=1)
+
+# Mostra os resultados de forma formatada
+print(f"Invertendo sinal: {tempo_sinal:.4f} s")
+print(f"Classe própria:   {tempo_classe:.4f} s")

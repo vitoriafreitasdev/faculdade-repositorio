@@ -1,5 +1,4 @@
 import heapq 
-
 tarefa = []
 
 heapq.heappush(tarefa, (3, "Enviar relatório."))
