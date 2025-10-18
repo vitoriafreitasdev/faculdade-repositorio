@@ -1,5 +1,4 @@
 import heapq 
-
 def dijkstra(grafo, origem):
     dist = {v: float('inf') for v in grafo}
     dist[origem] = 0
