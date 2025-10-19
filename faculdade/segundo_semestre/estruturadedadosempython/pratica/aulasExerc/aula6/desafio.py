@@ -5,6 +5,7 @@ import timeit
 n = 50_000
 # Cria uma lista com 50 mil números aleatórios entre 1 e 1 milhão
 dados = [random.randint(1, 1_000_000) for _ in range(n)]
+print(dados)
 
 def heap_invertendo_sinal():
     heap = []

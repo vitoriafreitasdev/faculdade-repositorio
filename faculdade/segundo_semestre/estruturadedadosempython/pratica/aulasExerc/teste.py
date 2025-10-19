@@ -1,78 +1,52 @@
 
-"""
-Implementações do Problema do Subconjunto (Subset Sum) e Problema do Troco Mínimo
-Comparando abordagens: Recursiva, Memoização e Bottom-up
-"""
-
 def subconjunto(numeros, S, n=None):
-   
     if n is None:
         n = len(numeros)
-    # Caso base: soma desejada é 0 -> subconjunto vazio
     if S == 0:
         return True
-    # Caso base: não há mais elementos
     if n == 0:
         return False
-    # Se o último elemento é maior que S, ignora-o
     if numeros[n-1] > S:
         return subconjunto(numeros, S, n-1)
-    # Recursão: inclui OU exclui o último elemento
     return subconjunto(numeros, S, n-1) or subconjunto(numeros, S - numeros[n-1], n-1)
 
 def subconjunto_memo(numeros, S):
     memo = {}
     def dp(n, s):
-        # Casos base
         if s == 0:
             return True
         if n == 0:
             return False
-        # Retorna resultado memoizado se existir
         if (n, s) in memo:
             return memo[(n, s)]
-        # Calcula e armazena resultado
         if numeros[n-1] > s:
             memo[(n, s)] = dp(n-1, s)
         else:
             memo[(n, s)] = dp(n-1, s) or dp(n-1, s - numeros[n-1])
         return memo[(n, s)]
-    
     return dp(len(numeros), S)
 
 def subconjunto_bottom(numeros, S):
-
     n = len(numeros)
-    # Cria tabela DP: dp[i][s] = True se soma s pode ser alcançada com i primeiros elementos
-    dp = [[False] * (S + 1) for _ in range(n + 1)]
-    
-    # Inicializa: soma 0 pode ser alcançada com qualquer número de elementos (subconjunto vazio)
-    for i in range(n + 1):
+    dp = [[False]*(S+1) for _ in range(n+1)]
+    for i in range(n+1):
         dp[i][0] = True
-    
-    # Preenche a tabela
-    for i in range(1, n + 1):
-        for s in range(1, S + 1):
-            if numeros[i - 1] > s:
-                # Não inclui o elemento atual
-                dp[i][s] = dp[i - 1][s]
+    for i in range(1, n+1):
+        for s in range(1, S+1):
+            if numeros[i-1] > s:
+                dp[i][s] = dp[i-1][s]
             else:
-                # Inclui OU não inclui o elemento atual
-                dp[i][s] = dp[i - 1][s] or dp[i - 1][s - numeros[i - 1]]
-    
+                dp[i][s] = dp[i-1][s] or dp[i-1][s - numeros[i-1]]
     return dp[n][S]
 
 # Problema do troco mínimo 
 
 def troco_minimo(coins, V):
-
     if V == 0:
         return 0
     if V < 0:
-        return float('inf')  # Caso inválido
-    
+        return float('inf')  
     resposta = float('inf')
-    # Para cada moeda, tenta usá-la e resolve o subproblema
     for c in coins:
         if c <= V:
             sub_resposta = troco_minimo(coins, V - c)
@@ -81,49 +55,36 @@ def troco_minimo(coins, V):
     return resposta
 
 def troco_minimo_memo(moedas, V):
- 
     memo = {}
-    
     def dp(v):
-        # Casos base
         if v == 0:
             return 0
         if v < 0:
             return float('inf')
-        # Retorna resultado memoizado se existir
         if v in memo:
             return memo[v]
-        
         resposta = float('inf')
-        # Para cada moeda, calcula a solução ótima
         for m in moedas:
             if m <= v:
                 sub_resposta = dp(v - m)
                 if sub_resposta != float('inf'):
                     resposta = min(resposta, 1 + sub_resposta)
-        
         memo[v] = resposta
         return resposta
-    
     return dp(V)
 
 def troco_minimo_bottom(moedas, V):
-    
-    # dp[v] = mínimo número de moedas para fazer o valor v
+ 
     dp = [float('inf')] * (V + 1)
-    dp[0] = 0  # Caso base: 0 moedas para valor 0
+    dp[0] = 0
     
-    # Para cada valor de 1 até V
     for v in range(1, V + 1):
-        # Para cada moeda disponível
         for m in moedas:
             if m <= v:
-                # Atualiza com a melhor solução
                 dp[v] = min(dp[v], 1 + dp[v - m])
     
-    return dp[V] if dp[V] != float('inf') else -1
+    return dp[V] if dp[V] != float('inf') else -1 
 
-# Dados de teste
 import time
 
 

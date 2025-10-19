@@ -1,0 +1,89 @@
+PIMIV-C
+desenvolver bibliotecas para processamento de dados biomédicos
+Os estudantes criarão bibliotecas que executam três tarefas específicas:
+
+Rotinas de Filtragem Digital: Implementar algoritmos (ex.: filtros FIR, IIR) para remover ruído de sinais biomédicos (como ECG, EEG), realçando a informação relevante.
+
+Compressão Adaptativa de Registros Biomédicos: Desenvolver algoritmos de compressão (ex.: baseados em DCT, Huffman, ou técnicas específicas para sinais fisiológicos) que reduzam o tamanho dos dados sem perder informação crítica. "Adaptativa" significa que o algoritmo pode se ajustar às características do sinal.
+
+Gravação Segura em Arquivos Binários: Salvar os dados processados de forma eficiente (binário é mais compacto que texto) e integra (possivelmente incluindo checksums ou criptografia básica para verificação e proteção).
+
+O projeto foi desenhado para forçar o uso dos pilares da linguagem C:
+
+Vetores & Matrizes: Para armazenar os sinais (vetores 1D) ou imagens médicas (matrizes 2D).
+
+Funções: Para modularizar o código (ex.: uma função para filtrar, outra para comprimir).
+
+Ponteiros: Manipulação eficiente de vetores, passagem por referência, aritmética de ponteiros. Fundamental para desempenho em C.
+
+Controle de Fluxo: Loops (for, while) para iterar sobre dados e condicionais (if/else) para lógica de programação.
+
+Manipulação de Arquivos: Abrir, ler, escrever e fechar arquivos binários usando funções da biblioteca padrão de C (fopen, fwrite, fread).
+
+Integração e Conceito Avançado: "FFI (Foreign Function Interface)"
+O que é FFI: Um mecanismo que permite que código em uma linguagem de programação chame funções ou use serviços escritos em outra linguagem.
+
+No Contexto do Projeto: As bibliotecas nativas em C (rápidas e eficientes) serão integradas a uma aplicação principal escrita em Python ou C++.
+
+Por que fazer isso? Python é ótimo para prototipagem, IA e interface com o usuário, mas é mais lento. C++ é poderoso para aplicações complexas. Usa-se o C para as partes que exigem máxima performance, e uma linguagem de mais alto nível para a lógica de aplicação.
+
+Exemplo Prático: Um script em Python, usando uma biblioteca como ctypes, chamaria a função filtrar_ecg() que foi compilada em C.
+
+O que é uma Biblioteca Nativa?
+Pense numa caixa de ferramentas especializada que você cria. Não é um programa completo que roda sozinho, mas sim um conjunto de ferramentas (funções) que outros programas podem usar para tarefas específicas.
+
+Analogia:
+
+Sua biblioteca em C = Uma caixa de ferramentas de mecânico
+
+Outro programa (Python/C++) = O mecânico que usa as ferramentas
+
+O que Você Precisaria Construir Concretamente:
+1. Arquivo de Cabeçalho (.h) - O "Catálogo de Ferramentas"
+Você cria um documento que lista TODAS as ferramentas disponíveis na sua biblioteca
+
+Para cada "ferramenta" (função), você define:
+
+Nome da ferramenta: compress_data()
+
+O que ela faz: Comprime registros biomédicos
+
+O que ela recebe: Dados originais, tamanho dos dados
+
+O que ela devolve: Dados comprimidos, novo tamanho
+
+Arquivo de Implementação (.c) - As "Ferramentas Reais"
+Aqui você CONSTRÓI cada ferramenta do catálogo
+
+Você implementa:
+
+Algoritmos de filtragem: Código que remove ruído de sinais cardíacos
+
+Rotinas de compressão: Código que reduz tamanho de arquivos médicos
+
+Sistemas seguros de gravação: Código que salva dados em formato binário protegido
+
+Interface de Comunicação (FFI) - A "Linguagem Universal"
+Você cria uma "ponte de comunicação" para que programas em Python/C++ possam:
+
+Chamar suas funções em C
+
+Passar dados para elas
+
+Receber os resultados de volta
+
+
+Usuário → [Interface Python/C++] → [Sua Biblioteca C] → [Processamento] → [Resultados] → [Interface] → Usuário
+
+
+
+
+
+
+
+
+
+
+
+
+
