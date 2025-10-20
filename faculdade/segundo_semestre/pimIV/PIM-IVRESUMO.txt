@@ -1,0 +1,70 @@
+PIM-IVRESUMO
+
+Tema: Plataforma distribuída para gestão integrada de pesquisa clínica e manufatura farmacêutica.
+Objetivo geral: Desenho e implementação de um ecossistema digital baseado em arquitetura
+distribuída de baixa latência, apoiado por modelos de Inteligência Artificial explicáveis e por documentação rigorosa de requisitos e design, formando ciclo contínuo de melhoria que
+atenda simultaneamente às exigências regulatórias do setor farmacêutico e às metas
+institucionais de inovação científica. 
+ 
+Contextualização 
+
+A indústria farmacêutica contemporânea requer plataformas distribuídas que sustentem
+cargas de trabalho em tempo real, preservem integridade científica e atendam a auditorias
+de GxP, que englobam boas práticas laboratoriais (GLP), clínicas (GCP) e de
+fabricação (GMP).
+ Redes definidas por software, segmentadas logicamente por VLANs, fornecem isolamento
+de fluxos sensíveis e permitem aplicação de políticas de QoS específicas para registros
+auditáveis e dados clínicos confidenciais, atendendo aos critérios de segurança previstos no
+FDA 21 CFR Part 11.
+ Uma camada de desempenho determinístico é fundamental
+para aquisição de sinais laboratoriais e fabris com latência
+mínima. Bibliotecas compiladas em C fornecem interface direta
+com sensores, executam cálculos numéricos elementares com
+overhead reduzido e gravam resultados em formatos binários
+padronizados que preservam precisão de ponto flutuante.
+
+ A inteligibilidade dos modelos de Inteligência Artificial é garantida por métodos de
+explicabilidade como SHAP e Grad-CAM, gerando artefatos que podem ser revisados por
+avaliadores regulatórios.
+ A convergência entre rede resiliente, Inteligência Artificial auditável e componentes nativos
+em C oferece base robusta para visualização de indicadores clínicos e fabris, preparação de
+dossiês de submissão e mitigação de riscos operacionais.
+
+O que é para ser feito em cada disciplina 
+Redes de Computadores e Sistemas Distribuídos
+ Será elaborado protótipo de infraestrutura lógica que conecta os módulos da plataforma em
+topologia hierárquica resiliente.
+ O projeto contemplará segmentação da rede em VLANs, políticas de roteamento redundante
+simuladas com OSPF ou BGP e implementação de SDN a partir de controladores como
+OpenDaylight, demonstrando continuidade operacional durante panes parciais por meio de
+métricas de latência, throughput e disponibilidade.
+
+Inteligência Artificial
+Cada equipe construirá pipelines completos, desde a curadoria dos dados até a
+validação, entregando três modelos funcionais:
+ um classificador para estratificação de voluntários;
+ uma rede convolucional para inspeção visual de comprimidos;
+ um preditor de rendimento de lotes.
+ Documentos técnicos incluirão matriz de confusão, curvas
+ROC, métricas de precisão e F1-score, juntamente com
+relatórios de explicabilidade.
+
+Programação Estruturada em C
+ Os estudantes desenvolverão bibliotecas nativas que executam rotinas de filtragem digital,
+compressão adaptativa de registros biomédicos e gravação segura em arquivos binários.
+ Tais módulos demonstrarão uso criterioso de vetores, matrizes, funções, ponteiros, controle
+de fluxo e manipulação de arquivos, bem como integração por FFI (Foreign Function
+Interface) com camadas superiores em Python ou C++. (Significa: está dizendo que uma biblioteca ou módulo de baixo nível (ex: feito em Rust, C, Assembly, etc.) pode ser usado por uma camada superior escrita em Python ou C++, que cuida da lógica principal do sistema.)
+
+ O desempenho será avaliado por benchmarks de uso de CPU, latência média e consumo de
+memória, seguindo metodologia reprodutível.
+
+Análise e Projeto de Sistemas
+ Serão produzidos diagramas de casos de uso, classes, sequência e implantação mediante
+ferramentas CASE, com rastreabilidade completa entre requisitos, componentes e testes.
+ Os estudantes escolherão padrões de projeto compatíveis com ambientes distribuídos
+regulados, justificando tecnicamente cada seleção, e compilarão um dossiê capaz de ser
+auditado conforme GAMP 5 e FDA 21 CFR Part 11.
+
+
+

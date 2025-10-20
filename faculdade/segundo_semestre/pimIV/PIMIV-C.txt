@@ -1,4 +1,17 @@
 PIMIV-C
+
+
+Programação Estruturada em C
+ Os estudantes desenvolverão bibliotecas nativas que executam rotinas de filtragem digital,
+compressão adaptativa de registros biomédicos e gravação segura em arquivos binários.
+ Tais módulos demonstrarão uso criterioso de vetores, matrizes, funções, ponteiros, controle
+de fluxo e manipulação de arquivos, bem como integração por FFI (Foreign Function
+Interface) com camadas superiores em Python ou C++. (Significa: está dizendo que uma biblioteca ou módulo de baixo nível (ex: feito em Rust, C, Assembly, etc.) pode ser usado por uma camada superior escrita em Python ou C++, que cuida da lógica principal do sistema.)
+
+ O desempenho será avaliado por benchmarks de uso de CPU, latência média e consumo de
+memória, seguindo metodologia reprodutível.
+
+///// 
 desenvolver bibliotecas para processamento de dados biomédicos
 Os estudantes criarão bibliotecas que executam três tarefas específicas:
 
@@ -72,15 +85,159 @@ Passar dados para elas
 
 Receber os resultados de volta
 
-
 Usuário → [Interface Python/C++] → [Sua Biblioteca C] → [Processamento] → [Resultados] → [Interface] → Usuário
 
+Resumo Final:
+Sim, você criará em C:
+🔧 Ferramentas especializadas que processam dados biomédicos
 
+E outras linguagens usarão:
+🎨 Interfaces amigáveis que mostram esses resultados para usuários
 
+Conectados por:
+🌉 FFI que permite essa comunicação transparente
 
+É exatamente essa divisão entre "motor de performance" (C) e "experiência do usuário" (Python/C++) que torna o projeto tão poderoso e profissional!
 
+//////////// O que fazer com os dados coletados 
+1. FILTRAGEM DIGITAL - "Limpar o Sinal"
+Problema: Sinais biomédicos vêm com "sujeira"
+Ruído de 50/60Hz da rede elétrica
 
+Artefatos de movimento do paciente
 
+Interferência de outros equipamentos
+
+"Baseline wander" (deriva da linha de base)
+
+O que você faria:
+Implementar filtros matemáticos que:
+
+Remove frequências específicas (como o zumbido de 60Hz)
+
+Suaviza o sinal mantendo características importantes
+
+Corrige a linha de base que fica "subindo/descendo"
+
+ECG CRU:     [0.12, 0.58, -0.23, 1.45, 0.89, ...] ← Cheio de ruído
+↓ SUA BIBLIOTECA FILTRA ↓
+ECG LIMPO:   [0.15, 0.22, 0.18, 0.25, 0.21, ...] ← Sinal cardíaco claro
+
+2. COMPRESSÃO ADAPTATIVA - "Reduzir sem Perder"
+Problema: Dados médicos ocupam MUITO espaço
+24h de ECG = Gigabytes de dados
+
+Hospitais geram Terabytes por dia
+
+Precisa armazenar por anos (exigência legal)
+
+O que você faria:
+Desenvolver algoritmos inteligentes que:
+
+Identificam partes "interessantes" (arritmias, eventos) vs "normais"
+
+Comprimem mais as partes normais, menos as anormais
+
+Mantêm toda informação clinicamente relevante
+
+Técnicas possíveis:
+
+DPCM (Differential Pulse-Code Modulation)
+
+Transformadas (DCT, Wavelet) + quantização
+
+Codificação de Huffman adaptativa
+
+Dados originais: 100 MB de ECG de 24h
+↓ SUA COMPRESSÃO ADAPTATIVA ↓  
+Dados comprimidos: 15 MB (85% de redução)
+← Médico ainda consegue diagnosticar tudo!
+
+3. DETECÇÃO DE EVENTOS - "Encontrar o Relevante"
+O que você faria:
+Analisar o sinal filtrado para identificar:
+
+Batimentos cardíacos em ECG
+
+Crises epilépticas em EEG
+
+Dessaturações em oxímetro
+
+Apneias em polissonografia
+
+SINAL CONTÍNUO: [____________________________]
+↓ SUA BIBLIOTECA ANALISA ↓
+EVENTOS ENCONTRADOS:
+- Batimento normal às 14:30:01.234
+- Arritmia ventricular às 14:35:12.567
+- Batimento normal às 14:35:13.890
+
+4. EXTRAÇÃO DE CARACTERÍSTICAS - "Medir o Importante"
+O que você calcularia:
+Para ECG:
+
+Frequência cardíaca (batimentos por minuto)
+
+Intervalos PR, QRS, QT (tempos entre ondas)
+
+Morphologia do complexo QRS
+
+Para EEG:
+
+Potência em bandas de frequência (delta, theta, alpha, beta, gamma)
+
+Entropia, complexidade do sinal
+
+Para PPG:
+
+Amplitude do pulso
+
+Tempo de subida/descida
+
+5. GRAVAÇÃO SEGURA - "Armazenar com Confiança"
+Problema: Dados médicos são críticos, não podem corromper
+O que você faria:
+Estruturar arquivos binários com:
+
+Cabeçalho com metadados (paciente, data, configurações)
+
+Dados comprimidos e filtrados
+
+Checksums para detectar corrupção
+
+Índices para busca rápida de eventos
+
+Formato exemplo:
+
+[HEADER][CHECKSUM][DADOS_COMPRIMIDOS][EVENTOS_DETECTADOS][CHECKSUM_FINAL]
+
+6. INTEGRAÇÃO VIA FFI - "Entregar Resultados"
+O que sua biblioteca entregaria para Python/C++:
+Dados processados prontos para visualização
+
+Eventos detectados para alertas
+
+Métricas calculadas para dashboards
+
+Arquivos compactados para armazenamento
+
+# Python chama sua biblioteca C
+dados_ecg_crus = adquirir_do_dispositivo()
+
+# Sua biblioteca em C faz o trabalho pesado:
+resultado = biblioteca_medica.processar_ecg(dados_ecg_crus)
+# ↑↑↑ DENTRO DESSA FUNÇÃO VOCÊ FEZ: ↑↑↑
+# 1. ✅ Filtrou ruído
+# 2. ✅ Detectou 147 batimentos cardíacos  
+# 3. ✅ Identficou 2 arritmias
+# 4. ✅ Calculou FC média: 72 bpm
+# 5. ✅ Comprimiu dados de 10MB para 1.5MB
+# 6. ✅ Gerou arquivo binário seguro
+
+# Python recebe tudo pronto e mostra:
+plotar_grafico(resultado.dados_filtrados)
+mostrar_alerta(f"Arritmia detectada: {resultado.eventos}")
+salvar_arquivo(resultado.dados_comprimidos)
 
 
 
