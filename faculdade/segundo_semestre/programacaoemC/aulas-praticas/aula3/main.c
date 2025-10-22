@@ -1,64 +1,10 @@
-// aula 3
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 
 int main()
 {
-        setlocale(LC_ALL, "Portuguese");
-
-        int idade;
-        printf("Digite sua idade: ");
-        scanf("%d", &idade);
-
-        if(idade >= 18){
-            printf("Voce e maior de idade.\n");
-        }
-
-        //
-
-        int numero;
-        printf("Digite um numero: ");
-        scanf("%d", &numero);
-
-        if(numero % 2 == 0){
-            printf("Par");
-        } else {
-            printf("Impar");
-        }
-
-
-        //
-
-        int senhaDigitada;
-        int senhaCorreta = 1234;
-
-        printf("\nDigite a senha: ");
-        scanf("%d", &senhaDigitada);
-
-        if(senhaDigitada == senhaCorreta){
-            printf("Senha permitida.\n");
-        } else {
-            printf("Senha incorreta! tente novamente.\n");
-        }
-
-        //
-
-        int nota;
-
-        printf("Digite a nota (0 a 10): ");
-        scanf("%d", &nota);
-
-        if (nota >= 7){
-            printf("Aprovado.\n");
-        } else if (nota >= 5){
-            printf("Em recuperacao.\n");
-        } else {
-            printf("Reprovado.\n");
-        }
-
         // desafio
-
 
         char name[50];
         int age;
@@ -89,9 +35,13 @@ int main()
         } else if (average >= 7){
             printf("Aprovado, mas ainda pode melhorar.");
         } else {
-            printf("Reprovado. Continue se esforcando!");
+            printf("Reprovado. Continue se esforçando!");
         }
 
 
         return 0;
 }
+
+
+
+
