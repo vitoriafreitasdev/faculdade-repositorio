@@ -1,3 +1,4 @@
+
 import ctypes
 import os
 
@@ -14,3 +15,5 @@ lib.sub.restype = ctypes.c_int
 # Chama as funções C
 print("4 + 5 =", lib.add(4, 5))
 print("10 - 7 =", lib.sub(10, 7))
+
+#gcc -shared -o library.dll -fPIC library.c

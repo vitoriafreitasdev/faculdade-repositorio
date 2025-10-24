@@ -8,5 +8,7 @@ __declspec(dllexport) int add(int x, int y) {
 }
 
 __declspec(dllexport) int sub(int x, int y) {
+    printf("Sub function\n");
     return x - y;
 }
+
