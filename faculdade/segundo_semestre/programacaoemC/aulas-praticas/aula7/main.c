@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
+
 int calcula_quadrado(int num) {
         return num * num;
 }
@@ -77,7 +78,7 @@ int main()
 
     char nome[50];
     printf("Digite seu nome: ");
-    fgets(nome, sizeof(nome), stdin); // le nome com espaços
+    scanf(" %[^\n]", nome); // le nome com espaços
 
     int total = contar_caracteres(nome);
     printf("O nome possui %d caracteres.\n", total);
@@ -98,3 +99,4 @@ int main()
         return i;
 
     }
+
