@@ -1,14 +1,6 @@
 
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
 
-
-// #define BINARY_WRITE "wb"
-// #define BINARY_READ "rb"
-
-
-//teste.c
+// Arquivo: teste.c
 #include "biblioteca.h"
 // agora => rodar esse biblioteca em um arquivo python!
 int main()
@@ -18,8 +10,10 @@ int main()
     return 0;
 }
 
-// gcc -o run teste.c biblioteca.c biblioteca.h | ./run
+//gcc -shared -o biblioteca.dll -fPIC biblioteca.c
 
+
+// gcc -o run teste.c biblioteca.c biblioteca.h | ./run
 
 // FILE* bin_file = fopen("binary.bin", BINARY_READ);
 
