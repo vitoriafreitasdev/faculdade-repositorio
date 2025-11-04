@@ -22,15 +22,7 @@ void sinais_normalizados(int vetor[], int tamanho, int valor_maximo_absoluto, fl
 }
 
 // Filtro FIR
-
-/* FIR = Finite Impulse Response
--Ele pega as últimas N amostras e faz média ponderada delas.
-Ela vai receber: 
-Um vetor de amostras de entrada (ex.: ECG normalizado), exemplo: [4, 8, 6, 5]
-Um vetor de coeficientes do filtro FIR (pesos aplicados às amostras), exemplo: [0.33, 0.33, 0.33]
-tamanho do sinal (quantas amostras existem) - É o tamanho do vetor de amostras de entrada, ou seja, quantas amostras do sinal você tem para filtrar.
-número de coeficientes (ordem do filtro) - É o tamanho do vetor de coeficientes, ou seja, quantos valores (pesos) o filtro FIR vai usar em cada cálculo.
-Um vetor de saída onde você vai guardar o sinal filtrado */
+/* FIR = Finite Impulse Response => Ele pega as últimas N amostras e faz média ponderada delas. */
 void filtroFir(int amostras_entrada[], float coeficientes[], int tamanho_entrada, int tamanho_coeficientes, float sinal_filtrado[]){
     float acumulador = 0.0f;
     int i, k;
@@ -52,7 +44,9 @@ void filtroFir(int amostras_entrada[], float coeficientes[], int tamanho_entrada
 
 }
 
-
+//Filtro IIR(biquad)
+/* Um filtro IIR (Infinite Impulse Response) usa realimentação (feedback): ele utiliza amostras atuais e anteriores da entrada e amostras anteriores da saída. Formula: y[n] = b0 * x[n] + b1 * x[n−1] + b2 * x[n−2] − a1 * y[n−1] − a2 * y[n−2]
+*/
 void filtroIIR(float entrada[], float saida[], int tamanho, Coeficientes coeficientes){
 
     float x1 = 0.0f;
@@ -69,22 +63,41 @@ void filtroIIR(float entrada[], float saida[], int tamanho, Coeficientes coefici
         x1 = x0;
         y2 = y1;
         y1 = y0;
-
     }
-
-
 }
 
-//Filtro IIR(biquad)
-/* Um filtro IIR (Infinite Impulse Response) usa realimentação (feedback): ele utiliza amostras atuais e anteriores da entrada e amostras anteriores da saída. Formula: y[n] = b0 * x[n] + b1 * x[n−1] + b2 * x[n−2] − a1 * y[n−1] − a2 * y[n−2]
-A função deve receber:
-vetor de entrada
-vetor de saída
-coeficientes b0, b1, b2, a1, a2
-tamanho do sinal
-Manter estado entre iterações (x[n−1], x[n−2], y[n−1], y[n−2])
-Para cada amostra:
-aplica a equação
-grava o resultado no vetor de saída
-atualiza os valores anteriores
-*/
+/*Downsampling => significa diminuir a taxa de amostragem do sinal.*/
+void downsample(float entrada[], int tamanho, int fator, float saida[]){
+    int indice_saida = 0;
+    int i;
+
+    for(i = 0; i < tamanho; i++) {
+        if(i % fator == 0){
+            saida[indice_saida] = entrada[i];
+            indice_saida++;
+        }
+    }
+}
+
+/*Denoising => Reduzir o ruído do sinal suavizando variações bruscas, mas mantendo a forma do sinal (picos e tendências).*/
+
+void denoising(float entrada[], int tamanho, int janela, float saida[]){
+    int metade = janela / 2;
+    int i, k;
+    for(i = 0; i < tamanho; i++){
+        float acumulador = 0;
+        int contador = 0;
+
+        for(k = -metade; k <= metade; k++) {
+            int indice = i + k;
+
+            if(indice < 0 || indice >= tamanho){
+                continue;
+            }
+
+            acumulador += entrada[indice];
+            contador++;
+        }
+        saida[i] = acumulador / contador;
+    }
+}

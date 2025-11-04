@@ -53,7 +53,37 @@ int main(){
         printf("%.1f\n", saida[i]);
     }
 
+    // Downsampling 
+    float entrada_downsample[4] = {1.3, 2.0, 4.3, 3.1};
+    int tamanho_entrada = 4;
+    int fator = 2;
+    int tamanho_saida = (tamanho_entrada + fator - 1) / fator;
+    float saida_downsample[tamanho_saida];
+
+    downsample(entrada_downsample, tamanho_entrada, fator, saida_downsample);
+    printf("Resultado do Downsampling\n");
+
+    for(i = 0; i < tamanho_saida; i++){
+        printf("%.1f\n", saida_downsample[i]);
+    }
+
+    // Denoising
+
+    float entrada_denoising[4] = {4.3, 3.0, 1.3, 2.1};
+    int tamanho_denoising = 4;
+    int janela = 4;
+    float saida_denoising[tamanho_denoising];
+
+    denoising(entrada_denoising, tamanho_denoising, janela, saida_denoising);
+
+    printf("Resultado do Denoising\n");
+
+    for(i = 0; i < tamanho_denoising; i++){
+        printf("%.1f\n", saida_denoising[i]);
+    }
+
+
     return 0;
 }
-// fazer o filtro Notch
+// começar o rotinas compressao adaptativa
 // gcc -o app main.c bib.c | ./app

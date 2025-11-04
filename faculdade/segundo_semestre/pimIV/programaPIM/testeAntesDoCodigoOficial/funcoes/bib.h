@@ -13,5 +13,7 @@ typedef struct
 void sinais_normalizados(int vetor[], int tamanho, int valor_maximo_absoluto, float vetor_saida[]);
 void filtroFir(int amostras_entrada[], float coeficientes[], int tamanho_entrada, int tamanho_coeficientes, float sinal_filtrado[]);
 void filtroIIR(float entrada[], float saida[], int tamanho, Coeficientes coeficientes);
+void downsample(float entrada[], int tamanho, int fator, float saida[]);
+void denoising(float entrada[], int tamanho, int janela, float saida[]);
 
 #endif
