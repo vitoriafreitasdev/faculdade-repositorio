@@ -2,10 +2,11 @@
 //bib.c
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 #include "bib.h"
 
 // formula valor_normalizado = valor_original / valor_maximo_absoluto
+// Normalizar significa pegar esse vetor e ajustar todos os valores para caber em uma faixa fixa
 // Pré-processamentoz
 void sinais_normalizados(int vetor[], int tamanho, int valor_maximo_absoluto, float vetor_saida[]){
     if (valor_maximo_absoluto == 0) {
@@ -100,4 +101,70 @@ void denoising(float entrada[], int tamanho, int janela, float saida[]){
         }
         saida[i] = acumulador / contador;
     }
+}
+
+// Rotinas compressão adaptativa 
+/* 
+Delta Encoding
+A codificação delta é uma técnica de compressão simples onde não armazenamos os valores originais do sinal, mas sim as diferenças entre uma amostra e a anterior.
+*/
+
+void codificacao_delta(float entrada[], int tamanho, float saida[]){
+    // Primeiro valor é copiado sem alteração
+    saida[0] = entrada[0];
+
+    int i;
+
+    // Calcula a diferença das próximas amostras
+    for(i = 1; i < tamanho; i++){
+        saida[i] = entrada[i] - entrada[i - 1];
+    }
+
+}
+
+/* 
+decodificação delta
+A função recebe um vetor com valores codificados por delta (diferenças) e reconstrói o sinal original somando cada diferença ao valor acumulado anterior.
+*/
+
+void decodificacao_delta(float entrada[], int tamanho, float saida[]){
+    saida[0] = entrada[0];
+
+    int i;
+
+    for(i = 1; i < tamanho; i++){
+        saida[i] = saida[i-1] + entrada[i];
+    }
+
+}
+
+/*
+RLE Adaptativo
+O RLE adaptativo é uma variação do RLE tradicional.
+No RLE clássico, comprime sequências de valores iguais consecutivos (ex.: 5 5 5 5 → (5,4)).
+No RLE adaptativo, você define um limiar (threshold) para considerar valores "suficientemente próximos", e não apenas idênticos.
+*/
+void RLEAdaptativo(float entrada[], int tamanho, float threshold, float valores[], int contagens[], int *tamanho_saida) {
+    float valor_atual = entrada[0];
+    int contador = 1;
+    int indice_saida = 0;
+
+    for (int i = 1; i < tamanho; i++) {
+        if (fabs(entrada[i] - valor_atual) <= threshold) {
+            contador++;
+        } else {
+            valores[indice_saida] = valor_atual;
+            contagens[indice_saida] = contador;
+            indice_saida++;
+
+            valor_atual = entrada[i];
+            contador = 1;
+        }
+    }
+
+    // Salva o último grupo
+    valores[indice_saida] = valor_atual;
+    contagens[indice_saida] = contador;
+
+    *tamanho_saida = indice_saida + 1;
 }

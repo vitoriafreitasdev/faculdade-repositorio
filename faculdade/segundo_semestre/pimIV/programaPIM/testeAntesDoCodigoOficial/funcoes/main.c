@@ -5,7 +5,7 @@
 #include "bib.h"
 
 int main(){
-  
+    // Rotinas Filtragem Digital
     int vetor[7] = {-32700, -15000, -8000, 0, 12000, 25000, 31000};
     float vetor_saida[7];
     int i;
@@ -82,8 +82,48 @@ int main(){
         printf("%.1f\n", saida_denoising[i]);
     }
 
+    //Rotinas Compressão Adaptativa
+    // Codificação delta
+    float entrada_delta[4] = {4.3, 5.0, 4.6, 4.8};
+    float saida_delta[4];
+
+    codificacao_delta(entrada_delta, 4, saida_delta);
+
+    printf("Resultado do Codificacao delta\n");
+
+    for(i = 0; i < 4; i++){
+        printf("%.1f\n", saida_delta[i]);
+    }
+
+    // decodificação delta
+
+    float saida_decodificada[4];
+
+    decodificacao_delta(saida_delta, 4, saida_decodificada);
+
+    printf("Resultado do decodificacao delta\n");
+
+    for(i = 0; i < 4; i++){
+        printf("%.1f\n", saida_decodificada[i]);
+    }
+
+    // RLE Adaptativo
+
+    float entradaRLE[4] = {2.3, 4.0, 3.1, 7.8};
+    float threshold = 2;
+    float valores[4];
+    int contagens[4];
+    int tamanho_saidaRLE;
+
+    RLEAdaptativo(entradaRLE, 4, threshold, valores, contagens, &tamanho_saidaRLE);
+
+    printf("Resultado do RLE Adaptativo\n");
+    for(i = 0; i < tamanho_saidaRLE; i++){
+        printf("Valor: %.1f  | Contagem: %d\n", valores[i], contagens[i]);
+    }
 
     return 0;
 }
+
 // começar o rotinas compressao adaptativa
 // gcc -o app main.c bib.c | ./app

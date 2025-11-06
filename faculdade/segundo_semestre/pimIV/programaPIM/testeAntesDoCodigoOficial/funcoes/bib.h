@@ -15,5 +15,8 @@ void filtroFir(int amostras_entrada[], float coeficientes[], int tamanho_entrada
 void filtroIIR(float entrada[], float saida[], int tamanho, Coeficientes coeficientes);
 void downsample(float entrada[], int tamanho, int fator, float saida[]);
 void denoising(float entrada[], int tamanho, int janela, float saida[]);
+void codificacao_delta(float entrada[], int tamanho, float saida[]);
+void decodificacao_delta(float entrada[], int tamanho, float saida[]);
+void RLEAdaptativo(float entrada[], int tamanho, float threshold, float valores[],int contagens[], int *tamanho_saida);
 
 #endif
