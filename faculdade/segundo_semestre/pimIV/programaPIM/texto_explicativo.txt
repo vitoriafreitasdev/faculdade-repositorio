@@ -1,0 +1,142 @@
+Você tem agora um conjunto completo de rotinas que formam a base de um pipeline de processamento de sinais biomédicos e dados experimentais, muito aplicável em pesquisa clínica e manufatura farmacêutica.
+Abaixo, explico como cada função se encaixa nesse contexto, e qual papel ela teria num sistema real.
+
+🧩 1. void sinais_normalizados(...)
+
+Função: Normaliza o sinal para uma faixa padronizada (ex: -1 a 1).
+
+Na pesquisa clínica e farmacêutica:
+
+Normalizar sinais como ECG, EEG, pressão arterial, temperatura antes de análises estatísticas.
+
+Garante que diferentes sensores (ou pacientes) possam ser comparados sob a mesma escala.
+
+Facilita o treinamento de modelos de IA que analisam dados biomédicos.
+
+🧠 Exemplo: antes de analisar o batimento cardíaco de 100 pacientes, os sinais são normalizados para eliminar diferenças de amplitude entre sensores.
+
+🎚️ 2. void filtroFir(...)
+
+Função: Aplica um Filtro FIR — suaviza ou remove ruídos de alta ou baixa frequência.
+
+Contexto clínico/farmacêutico:
+
+Remove ruído elétrico de equipamentos biomédicos (ex: ECG contaminado por ruído de rede).
+
+Filtra dados de sensores de pressão, temperatura ou concentração de reagentes.
+
+É usado em monitoramento contínuo e controle de qualidade de equipamentos médicos.
+
+🧠 Exemplo: filtragem passa-baixa para eliminar ruído de 60 Hz em sinais de eletrocardiograma.
+
+⚙️ 3. void filtroIIR(...)
+
+Função: Filtro recursivo (feedback), mais eficiente para certas faixas de frequência.
+
+Aplicações:
+
+Ideal para dispositivos embarcados ou portáteis (baixa potência).
+
+Usado para filtragem em tempo real em sensores biomédicos ou industriais.
+
+Permite implementar filtros Notch, por exemplo, para remover interferência de frequência específica.
+
+🧠 Exemplo: remover a interferência exata de 50/60 Hz em monitores de sinais vitais hospitalares.
+
+⬇️ 4. void downsample(...)
+
+Função: Reduz a taxa de amostragem (mantém uma em cada N amostras).
+
+Contexto clínico/farmacêutico:
+
+Reduz volume de dados sem perder informações essenciais.
+
+Importante para armazenar grandes volumes de dados clínicos (como longos sinais EEG/ECG).
+
+Usado também em sistemas de IoT médica, onde há limitação de transmissão.
+
+🧠 Exemplo: reduzir de 1000 Hz para 250 Hz antes de enviar dados cardíacos via rede.
+
+🔇 5. void denoising(...)
+
+Função: Remove ruído de um sinal usando média móvel (suavização local).
+
+Aplicações:
+
+Limpa dados experimentais com variações aleatórias (ruído branco).
+
+Muito usado para suavizar séries temporais de medições laboratoriais (ex: pH, condutividade, viscosidade).
+
+Em pesquisa clínica, melhora a legibilidade de sinais biomédicos.
+
+🧠 Exemplo: suavizar a curva de pressão arterial para detectar tendências mais claras.
+
+🔁 6. void codificacao_delta(...)
+
+Função: Codifica o sinal armazenando apenas as diferenças entre amostras consecutivas.
+
+Contexto clínico/farmacêutico:
+
+Reduz tamanho de arquivos de sinais contínuos (compressão leve).
+
+Preserva forma geral do sinal, útil em transmissão de dados médicos.
+
+Garante eficiência em dispositivos portáteis que registram sinais continuamente.
+
+🧠 Exemplo: armazenar o ECG de 24 h (Holter) de forma mais compacta.
+
+🔄 7. void decodificacao_delta(...)
+
+Função: Reconstrói o sinal original a partir das diferenças (inverso da codificação delta).
+
+Aplicações:
+
+Decodificação após compressão/transmissão de dados biomédicos.
+
+Usado para recuperar sinais clínicos originais após envio por rede.
+
+Essencial para pipelines onde os dados comprimidos são reprocessados.
+
+🧠 Exemplo: decodificar o ECG comprimido antes de analisá-lo num software clínico.
+
+🧮 8. void RLEAdaptativo(...)
+
+Função: Compacta repetições consecutivas de valores semelhantes (Run-Length Encoding adaptativo).
+
+Aplicações:
+
+Compressão de dados de sensores com pouca variação (ex: sensores de temperatura, pressão estável).
+
+Diminui o tamanho de arquivos históricos de registros clínicos ou ambientais.
+
+Em manufatura, reduz volume de logs de máquinas quando há longos períodos de estabilidade.
+
+🧠 Exemplo: armazenar leituras constantes de temperatura durante um processo de fabricação.
+
+📊 9. void entropia_janela(...)
+
+Função: Mede a variabilidade (entropia) de um sinal dentro de uma janela móvel.
+
+Contexto clínico/farmacêutico:
+
+Mede complexidade ou irregularidade de um sinal fisiológico (EEG, ECG, etc.).
+
+Usado em estudos de estresse, sono, epilepsia, dor, qualidade de dados.
+
+Na manufatura, detecta anomalias em processos automáticos (ruídos anormais, falhas de sensores).
+
+🧠 Exemplo: aumento da entropia em EEG pode indicar atividade epiléptica.
+
+🧾 10. float integridade_checksum(...)
+
+Função: Calcula um valor de verificação (checksum) para garantir integridade dos dados.
+
+Aplicações:
+
+Verifica se os dados coletados ou transmitidos não foram corrompidos.
+
+Essencial em bancos de dados clínicos, sistemas de registro farmacêutico e compliance regulatório (FDA, ANVISA).
+
+Pode ser usado para auditar transmissões de sensores e detectar alterações indevidas.
+
+🧠 Exemplo: validar se o arquivo de ECG de um paciente não sofreu alteração após o upload.
