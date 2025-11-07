@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "bib.h"
+#include <string.h>
 
 int main(){
     // Rotinas Filtragem Digital
@@ -149,9 +150,17 @@ int main(){
     /* 
     fazer agora => gravação segura em arquivos binários.
     */
+    unsigned char dados_para_imagem[] = { 0xFF, 0xD8, 0xA0, 0x3F, 0x7C, 0x42 }; // simulação
+    unsigned long tamanho = sizeof(dados_para_imagem);
 
+    Imagens Imagem;
+    strcpy(Imagem.imagem_nome, "amostra_clinica");
+    strcpy(Imagem.imagem_formato, "jpg");
+    Imagem.tamanho = tamanho;
+    Imagem.imagem_dados = dados_para_imagem;
+
+    gravar_imagem(&Imagem, "amostra_clinica.bin");
     return 0;
 }
 
-// começar o rotinas compressao adaptativa
 // gcc -o app main.c bib.c | ./app

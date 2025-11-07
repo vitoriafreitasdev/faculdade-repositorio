@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "bib.h"
+#include <string.h>
 
 // formula valor_normalizado = valor_original / valor_maximo_absoluto
 // Normalizar significa pegar esse vetor e ajustar todos os valores para caber em uma faixa fixa
@@ -177,14 +178,14 @@ detectar momentos de instabilidade,
 diferenciar atividade (sinal variando muito) e repouso (sinal estável),
 identificar eventos anormais.
 
-👉 Quanto maior a entropia, mais variáveis e imprevisíveis são os valores naquela janela.
-👉 Quanto menor a entropia, mais repetitivos e previsíveis são os valores.*/
+- Quanto maior a entropia, mais variáveis e imprevisíveis são os valores naquela janela.
+- Quanto menor a entropia, mais repetitivos e previsíveis são os valores.*/
 
 
 void entropia_janela(float entrada[], int tamanho, int janela, float saida[]){
     int i, k;
 
-    for(i = 0; i < tamanho - janela; i++){
+    for(i = 0; i <= tamanho - janela; i++){
 
         float freq[100] = {0};
 
@@ -208,26 +209,11 @@ void entropia_janela(float entrada[], int tamanho, int janela, float saida[]){
 }
 
 /*
-✅ Rotina: Integridade (Checksum / Verificação de Integridade)
-
-Agora vamos criar mais um bloco das Rotinas para Compressão / Integridade de dados, semelhante às anteriores (Delta, RLE, Entropia).
-
-📌 O que é "Integridade"?
-
+Integridade (Checksum / Verificação de Integridade)
 Quando transmitimos ou armazenamos dados (em dispositivos médicos, pesquisa clínica ou indústria farmacêutica), precisamos garantir que o sinal não foi alterado ou corrompido.
-
 A técnica mais simples e bastante usada é o Checksum:
-
 Um checksum calcula um valor numérico (soma ou operação matemática) baseado no conteúdo do vetor.
 Se os dados forem modificados, o checksum muda — permitindo identificar erro.
-
-✅ Objetivo da função integridade_checksum()
-
-Recebe um vetor com valores do sinal.
-
-Calcula um valor que representa esse sinal.
-
-Retorna um valor único (checksum).
 */
 
 float integridade_checksum(float entrada[], int tamanho){
@@ -239,4 +225,24 @@ float integridade_checksum(float entrada[], int tamanho){
     return soma;
 }
 
+// gravar imagem
+void gravar_imagem(const Imagens *imagem, const char *nome_arquivo) {
 
+    FILE *arquivo = fopen(nome_arquivo, "wb");
+    if (!arquivo) {
+        printf("Erro ao abrir arquivo.\n");
+        return;
+    }
+
+    fwrite(imagem->imagem_nome, sizeof(char), sizeof(imagem->imagem_nome), arquivo);
+    fwrite(imagem->imagem_formato, sizeof(char), sizeof(imagem->imagem_formato), arquivo);
+    fwrite(&imagem->tamanho, sizeof(unsigned long), 1, arquivo);
+
+    fwrite(imagem->imagem_dados, sizeof(unsigned char), imagem->tamanho, arquivo);
+
+    fclose(arquivo);
+
+    printf("Imagem '%s' salva em '%s'\n", imagem->imagem_nome, nome_arquivo);
+}
+
+// fazer agora uma função para abrir e mostrar as imagens que foram gravadas
