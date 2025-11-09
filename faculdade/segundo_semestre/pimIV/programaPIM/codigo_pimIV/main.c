@@ -160,6 +160,23 @@ int main(){
     Imagem.imagem_dados = dados_para_imagem;
 
     gravar_imagem(&Imagem, "amostra_clinica.bin");
+
+    // lendo imagens 
+    Imagens *img_lida = ler_imagem_binaria("amostra_clinica.bin");
+
+    if (img_lida != NULL) {
+        printf("Nome: %s\n", img_lida->imagem_nome);
+        printf("Formato: %s\n", img_lida->imagem_formato);
+        printf("Tamanho: %lu bytes\n", img_lida->tamanho);
+
+        // exemplo de uso: acessar o primeiro byte
+        printf("Primeiro byte: 0x%X\n", img_lida->imagem_dados[0]);
+    }
+
+    // quando terminar, liberar memória:
+    free(img_lida->imagem_dados);
+    free(img_lida);
+
     return 0;
 }
 

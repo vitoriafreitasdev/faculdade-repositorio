@@ -245,4 +245,44 @@ void gravar_imagem(const Imagens *imagem, const char *nome_arquivo) {
     printf("Imagem '%s' salva em '%s'\n", imagem->imagem_nome, nome_arquivo);
 }
 
-// fazer agora uma função para abrir e mostrar as imagens que foram gravadas
+
+Imagens* ler_imagem_binaria(const char *nome_arquivo) {
+
+    FILE *arquivo = fopen(nome_arquivo, "rb");
+    if (!arquivo) {
+        printf("Erro ao abrir o arquivo para leitura.\n");
+        return NULL;
+    }
+
+    // Aloca a estrutura dinamicamente
+    Imagens *imagem = (Imagens *)malloc(sizeof(Imagens));
+    if (!imagem) {
+        printf("Erro ao alocar memória para a imagem.\n");
+        fclose(arquivo);
+        return NULL;
+    }
+
+    // Lê os metadados (nome, formato e tamanho)
+    fread(imagem->imagem_nome, sizeof(char), sizeof(imagem->imagem_nome), arquivo);
+    fread(imagem->imagem_formato, sizeof(char), sizeof(imagem->imagem_formato), arquivo);
+    fread(&imagem->tamanho, sizeof(unsigned long), 1, arquivo);
+
+    // Aloca memória para os bytes da imagem
+    imagem->imagem_dados = (unsigned char *)malloc(imagem->tamanho);
+    if (!imagem->imagem_dados) {
+        printf("Erro ao alocar memória para os dados da imagem.\n");
+        free(imagem);
+        fclose(arquivo);
+        return NULL;
+    }
+
+    // Lê os bytes reais da imagem
+    fread(imagem->imagem_dados, sizeof(unsigned char), imagem->tamanho, arquivo);
+
+    fclose(arquivo);
+
+    printf("Imagem '%s.%s' carregada com sucesso (%lu bytes)\n",
+           imagem->imagem_nome, imagem->imagem_formato, imagem->tamanho);
+
+    return imagem;  // retorna a struct alocada dinamicamente
+}

@@ -30,5 +30,7 @@ void RLEAdaptativo(float entrada[], int tamanho, float threshold, float valores[
 void entropia_janela(float entrada[], int tamanho, int janela, float saida[]);
 float integridade_checksum(float entrada[], int tamanho);
 void gravar_imagem(const Imagens *imagem, const char *nome_arquivo);
+Imagens* ler_imagem_binaria(const char *nome_arquivo);
+
 
 #endif
