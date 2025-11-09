@@ -147,9 +147,6 @@ int main(){
 
     printf("Resultado da Verificação de Integridade (Checksum): %.2f\n", checksum);
 
-    /* 
-    fazer agora => gravação segura em arquivos binários.
-    */
     unsigned char dados_para_imagem[] = { 0xFF, 0xD8, 0xA0, 0x3F, 0x7C, 0x42 }; // simulação
     unsigned long tamanho = sizeof(dados_para_imagem);
 
