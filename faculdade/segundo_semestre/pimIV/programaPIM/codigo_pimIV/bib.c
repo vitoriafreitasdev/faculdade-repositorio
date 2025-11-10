@@ -24,7 +24,7 @@ void sinais_normalizados(int vetor[], int tamanho, int valor_maximo_absoluto, fl
 }
 
 // Filtro FIR
-/* FIR = Finite Impulse Response => Ele pega as últimas N amostras e faz média ponderada delas. */
+/* FIR = Finite Impulse Response. Pega as últimas N amostras e faz média ponderada delas. */
 void filtroFir(int amostras_entrada[], float coeficientes[], int tamanho_entrada, int tamanho_coeficientes, float sinal_filtrado[]){
     float acumulador = 0.0f;
     int i, k;
@@ -47,7 +47,8 @@ void filtroFir(int amostras_entrada[], float coeficientes[], int tamanho_entrada
 }
 
 //Filtro IIR(biquad)
-/* Um filtro IIR (Infinite Impulse Response) usa realimentação (feedback): ele utiliza amostras atuais e anteriores da entrada e amostras anteriores da saída. Formula: y[n] = b0 * x[n] + b1 * x[n−1] + b2 * x[n−2] − a1 * y[n−1] − a2 * y[n−2]
+/* Um filtro IIR (Infinite Impulse Response) usa realimentação (feedback), ele utiliza amostras atuais e anteriores da entrada e amostras anteriores da saída. 
+Formula: y[n] = b0 * x[n] + b1 * x[n−1] + b2 * x[n−2] − a1 * y[n−1] − a2 * y[n−2]
 */
 void filtroIIR(float entrada[], float saida[], int tamanho, Coeficientes coeficientes){
 
@@ -68,7 +69,7 @@ void filtroIIR(float entrada[], float saida[], int tamanho, Coeficientes coefici
     }
 }
 
-/*Downsampling => significa diminuir a taxa de amostragem do sinal.*/
+/*Downsampling: significa diminuir a taxa de amostragem do sinal.*/
 void downsample(float entrada[], int tamanho, int fator, float saida[]){
     int indice_saida = 0;
     int i;
@@ -81,7 +82,7 @@ void downsample(float entrada[], int tamanho, int fator, float saida[]){
     }
 }
 
-/*Denoising => Reduzir o ruído do sinal suavizando variações bruscas, mas mantendo a forma do sinal (picos e tendências).*/
+/*Denoising: reduzir o ruído do sinal suavizando variações bruscas, mas mantendo a forma do sinal (picos e tendências).*/
 
 void denoising(float entrada[], int tamanho, int janela, float saida[]){
     int metade = janela / 2;
@@ -177,7 +178,6 @@ Em sinais biomédicos ou industriais, isso serve para:
 detectar momentos de instabilidade,
 diferenciar atividade (sinal variando muito) e repouso (sinal estável),
 identificar eventos anormais.
-
 - Quanto maior a entropia, mais variáveis e imprevisíveis são os valores naquela janela.
 - Quanto menor a entropia, mais repetitivos e previsíveis são os valores.*/
 
@@ -225,7 +225,7 @@ float integridade_checksum(float entrada[], int tamanho){
     return soma;
 }
 
-// gravar imagem
+// Gravar a imagem
 void gravar_imagem(const Imagens *imagem, const char *nome_arquivo) {
 
     FILE *arquivo = fopen(nome_arquivo, "wb");
@@ -245,7 +245,7 @@ void gravar_imagem(const Imagens *imagem, const char *nome_arquivo) {
     printf("Imagem '%s' salva em '%s'\n", imagem->imagem_nome, nome_arquivo);
 }
 
-
+// Ler a imagem criada
 Imagens* ler_imagem_binaria(const char *nome_arquivo) {
 
     FILE *arquivo = fopen(nome_arquivo, "rb");
