@@ -145,7 +145,7 @@ int main(){
 
     float checksum = integridade_checksum(entrada_integridade, 4);
 
-    printf("Resultado da Verificação de Integridade (Checksum): %.2f\n", checksum);
+    printf("Resultado do Checksum: %.2f\n", checksum);
 
     unsigned char dados_para_imagem[] = { 0xFF, 0xD8, 0xA0, 0x3F, 0x7C, 0x42 }; // simulação
     unsigned long tamanho = sizeof(dados_para_imagem);
