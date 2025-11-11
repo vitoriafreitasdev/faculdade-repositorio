@@ -3,6 +3,7 @@
 import ctypes
 import os
 from ctypes import c_float, c_int, c_ulong, c_char, POINTER, Structure
+from ctypes import *
 
 # Caminho absoluto da DLL (garante que o Python a encontre)
 os.chdir(os.path.dirname(__file__))
@@ -35,10 +36,19 @@ lib.sinais_normalizados.restype = None
 lib.filtroIIR.argtypes = (POINTER(c_float), POINTER(c_float), c_int, Coeficientes)
 lib.filtroIIR.restype = None
 
-lib.ler_imagem_binaria.argtypes = (ctypes.c_char_p,)
-lib.ler_imagem_binaria.restype = ctypes.POINTER(Imagens)
+lib.filtroFir.argtypes = [POINTER(c_int), POINTER(c_float), c_int, c_int, POINTER(c_float)]
+lib.filtroFir.restype = None
 
-#  Chamando uma função da DLL 
+# Entrada agora como INT, igual ao C
+filtroFirEntrada = (c_int * 4)(4, 8, 6, 5)
+coeficientesFir = (c_float * 3)(0.33, 0.33, 0.33)
+filtroFirSaida = (c_float * 4)()
+
+lib.filtroFir(filtroFirEntrada, coeficientesFir, 4, 3, filtroFirSaida)
+print("==================================")
+print("Resultado da Filtro Fir:")
+for x in filtroFirSaida:
+    print(round(x, 2))
 
 entrada = (c_int * 7)(-32700, -15000, -8000, 0, 12000, 25000, 31000)
 saida = (c_float * 7)()
@@ -62,19 +72,9 @@ for x in saida_iir:
     print(round(x, 3))
 print("==================================")
 
-#  Ler a imagem salva 
-img_ptr = lib.ler_imagem_binaria(b"amostra_clinica.bin")
-
-if img_ptr:
-    img = img_ptr.contents
-    print("\nImagem lida:")
-    print("Nome:", img.imagem_nome.decode())
-    print("Formato:", img.imagem_formato.decode())
-    print("Tamanho:", img.tamanho)
 
 #############################################################
 
-from ctypes import *
 
 # --- Tipos auxiliares ---
 c_float_p = POINTER(c_float)
@@ -118,7 +118,6 @@ saida = (c_float * 2)()
 
 lib.downsample(entrada, 4, 2, saida)
 
-print("==================================")
 print("Downsample:", list(saida))
 
 entrada = (c_float * 4)(4.3, 5.0, 4.6, 4.8)
@@ -182,3 +181,18 @@ img.imagem_dados = dados
 lib.gravar_imagem(ctypes.byref(img), b"amostra_clinica.bin")
 
 print("Imagem salva com sucesso!")
+print("==================================")
+
+lib.ler_imagem_binaria.argtypes = (ctypes.c_char_p,)
+lib.ler_imagem_binaria.restype = ctypes.POINTER(Imagens)
+#  Ler a imagem salva 
+img_ptr = lib.ler_imagem_binaria(b"amostra_clinica.bin")
+
+if img_ptr:
+    img = img_ptr.contents
+    print("\nImagem lida:")
+    print("Nome:", img.imagem_nome.decode())
+    print("Formato:", img.imagem_formato.decode())
+    print("Tamanho:", img.tamanho)
+print("==================================")
+
