@@ -1,0 +1,225 @@
+Plano_de_Estudos—Mathematics_for_Machine_Learning
+📅 Duração sugerida: 6 a 8 semanas
+
+(Estudando 1 hora por dia ou 5–6 horas/semana)
+
+🔵 Semana 1 – Fundamentos de Álgebra Linear (Capítulos 1–3)
+Cap. 1 — Introdução ao livro
+
+O que é ML e por que precisa de matemática
+
+Conceitos básicos que serão usados mais à frente
+
+Cap. 2 — Álgebra Linear Essencial
+
+Aprenda:
+
+Vetores e operações
+
+Normas (L1, L2)
+
+Produto interno
+
+Projeções
+
+Cap. 3 — Matrizes e Operações Matriciais
+
+Aprenda:
+
+Matrizes, transposição, inversão
+
+Multiplicação
+
+Sistemas lineares
+
+🧪 Prática (Python):
+
+Manipular vetores/matrizes com NumPy
+
+Resolver sistemas lineares (np.linalg.solve)
+
+Projeções e decomposições simples
+
+🔵 Semana 2 – Espaços Vetoriais e Decomposições Importantes (Cap. 4–5)
+Cap. 4 — Vetores, Bases e Mudanças de Base
+
+Subespaços
+
+Dimensionalidade
+
+Representação de dados em diferentes bases (importante para PCA)
+
+Cap. 5 — Autovalores e Autovetores
+
+Fundamental para:
+
+PCA
+
+SVD
+
+Modelos lineares avançados
+
+🧪 Prática (Python):
+
+Calcular autovalores/autovetores (np.linalg.eig)
+
+Entender decomposição de matriz por SVD
+
+Visualizar autovetores como direções principais no plano
+
+🔵 Semana 3 – Cálculo para Otimização (Cap. 6–8)
+Cap. 6 — Derivadas e Gradientes
+
+Derivada parcial
+
+Gradiente
+
+Interpretação geométrica
+
+Cap. 7 — Derivadas de Funções Vetoriais
+
+Jacobianos
+
+Hessianas
+
+Muito importante no backpropagation
+
+Cap. 8 — Otimização
+
+Pontos estacionários
+
+Gradiente descendente
+
+Noções de convexidade
+
+🧪 Prática (Python):
+
+Escrever seu próprio gradiente descendente do zero
+
+Minimizar funções simples (quadrática, logística)
+
+Plotar superfícies 3D de função e o caminho do gradiente
+
+🔵 Semana 4 – Probabilidade e Estatística (Cap. 9–10)
+Cap. 9 — Probabilidade
+
+Variáveis aleatórias
+
+Distribuições (Normal, Bernoulli, Bernoulli, etc.)
+
+Expectativa, variância, covariância
+
+Cap. 10 — Estatística
+
+Máxima verossimilhança (MLE)
+
+Estimação
+
+Regra de Bayes
+
+🧪 Prática (Python):
+
+Gerar dados aleatórios com NumPy
+
+Visualizar distribuições
+
+Estimar parâmetros via MLE
+
+Calcular correlação e covariância
+
+🔵 Semana 5 – Machine Learning Clássico (Cap. 11–12)
+Cap. 11 — Modelos Lineares para Regressão
+
+Regressão linear
+
+Solução por mínimos quadrados
+
+Interpretação geométrica
+
+Cap. 12 — Modelos Lineares para Classificação
+
+Regressão logística
+
+Separação linear
+
+Função sigmoid
+
+🧪 Prática (Python/Scikit-Learn):
+
+Regressão linear manual + Scikit-Learn
+
+Regressão logística manual + Scikit-Learn
+
+Plotar fronteiras de decisão
+
+Calcular métricas (MAE, MSE, Accuracy)
+
+🔵 Semana 6 – PCA e Aprendizado Não Supervisionado (Cap. 13)
+Cap. 13 — Principal Component Analysis
+
+Autovalores/autovetores aplicados
+
+Redução de dimensionalidade
+
+Interpretação geométrica
+
+Relação entre SVD e PCA
+
+🧪 Prática (Python):
+
+Implementar PCA manual
+
+Usar PCA do Scikit-Learn
+
+Reduzir MNIST para 2D e visualizar
+
+🔵 Semana 7 – Revisão + Conexão com Deep Learning
+
+Nesta semana você consolida e conecta tudo ao DL:
+
+Aprenda como a matemática do livro é usada em DL:
+
+Backpropagation → gradientes, Jacobianos
+
+Camadas lineares → álgebra linear
+
+Otimização → gradiente descendente / Adam
+
+PCA → pré-processamento
+
+Probabilidade → funções de perda (cross-entropy)
+
+Prática sugerida:
+
+Criar uma rede neural do zero, só com NumPy
+
+Treinar para classificar MNIST ou XOR
+
+🔵 Semana 8 – Projeto Final
+
+Escolha um dos três:
+
+1️⃣ Regressão completa
+
+Predizer preços de casas (dataset Boston ou outro mais atual)
+
+2️⃣ Classificador de imagens
+
+MNIST ou CIFAR-10 usando Keras/PyTorch
+
+3️⃣ PCA + Classificação
+
+Reduzir dimensionalidade e treinar modelos
+
+🎓 Resultado após esse plano
+
+Você terá domínio suficiente de:
+
+✔ Álgebra Linear
+✔ Cálculo aplicado
+✔ Probabilidade e Estatística
+✔ Otimização
+✔ PCA
+✔ Modelos lineares
+✔ Machine Learning clássico
+✔ Preparação para Deep Learning

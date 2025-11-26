@@ -1,0 +1,210 @@
+IA_roadmap
+🚀 Caminho de Estudos para ML / Deep Learning / IA
+1. Fundamentos essenciais
+
+Antes de entrar em ML de verdade, você precisa de algumas bases. Não é preciso ser expert, apenas o suficiente para acompanhar a matemática dos modelos.
+
+📌 Matemática
+
+Álgebra Linear: vetores, matrizes, operações, autovalores
+
+Cálculo: derivadas, gradiente, otimização
+
+Estatística e Probabilidade: média, variância, distribuição, correlação
+
+Recursos recomendados:
+
+Khan Academy (grátis)
+
+“Matemática para Machine Learning” (livro)
+
+2. Programação para ML
+📌 Python
+
+É o idioma oficial da IA.
+
+Aprenda:
+
+variáveis, funções, listas, dicionários
+
+orientação a objetos
+
+uso de bibliotecas: NumPy, Pandas, Matplotlib
+
+Prática: recrie pequenos scripts, manipule arquivos CSV, plote gráficos etc.
+
+3. Machine Learning tradicional
+
+Antes de redes neurais, entenda ML base:
+
+📌 Conceitos importantes
+
+Overfitting e Underfitting
+
+Treino / Validação / Teste
+
+Normalização
+
+Métricas: MAE, MSE, Accuracy, Precision, Recall
+
+Validação cruzada
+
+📌 Algoritmos fundamentais
+
+Regressão linear
+
+Regressão logística
+
+Árvores de decisão
+
+Random Forest
+
+SVM
+
+KNN
+
+Clustering (K-means)
+
+Biblioteca: scikit-learn
+
+Projetos práticos:
+
+Predição de preços de casas
+
+Classificação de e-mails spam
+
+Detecção de churn de clientes
+
+4. Deep Learning (Redes Neurais)
+
+Agora entra o “coração” da IA moderna.
+
+📌 Conceitos essenciais
+
+Perceptron
+
+Funções de ativação (ReLU, Sigmoid, Tanh)
+
+Backpropagation
+
+Otimizadores (SGD, Adam)
+
+Loss functions
+
+📌 Frameworks
+
+TensorFlow + Keras (mais amigável)
+
+PyTorch (mais usado no mercado e pesquisa)
+
+Projetos práticos:
+
+Classificador de imagens (MNIST ou CIFAR-10)
+
+Rede neural densa do zero
+
+Implementar uma CNN simples
+
+5. Áreas avançadas da IA
+
+Aqui você escolhe o foco. Sugestões:
+
+🔹 Visão Computacional (CV)
+
+CNNs
+
+ResNet, EfficientNet
+
+Detecção de objetos: YOLO, Faster R-CNN
+
+Segmentação: U-Net
+
+Projetos:
+
+Detector de rostos
+
+Classificador de sinais de trânsito
+
+Segmentação de imagens médicas
+
+🔹 Processamento de Linguagem Natural (NLP)
+
+Bag of Words
+
+Word Embeddings (Word2Vec, GloVe)
+
+Transformers
+
+BERT
+
+Fine-tuning de LLMs
+
+Projetos:
+
+Classificador de sentimento
+
+Chatbot com RNN / Transformer
+
+Resumo automático de textos
+
+🔹 Deep Reinforcement Learning (DRL)
+
+Q-Learning
+
+DQN
+
+Policy Gradient
+
+PPO
+
+Projetos:
+
+Agente jogando CartPole
+
+Treinar IA simples para jogos
+
+6. Sistemas Inteligentes na Prática
+
+Aqui você cria produtos reais, o grande diferencial.
+
+📌 Você deve aprender:
+
+Engenharia de features
+
+Pipelines de ML
+
+Deploy de modelos:
+
+FastAPI
+
+Flask
+
+Streamlit
+
+Armazenamento: modelo .pkl ou .onnx
+
+Testes de performance
+
+Monitoramento (MLOps)
+
+Projetos sugeridos:
+
+API de recomendação
+
+Serviço de detecção de imagens
+
+Modelo em produção no Docker
+
+7. Caminho de especialização
+
+Quando tiver confiança:
+
+Redes neurais profundas (CNNs, RNNs, Transformers)
+
+Aprender GPU (CUDA básica / Google Colab)
+
+Treinamento distribuído
+
+Fine-tuning de grandes modelos
+
+Fundamentos de LLMs (Tokenizers, Embeddings, Attention)
