@@ -1,0 +1,17 @@
+capitulo 8 - algoritmos gulosos 
+
+-Um algoritmo guloso => a cada etapa vc deveescolher o caminho ideal
+
+Problemas NP-completos - para resolver eles vc deve calcular cada conjunto possível 
+
+indicativos que o problema é um np-completo 
+-algoritmo roda rápido para alguns itens, mas fica lento com o aumento deles
+-precisa  todas as combinações de X
+-tem q calcular cada possível versão de X
+-seu problema envolve uma sequencia (ou um conjunto) e é difícil de resolver
+-pode ser reescrito como o problema de cobertura mínima ou do caixeiro viajante
+
+se estiver tentando resolver um problema de NP-completo é boa usar um algoritmo de aproximação
+-algoritmos gulosos são bons algoritmos de aproximação.
+
+

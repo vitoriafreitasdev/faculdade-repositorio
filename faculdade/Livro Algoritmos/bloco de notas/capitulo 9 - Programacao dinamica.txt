@@ -1,0 +1,19 @@
+capitulo 9 - Programacao dinamica 
+
+Programacao dinamica  => técnica para resolução de problemas complexos que se baseia na divisão de um problema em subproblemas
+Cada algoritmo de programação dinamica começa com uma tabela 
+
+- é útil quando vc esta tentando otmizar algo em realcao a um limite 
+- pode ser usada quando o problema pode ser divido em subproblemas discretos
+- todas soluções em programação dinamica envolve uma tabela
+- os valores da célula são geralmente o q vc quer otimizar 
+- cada célula é um subproblema 
+- não existe formula única para calular uma solução 
+
+Regra geral: se o algoritmo inicial é resolvido em 2^n tome, é melhor  usar programação dinâmica 
+In Dynamic Programming we store the solution to the problem so we do not need to recalculate it. By finding the solutions for every single sub-problem, we can tackle the original problem itself.
+
+https://skerritt-blog.translate.goog/dynamic-programming/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
+
+parei em How to Solve Problems Using Dynamic Programming
+1. Write the Problem out
